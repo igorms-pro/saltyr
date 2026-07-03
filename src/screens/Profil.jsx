@@ -2,9 +2,10 @@ import { useState } from 'react'
 import { CLUBS } from '../data/takes'
 import { vibrate } from '../lib/device'
 import { computeProfileStats, rebelTitle } from '../lib/stats'
+import SaveProfile from '../components/SaveProfile'
 
 // L'identité du supporter : ce qu'on fait grimper et qu'on exhibe.
-export default function Profil({ clubId, onChangeClub }) {
+export default function Profil({ clubId, session, onChangeClub }) {
   const club = CLUBS.find((c) => c.id === clubId)
   const stats = computeProfileStats()
   const [confirmSwitch, setConfirmSwitch] = useState(false)
@@ -67,6 +68,9 @@ export default function Profil({ clubId, onChangeClub }) {
           <p className="text-muted text-xs mt-2">Vote pour découvrir qui tu es vraiment. 🧂</p>
         )}
       </div>
+
+      {/* Sauvegarde du profil — le login au bon moment */}
+      <SaveProfile session={session} />
 
       {/* Stats grid */}
       <div className="grid grid-cols-3 gap-2.5 mb-4">
