@@ -20,3 +20,5 @@ dev-dist/
 # Tests visuels
 .playwright-mcp/
 *.png
+# ...sauf les icônes PWA
+!public/*.png
