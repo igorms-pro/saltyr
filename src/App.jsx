@@ -4,6 +4,7 @@ import { getClub, setClub, getVotes, saveVote, getDeviceId, vibrate } from './li
 import { getMockStats } from './lib/mock'
 import Onboarding from './components/Onboarding'
 import TakeCard from './components/TakeCard'
+import SwipeCard from './components/SwipeCard'
 import ArchetypePick from './components/ArchetypePick'
 import Reveal from './components/Reveal'
 
@@ -58,14 +59,28 @@ export default function App() {
       </header>
 
       {phase === 'vote' && (
-        <TakeCard
-          take={take}
-          votesCount={stats.votes}
-          onVote={(s) => {
-            setSide(s)
-            setPhase('why')
-          }}
-        />
+        <div className="flex-1 relative flex">
+          {/* Peek de la carte suivante — l'effet pile qui donne envie de continuer */}
+          <div className="absolute inset-x-3 -top-2 h-16 rounded-3xl border border-line bg-ink-2 opacity-50" />
+          <div className="absolute inset-x-6 -top-4 h-16 rounded-3xl border border-line bg-ink-2 opacity-25" />
+          <SwipeCard
+            key={take.id}
+            onSwipe={(s) => {
+              vibrate(10)
+              setSide(s)
+              setPhase('why')
+            }}
+          >
+            <TakeCard
+              take={take}
+              votesCount={stats.votes}
+              onVote={(s) => {
+                setSide(s)
+                setPhase('why')
+              }}
+            />
+          </SwipeCard>
+        </div>
       )}
 
       {phase === 'why' && (
