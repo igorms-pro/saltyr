@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  @apply bg-ink text-salt antialiased select-none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer components {
+  .take-title {
+    @apply font-display font-black uppercase tracking-tight leading-none;
+  }
+}
+
+/* Flip du reveal */
+.flip-enter {
+  animation: flip-in 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes flip-in {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+/* Barre de résultat qui se remplit */
+.bar-grow {
+  animation: bar-grow 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 0.2s;
+}
+@keyframes bar-grow {
+  from {
+    width: 50%;
+  }
+}
+
+.pulse-dot {
+  animation: pulse-dot 1.8s ease-in-out infinite;
+}
+@keyframes pulse-dot {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.55;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-enter,
+  .bar-grow,
+  .pulse-dot {
+    animation: none;
+  }
+}
