@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+dev-dist/
+
+# Env — jamais de secrets dans le repo
+.env
+.env.local
+.env.*.local
+
+# OS / éditeurs
+.DS_Store
+*.log
+
+# Claude session
+.claude/

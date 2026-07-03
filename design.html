@@ -1,0 +1,649 @@
+<style>
+  :root{
+    /* --- the deck: quiet, near-black, precise --- */
+    --bg:#08090c;
+    --bg-2:#0c0e13;
+    --panel:#0f1218;
+    --hair:#1b212c;
+    --hair-2:#242c39;
+    --ink:#eef2f6;
+    --muted:#7d8798;
+    --muted-2:#525c6c;
+
+    /* --- the product: neon duel (used ONLY inside screens) --- */
+    --salt:#f3f6f8;
+    --hot:#ff5a36;
+    --hot-2:#ff8163;
+    --cold:#1fe3c2;
+    --cold-2:#6ff0dd;
+    --gold:#ffc24b;
+    --scr:#0a0e14;
+    --scr-2:#111823;
+    --scr-line:#232e3d;
+
+    --maxw:1180px;
+  }
+  *{box-sizing:border-box;}
+  body,.deck{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.6;
+  }
+  .deck{overflow-x:hidden;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+
+  .display{
+    font-family:"Arial Black","Helvetica Neue",Impact,sans-serif;font-weight:900;
+    text-transform:uppercase;letter-spacing:-0.03em;line-height:0.92;text-wrap:balance;
+  }
+  .mono{
+    font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    text-transform:uppercase;letter-spacing:0.16em;font-size:0.68rem;color:var(--muted);
+  }
+  .num{font-variant-numeric:tabular-nums;}
+
+  /* ---------- top bar ---------- */
+  .top{position:sticky;top:0;z-index:60;background:rgba(8,9,12,.8);backdrop-filter:blur(16px);border-bottom:1px solid var(--hair);}
+  .top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;}
+  .brand{font-family:"Arial Black",sans-serif;font-weight:900;letter-spacing:.02em;font-size:1.2rem;display:flex;align-items:center;gap:1px;}
+  .brand .dot{width:7px;height:7px;border-radius:50%;background:var(--hot);margin:0 3px 2px;box-shadow:0 0 10px var(--hot);}
+  .brand .yr{color:var(--cold);}
+  .top .role{font-size:.74rem;color:var(--muted);letter-spacing:.02em;}
+
+  /* ---------- cover ---------- */
+  .cover{padding:88px 0 64px;border-bottom:1px solid var(--hair);}
+  .cover .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;}
+  .cover .mono{margin-bottom:20px;}
+  .cover h1{font-family:"Arial Black",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.035em;line-height:.9;font-size:clamp(2.6rem,6vw,4.4rem);margin:0;text-wrap:balance;}
+  .cover h1 .g{color:var(--muted-2);}
+  .cover p{color:var(--muted);font-size:1.08rem;max-width:44ch;margin:22px 0 0;}
+  .cover .meta{display:flex;gap:34px;margin-top:34px;flex-wrap:wrap;}
+  .cover .meta div{display:flex;flex-direction:column;gap:3px;}
+  .cover .meta .k{font-family:ui-monospace,monospace;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-2);}
+  .cover .meta .v{font-weight:700;font-size:.98rem;}
+
+  /* ---------- device ---------- */
+  .device{
+    width:326px;max-width:100%;background:#02040a;border-radius:52px;padding:11px;
+    box-shadow:0 60px 120px -50px rgba(0,0,0,.95),0 0 0 1px #1a2130,inset 0 1px 0 rgba(255,255,255,.05);
+    position:relative;
+  }
+  .screen{
+    position:relative;background:radial-gradient(130% 70% at 50% -6%,var(--scr-2),var(--scr) 62%);
+    border-radius:42px;overflow:hidden;min-height:690px;display:flex;flex-direction:column;
+  }
+  .island{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#000;border-radius:18px;z-index:20;}
+  .statusbar{display:flex;align-items:center;justify-content:space-between;padding:15px 26px 0;height:52px;color:var(--salt);}
+  .statusbar .time{font-weight:700;font-size:.82rem;letter-spacing:.02em;}
+  .sb-right{display:flex;align-items:center;gap:7px;}
+  .sb-signal{display:flex;align-items:flex-end;gap:2px;height:11px;}
+  .sb-signal i{width:3px;background:var(--salt);border-radius:1px;}
+  .sb-signal i:nth-child(1){height:4px;}.sb-signal i:nth-child(2){height:6px;}
+  .sb-signal i:nth-child(3){height:9px;}.sb-signal i:nth-child(4){height:11px;}
+  .sb-5g{font-size:.66rem;font-weight:700;}
+  .sb-batt{width:24px;height:12px;border:1.4px solid rgba(255,255,255,.6);border-radius:3px;position:relative;padding:1.5px;}
+  .sb-batt::after{content:"";position:absolute;right:-3px;top:3px;width:2px;height:5px;background:rgba(255,255,255,.6);border-radius:0 2px 2px 0;}
+  .sb-batt span{display:block;height:100%;width:76%;background:var(--salt);border-radius:1px;}
+  .home-ind{position:absolute;bottom:9px;left:50%;transform:translateX(-50%);width:128px;height:5px;border-radius:3px;background:rgba(255,255,255,.32);z-index:20;}
+
+  .app{flex:1;display:flex;flex-direction:column;padding:8px 20px 30px;}
+  .app-head{display:flex;align-items:center;justify-content:space-between;padding:6px 0 14px;}
+  .app-head .mlogo{font-family:"Arial Black",sans-serif;font-size:.92rem;letter-spacing:.02em;}
+  .app-head .mlogo .yr{color:var(--cold);}
+  .app-head .streak{font-size:.72rem;font-weight:800;color:var(--gold);display:flex;align-items:center;gap:4px;}
+  .app-head .club-tag{display:flex;align-items:center;gap:7px;font-size:.72rem;color:var(--muted);font-weight:700;}
+
+  .crest{width:22px;height:22px;border-radius:7px;display:grid;place-items:center;font-family:"Arial Black",sans-serif;font-size:.5rem;color:#fff;letter-spacing:-.02em;}
+  .crest.psg{background:linear-gradient(135deg,#0a1a3f,#c1122e);}
+  .crest.om{background:linear-gradient(135deg,#2fb5e6,#0a3d6b);color:#fff;}
+  .crest.ol{background:linear-gradient(135deg,#12326b,#c1122e);}
+  .crest.big{width:64px;height:64px;border-radius:20px;font-size:1.2rem;}
+
+  .chip{font-family:ui-monospace,monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--muted);border:1px solid var(--scr-line);border-radius:20px;padding:5px 11px;}
+
+  /* vote card */
+  .take-card{flex:1;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(180deg,var(--scr-2),#0a0f17);border:1px solid var(--scr-line);border-radius:24px;padding:24px 20px;}
+  .take-eyebrow{font-family:ui-monospace,monospace;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--hot);font-weight:600;}
+  .take-q{font-family:"Arial Black",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.02em;line-height:1.0;font-size:1.9rem;margin:14px 0;text-wrap:balance;color:var(--salt);}
+  .take-live{display:flex;align-items:center;gap:7px;font-size:.72rem;color:var(--muted);}
+  .live-dot{width:7px;height:7px;border-radius:50%;background:var(--hot);box-shadow:0 0 8px var(--hot);}
+  .vote-btns{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px;}
+  .vb{border-radius:16px;padding:17px 8px;text-align:center;font-weight:900;font-size:.98rem;letter-spacing:.01em;border:1.5px solid;}
+  .vb.pour{color:#1a0800;background:linear-gradient(180deg,var(--hot),#df421f);border-color:var(--hot);box-shadow:0 12px 30px -14px var(--hot);}
+  .vb.contre{color:var(--cold);background:rgba(31,227,194,.06);border-color:rgba(31,227,194,.4);}
+
+  /* reveal */
+  .rev-track{height:52px;border-radius:15px;overflow:hidden;display:flex;border:1px solid var(--scr-line);}
+  .rev-p{background:linear-gradient(180deg,var(--hot),#d63d1c);display:flex;align-items:center;padding-left:14px;color:#1a0800;font-weight:900;font-size:1.05rem;}
+  .rev-c{background:linear-gradient(180deg,var(--cold),#12b598);flex:1;display:flex;align-items:center;justify-content:flex-end;padding-right:14px;color:#012019;font-weight:900;font-size:1.05rem;}
+  .tribal{margin-top:16px;display:flex;flex-direction:column;gap:10px;}
+  .tribal-row{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;}
+  .tribal-row .lbl{display:flex;align-items:center;gap:7px;font-size:.74rem;font-weight:800;color:var(--salt);}
+  .tribal-bar{height:9px;border-radius:6px;background:var(--scr-line);overflow:hidden;}
+  .tribal-bar span{display:block;height:100%;border-radius:6px;}
+  .tribal-bar.you span{background:var(--hot);}
+  .tribal-bar.riv span{background:var(--cold);}
+  .tribal-row .pc{font-size:.72rem;font-weight:800;color:var(--muted);min-width:34px;text-align:right;}
+  .verdict-pill{align-self:flex-start;margin-top:16px;background:rgba(255,194,75,.12);color:var(--gold);border:1px solid rgba(255,194,75,.4);border-radius:22px;padding:8px 14px;font-weight:800;font-size:.76rem;letter-spacing:.02em;}
+
+  /* onboarding grid */
+  .ob-title{font-family:"Arial Black",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.02em;font-size:1.7rem;line-height:1;color:var(--salt);margin:8px 0 6px;}
+  .ob-sub{color:var(--muted);font-size:.82rem;margin:0 0 20px;}
+  .club-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .club-pick{aspect-ratio:1;border-radius:18px;border:1px solid var(--scr-line);background:var(--scr-2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;}
+  .club-pick .cc{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-family:"Arial Black",sans-serif;font-size:.72rem;color:#fff;}
+  .club-pick .cn{font-size:.62rem;font-weight:800;color:var(--muted);letter-spacing:.04em;}
+  .club-pick.sel{border-color:var(--hot);background:rgba(255,90,54,.08);box-shadow:0 0 0 1px var(--hot),0 10px 30px -14px var(--hot);position:relative;}
+  .club-pick.sel .cn{color:var(--salt);}
+  .club-pick.sel::after{content:"✓";position:absolute;top:8px;right:10px;color:var(--hot);font-weight:900;font-size:.8rem;}
+  .ob-cta{margin-top:auto;background:linear-gradient(180deg,var(--hot),#df421f);color:#1a0800;font-weight:900;text-align:center;border-radius:16px;padding:16px;font-size:.98rem;box-shadow:0 14px 34px -16px var(--hot);}
+
+  /* feed stack */
+  .stack{flex:1;position:relative;}
+  .stack .peek{position:absolute;inset:14px 8px auto 8px;height:80px;background:var(--scr-2);border:1px solid var(--scr-line);border-radius:22px;opacity:.5;}
+  .stack .peek.p2{inset:7px 16px auto 16px;opacity:.28;}
+  .stack .front{position:absolute;inset:22px 0 0;background:linear-gradient(180deg,var(--scr-2),#0a0f17);border:1px solid var(--scr-line);border-radius:24px;padding:22px 20px;display:flex;flex-direction:column;justify-content:space-between;}
+  .swipe-hints{display:flex;justify-content:space-between;margin-top:14px;}
+  .swipe-hints .sh{font-family:ui-monospace,monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:6px 10px;border-radius:20px;border:1px solid var(--scr-line);}
+  .swipe-hints .sh.l{color:var(--cold);}.swipe-hints .sh.r{color:var(--hot);}
+
+  /* board */
+  .board-list{display:flex;flex-direction:column;gap:9px;flex:1;}
+  .brow{display:grid;grid-template-columns:22px 1fr auto;gap:12px;align-items:center;background:var(--scr-2);border:1px solid var(--scr-line);border-radius:15px;padding:12px 14px;}
+  .brow .rk{font-family:"Arial Black",sans-serif;font-size:.92rem;color:var(--muted);}
+  .brow.top .rk{color:var(--gold);}
+  .brow .bq{font-size:.8rem;font-weight:700;color:var(--salt);line-height:1.2;letter-spacing:-.01em;}
+  .brow .bmini{width:56px;height:7px;border-radius:5px;overflow:hidden;display:flex;border:1px solid var(--scr-line);margin-top:5px;}
+  .brow .bmini .p{background:var(--hot);}.brow .bmini .c{background:var(--cold);}
+  .brow .salt-lvl{font-family:ui-monospace,monospace;font-size:.64rem;color:var(--gold);font-weight:700;text-align:right;}
+  .brow .salt-lvl small{display:block;color:var(--muted-2);font-size:.54rem;letter-spacing:.1em;}
+
+  /* profile */
+  .prof-hero{display:flex;flex-direction:column;align-items:center;gap:10px;padding:14px 0 18px;text-align:center;}
+  .prof-hero .pname{font-family:"Arial Black",sans-serif;font-size:1.15rem;text-transform:uppercase;letter-spacing:-.01em;color:var(--salt);}
+  .prof-hero .psub{font-size:.72rem;color:var(--muted);}
+  .rebel-gauge{background:var(--scr-2);border:1px solid var(--scr-line);border-radius:20px;padding:18px 20px;margin-bottom:12px;}
+  .rebel-gauge .rg-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px;}
+  .rebel-gauge .rg-n{font-family:"Arial Black",sans-serif;font-size:1.7rem;color:var(--cold);}
+  .rebel-gauge .rg-l{font-family:ui-monospace,monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .rebel-gauge .rg-bar{height:10px;border-radius:6px;background:var(--scr-line);overflow:hidden;}
+  .rebel-gauge .rg-bar span{display:block;height:100%;width:23%;background:linear-gradient(90deg,var(--cold),var(--cold-2));border-radius:6px;}
+  .prof-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;}
+  .pstat{background:var(--scr-2);border:1px solid var(--scr-line);border-radius:15px;padding:14px 10px;text-align:center;}
+  .pstat .n{font-family:"Arial Black",sans-serif;font-size:1.15rem;color:var(--salt);}
+  .pstat .l{font-size:.58rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-top:3px;}
+
+  /* bottom nav */
+  .app-nav{display:flex;justify-content:space-around;align-items:center;padding:14px 6px 4px;margin-top:14px;border-top:1px solid var(--scr-line);}
+  .navi{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:.56rem;font-weight:700;color:var(--muted-2);letter-spacing:.04em;}
+  .navi .ic{width:22px;height:22px;border-radius:7px;border:1.6px solid var(--muted-2);}
+  .navi.on{color:var(--hot);}
+  .navi.on .ic{border-color:var(--hot);background:rgba(255,90,54,.14);}
+
+  /* ---------- flow section ---------- */
+  .flow{padding:76px 0;border-bottom:1px solid var(--hair);}
+  .sec-head{max-width:52ch;margin-bottom:52px;}
+  .sec-head h2{font-family:"Arial Black",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.03em;line-height:.95;font-size:clamp(1.8rem,3.6vw,2.7rem);margin:12px 0 12px;text-wrap:balance;}
+  .sec-head p{color:var(--muted);font-size:1.04rem;margin:0;}
+
+  .screens{display:grid;grid-template-columns:repeat(3,1fr);gap:56px 40px;justify-items:center;}
+  .frame{display:flex;flex-direction:column;gap:20px;max-width:326px;}
+  .frame .caption .step{font-family:ui-monospace,monospace;font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--hot);font-weight:600;}
+  .frame .caption h3{font-size:1.1rem;margin:8px 0 6px;letter-spacing:-.01em;}
+  .frame .caption p{color:var(--muted);font-size:.9rem;margin:0;line-height:1.5;}
+  .frame .caption .anno{margin-top:12px;display:flex;flex-direction:column;gap:6px;}
+  .frame .caption .anno span{font-family:ui-monospace,monospace;font-size:.64rem;letter-spacing:.02em;text-transform:none;color:var(--muted-2);padding-left:14px;position:relative;}
+  .frame .caption .anno span::before{content:"→";position:absolute;left:0;color:var(--hot);}
+
+  /* ---------- interaction spec ---------- */
+  .spec{padding:76px 0;border-bottom:1px solid var(--hair);background:var(--bg-2);}
+  .spec-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  .spec-card{background:var(--panel);border:1px solid var(--hair);border-radius:18px;padding:22px 20px;}
+  .spec-card .mono{margin-bottom:12px;display:block;color:var(--hot);}
+  .spec-card h3{font-size:1.02rem;margin:0 0 6px;}
+  .spec-card p{color:var(--muted);font-size:.88rem;margin:0;}
+  .spec-card .val{font-family:ui-monospace,monospace;font-size:.72rem;color:var(--cold);margin-top:10px;display:block;}
+
+  /* ---------- system: tokens ---------- */
+  .system{padding:76px 0;border-bottom:1px solid var(--hair);}
+  .sys-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;}
+  .sub{font-family:ui-monospace,monospace;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:20px;}
+  .swatches{display:flex;flex-direction:column;gap:10px;}
+  .sw{display:flex;align-items:center;gap:16px;background:var(--panel);border:1px solid var(--hair);border-radius:14px;padding:12px 14px;}
+  .sw .chipc{width:40px;height:40px;border-radius:11px;border:1px solid rgba(255,255,255,.1);flex:none;}
+  .sw .info{display:flex;flex-direction:column;}
+  .sw .info b{font-size:.9rem;}
+  .sw .info .role{color:var(--muted);font-size:.78rem;}
+  .sw .hex{margin-left:auto;font-family:ui-monospace,monospace;font-size:.74rem;color:var(--muted);text-transform:uppercase;}
+
+  .typerow{display:flex;flex-direction:column;gap:18px;}
+  .ty{border-bottom:1px solid var(--hair);padding-bottom:16px;}
+  .ty:last-child{border-bottom:0;}
+  .ty .meta{font-family:ui-monospace,monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-2);margin-bottom:8px;}
+  .ty .d1{font-family:"Arial Black",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.03em;font-size:2.1rem;line-height:.95;}
+  .ty .d2{font-size:1.05rem;font-weight:700;}
+  .ty .d3{font-family:ui-monospace,monospace;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+
+  /* component inventory */
+  .components{padding:76px 0;}
+  .comp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px;}
+  .comp{background:var(--panel);border:1px solid var(--hair);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:16px;align-items:flex-start;}
+  .comp .clab{font-family:ui-monospace,monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .demo-vb{background:linear-gradient(180deg,var(--hot),#df421f);color:#1a0800;font-weight:900;border-radius:14px;padding:12px 20px;font-size:.86rem;}
+  .demo-chip{font-family:ui-monospace,monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cold);border:1px solid rgba(31,227,194,.4);border-radius:20px;padding:6px 12px;}
+  .demo-bar{width:100%;height:26px;border-radius:9px;overflow:hidden;display:flex;border:1px solid var(--hair-2);}
+  .demo-bar .p{background:var(--hot);width:63%;}.demo-bar .c{background:var(--cold);width:37%;}
+  .demo-pill{background:rgba(255,194,75,.12);color:var(--gold);border:1px solid rgba(255,194,75,.4);border-radius:20px;padding:7px 13px;font-weight:800;font-size:.72rem;}
+
+  /* footer */
+  .foot{padding:80px 0;text-align:center;background:radial-gradient(700px 320px at 50% 0%,rgba(255,90,54,.08),transparent 70%);}
+  .foot h2{font-family:"Arial Black",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.03em;font-size:clamp(1.8rem,4vw,2.8rem);line-height:.95;margin:14px 0 16px;}
+  .foot .hot{color:var(--hot);}.foot .cold{color:var(--cold);}
+  .foot p{color:var(--muted);max-width:46ch;margin:0 auto;}
+  .foot small{display:block;color:var(--muted-2);margin-top:26px;font-size:.76rem;}
+
+  .rise{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease;}
+  .rise.in{opacity:1;transform:none;}
+
+  @media(max-width:960px){
+    .cover .wrap{grid-template-columns:1fr;gap:44px;}
+    .cover-phone{display:flex;justify-content:center;}
+    .screens{grid-template-columns:1fr;gap:56px;}
+    .spec-grid{grid-template-columns:1fr 1fr;}
+    .sys-grid{grid-template-columns:1fr;gap:36px;}
+    .comp-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media(max-width:520px){
+    .spec-grid,.comp-grid{grid-template-columns:1fr;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;}
+    .rise{transition:none;opacity:1;transform:none;}
+  }
+</style>
+
+<div class="deck">
+
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">SALT<span class="dot"></span><span class="yr">YR</span></div>
+      <div class="role">Product Design · Écrans & système</div>
+    </div>
+  </header>
+
+  <!-- COVER -->
+  <section class="cover">
+    <div class="wrap">
+      <div>
+        <div class="mono">Design review · v1 · Mobile-first PWA</div>
+        <h1>Les écrans.<br>Le geste.<br><span class="g">Le système.</span></h1>
+        <p>SALTYR au niveau produit : six écrans haute-fidélité, la mécanique de vote au pouce, et les tokens qui tiennent le tout ensemble. Nocturne, physique, tribal.</p>
+        <div class="meta">
+          <div><span class="k">Plateforme</span><span class="v">iOS / Android · PWA</span></div>
+          <div><span class="k">Posture</span><span class="v">Un pouce · Plein écran</span></div>
+          <div><span class="k">Thème</span><span class="v">Dark · Néon duel</span></div>
+        </div>
+      </div>
+      <div class="cover-phone">
+        <!-- FLAGSHIP: reveal -->
+        <div class="device">
+          <div class="screen">
+            <div class="island"></div>
+            <div class="statusbar">
+              <span class="time num">9:41</span>
+              <span class="sb-right">
+                <span class="sb-signal"><i></i><i></i><i></i><i></i></span>
+                <span class="sb-5g">5G</span>
+                <span class="sb-batt"><span></span></span>
+              </span>
+            </div>
+            <div class="app">
+              <div class="app-head">
+                <div class="mlogo">SALT·<span class="yr">YR</span></div>
+                <div class="club-tag"><span class="crest psg">PSG</span> Ton camp</div>
+              </div>
+              <div class="take-card">
+                <div>
+                  <div class="take-eyebrow">Résultat · Débat du jour</div>
+                  <div class="take-q">Mbappé s'est planté au&nbsp;Real.</div>
+                  <div class="rev-track">
+                    <div class="rev-p" style="width:62%"><span class="num">62%</span>&nbsp;POUR</div>
+                    <div class="rev-c">CONTRE&nbsp;<span class="num">38%</span></div>
+                  </div>
+                  <div class="tribal">
+                    <div class="tribal-row">
+                      <span class="lbl"><span class="crest psg">PSG</span>Tes PSG</span>
+                      <span class="tribal-bar you"><span style="width:79%"></span></span>
+                      <span class="pc num">79%</span>
+                    </div>
+                    <div class="tribal-row">
+                      <span class="lbl"><span class="crest om">OM</span>Les OM</span>
+                      <span class="tribal-bar riv"><span style="width:34%"></span></span>
+                      <span class="pc num">34%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="verdict-pill">TON CAMP MÈNE LE DÉBAT ✊ · +14 SALT</div>
+              </div>
+            </div>
+            <div class="home-ind"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREEN FLOW -->
+  <section class="flow">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <div class="mono">01 — Le parcours</div>
+        <h2>Six écrans, un seul pouce</h2>
+        <p>Du premier lancement au partage. Chaque écran fait une seule chose, à fond, dans la zone du pouce. Aucun ne demande deux mains.</p>
+      </div>
+
+      <div class="screens">
+
+        <!-- 1. ONBOARDING -->
+        <div class="frame rise">
+          <div class="device"><div class="screen">
+            <div class="island"></div>
+            <div class="statusbar"><span class="time num">9:41</span><span class="sb-right"><span class="sb-signal"><i></i><i></i><i></i><i></i></span><span class="sb-5g">5G</span><span class="sb-batt"><span></span></span></span></div>
+            <div class="app">
+              <div class="ob-title">Choisis ton camp.</div>
+              <p class="ob-sub">Ton club change tout ce que tu vois. Aucun compte, aucune adresse. Juste ta tribu.</p>
+              <div class="club-grid">
+                <div class="club-pick sel"><span class="cc" style="background:linear-gradient(135deg,#0a1a3f,#c1122e)">PSG</span><span class="cn">PSG</span></div>
+                <div class="club-pick"><span class="cc" style="background:linear-gradient(135deg,#2fb5e6,#0a3d6b)">OM</span><span class="cn">MARSEILLE</span></div>
+                <div class="club-pick"><span class="cc" style="background:linear-gradient(135deg,#12326b,#c1122e)">OL</span><span class="cn">LYON</span></div>
+                <div class="club-pick"><span class="cc" style="background:linear-gradient(135deg,#f0b000,#111)">RCL</span><span class="cn">LENS</span></div>
+                <div class="club-pick"><span class="cc" style="background:linear-gradient(135deg,#c1122e,#fff);color:#c1122e">ASM</span><span class="cn">MONACO</span></div>
+                <div class="club-pick"><span class="cc" style="background:linear-gradient(135deg,#e01a22,#111)">LIL</span><span class="cn">LILLE</span></div>
+              </div>
+              <div class="ob-cta">C'est parti →</div>
+            </div>
+            <div class="home-ind"></div>
+          </div></div>
+          <div class="caption">
+            <div class="step">01 — Onboarding</div>
+            <h3>Choisis ton camp</h3>
+            <p>Le premier geste n'est pas « crée un compte », c'est « déclare ta tribu ». L'identité avant la friction.</p>
+            <div class="anno"><span>Zéro auth : device ID anonyme</span><span>Le club pilote tout le feed</span></div>
+          </div>
+        </div>
+
+        <!-- 2. VOTE -->
+        <div class="frame rise">
+          <div class="device"><div class="screen">
+            <div class="island"></div>
+            <div class="statusbar"><span class="time num">9:41</span><span class="sb-right"><span class="sb-signal"><i></i><i></i><i></i><i></i></span><span class="sb-5g">5G</span><span class="sb-batt"><span></span></span></span></div>
+            <div class="app">
+              <div class="app-head"><div class="mlogo">SALT·<span class="yr">YR</span></div><div class="streak">🔥 43 j</div></div>
+              <div class="chip" style="align-self:flex-start;margin-bottom:12px;">Débat du jour · ferme dans 4h</div>
+              <div class="take-card">
+                <div>
+                  <div class="take-eyebrow">Ligue des Champions</div>
+                  <div class="take-q">Mbappé s'est planté au&nbsp;Real.</div>
+                  <div class="take-live"><span class="live-dot"></span><span class="num">12 847</span> ont déjà tranché</div>
+                </div>
+                <div class="vote-btns">
+                  <div class="vb contre">CONTRE ❄</div>
+                  <div class="vb pour">POUR 🔥</div>
+                </div>
+              </div>
+            </div>
+            <div class="home-ind"></div>
+          </div></div>
+          <div class="caption">
+            <div class="step">02 — Le vote</div>
+            <h3>Le Débat du Jour</h3>
+            <p>Un take, plein écran. Deux boutons pouce. Le compteur live grouille pendant que tu hésites — la pression sociale fait le reste.</p>
+            <div class="anno"><span>Boutons en zone basse (pouce)</span><span>Compteur temps réel (Supabase)</span></div>
+          </div>
+        </div>
+
+        <!-- 3. REVEAL -->
+        <div class="frame rise">
+          <div class="device"><div class="screen">
+            <div class="island"></div>
+            <div class="statusbar"><span class="time num">9:41</span><span class="sb-right"><span class="sb-signal"><i></i><i></i><i></i><i></i></span><span class="sb-5g">5G</span><span class="sb-batt"><span></span></span></span></div>
+            <div class="app">
+              <div class="app-head"><div class="mlogo">SALT·<span class="yr">YR</span></div><div class="club-tag"><span class="crest psg">PSG</span></div></div>
+              <div class="take-card">
+                <div>
+                  <div class="take-eyebrow">Résultat</div>
+                  <div class="take-q" style="font-size:1.5rem;">Mbappé s'est planté au Real.</div>
+                  <div class="rev-track"><div class="rev-p" style="width:62%"><span class="num">62%</span></div><div class="rev-c"><span class="num">38%</span></div></div>
+                  <div class="tribal">
+                    <div class="tribal-row"><span class="lbl"><span class="crest psg">PSG</span>Toi</span><span class="tribal-bar you"><span style="width:79%"></span></span><span class="pc num">79%</span></div>
+                    <div class="tribal-row"><span class="lbl"><span class="crest om">OM</span>Rival</span><span class="tribal-bar riv"><span style="width:34%"></span></span><span class="pc num">34%</span></div>
+                  </div>
+                </div>
+                <div class="verdict-pill">TON CLUB MÈNE ✊ · PARTAGE POUR ENFONCER</div>
+              </div>
+            </div>
+            <div class="home-ind"></div>
+          </div></div>
+          <div class="caption">
+            <div class="step">03 — Le reveal</div>
+            <h3>Ta tribu contre le rival</h3>
+            <p>La carte se retourne. Pas juste « 62% de la France » — <b style="color:var(--ink)">ton club vs le rival</b>. Là, tu défends plus ton avis : tu défends ton camp.</p>
+            <div class="anno"><span>Flip 3D 420ms + haptique</span><span>Le split tribal = le moteur de partage</span></div>
+          </div>
+        </div>
+
+        <!-- 4. FEED -->
+        <div class="frame rise">
+          <div class="device"><div class="screen">
+            <div class="island"></div>
+            <div class="statusbar"><span class="time num">9:41</span><span class="sb-right"><span class="sb-signal"><i></i><i></i><i></i><i></i></span><span class="sb-5g">5G</span><span class="sb-batt"><span></span></span></span></div>
+            <div class="app">
+              <div class="app-head"><div class="mlogo">SALT·<span class="yr">YR</span></div><div class="chip">Feed ∞</div></div>
+              <div class="stack">
+                <div class="peek p2"></div>
+                <div class="peek"></div>
+                <div class="front">
+                  <div>
+                    <div class="take-eyebrow">GOAT · Débat éternel</div>
+                    <div class="take-q" style="font-size:1.65rem;">Zidane &gt; Messi. Point.</div>
+                    <div class="take-live"><span class="live-dot"></span><span class="num">8 213</span> votes</div>
+                  </div>
+                  <div class="swipe-hints">
+                    <span class="sh l">← CONTRE</span>
+                    <span class="sh r">POUR →</span>
+                  </div>
+                </div>
+              </div>
+              <div class="app-nav">
+                <div class="navi on"><span class="ic"></span>Feed</div>
+                <div class="navi"><span class="ic"></span>Débat</div>
+                <div class="navi"><span class="ic"></span>Board</div>
+                <div class="navi"><span class="ic"></span>Profil</div>
+              </div>
+            </div>
+            <div class="home-ind"></div>
+          </div></div>
+          <div class="caption">
+            <div class="step">04 — Le feed</div>
+            <h3>La pile infinie</h3>
+            <p>Après le débat du jour, le mode métro. Swipe droite = POUR, gauche = CONTRE. Le geste Tinder, que le pouce connaît déjà.</p>
+            <div class="anno"><span>Cartes empilées (peek du suivant)</span><span>Swipe gestuel + boutons en secours</span></div>
+          </div>
+        </div>
+
+        <!-- 5. BOARD -->
+        <div class="frame rise">
+          <div class="device"><div class="screen">
+            <div class="island"></div>
+            <div class="statusbar"><span class="time num">9:41</span><span class="sb-right"><span class="sb-signal"><i></i><i></i><i></i><i></i></span><span class="sb-5g">5G</span><span class="sb-batt"><span></span></span></span></div>
+            <div class="app">
+              <div class="app-head"><div class="mlogo">SALT·<span class="yr">YR</span></div><div class="chip" style="color:var(--gold);border-color:rgba(255,194,75,.4)">Salty Board</div></div>
+              <div class="ob-title" style="font-size:1.3rem;margin-bottom:14px;">Les plus clivants du jour</div>
+              <div class="board-list">
+                <div class="brow top">
+                  <span class="rk num">1</span>
+                  <span><span class="bq">« Un 0-0 peut être le plus beau match du monde. »</span><span class="bmini"><span class="p" style="width:51%"></span><span class="c" style="width:49%"></span></span></span>
+                  <span class="salt-lvl num">98<small>SALT</small></span>
+                </div>
+                <div class="brow">
+                  <span class="rk num">2</span>
+                  <span><span class="bq">« La VAR a tué le foot. »</span><span class="bmini"><span class="p" style="width:53%"></span><span class="c" style="width:47%"></span></span></span>
+                  <span class="salt-lvl num">94<small>SALT</small></span>
+                </div>
+                <div class="brow">
+                  <span class="rk num">3</span>
+                  <span><span class="bq">« Benzema méritait deux Ballons d'Or. »</span><span class="bmini"><span class="p" style="width:55%"></span><span class="c" style="width:45%"></span></span></span>
+                  <span class="salt-lvl num">89<small>SALT</small></span>
+                </div>
+                <div class="brow">
+                  <span class="rk num">4</span>
+                  <span><span class="bq">« Un bon gardien &gt; un bon n°10. »</span><span class="bmini"><span class="p" style="width:58%"></span><span class="c" style="width:42%"></span></span></span>
+                  <span class="salt-lvl num">81<small>SALT</small></span>
+                </div>
+              </div>
+              <div class="app-nav">
+                <div class="navi"><span class="ic"></span>Feed</div>
+                <div class="navi"><span class="ic"></span>Débat</div>
+                <div class="navi on"><span class="ic"></span>Board</div>
+                <div class="navi"><span class="ic"></span>Profil</div>
+              </div>
+            </div>
+            <div class="home-ind"></div>
+          </div></div>
+          <div class="caption">
+            <div class="step">05 — Le board</div>
+            <h3>Le Salty Board</h3>
+            <p>Le classement qui fait vivre l'app 24/7, même sans match. Trié par « Salt Level » : plus c'est proche du 50/50, plus ça brûle.</p>
+            <div class="anno"><span>Vivant hors-live (anti-app-vide)</span><span>Salt Level = proximité du 50/50</span></div>
+          </div>
+        </div>
+
+        <!-- 6. PROFILE -->
+        <div class="frame rise">
+          <div class="device"><div class="screen">
+            <div class="island"></div>
+            <div class="statusbar"><span class="time num">9:41</span><span class="sb-right"><span class="sb-signal"><i></i><i></i><i></i><i></i></span><span class="sb-5g">5G</span><span class="sb-batt"><span></span></span></span></div>
+            <div class="app">
+              <div class="app-head"><div class="mlogo">SALT·<span class="yr">YR</span></div><div class="chip">Profil</div></div>
+              <div class="prof-hero">
+                <span class="crest psg big">PSG</span>
+                <span class="pname">Supporter du PSG</span>
+                <span class="psub num">Rang 12 847 · 🔥 43 jours de série</span>
+              </div>
+              <div class="rebel-gauge">
+                <div class="rg-top"><span class="rg-l">Rebel Score</span><span class="rg-n num">23%</span></div>
+                <div class="rg-bar"><span></span></div>
+                <div class="rg-l" style="margin-top:8px;color:var(--muted-2);text-transform:none;letter-spacing:0;">Tu votes minoritaire 23% du temps. Plutôt suiveur.</div>
+              </div>
+              <div class="prof-stats">
+                <div class="pstat"><div class="n num">1 204</div><div class="l">Votes</div></div>
+                <div class="pstat"><div class="n num">43</div><div class="l">Série</div></div>
+                <div class="pstat"><div class="n num">7</div><div class="l">Takes créés</div></div>
+              </div>
+              <div class="app-nav">
+                <div class="navi"><span class="ic"></span>Feed</div>
+                <div class="navi"><span class="ic"></span>Débat</div>
+                <div class="navi"><span class="ic"></span>Board</div>
+                <div class="navi on"><span class="ic"></span>Profil</div>
+              </div>
+            </div>
+            <div class="home-ind"></div>
+          </div></div>
+          <div class="caption">
+            <div class="step">06 — Le profil</div>
+            <h3>Rebel Score &amp; identité</h3>
+            <p>T'es pas un user anonyme, t'es un supporter du PSG rang 12 847 avec 43 jours de série. L'identité qu'on fait grimper et qu'on exhibe.</p>
+            <div class="anno"><span>Rebel Score = % de votes minoritaires</span><span>Série quotidienne = moteur de retour</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTION SPEC -->
+  <section class="spec">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <div class="mono">02 — Le geste</div>
+        <h2>Ce qui se passe entre le tap et le partage</h2>
+        <p>Un vote est un geste gratuit. On lui donne du poids physique : mouvement, vibration, son. C'est ce qui sépare une app « web » d'une app qu'on garde.</p>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-card rise"><span class="mono">Tap / Swipe</span><h3>Vote</h3><p>Bouton pouce ou swipe façon Tinder. Droite = POUR, gauche = CONTRE.</p><span class="val">haptic: light · 60ms</span></div>
+        <div class="spec-card rise"><span class="mono">Transition</span><h3>Flip du reveal</h3><p>La carte se retourne en 3D pour dévoiler le résultat. Jamais de spinner.</p><span class="val">flip: 420ms · ease-out-back</span></div>
+        <div class="spec-card rise"><span class="mono">Feedback</span><h3>Son de réaction</h3><p>Majorité = clameur. Minorité = « ohhh » de stade. Curé, zéro contenu user.</p><span class="val">haptic: success/warning</span></div>
+        <div class="spec-card rise"><span class="mono">Sortie</span><h3>Partage natif</h3><p>Génère la carte image → share sheet iOS/Android direct. L'user ne reste jamais coincé.</p><span class="val">Web Share API · &lt;1 tap</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SYSTEM -->
+  <section class="system">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <div class="mono">03 — Le système</div>
+        <h2>Les tokens qui tiennent le tout</h2>
+        <p>Le fond de l'app est neutre et sombre. Le néon n'apparaît que sur ce qui compte : le vote, le duel, la gloire. La couleur est une information, pas une décoration.</p>
+      </div>
+      <div class="sys-grid">
+        <div class="rise">
+          <div class="sub">Palette · rôle sémantique</div>
+          <div class="swatches">
+            <div class="sw"><span class="chipc" style="background:#0a0e14"></span><span class="info"><b>Ink</b><span class="role">Fond nocturne, nuit de match</span></span><span class="hex">#0A0E14</span></div>
+            <div class="sw"><span class="chipc" style="background:#f3f6f8"></span><span class="info"><b>Salt</b><span class="role">Texte, titres, punchlines</span></span><span class="hex">#F3F6F8</span></div>
+            <div class="sw"><span class="chipc" style="background:#ff5a36"></span><span class="info"><b>Hot</b><span class="role">POUR · la rage · ton camp</span></span><span class="hex">#FF5A36</span></div>
+            <div class="sw"><span class="chipc" style="background:#1fe3c2"></span><span class="info"><b>Cold</b><span class="role">CONTRE · le sel · le rival</span></span><span class="hex">#1FE3C2</span></div>
+            <div class="sw"><span class="chipc" style="background:#ffc24b"></span><span class="info"><b>Gold</b><span class="role">Gloire · Salt Level · classement</span></span><span class="hex">#FFC24B</span></div>
+          </div>
+        </div>
+        <div class="rise">
+          <div class="sub">Typographie · deux voix</div>
+          <div class="typerow">
+            <div class="ty"><div class="meta">Display — Grotesque noir · takes & titres</div><div class="d1">Mbappé s'est planté</div></div>
+            <div class="ty"><div class="meta">UI — System sans · corps & boutons</div><div class="d2">12 847 ont déjà tranché · POUR / CONTRE</div></div>
+            <div class="ty"><div class="meta">Utility — Mono · labels, data, specs</div><div class="d3">SALT LEVEL · 98 · RANG 12 847</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPONENTS -->
+  <section class="components">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <div class="mono">04 — Les composants</div>
+        <h2>L'inventaire</h2>
+        <p>Un petit kit, réutilisé partout. La cohérence vient de la répétition, pas du nombre.</p>
+      </div>
+      <div class="comp-grid">
+        <div class="comp rise"><span class="clab">Vote button</span><div class="demo-vb">POUR 🔥</div><p style="color:var(--muted);font-size:.84rem;margin:0;">Action primaire. Zone pouce.</p></div>
+        <div class="comp rise"><span class="clab">Result bar</span><div class="demo-bar"><span class="p"></span><span class="c"></span></div><p style="color:var(--muted);font-size:.84rem;margin:0;">Duel POUR/CONTRE, hot vs cold.</p></div>
+        <div class="comp rise"><span class="clab">Verdict pill</span><div class="demo-pill">TON CAMP MÈNE ✊</div><p style="color:var(--muted);font-size:.84rem;margin:0;">Récompense + appel au partage.</p></div>
+        <div class="comp rise"><span class="clab">Context chip</span><div class="demo-chip">Débat du jour</div><p style="color:var(--muted);font-size:.84rem;margin:0;">Catégorie, timer, filtre.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="foot">
+    <div class="wrap">
+      <div class="mono" style="margin-bottom:14px;">SALTYR · Product design v1</div>
+      <h2>Rapide. Physique. <span class="hot">Nocturne.</span><br>Un seul <span class="cold">pouce.</span></h2>
+      <p>Voilà les écrans, le geste et le système. Prêt à passer du wireframe au prototype swipeable quand tu dis go.</p>
+      <small>Maquettes haute-fidélité · statut bar 9:41 par tradition · zéro image externe, tout en CSS</small>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  (function(){
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var items=document.querySelectorAll('.rise');
+    if(reduce||!('IntersectionObserver'in window)){items.forEach(function(el){el.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+    items.forEach(function(el){io.observe(el);});
+  })();
+</script>
