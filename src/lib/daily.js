@@ -7,8 +7,21 @@ export function getDayNumber(date = new Date()) {
   return Math.floor(local.getTime() / 86400000)
 }
 
+function localISODate(date) {
+  const y = date.getFullYear()
+  const m = String(date.getMonth() + 1).padStart(2, '0')
+  const d = String(date.getDate()).padStart(2, '0')
+  return `${y}-${m}-${d}`
+}
+
+// Priorité à l'actu : un take daté d'aujourd'hui (écrit depuis les news de la
+// veille) devient LE Débat du Jour. Sinon, rotation evergreen — jamais vide.
 export function getDailyTake(date = new Date()) {
-  return TAKES[getDayNumber(date) % TAKES.length]
+  const today = localISODate(date)
+  const fresh = TAKES.find((t) => t.date === today)
+  if (fresh) return fresh
+  const evergreen = TAKES.filter((t) => !t.date)
+  return evergreen[getDayNumber(date) % evergreen.length] || TAKES[0]
 }
 
 // Millisecondes avant minuit local — le moment où le débat ferme.
