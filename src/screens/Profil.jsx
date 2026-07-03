@@ -18,9 +18,11 @@ export default function Profil({ clubId, session, onChangeClub }) {
           className="w-16 h-16 rounded-2xl grid place-items-center font-display font-black text-white text-xl"
           style={{ background: `linear-gradient(135deg, ${club.colors[0]}, ${club.colors[1]})` }}
         >
-          {club.name.slice(0, 3).toUpperCase()}
+          {club.emoji || club.name.slice(0, 3).toUpperCase()}
         </span>
-        <h2 className="take-title text-lg">Supporter {club.id === 'om' ? 'de l\'' : 'du '}{club.name}</h2>
+        <h2 className="take-title text-lg">
+          {club.neutral ? 'Sans club, 100 % foot' : `Supporter ${club.id === 'om' ? 'de l\'' : 'du '}${club.name}`}
+        </h2>
         <p className="text-muted text-xs tabular-nums">
           🧂 {stats.total} votes · 🔥 {stats.streak} jour{stats.streak > 1 ? 's' : ''} de série
         </p>
@@ -104,7 +106,9 @@ export default function Profil({ clubId, session, onChangeClub }) {
         }`}
       >
         {confirmSwitch
-          ? `Confirmer la trahison ${club.id === 'om' ? 'de l\'' : 'du '}${club.name} ? 😱`
+          ? club.neutral
+            ? 'Confirmer — tu choisis enfin un camp ? 👀'
+            : `Confirmer la trahison ${club.id === 'om' ? 'de l\'' : 'du '}${club.name} ? 😱`
           : 'Changer de club'}
       </button>
     </div>

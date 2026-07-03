@@ -40,7 +40,8 @@ export default function Reveal({ take, side, archetype, stats, onNext, nextLabel
     }
   }
   const yourPct = side === 'pour' ? pour : 100 - pour
-  const clubLeads = stats.club.pct > stats.rival.pct
+  const hasDuel = Boolean(stats.club && stats.rival)
+  const clubLeads = hasDuel && stats.club.pct > stats.rival.pct
 
   // Top 3 des archétypes mock, ton choix mis en avant
   const top = ARCHETYPES.map((a, i) => ({ ...a, pct: stats.archPcts[i] }))
@@ -68,11 +69,13 @@ export default function Reveal({ take, side, archetype, stats, onNext, nextLabel
           </div>
         </div>
 
-        {/* Le twist tribal */}
-        <div className="flex flex-col gap-2.5 mt-4">
-          <ClubBar club={stats.club} pct={stats.club.pct} isYou />
-          <ClubBar club={stats.rival} pct={stats.rival.pct} isYou={false} />
-        </div>
+        {/* Le twist tribal — masqué pour les Neutres */}
+        {hasDuel && (
+          <div className="flex flex-col gap-2.5 mt-4">
+            <ClubBar club={stats.club} pct={stats.club.pct} isYou />
+            <ClubBar club={stats.rival} pct={stats.rival.pct} isYou={false} />
+          </div>
+        )}
 
         {/* Top archétypes */}
         <div className="mt-5 border-t border-line pt-4">
@@ -98,7 +101,7 @@ export default function Reveal({ take, side, archetype, stats, onNext, nextLabel
       <div>
         <div className="inline-block bg-gold/10 text-gold border border-gold/40 rounded-full px-4 py-2 font-extrabold text-xs mb-4">
           {majority ? 'T\'ES DANS LA MAJORITÉ 🐑' : `T'ES DANS LES ${yourPct}% DE REBELLES ✊`}
-          {clubLeads ? ' · TON CLUB MÈNE' : ' · TON CLUB PERD, RAMÈNE DU MONDE'}
+          {hasDuel && (clubLeads ? ' · TON CLUB MÈNE' : ' · TON CLUB PERD, RAMÈNE DU MONDE')}
         </div>
         <div className={`grid gap-3 ${onNext ? 'grid-cols-2' : 'grid-cols-1'}`}>
           <button

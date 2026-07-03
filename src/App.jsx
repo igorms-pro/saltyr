@@ -47,7 +47,7 @@ export default function App() {
             className="w-6 h-6 rounded-lg grid place-items-center font-display font-black text-white text-[8px]"
             style={{ background: `linear-gradient(135deg, ${club.colors[0]}, ${club.colors[1]})` }}
           >
-            {club.name.slice(0, 3).toUpperCase()}
+            {club.emoji || club.name.slice(0, 3).toUpperCase()}
           </span>
           <span className="text-gold tabular-nums">🧂 {votedCount}</span>
         </div>

@@ -120,12 +120,14 @@ export function generateShareCard({ take, side, stats, majority }) {
   ctx.fillText(contreLabel, W - M - 36 - ctx.measureText(contreLabel).width, y + 86)
   ctx.restore()
 
-  // Duel des clubs
+  // Duel des clubs — absent pour les Neutres
   y += barH + 110
-  const clubs = [
-    { label: stats.club.name.toUpperCase(), pct: stats.club.pct, color: COLORS.hot },
-    { label: stats.rival.name.toUpperCase(), pct: stats.rival.pct, color: COLORS.cold },
-  ]
+  const clubs = stats.club && stats.rival
+    ? [
+        { label: stats.club.name.toUpperCase(), pct: stats.club.pct, color: COLORS.hot },
+        { label: stats.rival.name.toUpperCase(), pct: stats.rival.pct, color: COLORS.cold },
+      ]
+    : []
   for (const c of clubs) {
     ctx.font = '900 40px "Arial Black", Arial, sans-serif'
     ctx.fillStyle = COLORS.salt

@@ -17,8 +17,23 @@ function seeded(str) {
 
 export function getMockStats(take, clubId) {
   const rand = seeded(take.id + (clubId || ''))
-  const club = CLUBS.find((c) => c.id === clubId) || CLUBS[0]
-  const rival = CLUBS.find((c) => c.id === club.rival) || CLUBS[1]
+  const found = CLUBS.find((c) => c.id === clubId)
+
+  // Neutre : pas de duel tribal, juste le national
+  if (!found || found.neutral) {
+    const raw = Array.from({ length: 6 }, () => rand() + 0.2)
+    const total = raw.reduce((a, b) => a + b, 0)
+    return {
+      pour: take.pour,
+      votes: 8000 + Math.round(rand() * 12000),
+      club: null,
+      rival: null,
+      archPcts: raw.map((r) => Math.round((r / total) * 100)),
+    }
+  }
+
+  const club = found
+  const rival = CLUBS.find((c) => c.id === club.rival) || CLUBS[0]
 
   // Ton club penche d'un côté, le rival de l'autre — le twist tribal.
   const clubLean = take.pour + Math.round((rand() - 0.3) * 40)
@@ -32,6 +47,7 @@ export function getMockStats(take, clubId) {
   const archPcts = raw.map((r) => Math.round((r / total) * 100))
 
   return {
+    pour: take.pour,
     votes: 8000 + Math.round(rand() * 12000),
     club: { ...club, pct: clamp(clubLean) },
     rival: { ...rival, pct: clamp(rivalLean) },
