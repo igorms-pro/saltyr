@@ -26,7 +26,7 @@ function ClubBar({ club, pct, isYou }) {
   )
 }
 
-export default function Reveal({ take, side, archetype, stats, onNext }) {
+export default function Reveal({ take, side, archetype, stats, onNext, nextLabel = 'Suivant →', footer = null }) {
   const [shareState, setShareState] = useState(null)
   const majority = (side === 'pour') === (take.pour >= 50)
 
@@ -99,23 +99,26 @@ export default function Reveal({ take, side, archetype, stats, onNext }) {
           {majority ? 'T\'ES DANS LA MAJORITÉ 🐑' : `T'ES DANS LES ${yourPct}% DE REBELLES ✊`}
           {clubLeads ? ' · TON CLUB MÈNE' : ' · TON CLUB PERD, RAMÈNE DU MONDE'}
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className={`grid gap-3 ${onNext ? 'grid-cols-2' : 'grid-cols-1'}`}>
           <button
             onClick={onShare}
             className="py-4 rounded-2xl font-black bg-gradient-to-b from-gold to-[#e0a52e] text-[#1f1400] active:scale-95 transition-transform"
           >
             {shareState || 'PARTAGER 📤'}
           </button>
-          <button
-            onClick={() => {
-              vibrate(10)
-              onNext()
-            }}
-            className="py-4 rounded-2xl font-black bg-salt text-ink active:scale-95 transition-transform"
-          >
-            Suivant →
-          </button>
+          {onNext && (
+            <button
+              onClick={() => {
+                vibrate(10)
+                onNext()
+              }}
+              className="py-4 rounded-2xl font-black bg-salt text-ink active:scale-95 transition-transform"
+            >
+              {nextLabel}
+            </button>
+          )}
         </div>
+        {footer}
       </div>
     </div>
   )
