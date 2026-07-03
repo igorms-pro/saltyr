@@ -22,3 +22,4 @@ dev-dist/
 *.png
 # ...sauf les icônes PWA
 !public/*.png
+.vercel

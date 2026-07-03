@@ -4,6 +4,7 @@ import { getClub, setClub, clearClub, getVotes, getDeviceId } from './lib/device
 import { useSession } from './lib/useSession'
 import Onboarding from './components/Onboarding'
 import BottomNav from './components/BottomNav'
+import DesktopShell from './components/DesktopShell'
 import DailyDebate from './screens/DailyDebate'
 import Feed from './screens/Feed'
 import Board from './screens/Board'
@@ -19,12 +20,14 @@ export default function App() {
 
   if (!clubId) {
     return (
-      <Onboarding
-        onDone={(id) => {
-          setClub(id)
-          setClubId(id)
-        }}
-      />
+      <DesktopShell>
+        <Onboarding
+          onDone={(id) => {
+            setClub(id)
+            setClubId(id)
+          }}
+        />
+      </DesktopShell>
     )
   }
 
@@ -32,7 +35,8 @@ export default function App() {
   const votedCount = Object.keys(getVotes()).length
 
   return (
-    <div className="h-full flex flex-col px-5 pt-12 pb-6 max-w-md mx-auto">
+    <DesktopShell>
+    <div className="h-full flex flex-col px-5 pt-12 pb-6 max-w-md mx-auto lg:pt-8">
       <header className="flex items-center justify-between pb-4">
         <div className="font-display font-black tracking-tight">
           SALT<span className="text-hot">·</span>
@@ -79,5 +83,6 @@ export default function App() {
         }}
       />
     </div>
+    </DesktopShell>
   )
 }
