@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { CLUBS } from './data/takes'
 import { getClub, setClub, clearClub, getVotes, getDeviceId } from './lib/device'
+import { useSession } from './lib/useSession'
 import Onboarding from './components/Onboarding'
 import BottomNav from './components/BottomNav'
 import DailyDebate from './screens/DailyDebate'
@@ -10,6 +11,7 @@ import Profil from './screens/Profil'
 
 export default function App() {
   getDeviceId() // s'assure que l'identité anonyme existe
+  const { session } = useSession() // session Supabase anonyme, invisible
 
   const [clubId, setClubId] = useState(getClub())
   const [tab, setTab] = useState('debat') // le rituel d'abord
@@ -60,6 +62,7 @@ export default function App() {
       {tab === 'profil' && (
         <Profil
           clubId={clubId}
+          session={session}
           onChangeClub={() => {
             clearClub()
             setClubId(null)
