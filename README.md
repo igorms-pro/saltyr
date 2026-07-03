@@ -1,5 +1,7 @@
 # 🧂 SALTYR
 
+[![CI](https://github.com/igorms-pro/saltyr/actions/workflows/ci.yml/badge.svg)](https://github.com/igorms-pro/saltyr/actions/workflows/ci.yml)
+
 > **« Balance ton take. Vois qui ose être d'accord. »**
 
 Le clash d'avis foot, en PWA. Un take clivant par jour, toute la France vote **POUR 🔥 / CONTRE ❄** — et tu vois **ton club contre le rival**. Le TikTok du débat, mais où tu participes.
