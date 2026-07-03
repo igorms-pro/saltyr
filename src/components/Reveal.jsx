@@ -28,7 +28,8 @@ function ClubBar({ club, pct, isYou }) {
 
 export default function Reveal({ take, side, archetype, stats, onNext, nextLabel = 'Suivant →', footer = null }) {
   const [shareState, setShareState] = useState(null)
-  const majority = (side === 'pour') === (take.pour >= 50)
+  const pour = stats.pour // % national — réel si backend, éditorial sinon
+  const majority = (side === 'pour') === (pour >= 50)
 
   async function onShare() {
     vibrate(10)
@@ -38,7 +39,7 @@ export default function Reveal({ take, side, archetype, stats, onNext, nextLabel
       setTimeout(() => setShareState(null), 2000)
     }
   }
-  const yourPct = side === 'pour' ? take.pour : 100 - take.pour
+  const yourPct = side === 'pour' ? pour : 100 - pour
   const clubLeads = stats.club.pct > stats.rival.pct
 
   // Top 3 des archétypes mock, ton choix mis en avant
@@ -58,12 +59,12 @@ export default function Reveal({ take, side, archetype, stats, onNext, nextLabel
         <div className="h-12 rounded-2xl overflow-hidden flex border border-line">
           <div
             className="bar-grow bg-gradient-to-b from-hot to-[#d63d1c] flex items-center pl-3.5 text-[#1a0800] font-black"
-            style={{ width: `${take.pour}%` }}
+            style={{ width: `${pour}%` }}
           >
-            <span className="tabular-nums">{take.pour}%</span>
+            <span className="tabular-nums">{pour}%</span>
           </div>
           <div className="flex-1 bg-gradient-to-b from-cold to-[#12b598] flex items-center justify-end pr-3.5 text-[#012019] font-black">
-            <span className="tabular-nums">{100 - take.pour}%</span>
+            <span className="tabular-nums">{100 - pour}%</span>
           </div>
         </div>
 

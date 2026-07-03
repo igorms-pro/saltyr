@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { saveVote, vibrate } from '../lib/device'
-import { getMockStats } from '../lib/mock'
+import { castVote } from '../lib/repo'
+import { useLiveStats } from '../lib/useLiveStats'
 import TakeCard from './TakeCard'
 import SwipeCard from './SwipeCard'
 import ArchetypePick from './ArchetypePick'
@@ -13,7 +14,7 @@ export default function VoteFlow({ take, clubId, swipeable = false, initialVote 
   const [side, setSide] = useState(initialVote?.side ?? null)
   const [archetype, setArchetype] = useState(initialVote?.archetype ?? null)
 
-  const stats = useMemo(() => getMockStats(take, clubId), [take, clubId])
+  const stats = useLiveStats(take, clubId)
 
   function handleVote(s) {
     setSide(s)
@@ -49,6 +50,7 @@ export default function VoteFlow({ take, clubId, swipeable = false, initialVote 
         onPick={(a) => {
           setArchetype(a)
           saveVote(take.id, side, a)
+          castVote(take.id, side, a, clubId) // fire-and-forget vers le backend
           vibrate([15, 40, 15])
           setPhase('reveal')
         }}

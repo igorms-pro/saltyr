@@ -94,10 +94,11 @@ export function generateShareCard({ take, side, stats, majority }) {
   ctx.fillStyle = side === 'pour' ? COLORS.hot : COLORS.cold
   ctx.fillText(side === 'pour' ? 'JE SUIS POUR 🔥' : 'JE SUIS CONTRE ❄', M, y)
 
-  // Barre nationale
+  // Barre nationale — % réel si backend, éditorial sinon
+  const pour = stats.pour ?? take.pour
   y += 80
   const barH = 130
-  const pourW = ((W - M * 2) * take.pour) / 100
+  const pourW = ((W - M * 2) * pour) / 100
   ctx.save()
   roundRect(ctx, M, y, W - M * 2, barH, 28)
   ctx.clip()
@@ -113,9 +114,9 @@ export function generateShareCard({ take, side, stats, majority }) {
   ctx.fillRect(M + pourW, y, W - M * 2 - pourW, barH)
   ctx.font = '900 56px "Arial Black", Arial, sans-serif'
   ctx.fillStyle = '#1a0800'
-  ctx.fillText(`${take.pour}%`, M + 36, y + 86)
+  ctx.fillText(`${pour}%`, M + 36, y + 86)
   ctx.fillStyle = '#012019'
-  const contreLabel = `${100 - take.pour}%`
+  const contreLabel = `${100 - pour}%`
   ctx.fillText(contreLabel, W - M - 36 - ctx.measureText(contreLabel).width, y + 86)
   ctx.restore()
 
