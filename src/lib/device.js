@@ -21,6 +21,10 @@ export function setClub(clubId) {
   localStorage.setItem(CLUB_KEY, clubId)
 }
 
+export function clearClub() {
+  localStorage.removeItem(CLUB_KEY)
+}
+
 // { [takeId]: { side: 'pour'|'contre', archetype: string } }
 export function getVotes() {
   try {
