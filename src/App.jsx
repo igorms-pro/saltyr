@@ -8,18 +8,12 @@ import Feed from './screens/Feed'
 import Board from './screens/Board'
 import Profil from './screens/Profil'
 
-const SCREENS = {
-  debat: DailyDebate,
-  feed: Feed,
-  board: Board,
-  profil: Profil,
-}
-
 export default function App() {
   getDeviceId() // s'assure que l'identité anonyme existe
 
   const [clubId, setClubId] = useState(getClub())
   const [tab, setTab] = useState('debat') // le rituel d'abord
+  const [feedTakeId, setFeedTakeId] = useState(null) // take ciblé depuis le Board
 
   if (!clubId) {
     return (
@@ -34,7 +28,6 @@ export default function App() {
 
   const club = CLUBS.find((c) => c.id === clubId)
   const votedCount = Object.keys(getVotes()).length
-  const Screen = SCREENS[tab]
 
   return (
     <div className="h-full flex flex-col px-5 pt-12 pb-6 max-w-md mx-auto">
@@ -54,9 +47,25 @@ export default function App() {
         </div>
       </header>
 
-      <Screen key={tab} clubId={clubId} />
+      {tab === 'debat' && <DailyDebate clubId={clubId} />}
+      {tab === 'feed' && <Feed key={feedTakeId || 'feed'} clubId={clubId} initialTakeId={feedTakeId} />}
+      {tab === 'board' && (
+        <Board
+          onOpenTake={(id) => {
+            setFeedTakeId(id)
+            setTab('feed')
+          }}
+        />
+      )}
+      {tab === 'profil' && <Profil clubId={clubId} />}
 
-      <BottomNav tab={tab} onTab={setTab} />
+      <BottomNav
+        tab={tab}
+        onTab={(t) => {
+          if (t === 'feed') setFeedTakeId(null)
+          setTab(t)
+        }}
+      />
     </div>
   )
 }
