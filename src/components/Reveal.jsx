@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import { ARCHETYPES } from '../data/takes'
 import { vibrate } from '../lib/device'
+import { shareCard } from '../lib/shareCard'
 
 function ClubBar({ club, pct, isYou }) {
   return (
@@ -25,7 +27,17 @@ function ClubBar({ club, pct, isYou }) {
 }
 
 export default function Reveal({ take, side, archetype, stats, onNext }) {
+  const [shareState, setShareState] = useState(null)
   const majority = (side === 'pour') === (take.pour >= 50)
+
+  async function onShare() {
+    vibrate(10)
+    const result = await shareCard({ take, side, stats, majority })
+    if (result === 'downloaded') {
+      setShareState('Carte téléchargée 📸')
+      setTimeout(() => setShareState(null), 2000)
+    }
+  }
   const yourPct = side === 'pour' ? take.pour : 100 - take.pour
   const clubLeads = stats.club.pct > stats.rival.pct
 
@@ -87,15 +99,23 @@ export default function Reveal({ take, side, archetype, stats, onNext }) {
           {majority ? 'T\'ES DANS LA MAJORITÉ 🐑' : `T'ES DANS LES ${yourPct}% DE REBELLES ✊`}
           {clubLeads ? ' · TON CLUB MÈNE' : ' · TON CLUB PERD, RAMÈNE DU MONDE'}
         </div>
-        <button
-          onClick={() => {
-            vibrate(10)
-            onNext()
-          }}
-          className="w-full py-4 rounded-2xl font-black bg-salt text-ink active:scale-95 transition-transform"
-        >
-          Take suivant →
-        </button>
+        <div className="grid grid-cols-2 gap-3">
+          <button
+            onClick={onShare}
+            className="py-4 rounded-2xl font-black bg-gradient-to-b from-gold to-[#e0a52e] text-[#1f1400] active:scale-95 transition-transform"
+          >
+            {shareState || 'PARTAGER 📤'}
+          </button>
+          <button
+            onClick={() => {
+              vibrate(10)
+              onNext()
+            }}
+            className="py-4 rounded-2xl font-black bg-salt text-ink active:scale-95 transition-transform"
+          >
+            Suivant →
+          </button>
+        </div>
       </div>
     </div>
   )
