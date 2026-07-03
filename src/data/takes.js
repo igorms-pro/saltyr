@@ -9,6 +9,8 @@ export const ARCHETYPES = [
   { id: 'provocateur', emoji: '😈', label: 'Le Provocateur' },
 ]
 
+// Rivalités réelles quand elles existent ; sinon PSG par défaut
+// (tout le monde déteste le leader — c'est le rôle du leader).
 export const CLUBS = [
   { id: 'psg', name: 'PSG', colors: ['#0a1a3f', '#c1122e'], rival: 'om' },
   { id: 'om', name: 'Marseille', colors: ['#2fb5e6', '#0a3d6b'], rival: 'psg' },
@@ -18,6 +20,17 @@ export const CLUBS = [
   { id: 'lil', name: 'Lille', colors: ['#e01a22', '#111111'], rival: 'rcl' },
   { id: 'ase', name: 'St-Étienne', colors: ['#0a9b4b', '#ffffff'], rival: 'ol' },
   { id: 'ogcn', name: 'Nice', colors: ['#c1122e', '#111111'], rival: 'asm' },
+  { id: 'srfc', name: 'Rennes', colors: ['#e01a22', '#111111'], rival: 'fcn' },
+  { id: 'fcn', name: 'Nantes', colors: ['#f7d417', '#0a7b3e'], rival: 'srfc' },
+  { id: 'rcsa', name: 'Strasbourg', colors: ['#2f9ee0', '#ffffff'], rival: 'psg' },
+  { id: 'tfc', name: 'Toulouse', colors: ['#5b3e8f', '#ffffff'], rival: 'psg' },
+  { id: 'mhsc', name: 'Montpellier', colors: ['#0a2f6b', '#f28c00'], rival: 'ogcn' },
+  { id: 'sb29', name: 'Brest', colors: ['#e01a22', '#ffffff'], rival: 'srfc' },
+  { id: 'sdr', name: 'Reims', colors: ['#e01a22', '#ffffff'], rival: 'psg' },
+  { id: 'aja', name: 'Auxerre', colors: ['#1a4fa0', '#ffffff'], rival: 'psg' },
+  { id: 'hac', name: 'Le Havre', colors: ['#0a2f6b', '#7fc9e8'], rival: 'psg' },
+  // Pas de club : le reveal reste national, pas de duel tribal.
+  { id: 'neutre', name: 'Neutre', colors: ['#5c6879', '#232e3d'], rival: null, neutral: true, emoji: '🇫🇷' },
 ]
 
 // Pack de lancement — 10 takes, chacun avec ses 6 réponses sur-mesure.

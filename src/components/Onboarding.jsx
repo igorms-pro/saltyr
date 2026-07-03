@@ -8,7 +8,7 @@ function Crest({ club, size = 'w-11 h-11 text-xs' }) {
       className={`${size} rounded-xl grid place-items-center font-display font-black text-white`}
       style={{ background: `linear-gradient(135deg, ${club.colors[0]}, ${club.colors[1]})` }}
     >
-      {club.name.slice(0, 3).toUpperCase()}
+      {club.emoji || club.name.slice(0, 3).toUpperCase()}
     </span>
   )
 }
@@ -28,7 +28,7 @@ export default function Onboarding({ onDone }) {
         Ton club change tout ce que tu vois. Aucun compte, aucune adresse. Juste ta tribu.
       </p>
 
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-3 gap-3 overflow-y-auto flex-1 min-h-0 content-start pb-4">
         {CLUBS.map((club) => (
           <button
             key={club.id}
@@ -60,7 +60,7 @@ export default function Onboarding({ onDone }) {
           vibrate([15, 30, 15])
           onDone(picked)
         }}
-        className="mt-auto w-full py-4 rounded-2xl font-black text-lg bg-gradient-to-b from-hot to-[#df421f] text-[#1a0800] disabled:opacity-30 disabled:grayscale transition-all shadow-[0_14px_34px_-16px_#ff5a36]"
+        className="mt-4 w-full py-4 rounded-2xl font-black text-lg bg-gradient-to-b from-hot to-[#df421f] text-[#1a0800] disabled:opacity-30 disabled:grayscale transition-all shadow-[0_14px_34px_-16px_#ff5a36] flex-none"
       >
         C'est parti →
       </button>

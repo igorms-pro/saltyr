@@ -38,22 +38,33 @@ export function useLiveStats(take, clubId) {
   }, [take, clubId])
 
   return useMemo(() => {
-    if (!server?.take) return { ...mock, pour: take.pour }
+    if (!server?.take) return mock
 
     const { pour_count, contre_count, arch_counts } = server.take
     const pour = pct(Number(pour_count), Number(contre_count))
 
-    // Splits club : réels si assez de volume, sinon mock (dégradé propre)
-    const clubRow = server.clubs.find((c) => c.club === clubId)
-    const rivalRow = server.clubs.find((c) => c.club === mock.rival.id)
-    const clubPct =
-      clubRow && Number(clubRow.pour) + Number(clubRow.contre) >= CLUB_MIN_VOTES
-        ? pct(Number(clubRow.pour), Number(clubRow.contre))
-        : mock.club.pct
-    const rivalPct =
-      rivalRow && Number(rivalRow.pour) + Number(rivalRow.contre) >= CLUB_MIN_VOTES
-        ? pct(Number(rivalRow.pour), Number(rivalRow.contre))
-        : mock.rival.pct
+    // Splits club : réels si assez de volume, sinon mock (dégradé propre).
+    // Neutre : pas de duel du tout.
+    let clubStats = null
+    let rivalStats = null
+    if (mock.club && mock.rival) {
+      const clubRow = server.clubs.find((c) => c.club === clubId)
+      const rivalRow = server.clubs.find((c) => c.club === mock.rival.id)
+      clubStats = {
+        ...mock.club,
+        pct:
+          clubRow && Number(clubRow.pour) + Number(clubRow.contre) >= CLUB_MIN_VOTES
+            ? pct(Number(clubRow.pour), Number(clubRow.contre))
+            : mock.club.pct,
+      }
+      rivalStats = {
+        ...mock.rival,
+        pct:
+          rivalRow && Number(rivalRow.pour) + Number(rivalRow.contre) >= CLUB_MIN_VOTES
+            ? pct(Number(rivalRow.pour), Number(rivalRow.contre))
+            : mock.rival.pct,
+      }
+    }
 
     // Répartition des archétypes : réelle dès qu'il y a des votes
     const archTotal = Object.values(arch_counts || {}).reduce((a, b) => a + Number(b), 0)
@@ -65,10 +76,10 @@ export function useLiveStats(take, clubId) {
     return {
       pour,
       votes: Number(pour_count) + Number(contre_count),
-      club: { ...mock.club, pct: clubPct },
-      rival: { ...mock.rival, pct: rivalPct },
+      club: clubStats,
+      rival: rivalStats,
       archPcts,
       live: true,
     }
-  }, [server, mock, take, clubId])
+  }, [server, mock, clubId])
 }

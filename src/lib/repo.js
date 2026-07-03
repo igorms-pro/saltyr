@@ -10,7 +10,7 @@ export async function castVote(takeId, side, archetype, club) {
     p_user_key: getDeviceId(),
     p_side: side,
     p_archetype: archetype,
-    p_club: club ?? null,
+    p_club: club && club !== 'neutre' ? club : null,
   })
   if (error) {
     console.warn('[saltyr] cast_vote failed:', error.message)
