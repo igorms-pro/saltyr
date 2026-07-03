@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { CLUBS } from './data/takes'
-import { getClub, setClub, getVotes, getDeviceId } from './lib/device'
+import { getClub, setClub, clearClub, getVotes, getDeviceId } from './lib/device'
 import Onboarding from './components/Onboarding'
 import BottomNav from './components/BottomNav'
 import DailyDebate from './screens/DailyDebate'
@@ -57,7 +57,16 @@ export default function App() {
           }}
         />
       )}
-      {tab === 'profil' && <Profil clubId={clubId} />}
+      {tab === 'profil' && (
+        <Profil
+          clubId={clubId}
+          onChangeClub={() => {
+            clearClub()
+            setClubId(null)
+            setTab('debat')
+          }}
+        />
+      )}
 
       <BottomNav
         tab={tab}
