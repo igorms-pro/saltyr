@@ -33,9 +33,27 @@ export const CLUBS = [
   { id: 'neutre', name: 'Neutre', colors: ['#5c6879', '#232e3d'], rival: null, neutral: true, emoji: '🇫🇷' },
 ]
 
-// Pack de lancement — 10 takes, chacun avec ses 6 réponses sur-mesure.
-// pour = % POUR mock (en attendant Supabase).
+// Pack de lancement — 10 takes evergreen + les takes d'actu datés.
+// pour = % POUR baseline. date = 'YYYY-MM-DD' → devient LE Débat du Jour ce jour-là.
 export const TAKES = [
+  // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
+  // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
+  {
+    id: 'fifa-croatie-2026-07-03',
+    date: '2026-07-03',
+    cat: 'Coupe du Monde',
+    text: 'Le but refusé à la Croatie : la FIFA décide qui gagne.',
+    pour: 52,
+    answers: {
+      passionne: 'On l\'a tous vu en direct, ce but était valable. Point.',
+      objectif: 'Relis la règle du hors-jeu avant de crier au complot.',
+      dubitatif: 'Attendons les images de la FIFA avant de juger.',
+      nuance: 'Décision limite, mais de là à parler de complot...',
+      nostalgique: 'Avant la VAR on gueulait 5 minutes et on passait à autre chose.',
+      provocateur: 'Le Portugal en finale vend plus de maillots, cherchez pas.',
+    },
+  },
+  // ==== EVERGREEN ====
   {
     id: 'mbappe-real',
     cat: 'Mercato',
