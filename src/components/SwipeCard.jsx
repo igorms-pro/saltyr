@@ -18,7 +18,8 @@ export default function SwipeCard({ onSwipe, children }) {
     if (leaving) return
     start.current = { x: e.clientX, y: e.clientY }
     setWidth(e.currentTarget.offsetWidth)
-    e.currentTarget.setPointerCapture(e.pointerId)
+    // Pas de setPointerCapture ici : ça retargette les events et avale
+    // les clics des boutons enfants. On capture au début du drag réel.
   }
 
   function onPointerMove(e) {
@@ -33,6 +34,7 @@ export default function SwipeCard({ onSwipe, children }) {
         return
       }
       setDragging(true)
+      e.currentTarget.setPointerCapture(e.pointerId)
     }
     setDx(deltaX)
   }
