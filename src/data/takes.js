@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-ameriquesud-2026-07-04',
+    date: '2026-07-04',
+    cat: 'Équipe de France',
+    text: 'Mbappé a raison : le foot sud-américain a un train de retard sur l\'Europe.',
+    pour: 47,
+    answers: {
+      passionne: 'Merci de le dire tout haut, on le pense tous depuis 20 ans.',
+      objectif: 'La Colombie finit 1re de son groupe devant le Portugal, les chiffres le contredisent direct.',
+      dubitatif: 'Attendons la fin du Mondial avant de sortir le classement définitif des continents.',
+      nuance: 'Vrai sur la structure des championnats, faux sur le terrain cette année.',
+      nostalgique: 'Pelé, Maradona, Ronaldinho... on parlait pas comme ça de leur niveau avant.',
+      provocateur: 'Il attend juste d\'être éliminé par une équipe sud-américaine pour se taire.',
+    },
+  },
+  {
     id: 'fifa-croatie-2026-07-03',
     date: '2026-07-03',
     cat: 'Coupe du Monde',
