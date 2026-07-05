@@ -49,7 +49,7 @@ export default function Reveal({ take, side, archetype, stats, onNext, nextLabel
     .slice(0, 3)
 
   return (
-    <div className="flex-1 flex flex-col justify-between bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-line rounded-3xl p-6 flip-enter">
+    <div className="flex-1 flex flex-col justify-between bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-3xl p-6 flip-enter">
       <div>
         <div className="text-[11px] font-mono uppercase tracking-[0.16em] text-hot font-semibold">
           Résultat

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { getNotifPref, setNotifPref, vibrate } from '../lib/device'
+import { getTheme, setTheme } from '../lib/theme'
 import { signOut, isAnonymous } from '../lib/auth'
 import { isLive } from '../lib/supabase'
 import { PRIVACY, TERMS } from '../data/legal'
@@ -50,7 +51,7 @@ function Row({ label, sub, right, onClick }) {
   return (
     <Comp
       onClick={onClick}
-      className={`w-full flex items-center justify-between gap-3 bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-line rounded-2xl px-4 py-3.5 text-left ${
+      className={`w-full flex items-center justify-between gap-3 bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-2xl px-4 py-3.5 text-left ${
         onClick ? 'active:scale-[0.98] transition-transform' : ''
       }`}
     >
@@ -66,6 +67,7 @@ function Row({ label, sub, right, onClick }) {
 export default function Settings({ session, onBack, onSignedOut }) {
   const [view, setView] = useState('root') // root | privacy | terms
   const [notif, setNotif] = useState(getNotifPref())
+  const [theme, setThemeState] = useState(getTheme())
 
   if (view === 'privacy') return <LegalView doc={PRIVACY} onBack={() => setView('root')} />
   if (view === 'terms') return <LegalView doc={TERMS} onBack={() => setView('root')} />
@@ -83,8 +85,36 @@ export default function Settings({ session, onBack, onSignedOut }) {
       <h2 className="take-title text-2xl mb-5">Réglages</h2>
 
       <div className="flex-1 overflow-y-auto flex flex-col gap-2.5 pb-4">
-        {/* Notifications */}
+        {/* Apparence */}
         <div className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted mb-0.5 mt-1">
+          Apparence
+        </div>
+        <div className="grid grid-cols-2 gap-2.5">
+          {[
+            { id: 'dark', label: 'Sombre', emoji: '🌙' },
+            { id: 'light', label: 'Clair', emoji: '☀️' },
+          ].map((opt) => (
+            <button
+              key={opt.id}
+              onClick={() => {
+                vibrate(10)
+                setThemeState(opt.id)
+                setTheme(opt.id)
+              }}
+              className={`flex items-center justify-center gap-2 py-3.5 rounded-2xl border font-bold text-sm transition-all ${
+                theme === opt.id
+                  ? 'border-cold bg-cold/10 text-salt'
+                  : 'border-line bg-ink-2 text-muted'
+              }`}
+            >
+              <span>{opt.emoji}</span>
+              {opt.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Notifications */}
+        <div className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted mb-0.5 mt-3">
           Notifications
         </div>
         <Row

@@ -26,7 +26,7 @@ export default function Board({ onOpenTake }) {
                   onOpenTake(take.id)
                 }
               }}
-              className={`grid grid-cols-[28px_1fr_auto] gap-3 items-center text-left bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-line rounded-2xl px-4 py-3.5 ${
+              className={`grid grid-cols-[28px_1fr_auto] gap-3 items-center text-left bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-2xl px-4 py-3.5 ${
                 vote ? 'opacity-100' : 'active:scale-[0.98] transition-transform'
               }`}
             >
