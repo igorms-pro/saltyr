@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'doue-barcola-titulaire-2026-07-05',
+    date: '2026-07-05',
+    cat: 'Équipe de France',
+    text: 'Doué doit être titulaire à la place de Barcola pour le quart de finale.',
+    pour: 53,
+    answers: {
+      passionne: 'Il rentre et change tout le match en 10 minutes, y\'a plus de débat à avoir avec Barcola.',
+      objectif: 'Doué provoque le penalty décisif, Barcola termine à 0 tir cadré en 70 minutes. Les chiffres tranchent.',
+      dubitatif: 'Un super quart d\'heure en sortie de banc, ça reste un quart d\'heure. On en reparle après le quart.',
+      nuance: 'Barcola garde la confiance de Deschamps, Doué a l\'impact du soir : les deux méritent leur temps de jeu.',
+      nostalgique: 'Avant, un sélectionneur laissait sa chance à un joueur sur toute une compétition, pas après une mi-temps ratée.',
+      provocateur: 'Barcola devrait remercier Doué d\'avoir sauvé son Mondial depuis le banc.',
+    },
+  },
+  {
     id: 'mbappe-ameriquesud-2026-07-04',
     date: '2026-07-04',
     cat: 'Équipe de France',
