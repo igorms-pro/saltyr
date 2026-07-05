@@ -3,6 +3,7 @@
 const DEVICE_KEY = 'saltyr:device'
 const CLUB_KEY = 'saltyr:club'
 const VOTES_KEY = 'saltyr:votes'
+const NOTIF_KEY = 'saltyr:notif'
 
 export function getDeviceId() {
   let id = localStorage.getItem(DEVICE_KEY)
@@ -23,6 +24,15 @@ export function setClub(clubId) {
 
 export function clearClub() {
   localStorage.removeItem(CLUB_KEY)
+}
+
+// Préférence notifications (le vrai push arrive plus tard — ici on garde le choix).
+export function getNotifPref() {
+  return localStorage.getItem(NOTIF_KEY) !== 'off'
+}
+
+export function setNotifPref(on) {
+  localStorage.setItem(NOTIF_KEY, on ? 'on' : 'off')
 }
 
 // { [takeId]: { side: 'pour'|'contre', archetype: string } }
