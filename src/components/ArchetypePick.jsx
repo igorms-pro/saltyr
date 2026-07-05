@@ -1,13 +1,32 @@
 import { ARCHETYPES } from '../data/takes'
 import { vibrate } from '../lib/device'
 
-export default function ArchetypePick({ take, side, onPick }) {
+export default function ArchetypePick({ take, side, onPick, onBack }) {
   return (
     <div className="flex-1 flex flex-col bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-3xl p-6 flip-enter">
+      {/* Retour au vote — pour relire le take ou changer d'avis */}
+      {onBack && (
+        <button
+          onClick={() => {
+            vibrate(5)
+            onBack()
+          }}
+          className="self-start text-muted hover:text-salt text-xs font-bold mb-3 flex items-center gap-1"
+        >
+          ← Revoir la question
+        </button>
+      )}
+
+      {/* Rappel du take pour garder le contexte */}
+      <div className="text-[11px] font-mono uppercase tracking-[0.16em] text-hot font-semibold">
+        {take.cat}
+      </div>
+      <p className="take-title text-lg mt-1.5 mb-4 text-balance">{take.text}</p>
+
       <div className="text-[11px] font-mono uppercase tracking-[0.16em] text-gold font-semibold">
         Tu es {side === 'pour' ? 'POUR 🔥' : 'CONTRE ❄'}
       </div>
-      <h2 className="take-title text-2xl mt-2 mb-5">Pourquoi ?</h2>
+      <h2 className="take-title text-xl mt-1 mb-4">Pourquoi ?</h2>
 
       <div className="flex flex-col gap-2.5">
         {ARCHETYPES.map((a) => (

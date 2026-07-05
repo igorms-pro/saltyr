@@ -47,6 +47,10 @@ export default function VoteFlow({ take, clubId, swipeable = false, initialVote 
       <ArchetypePick
         take={take}
         side={side}
+        onBack={() => {
+          setSide(null)
+          setPhase('vote')
+        }}
         onPick={(a) => {
           setArchetype(a)
           saveVote(take.id, side, a)
