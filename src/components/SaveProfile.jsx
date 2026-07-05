@@ -17,7 +17,7 @@ export default function SaveProfile({ session }) {
   // Déjà lié : on affiche, c'est tout.
   if (!isAnonymous(session)) {
     return (
-      <div className="bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-cold/30 rounded-2xl p-5 mb-3">
+      <div className="bg-gradient-to-b from-ink-2 to-ink-3 border border-cold/30 rounded-2xl p-5 mb-3">
         <span className="text-[10px] font-mono uppercase tracking-[0.14em] text-cold font-semibold">
           Profil sauvegardé ✓
         </span>
@@ -51,7 +51,7 @@ export default function SaveProfile({ session }) {
   }
 
   return (
-    <div className="bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-line rounded-2xl p-5 mb-3">
+    <div className="bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-2xl p-5 mb-3">
       <span className="text-[10px] font-mono uppercase tracking-[0.14em] text-gold font-semibold">
         Sauvegarde ton profil
       </span>

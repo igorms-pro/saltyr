@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Thème — dark par défaut. .light sur <html> bascule les neutres, et
+   assombrit légèrement les accents pour rester lisibles sur fond clair. */
+:root {
+  --c-ink: 10 14 20;
+  --c-ink-2: 17 24 35;
+  --c-ink-3: 10 15 23;
+  --c-salt: 243 246 248;
+  --c-hot: 255 90 54;
+  --c-cold: 31 227 194;
+  --c-gold: 255 194 75;
+  --c-line: 35 46 61;
+  --c-muted: 125 135 152;
+  color-scheme: dark;
+}
+
+html.light {
+  --c-ink: 238 241 245;
+  --c-ink-2: 255 255 255;
+  --c-ink-3: 244 246 249;
+  --c-salt: 15 22 32;
+  --c-hot: 232 67 31;
+  --c-cold: 12 156 134;
+  --c-gold: 176 121 10;
+  --c-line: 220 226 234;
+  --c-muted: 90 102 117;
+  color-scheme: light;
+}
+
 html,
 body,
 #root {

@@ -29,7 +29,7 @@ export default function Profil({ clubId, session, onChangeClub }) {
       </div>
 
       {/* Rebel Score */}
-      <div className="bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-line rounded-2xl p-5 mb-3">
+      <div className="bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-2xl p-5 mb-3">
         <div className="flex justify-between items-baseline mb-2.5">
           <span className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted font-semibold">
             Rebel Score
@@ -50,7 +50,7 @@ export default function Profil({ clubId, session, onChangeClub }) {
       </div>
 
       {/* Archétype dominant */}
-      <div className="bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-line rounded-2xl p-5 mb-3">
+      <div className="bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-2xl p-5 mb-3">
         <span className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted font-semibold">
           Ton archétype
         </span>

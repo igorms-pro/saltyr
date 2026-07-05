@@ -3,7 +3,7 @@ import { vibrate } from '../lib/device'
 
 export default function ArchetypePick({ take, side, onPick }) {
   return (
-    <div className="flex-1 flex flex-col bg-gradient-to-b from-ink-2 to-[#0a0f17] border border-line rounded-3xl p-6 flip-enter">
+    <div className="flex-1 flex flex-col bg-gradient-to-b from-ink-2 to-ink-3 border border-line rounded-3xl p-6 flip-enter">
       <div className="text-[11px] font-mono uppercase tracking-[0.16em] text-gold font-semibold">
         Tu es {side === 'pour' ? 'POUR 🔥' : 'CONTRE ❄'}
       </div>
