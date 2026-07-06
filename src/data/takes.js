@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'france-paraguay-arbitrage-carton-2026-07-06',
+    date: '2026-07-06',
+    cat: 'Coupe du Monde',
+    text: 'Si Olise, Barcola ou Koné loupent la demi-finale à cause d\'un carton pris contre le Paraguay, la faute sera à l\'arbitre, pas aux Bleus.',
+    pour: 49,
+    answers: {
+      passionne: 'Zéro carton pour le Paraguay alors qu\'ils ont démonté Koundé à coups de coude, si un des nôtres loupe la demi c\'est 100% la faute de cet arbitre.',
+      objectif: '3 jaunes côté France, 0 côté Paraguay pour un nombre de fautes largement supérieur chez les Sud-Américains : les chiffres sont sans appel.',
+      dubitatif: 'On reparle de carton hypothétique en demi si les Bleus passent déjà le quart contre le Maroc, pas avant.',
+      nuance: 'L\'arbitrage était clairement trop laxiste, mais un jaune pris reste un choix individuel sur le terrain.',
+      nostalgique: 'Avant, la FIFA envoyait ses meilleurs arbitres sur les gros chocs, pas des types qui découvrent l\'ambiance d\'un stade plein en pleine Coupe du monde.',
+      provocateur: 'Les Bleus préparent déjà leur excuse pour une demi qu\'ils n\'ont même pas encore atteinte, classique.',
+    },
+  },
+  {
     id: 'doue-barcola-titulaire-2026-07-05',
     date: '2026-07-05',
     cat: 'Équipe de France',
