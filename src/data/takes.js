@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'trump-infantino-balogun-2026-07-07',
+    date: '2026-07-07',
+    cat: 'Coupe du Monde',
+    text: 'Un coup de fil de Trump à Infantino qui efface le rouge de Balogun en 48h, c\'est le pire scandale d\'ingérence de l\'histoire du foot moderne.',
+    pour: 54,
+    answers: {
+      passionne: 'Un président qui décroche son téléphone pour sauver son attaquant et la FIFA qui plie dans la journée, c\'est la mort du fair-play devant tout le monde.',
+      objectif: 'Rouge confirmé par la VAR le 1er juillet, suspension d\'un an annulée le 6 après l\'appel : deux faits, 48h d\'écart, aucun hasard.',
+      dubitatif: 'Attendons de voir si la commission de discipline de la FIFA confirme réellement ce revirement avant de parler de scandale historique.',
+      nuance: 'L\'ingérence politique est indéfendable, mais un an de suspension pour un pied sur une cheville, c\'était déjà disproportionné avant l\'appel.',
+      nostalgique: 'Avant, un carton rouge de Mondial se contestait devant une commission d\'arbitrage, pas au téléphone avec la Maison Blanche.',
+      provocateur: 'Aux prochaines demies, autant laisser Trump siffler le match directement, ça ira plus vite que d\'attendre la VAR.',
+    },
+  },
+  {
     id: 'france-paraguay-arbitrage-carton-2026-07-06',
     date: '2026-07-06',
     cat: 'Coupe du Monde',
