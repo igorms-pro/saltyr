@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'deschamps-rotation-maroc-2026-07-08',
+    date: '2026-07-08',
+    cat: 'Équipe de France',
+    text: 'Deschamps doit laisser Barcola, Olise et Koné sur le banc contre le Maroc pour ne pas prendre le moindre risque avant la demi-finale.',
+    pour: 46,
+    answers: {
+      passionne: 'Perdre trois cadres suspendus en demie de Coupe du Monde parce qu\'on a voulu jouer les héros contre le Maroc, ce serait imbuvable.',
+      objectif: 'Un carton et c\'est forfait direct pour le tour suivant : sur le papier, le risque dépasse largement le bénéfice de les titulariser.',
+      dubitatif: 'On verra bien la compo de Deschamps jeudi soir avant de crier à la stratégie suicidaire ou géniale.',
+      nuance: 'Les préserver a du sens, mais le Maroc n\'est pas un adversaire qu\'on bat avec une équipe bis.',
+      nostalgique: 'En 98 on jouait à fond chaque match jusqu\'au bout, la gestion du tableau c\'est un truc de foot moderne.',
+      provocateur: 'Deschamps a peur d\'un carton jaune, autant les faire jouer avec des gants de boxe en mousse direct.',
+    },
+  },
+  {
     id: 'trump-infantino-balogun-2026-07-07',
     date: '2026-07-07',
     cat: 'Coupe du Monde',
