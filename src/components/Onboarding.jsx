@@ -13,7 +13,7 @@ function Crest({ club, size = 'w-11 h-11 text-xs' }) {
   )
 }
 
-export default function Onboarding({ onDone }) {
+export default function Onboarding({ onDone, deeplinked = false }) {
   const [picked, setPicked] = useState(null)
 
   return (
@@ -23,9 +23,16 @@ export default function Onboarding({ onDone }) {
         <span className="text-cold">YR</span>
       </div>
 
+      {deeplinked && (
+        <div className="mt-6 -mb-2 text-[11px] font-mono uppercase tracking-[0.14em] text-gold font-semibold">
+          🔥 On t'a défié sur un débat
+        </div>
+      )}
       <h1 className="take-title text-3xl mt-8">Choisis ton camp.</h1>
       <p className="text-muted text-sm mt-2 mb-8">
-        Ton club change tout ce que tu vois. Aucun compte, aucune adresse. Juste ta tribu.
+        {deeplinked
+          ? 'Choisis ton club, et découvre qui gagne le débat — les tiens ou le rival.'
+          : 'Ton club change tout ce que tu vois. Aucun compte, aucune adresse. Juste ta tribu.'}
       </p>
 
       <div className="grid grid-cols-3 gap-3 overflow-y-auto flex-1 min-h-0 content-start pb-4">

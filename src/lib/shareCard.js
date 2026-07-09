@@ -1,5 +1,7 @@
 // Génération de la carte à partager — format story 1080×1920.
 // Le user fait notre pub : chaque verdict devient une image.
+import { shareUrl } from './deeplink'
+
 const W = 1080
 const H = 1920
 
@@ -177,13 +179,16 @@ export async function shareCard(cardData) {
   const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png'))
   const file = new File([blob], 'saltyr-verdict.png', { type: 'image/png' })
 
+  // Le lien qui ramène le pote DIRECT sur ce take pour voter (boucle virale).
+  const link = shareUrl(cardData.take.id)
+
   // Share sheet natif si dispo (mobile), sinon téléchargement direct
   if (navigator.canShare && navigator.canShare({ files: [file] })) {
     try {
       await navigator.share({
         files: [file],
         title: 'SALTYR',
-        text: `« ${cardData.take.text} » — et toi, t'es de quel camp ?`,
+        text: `« ${cardData.take.text} » — et toi, t'es de quel camp ? Vote 👉 ${link}`,
       })
       return 'shared'
     } catch (err) {
