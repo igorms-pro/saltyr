@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import { getNotifPref, setNotifPref, vibrate } from '../lib/device'
+import { useEffect, useState } from 'react'
+import { setNotifPref, vibrate } from '../lib/device'
 import { getTheme, setTheme } from '../lib/theme'
 import { signOut, isAnonymous } from '../lib/auth'
 import { isLive } from '../lib/supabase'
+import { isPushSupported, notifPermission, hasPushSubscription, enablePush, disablePush, sendTestNotification } from '../lib/push'
 import { PRIVACY, TERMS } from '../data/legal'
 
 const APP_VERSION = '1.0.0'
@@ -66,8 +67,46 @@ function Row({ label, sub, right, onClick }) {
 
 export default function Settings({ session, onBack, onSignedOut }) {
   const [view, setView] = useState('root') // root | privacy | terms
-  const [notif, setNotif] = useState(getNotifPref())
   const [theme, setThemeState] = useState(getTheme())
+  // Notifs actives = permission accordée ET souscription push effective
+  const [notif, setNotif] = useState(false)
+  const [notifStatus, setNotifStatus] = useState(null)
+  const pushSupported = isPushSupported()
+
+  useEffect(() => {
+    if (!pushSupported || notifPermission() !== 'granted') return
+    hasPushSubscription().then(setNotif)
+  }, [pushSupported])
+
+  async function toggleNotif() {
+    vibrate(10)
+    if (notif) {
+      await disablePush().catch(() => {})
+      setNotif(false)
+      setNotifPref(false)
+      setNotifStatus(null)
+      return
+    }
+    setNotifStatus('…')
+    let res
+    try {
+      res = await enablePush()
+    } catch {
+      res = 'error'
+    }
+    // Vérité terrain : le toggle suit la souscription réelle, pas le retour.
+    const active = await hasPushSubscription().catch(() => false)
+    setNotif(active)
+    if (active) {
+      setNotifPref(true)
+      setNotifStatus('Activé — tu seras prévenu chaque matin.')
+      sendTestNotification().catch(() => {})
+    } else if (res === 'denied') {
+      setNotifStatus('Permission refusée. Autorise les notifications dans ton navigateur.')
+    } else {
+      setNotifStatus('Notifications indisponibles sur cet appareil/navigateur.')
+    }
+  }
 
   if (view === 'privacy') return <LegalView doc={PRIVACY} onBack={() => setView('root')} />
   if (view === 'terms') return <LegalView doc={TERMS} onBack={() => setView('root')} />
@@ -117,21 +156,35 @@ export default function Settings({ session, onBack, onSignedOut }) {
         <div className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted mb-0.5 mt-3">
           Notifications
         </div>
-        <Row
-          label="Le débat du jour"
-          sub="Être prévenu quand le nouveau débat tombe"
-          right={
-            <Toggle
-              on={notif}
-              onChange={() => {
-                vibrate(10)
-                const next = !notif
-                setNotif(next)
-                setNotifPref(next)
-              }}
+        {pushSupported ? (
+          <>
+            <Row
+              label="Le débat du jour"
+              sub="Être prévenu quand le nouveau débat tombe"
+              right={<Toggle on={notif} onChange={toggleNotif} />}
             />
-          }
-        />
+            {notifStatus && (
+              <p className={`text-xs px-1 ${notif ? 'text-cold' : 'text-muted'}`}>{notifStatus}</p>
+            )}
+            {notif && (
+              <button
+                onClick={() => {
+                  vibrate(10)
+                  sendTestNotification()
+                }}
+                className="text-left text-xs text-muted underline underline-offset-2 px-1"
+              >
+                Envoyer une notification de test
+              </button>
+            )}
+          </>
+        ) : (
+          <Row
+            label="Le débat du jour"
+            sub="Ajoute SALTYR à ton écran d'accueil pour activer les notifications"
+            right={<span className="text-muted text-xs">indispo</span>}
+          />
+        )}
 
         {/* Légal */}
         <div className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted mb-0.5 mt-3">
