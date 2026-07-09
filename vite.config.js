@@ -7,6 +7,13 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      // injectManifest : on possède le service worker (handlers push).
+      strategies: 'injectManifest',
+      srcDir: 'src',
+      filename: 'sw.js',
+      injectManifest: {
+        globPatterns: ['**/*.{js,css,html,png,webmanifest}'],
+      },
       manifest: {
         name: 'SALTYR — Le clash d\'avis foot',
         short_name: 'SALTYR',
