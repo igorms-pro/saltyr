@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CLUBS } from './data/takes'
 import { getClub, setClub, clearClub, getVotes, getDeviceId } from './lib/device'
 import { useSession } from './lib/useSession'
+import { parseDeepLinkTakeId, clearDeepLink } from './lib/deeplink'
 import Onboarding from './components/Onboarding'
 import BottomNav from './components/BottomNav'
 import DesktopShell from './components/DesktopShell'
@@ -15,18 +16,32 @@ export default function App() {
   getDeviceId() // s'assure que l'identité anonyme existe
   const { session } = useSession() // session Supabase anonyme, invisible
 
+  // Deep-link : arrivée via une carte partagée (/t/<id>). Capturé une fois,
+  // préservé à travers l'onboarding, puis l'app ouvre ce take dans le Feed.
+  const [deepTakeId] = useState(() => {
+    const id = parseDeepLinkTakeId()
+    clearDeepLink()
+    return id
+  })
+
   const [clubId, setClubId] = useState(getClub())
-  const [tab, setTab] = useState('debat') // le rituel d'abord
-  const [feedTakeId, setFeedTakeId] = useState(null) // take ciblé depuis le Board
+  const [tab, setTab] = useState(deepTakeId ? 'feed' : 'debat') // lien partagé → Feed ; sinon rituel
+  const [feedTakeId, setFeedTakeId] = useState(deepTakeId) // take ciblé (deep-link ou Board)
   const [settingsOpen, setSettingsOpen] = useState(false)
 
   if (!clubId) {
     return (
       <DesktopShell>
         <Onboarding
+          deeplinked={Boolean(deepTakeId)}
           onDone={(id) => {
             setClub(id)
             setClubId(id)
+            // après l'onboarding, on file voter le take partagé
+            if (deepTakeId) {
+              setFeedTakeId(deepTakeId)
+              setTab('feed')
+            }
           }}
         />
       </DesktopShell>
