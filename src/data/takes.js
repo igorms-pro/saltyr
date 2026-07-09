@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'arbitres-argentins-france-maroc-2026-07-09',
+    date: '2026-07-09',
+    cat: 'Coupe du Monde',
+    text: 'Confier l\'arbitrage de France-Maroc à cinq Argentins quatre ans après la finale du Qatar, c\'est une faute de la FIFA, pas de la parano des Bleus.',
+    pour: 48,
+    answers: {
+      passionne: 'Cinq arbitres argentins pour affronter les mecs qui leur ont piqué la finale du Qatar, c\'est limite une provocation de la FIFA.',
+      objectif: 'Tello en est à son 6e match de ce Mondial et a déjà dirigé un quart en 2022 sans le moindre incident, l\'historique plaide plutôt pour sa neutralité.',
+      dubitatif: 'On jugera l\'arbitrage aux décisions prises sur le terrain jeudi soir, pas à la nationalité inscrite sur la feuille de match.',
+      nuance: 'La méfiance se comprend vu l\'histoire entre les deux pays, mais crier au scandale avant le coup d\'envoi, c\'est aller un peu vite.',
+      nostalgique: 'Avant, un arbitre c\'était juste un arbitre, pas un sujet de polémique nationale 48h avant le coup d\'envoi.',
+      provocateur: 'Au point où on en est, autant faire siffler Messi directement, ça changera pas grand-chose.',
+    },
+  },
+  {
     id: 'deschamps-rotation-maroc-2026-07-08',
     date: '2026-07-08',
     cat: 'Équipe de France',
