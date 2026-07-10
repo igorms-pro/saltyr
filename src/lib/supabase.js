@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
+import { getDeviceId } from './device'
 
 // Bascule mock/réel : sans env vars, l'app tourne en mode mock (CI, démo).
 // Avec, tout devient live. Pattern PKCE + persistSession comme TrueGrynd.
@@ -14,6 +15,8 @@ export const supabase =
           persistSession: true,
           detectSessionInUrl: true,
         },
+        // La RLS « read own » de take_submissions matche ce header.
+        global: { headers: { 'x-device-id': getDeviceId() } },
       })
     : null
 

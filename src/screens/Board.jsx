@@ -1,17 +1,31 @@
+import { useState } from 'react'
 import { TAKES } from '../data/takes'
 import { getVotes, vibrate } from '../lib/device'
 import { saltLevel } from '../lib/salt'
+import ProposeTake from './ProposeTake'
 
 export default function Board({ onOpenTake }) {
+  const [proposing, setProposing] = useState(false)
   const votes = getVotes()
   const ranked = [...TAKES].sort((a, b) => saltLevel(b) - saltLevel(a))
+
+  if (proposing) return <ProposeTake onBack={() => setProposing(false)} />
 
   return (
     <div className="flex-1 flex flex-col min-h-0">
       <h2 className="take-title text-2xl mb-1">Salty Board</h2>
-      <p className="text-muted text-xs mb-4">
+      <p className="text-muted text-xs mb-2">
         Les takes qui coupent la France en deux. Trié au <span className="text-gold font-bold">Salt Level</span> 🧂
       </p>
+      <button
+        onClick={() => {
+          vibrate(10)
+          setProposing(true)
+        }}
+        className="mb-3 py-3 rounded-2xl font-bold text-sm border border-gold/40 text-gold bg-gold/5 active:scale-[0.98] transition-transform"
+      >
+        🧂 Propose ton take
+      </button>
 
       <div className="flex-1 overflow-y-auto flex flex-col gap-2.5 pb-2 -mx-1 px-1">
         {ranked.map((take, i) => {
