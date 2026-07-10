@@ -38,6 +38,28 @@ export async function fetchTakeStats(takeId, clubIds) {
   return { take: takeRes.data, clubs: clubRes.data ?? [] }
 }
 
+// Proposition de take → file de modération. Fire-and-forget : l'id est généré
+// côté client pour que le localStorage et la table partagent la même clé.
+export async function submitTake(id, text) {
+  if (!supabase) return null
+  const { error } = await supabase
+    .from('take_submissions')
+    .insert({ id, user_key: getDeviceId(), text })
+  if (error) {
+    console.warn('[saltyr] submitTake failed:', error.message)
+    return null
+  }
+  return id
+}
+
+// Statuts de mes propositions (RLS « read own » via le header x-device-id).
+export async function fetchMySubmissionStatuses() {
+  if (!supabase) return null
+  const { data, error } = await supabase.from('take_submissions').select('id, status')
+  if (error) return null
+  return Object.fromEntries(data.map((s) => [s.id, s.status]))
+}
+
 // Realtime : les compteurs du take affiché bougent en live chez tous les viewers.
 export function subscribeTakeStats(takeId, onUpdate) {
   if (!supabase) return () => {}

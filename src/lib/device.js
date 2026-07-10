@@ -4,6 +4,7 @@ const DEVICE_KEY = 'saltyr:device'
 const CLUB_KEY = 'saltyr:club'
 const VOTES_KEY = 'saltyr:votes'
 const NOTIF_KEY = 'saltyr:notif'
+const SUBMISSIONS_KEY = 'saltyr:submissions'
 
 export function getDeviceId() {
   let id = localStorage.getItem(DEVICE_KEY)
@@ -49,6 +50,31 @@ export function saveVote(takeId, side, archetype) {
   votes[takeId] = { side, archetype, at: Date.now() }
   localStorage.setItem(VOTES_KEY, JSON.stringify(votes))
   return votes
+}
+
+// Takes proposés par l'utilisateur — vérité locale immédiate, comme les votes.
+// [{ id, text, status: 'pending'|'approved'|'rejected', at }] (récent en premier)
+export function getSubmissions() {
+  try {
+    return JSON.parse(localStorage.getItem(SUBMISSIONS_KEY)) || []
+  } catch {
+    return []
+  }
+}
+
+export function saveSubmission(id, text) {
+  const subs = [{ id, text, status: 'pending', at: Date.now() }, ...getSubmissions()]
+  localStorage.setItem(SUBMISSIONS_KEY, JSON.stringify(subs))
+  return subs
+}
+
+// Merge des statuts remontés du backend (id → status)
+export function updateSubmissionStatuses(statusById) {
+  const subs = getSubmissions().map((s) =>
+    statusById[s.id] && statusById[s.id] !== s.status ? { ...s, status: statusById[s.id] } : s
+  )
+  localStorage.setItem(SUBMISSIONS_KEY, JSON.stringify(subs))
+  return subs
 }
 
 export function vibrate(pattern = 10) {
