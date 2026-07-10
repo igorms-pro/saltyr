@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'victoire-france-maroc-arbitrage-2026-07-10',
+    date: '2026-07-10',
+    cat: 'Coupe du Monde',
+    text: 'Le 2-0 des Bleus contre le Maroc, c\'est une démonstration de force, pas un cadeau de l\'arbitrage argentin.',
+    pour: 45,
+    answers: {
+      passionne: '2-0 et une razzia offensive de bout en bout, le Maroc ferait mieux de chercher ses excuses ailleurs que dans le sifflet de Tello.',
+      objectif: 'Le pénalty contesté, Bounou l\'a arrêté : zéro but, zéro impact sur le score. Reste la main de Rabiot sur le premier but, jamais sifflée mais jamais confirmée non plus au ralenti.',
+      dubitatif: 'On refera le match posément une fois les images de la main de Rabiot et du pénalty passées au ralenti, pas à chaud sur les réseaux.',
+      nuance: 'Que Tello se soit raté sur un détail, ça arrive à tous les arbitres, mais une équipe aussi dominatrice sur 90 minutes, ça ne s\'explique pas que par le sifflet.',
+      nostalgique: 'Avant, on perdait un quart de finale en se disant que l\'adversaire était plus fort, pas en éditant des comptes X d\'analyse vidéo au ralenti.',
+      provocateur: 'Prochaine étape logique pour le Maroc : demander un arbitrage marocain pour la finale, ça réglera tout.',
+    },
+  },
+  {
     id: 'arbitres-argentins-france-maroc-2026-07-09',
     date: '2026-07-09',
     cat: 'Coupe du Monde',
