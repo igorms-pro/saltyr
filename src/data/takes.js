@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'france-espagne-demi-2026-07-11',
+    date: '2026-07-11',
+    cat: 'Coupe du Monde',
+    text: 'Face à l\'Espagne, bête noire des Bleus depuis l\'Euro 2024, la demi-finale de mardi est quasiment perdue d\'avance.',
+    pour: 47,
+    answers: {
+      passionne: 'Munich 2024, le Final Four 2025... on connaît la chanson par cœur, l\'Espagne nous fait toujours le même coup.',
+      objectif: 'Deux confrontations, deux défaites en un an, 2-1 puis 5-4 : le bilan récent est sans appel, quel que soit le talent des Bleus.',
+      dubitatif: 'On verra bien mardi soir à Dallas, un match à élimination directe ne se joue pas sur l\'historique.',
+      nuance: 'L\'Espagne a notre mesure sur les grands soirs, mais cette équipe de France n\'a plus rien à voir avec celle de l\'Euro.',
+      nostalgique: 'On battait l\'Espagne en 2000 et 2006 sans trembler, aujourd\'hui on a presque peur avant le coup d\'envoi.',
+      provocateur: 'Autant demander à Yamal de venir chercher la coupe directement à l\'aéroport, ça nous fera gagner du temps.',
+    },
+  },
+  {
     id: 'victoire-france-maroc-arbitrage-2026-07-10',
     date: '2026-07-10',
     cat: 'Coupe du Monde',
