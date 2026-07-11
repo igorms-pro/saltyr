@@ -20,6 +20,7 @@ dev-dist/
 # Tests visuels
 .playwright-mcp/
 *.png
-# ...sauf les icônes PWA
+# ...sauf les icônes PWA et les assets Expo
 !public/*.png
+!mobile/assets/*.png
 .vercel
