@@ -4,7 +4,12 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
-  { ignores: ['dist', 'dev-dist', 'node_modules'] },
+  { ignores: ['dist', 'dev-dist', 'node_modules', 'mobile/node_modules', 'mobile/.expo'] },
+  // Les configs Metro/Expo sont du CommonJS Node
+  {
+    files: ['mobile/*.config.js'],
+    languageOptions: { globals: globals.node, sourceType: 'commonjs' },
+  },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
