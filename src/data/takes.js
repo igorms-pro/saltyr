@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'balogun-suspension-trump-2026-07-12',
+    date: '2026-07-12',
+    cat: 'Coupe du Monde',
+    text: 'Lever la suspension de Balogun après un coup de fil de Trump à Infantino, c\'est la preuve que le fair-play de la FIFA se négocie au téléphone.',
+    pour: 54,
+    answers: {
+      passionne: 'Un attaquant sauvé par un coup de fil présidentiel, c\'est le symbole parfait d\'une FIFA qui vend son intégrité au plus offrant.',
+      objectif: 'L\'article 27 existait avant Balogun et a déjà servi ailleurs, seul le contexte politique change la perception, pas la légalité de la mesure.',
+      dubitatif: 'On verra si Balogun tient sa probation toute l\'année avant de crier au scandale, pour l\'instant c\'est surtout un débat de commentateurs.',
+      nuance: 'Que la règle soit valide ne change rien au malaise du timing : un coup de fil de la Maison-Blanche la veille d\'une suspension, ça sent mauvais même si c\'est légal.',
+      nostalgique: 'Avant, un carton rouge se purgeait sur le terrain, pas au téléphone entre un président et le boss de la FIFA.',
+      provocateur: 'Prochaine étape logique : Mbappé demande à l\'Élysée d\'appeler Infantino à chaque carton jaune contesté.',
+    },
+  },
+  {
     id: 'france-espagne-demi-2026-07-11',
     date: '2026-07-11',
     cat: 'Coupe du Monde',
