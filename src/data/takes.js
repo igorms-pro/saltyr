@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'yamal-punchline-france-2026-07-13',
+    date: '2026-07-13',
+    cat: 'Coupe du Monde',
+    text: 'La punchline de Yamal avant la demi — « si la France doit craindre une équipe, c\'est nous » — c\'est la confiance légitime d\'un futur champion, pas de l\'arrogance mal placée.',
+    pour: 52,
+    answers: {
+      passionne: 'Yamal fait le meilleur Mondial de sa génération depuis le premier match, il a largement le niveau pour se permettre ce genre de punchline.',
+      objectif: 'Deux victoires espagnoles sur les deux derniers face-à-face officiels contre les Bleus, l\'historique récent donne clairement raison au discours de Yamal.',
+      dubitatif: 'Les punchlines d\'avant-match ne valent rien une fois le coup d\'envoi donné, on en reparle mardi soir après le résultat.',
+      nuance: 'L\'historique récent joue pour l\'Espagne, mais provoquer les Bleus à 18 ans avant même d\'avoir disputé le match reste un pari risqué.',
+      nostalgique: 'Avant, on laissait parler les crampons sur le terrain, pas les interviews d\'avant-match à 18 ans.',
+      provocateur: 'Prochaine étape pour Yamal : demander direct le trophée à Infantino, ça lui évitera de se fatiguer mardi soir.',
+    },
+  },
+  {
     id: 'balogun-suspension-trump-2026-07-12',
     date: '2026-07-12',
     cat: 'Coupe du Monde',
