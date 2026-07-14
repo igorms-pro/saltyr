@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'deschamps-espagne-favorite-2026-07-14',
+    date: '2026-07-14',
+    cat: 'Coupe du Monde',
+    text: 'Déclarer l\'Espagne favorite la veille de la demi-finale, c\'est une ruse de vieux briscard pour désamorcer la pression sur ses joueurs, pas un aveu de faiblesse de Deschamps.',
+    pour: 49,
+    answers: {
+      passionne: 'Deschamps a gagné une Coupe du monde et une Ligue des Nations en jouant cette carte, il sait exactement ce qu\'il fait en la ressortant à J-1.',
+      objectif: 'Sur les deux derniers face-à-face officiels contre l\'Espagne, les Bleus sont sortis perdants (2-1 puis 5-4) : la déclaration colle au bilan chiffré, ce n\'est pas une ruse.',
+      dubitatif: 'Coup de billard psychologique ou sélectionneur simplement lucide, la vraie réponse arrive ce soir sur le terrain, pas dans une salle de presse.',
+      nuance: 'Que ce soit calculé ou sincère, l\'effet est le même : ça enlève de la pression aux Bleus tout en collant à la réalité du bilan récent face à l\'Espagne.',
+      nostalgique: 'Avant, un sélectionneur français annonçait qu\'on allait gagner, point final. Aujourd\'hui on fait de la com\' d\'avant-match façon coach NBA.',
+      provocateur: 'Prochaine étape pour Deschamps : annoncer forfait avant le coup d\'envoi, ça mettra encore plus la pression sur l\'Espagne.',
+    },
+  },
+  {
     id: 'yamal-punchline-france-2026-07-13',
     date: '2026-07-13',
     cat: 'Coupe du Monde',
