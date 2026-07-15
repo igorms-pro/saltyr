@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'deschamps-scandale-arbitral-espagne-2026-07-15',
+    date: '2026-07-15',
+    cat: 'Coupe du Monde',
+    text: 'Le penalty sifflé contre Digne sur Yamal a décidé de toute la demi-finale : la sortie de Deschamps sur le niveau de l\'arbitre est un coup de gueule légitime, pas l\'excuse amère d\'un sélectionneur qui tire sa révérence.',
+    pour: 47,
+    answers: {
+      passionne: 'Un contact minime dans la surface qui offre un penalty et tue le rêve bleu en demi-finale, comment ne pas hurler au scandale avec Deschamps ?',
+      objectif: 'Espagne devant au tableau des tirs cadrés et deux buteurs différents sur l\'ensemble du match : les chiffres racontent une domination qui dépasse le seul penalty.',
+      dubitatif: 'Entre le ralenti qui tourne en boucle et les éditos qui s\'écharpent, le tableau d\'affichage, lui, ne bougera plus : 0-2, dossier clos jusqu\'au prochain ralenti retweeté.',
+      nuance: 'Le contact sur Yamal méritait débat, mais la France n\'a inscrit aucun but en 90 minutes : réduire cette élimination au seul arbitre serait injuste envers Porro et le collectif espagnol.',
+      nostalgique: 'Avant la VAR, un arbitre sifflait sans repasser l\'action dix fois au ralenti et personne n\'écrivait une tribune pendant trois jours sur un contact de hanche.',
+      provocateur: 'Prochaine étape pour Deschamps : réclamer un replay de la demi à Infantino, ça lui ferait un dernier match avant de ranger le survêt\'.',
+    },
+  },
+  {
     id: 'deschamps-espagne-favorite-2026-07-14',
     date: '2026-07-14',
     cat: 'Coupe du Monde',
