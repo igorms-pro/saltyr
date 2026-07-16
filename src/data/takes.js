@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'tuchel-no-regrets-argentine-2026-07-16',
+    date: '2026-07-16',
+    cat: 'Coupe du Monde',
+    text: 'Tuchel qui répète n\'avoir « aucun regret » après la remontada argentine et l\'élimination en demi, ce n\'est pas du déni de vaincu, c\'est la vraie lucidité d\'un sélectionneur qui assume son plan jusqu\'au bout.',
+    pour: 43,
+    answers: {
+      passionne: 'Mener au score, reculer à cinq derrière au lieu de tuer le match, puis appeler ça "un de nos meilleurs matchs" : Tuchel prend les supporters anglais pour des idiots.',
+      objectif: 'Gordon ouvre le score à la 55e, l\'Angleterre repasse aussitôt en 5-4-1 et encaisse deux buts entre la 85e et la 90+2 : les chiffres démontent tout seuls la thèse du "meilleur match".',
+      dubitatif: 'Entre le discours de vainqueur moral et le tableau d\'affichage qui dit 1-2, on verra bien si Tuchel resservira la même punchline la prochaine fois que son plan craquera en fin de match.',
+      nuance: 'Le repli à cinq a tenu bon face à Messi et les siens pendant plus d\'une heure, mais prétendre n\'avoir "aucun regret" après avoir craqué dans le money time, ça reste dur à avaler pour les supporters.',
+      nostalgique: 'Avant, un sélectionneur anglais qui perdait une demi-finale en menant au score se serait excusé en conférence de presse, pas félicité pour son plan de jeu.',
+      provocateur: 'Prochaine étape pour Tuchel : réclamer une prime spéciale à la fédé pour "le meilleur match" de l\'histoire de l\'Angleterre, celui qui l\'a renvoyée à la maison.',
+    },
+  },
+  {
     id: 'deschamps-scandale-arbitral-espagne-2026-07-15',
     date: '2026-07-15',
     cat: 'Coupe du Monde',
