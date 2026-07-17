@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'petite-finale-remplacants-2026-07-17',
+    date: '2026-07-17',
+    cat: 'Coupe du Monde',
+    text: 'La petite finale contre l\'Angleterre ne sert à rien : pour son dernier match avant de céder la place à Zidane, Deschamps devrait aligner les remplaçants plutôt que d\'user ses cadres pour une breloque en chocolat.',
+    pour: 48,
+    answers: {
+      passionne: 'Un maillot bleu, ça se défend jusqu\'au bout, même pour la 3e place : sortir les remplaçants contre l\'Angleterre, ce serait cracher sur les supporters qui ont fait le déplacement à Miami.',
+      objectif: 'Depuis 2006, la moitié des petites finales de Coupe du monde ont été jouées avec un onze très remanié : Deschamps ne ferait qu\'appliquer une tendance déjà installée chez ses homologues.',
+      dubitatif: 'Deschamps annoncera sa compo deux heures avant le coup d\'envoi comme d\'habitude, inutile de se chauffer sur une hypothèse avant d\'avoir la feuille de match.',
+      nuance: 'Reposer les organismes les plus fatigués a du sens après un tournoi éprouvant, mais priver les Bleus de leurs meilleurs joueurs pour l\'ultime match de Deschamps reviendrait à sacrifier le symbole de l\'adieu.',
+      nostalgique: 'Avant, une 3e place à la Coupe du monde, ça se fêtait comme un exploit, pas comme une corvée qu\'on expédie avec l\'équipe B.',
+      provocateur: 'Prochaine étape : Deschamps envoie l\'équipe de National 2 contre l\'Angleterre samedi, et Zidane prend directement les rênes dès la mi-temps.',
+    },
+  },
+  {
     id: 'tuchel-no-regrets-argentine-2026-07-16',
     date: '2026-07-16',
     cat: 'Coupe du Monde',
