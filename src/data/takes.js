@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'vincic-arbitre-finale-2026-07-18',
+    date: '2026-07-18',
+    cat: 'Coupe du Monde',
+    text: 'Désigner Vincic — l\'arbitre qui a laissé filer sans le moindre carton le tacle de Hakimi sur la cheville de Vinicius — pour siffler la finale Espagne-Argentine, c\'est la pire erreur de casting possible de la part de la FIFA.',
+    pour: 45,
+    answers: {
+      passionne: 'Un tacle qui explose la cheville d\'un adversaire sans le moindre carton, et l\'arbitre récupère quand même la plus grosse finale du monde trois semaines après : la FIFA insulte tous ceux qui réclament un minimum de rigueur sur le terrain.',
+      objectif: '7 cartons jaunes et 1 rouge distribués par Vincic sur tout le tournoi, mais rien sur le tacle de Hakimi à la 45e+ : le bilan chiffré ne plaide pas franchement en sa faveur avant une finale à cet enjeu.',
+      dubitatif: 'Vincic a sifflé toute la compétition sans scandale majeur avant cet épisode, laissons-le d\'abord tenir 90 minutes dimanche avant de le juger sur un seul rendez-vous manqué.',
+      nuance: 'Un arbitre expérimenté peut avoir un coup d\'arrêt sur une action précise sans que ça remette en cause tout son tournoi, mais confier la plus grande finale du monde à celui qui vient de louper une faute aussi nette reste un pari risqué pour la FIFA.',
+      nostalgique: 'Avant, un arbitre qui loupait une faute pareille prenait un match de reprise en deuxième division, pas la finale de la Coupe du monde trois semaines plus tard.',
+      provocateur: 'Prochaine étape logique pour la FIFA : confier le sifflet de la finale à la VAR elle-même, au moins elle regardera vraiment le ralenti cette fois.',
+    },
+  },
+  {
     id: 'petite-finale-remplacants-2026-07-17',
     date: '2026-07-17',
     cat: 'Coupe du Monde',
