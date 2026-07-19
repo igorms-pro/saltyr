@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'messi-goat-final-2026-07-19',
+    date: '2026-07-19',
+    cat: 'GOAT',
+    text: 'Si Messi soulève ce soir sa deuxième Coupe du monde d\'affilée avec l\'Argentine, le débat GOAT face à Ronaldo est définitivement clos.',
+    pour: 54,
+    answers: {
+      passionne: 'Deux étoiles de suite, une Copa América, un Ballon d\'Or historique : après ce soir il n\'y a plus rien à débattre, Messi est le meilleur de tous les temps.',
+      objectif: '2 Coupes du monde, 8 Ballons d\'Or, plus de 850 buts en carrière : les chiffres penchent déjà largement du bon côté avant même le coup d\'envoi.',
+      dubitatif: 'Il faut d\'abord le voir soulever le trophée ce soir, l\'Argentine n\'a pas encore gagné contre l\'Espagne sur le papier.',
+      nuance: 'Un deuxième sacre consécutif ferait de Messi le joueur le plus titré de l\'histoire du Mondial, mais ça n\'efface pas quinze ans de duel avec Ronaldo, ça l\'enrichit.',
+      nostalgique: 'Avant, Pelé tranchait le débat avec trois Coupes du monde dans la musette, pas avec des sondages Twitter après chaque finale.',
+      provocateur: 'Peu importe le score ce soir, les mêmes retourneront mater les highlights de Ronaldo sur FIFA pour se rassurer.',
+    },
+  },
+  {
     id: 'vincic-arbitre-finale-2026-07-18',
     date: '2026-07-18',
     cat: 'Coupe du Monde',
