@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'messi-cucurella-finale-2026-07-20',
+    date: '2026-07-20',
+    cat: 'Coupe du Monde',
+    text: 'Réclamer l\'expulsion de Cucurella pour un contact anodin lors de sa toute dernière Coupe du monde, c\'est le geste qui gâche la sortie de Messi bien plus que la défaite elle-même.',
+    pour: 46,
+    answers: {
+      passionne: 'Après tout ce qu\'il a donné au foot, laisser Messi jouer sa dernière carte dans le money-time d\'une finale perdue, ce n\'est pas indigne, c\'est juste humain, et Rooney ferait mieux de se regarder dans un miroir.',
+      objectif: 'Aucune intervention de la VAR, aucune sanction, un simple geste vers l\'arbitre en fin de prolongation : sur les faits, l\'incident Cucurella pèse bien moins lourd que les 0 tir cadré de Messi sur 120 minutes.',
+      dubitatif: 'Une image qui tourne en boucle le soir même ne dit pas grand-chose, attendons de revoir la scène à froid avant de juger toute une carrière sur trois secondes.',
+      nuance: 'Un joueur à bout de forces dans les dernières minutes de sa dernière Coupe du monde peut craquer nerveusement sans que ça efface quinze ans d\'exemplarité, mais ça ne rend pas non plus le geste plus glorieux pour autant.',
+      nostalgique: 'Avant, un capitaine qui perdait une finale serrait la main de ses adversaires et rentrait la tête haute, il ne réclamait pas de carton sur un contact anodin.',
+      provocateur: 'Prochaine étape pour Messi : demander la VAR pour vérifier si Cucurella a bien respiré trop fort dans sa direction.',
+    },
+  },
+  {
     id: 'messi-goat-final-2026-07-19',
     date: '2026-07-19',
     cat: 'GOAT',
