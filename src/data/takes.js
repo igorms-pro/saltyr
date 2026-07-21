@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-plafond-salarial-2026-07-21',
+    date: '2026-07-21',
+    cat: 'Équipe de France',
+    text: 'Obliger la FFF à mendier une dérogation au ministère des Sports pour payer Zidane au-delà du plafond légal de 450 000 euros, c\'est une ingérence politique qui n\'a rien à faire dans le choix du sélectionneur des Bleus.',
+    pour: 45,
+    answers: {
+      passionne: 'Une légende du foot mondial qui doit attendre le bon vouloir d\'un ministre pour toucher un salaire digne de son palmarès, c\'est une humiliation que la FFF n\'aurait jamais dû accepter.',
+      objectif: '3,8 millions d\'euros annuels pour Deschamps contre un plafond légal fixé à 450 000 euros bruts pour Zidane : sans dérogation ministérielle, l\'écart est trop grand pour être ignoré.',
+      dubitatif: 'Le ministère n\'a encore rien signé, inutile de crier à l\'ingérence avant de savoir si la dérogation tombe vraiment.',
+      nuance: 'Plafonner les salaires publics du sport a du sens pour assainir les finances des fédérations, mais donner à un ministre un droit de regard sur le choix du sélectionneur des Bleus reste un précédent qui mérite d\'inquiéter.',
+      nostalgique: 'Avant, la FFF nommait son sélectionneur sans avoir besoin de l\'aval de Bercy.',
+      provocateur: 'Prochaine étape logique : Zidane passe un entretien d\'embauche au ministère des Sports avant d\'avoir le droit d\'aligner Mbappé en Turquie.',
+    },
+  },
+  {
     id: 'messi-cucurella-finale-2026-07-20',
     date: '2026-07-20',
     cat: 'Coupe du Monde',
