@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-record-buts-mondial-2026-07-22',
+    date: '2026-07-22',
+    cat: 'Coupe du Monde',
+    text: 'Le record de 22 buts de Mbappé en Coupe du monde, qui efface celui de Messi, ne vaut pas grand-chose : sans deuxième étoile décrochée cette année, ce n\'est qu\'une stat individuelle de plus dans un Mondial qui se termine à la 4e place.',
+    pour: 46,
+    answers: {
+      passionne: '22 buts en seulement trois Mondiaux disputés, un ratio d\'un but par match qu\'aucun Messi ni Ronaldo n\'a jamais approché : réduire cet exploit à une simple stat, c\'est cracher sur la plus grande performance individuelle de l\'histoire du foot.',
+      objectif: '22 buts en 22 matchs pour Mbappé contre 21 en 33 pour Messi, mais 2 étoiles côté argentin contre 1 seule pour la France et une 4e place cette année : le palmarès penche encore clairement du côté de Messi.',
+      dubitatif: 'Mbappé n\'a que 27 ans et jouera sans doute au moins une Coupe du monde de plus, laissons-lui le temps d\'aller chercher la deuxième étoile avant de juger la valeur de ce record.',
+      nuance: 'Un record aussi dominant mérite d\'être célébré pour ce qu\'il est, mais il est vrai qu\'en France on retient d\'abord les noms des champions du monde, pas les stats individuelles d\'une génération qui enchaîne les demi-finales.',
+      nostalgique: 'Avant, un buteur devenait une légende en soulevant la coupe, pas en battant des records de statistiques dans un Mondial terminé à la 4e place.',
+      provocateur: 'Prochaine étape pour Mbappé : demander à la FIFA une médaille personnelle en or massif, vu que le trophée collectif continue obstinément de lui échapper.',
+    },
+  },
+  {
     id: 'zidane-plafond-salarial-2026-07-21',
     date: '2026-07-21',
     cat: 'Équipe de France',
