@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'petition-argentina-out-2026-07-23',
+    date: '2026-07-23',
+    cat: 'Arbitrage',
+    text: 'La pétition « Argentina Out », qui a recueilli plus de 23 millions de signatures pour dénoncer un arbitrage taillé sur mesure en faveur de Messi et de l\'Albiceleste pendant tout le Mondial, a totalement raison : ce parcours jusqu\'en finale doit rester entaché d\'un immense doute.',
+    pour: 44,
+    answers: {
+      passionne: '23 millions de signatures en un mois venues de 170 pays différents, ce n\'est pas une théorie du complot de losers isolés, c\'est un cri collectif : l\'arbitrage a clairement roulé pour Messi tout au long du tournoi et personne n\'a le droit de balayer ça d\'un revers de main.',
+      objectif: '0 carton rouge encaissé par l\'Argentine sur tout le tournoi malgré plusieurs tacles jugés sanctionnables par les consultants, mais une finale perdue 2-0 face à l\'Espagne malgré ce traitement : les chiffres nuancent largement la thèse du complot total.',
+      dubitatif: 'Une pétition en ligne n\'a aucune valeur d\'enquête officielle, ni la FIFA ni aucune commission d\'arbitrage n\'a confirmé le moindre favoritisme, attendons un vrai rapport avant de crier au scandale.',
+      nuance: 'Certaines décisions litigieuses ont clairement profité à l\'Argentine sur la route de la finale, mais l\'Espagne a fini par la battre 2-0 devant le monde entier : difficile de crier au complot absolu quand le favori supposément protégé perd quand même le match qui compte.',
+      nostalgique: 'Avant, on contestait un arbitrage douteux au comptoir du bistrot le lendemain matin, pas avec une pétition Change.org qui frôle le record du monde de signatures.',
+      provocateur: 'Prochaine étape logique pour les 23 millions de signataires : réclamer aussi le retrait rétroactif des Ballons d\'Or de Messi, tant qu\'à faire.',
+    },
+  },
+  {
     id: 'mbappe-record-buts-mondial-2026-07-22',
     date: '2026-07-22',
     cat: 'Coupe du Monde',
