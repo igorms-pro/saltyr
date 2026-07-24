@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'bouaddi-depart-manchester-city-2026-07-24',
+    date: '2026-07-24',
+    cat: 'Mercato',
+    text: 'À 18 ans et sans le moindre titre à son actif, Bouaddi a raison de forcer son départ de Lille vers Manchester City pour 100 millions d\'euros : dans le foot d\'aujourd\'hui, on ne dit jamais non à ce genre d\'offre, même en trahissant le club formateur.',
+    pour: 47,
+    answers: {
+      passionne: '100 millions d\'euros à 18 ans, une carrière entière assurée en un seul chèque : critiquer ce choix, c\'est demander à un gamin de sacrifier son avenir pour le folklore d\'un club qui l\'aurait vendu de toute façon dans deux ans.',
+      objectif: '80 à 100 millions d\'euros annoncés pour un joueur de 18 ans sous contrat jusqu\'en 2029, sans la moindre obligation de départ : sur le plan purement financier, Lille n\'a jamais négocié une vente de sa formation dans des conditions pareilles.',
+      dubitatif: 'Aucun contrat n\'est signé, Lille réclame encore le prix fort et plusieurs autres clubs tournent autour du dossier, patience avant de parler de trahison.',
+      nuance: 'Un jeune joueur a le droit de saisir l\'opportunité d\'une vie sportive et financière, mais Lille aurait aussi mérité de voir grandir encore un peu sur son terrain le crack qu\'il a formé de A à Z.',
+      nostalgique: 'Avant, un crack sorti du centre de formation jouait au moins deux ou trois saisons pleines avec le club qui l\'avait fait, pas dix-huit mois avant de filer au plus offrant.',
+      provocateur: 'Prochaine étape logique pour le LOSC : construire le centre de formation avec vue directe sur l\'Etihad Stadium, ça fera gagner du temps à tout le monde.',
+    },
+  },
+  {
     id: 'petition-argentina-out-2026-07-23',
     date: '2026-07-23',
     cat: 'Arbitrage',
