@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'deschamps-environnement-irrespirable-2026-07-25',
+    date: '2026-07-25',
+    cat: 'Équipe de France',
+    text: 'Deschamps a raison de dénoncer un « environnement devenu irrespirable » pour expliquer la débâcle 6-4 contre l\'Angleterre en petite finale : après 14 ans à la tête des Bleus, il a bien le droit de dire tout haut, en partant, ce que les tensions avec la FFF sur les primes et le confort du groupe cachaient depuis des semaines.',
+    pour: 47,
+    answers: {
+      passionne: 'Quatorze ans à porter les Bleus sur ses épaules et un dernier geste de classe : balancer la vérité sur une fédération qui négocie les primes sur un coin de table et rogne sur les chambres froides, ce n\'est pas de l\'amertume, c\'est du courage.',
+      objectif: 'Primes déclenchées à partir des demi-finales contre les huitièmes auparavant, deux laissez-passer tribune par joueur au lieu de plusieurs, et 120 000 euros de billets première classe pour la délégation : les tensions documentées entre les Bleus et la FFF existaient bien avant la sortie de Deschamps.',
+      dubitatif: 'Deschamps n\'a cité aucun nom ni aucun fait précis, juste un « environnement irrespirable » balancé après une défaite 6-4 qui pique, attendons de voir si quelqu\'un ose détailler ce qui s\'est vraiment passé avant de trancher.',
+      nuance: 'Les tensions autour des primes et du matériel étaient réelles et méritaient d\'être dites, mais les balancer sans détail au moment de partir, ça ressemble aussi à une manière commode de ne pas assumer seul une désillusion sportive qui se termine sur un 6-4.',
+      nostalgique: 'Avant, un sélectionneur qui quittait les Bleus le faisait sur un dernier match et une poignée de main, pas sur une punchline anonyme contre sa propre fédération devant les caméras.',
+      provocateur: 'Prochaine étape logique pour la FFF : facturer aux Bleus l\'air conditionné du vestiaire, vu le niveau de radinerie déjà atteint sur les chambres froides et les places en tribune.',
+    },
+  },
+  {
     id: 'bouaddi-depart-manchester-city-2026-07-24',
     date: '2026-07-24',
     cat: 'Mercato',
