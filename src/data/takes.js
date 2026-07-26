@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-selectionneur-sans-experience-2026-07-26',
+    date: '2026-07-26',
+    cat: 'Équipe de France',
+    text: 'Nommer Zidane sélectionneur des Bleus alors qu\'il n\'a plus dirigé le moindre vestiaire depuis cinq ans et n\'a jamais entraîné une sélection nationale est un pari que la FFF regrettera dès la première trêve internationale ratée.',
+    pour: 42,
+    answers: {
+      passionne: 'Trois Ligue des champions de rang avec le Real et une aura qui fait taire un vestiaire en un regard : Zidane n\'a rien à prouver à personne, la France a la chance immense de l\'avoir enfin dit oui.',
+      objectif: 'Cinq ans sans le moindre banc depuis son départ du Real en 2021, zéro expérience de sélection nationale où tout se joue sur des regroupements de quelques jours par mois : le CV est glorieux en club, inexistant sur ce format précis.',
+      dubitatif: 'Il n\'a même pas encore signé et l\'annonce officielle n\'est prévue que mardi, prenons le temps de voir son staff et son projet avant de juger un mandat qui n\'a pas commencé.',
+      nuance: 'Le palmarès et le charisme de Zidane sont incontestables, mais diriger une sélection deux semaines par-ci par-là après cinq ans de chômage sportif volontaire est un exercice totalement différent de gérer le Real Madrid au quotidien.',
+      nostalgique: 'Avant, on prenait un sélectionneur qui avait fait ses gammes sur un banc les années précédentes, pas une légende rappelée après cinq ans de canapé parce que son nom rassure les sponsors.',
+      provocateur: 'Prochaine étape logique pour la FFF : proposer aussi à Zidane le poste de sélectionneur féminin, du réparateur de bus de l\'équipe et peut-être un droit de veto sur le menu du Clairefontaine.',
+    },
+  },
+  {
     id: 'deschamps-environnement-irrespirable-2026-07-25',
     date: '2026-07-25',
     cat: 'Équipe de France',
