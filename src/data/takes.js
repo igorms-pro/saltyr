@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'barcola-refus-prolongation-psg-2026-07-27',
+    date: '2026-07-27',
+    cat: 'Mercato',
+    text: 'Barcola a totalement raison de snober une prolongation et de pousser vers la sortie du PSG : après deux finales de Ligue des champions passées sur le banc malgré le titre européen, réclamer enfin un vrai rôle de titulaire ailleurs n\'a rien d\'une trahison.',
+    pour: 49,
+    answers: {
+      passionne: 'Deux finales de Ligue des champions à regarder ses potes soulever le trophée depuis le banc, ça suffit largement comme dette de loyauté payée : Barcola a le droit sacré d\'aller être titulaire et heureux ailleurs.',
+      objectif: 'Sous contrat jusqu\'en 2028, un prix fixé autour de 120 millions d\'euros par le PSG et un temps de jeu réduit lors des plus grands rendez-vous malgré deux titres majeurs : les chiffres disent surtout que Paris le retient cher pour un joueur qu\'il n\'aligne pas à plein temps.',
+      dubitatif: 'Rien n\'est signé, aucun club n\'a encore posé une offre à 120 millions sur la table, attendons de voir si Liverpool ou Arsenal osent vraiment claquer cette somme avant de parler de départ acté.',
+      nuance: 'Barcola a le droit de vouloir plus de temps de jeu après deux ans à batailler pour une place de titulaire, mais partir maintenant, c\'est aussi tourner le dos au vestiaire et au projet qui l\'ont rendu champion d\'Europe.',
+      nostalgique: 'Avant, un joueur révélé dans un grand club acceptait de se battre plusieurs saisons pour sa place de titulaire avant de réclamer un transfert, pas dès la première fois qu\'il sent un concurrent devant lui sur la feuille de match.',
+      provocateur: 'Prochaine étape logique pour Barcola : négocier une clause anti-banc de touche dans son prochain contrat, ça lui évitera de se salir le short pendant les remplacements.',
+    },
+  },
+  {
     id: 'zidane-selectionneur-sans-experience-2026-07-26',
     date: '2026-07-26',
     cat: 'Équipe de France',
