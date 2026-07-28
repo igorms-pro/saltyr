@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'akliouche-monaco-refuse-psg-2026-07-28',
+    date: '2026-07-28',
+    cat: 'Mercato',
+    text: 'Monaco a totalement raison de recaler trois offres du PSG et de s\'accrocher à ses 50 millions d\'euros pour Akliouche, même si le crack a déjà donné son accord de principe à Paris : un club formateur n\'a aucune obligation de brader sa pépite au voisin le plus riche de France.',
+    pour: 46,
+    answers: {
+      passionne: 'Un crack formé de A à Z qui vaut de l\'or sur le marché, le laisser filer sous le prix parce que c\'est le PSG qui frappe à la porte, ce serait cracher sur des années de travail de la formation monégasque : Monaco a mille fois raison de ne rien lâcher.',
+      objectif: 'Trois offres repoussées, la dernière autour de 35 millions d\'euros selon L\'Équipe, pour un joueur valorisé 50 millions par son club alors que Monaco doit récupérer jusqu\'à 150 millions d\'euros cet été pour équilibrer ses comptes : sur le plan purement comptable, tenir la ligne a un sens évident.',
+      dubitatif: 'Rien n\'est cassé, Akliouche a donné son accord de principe et Monaco attend une quatrième offre du PSG : trop tôt pour parler de bras de fer, ce dossier peut se conclure en 48 heures.',
+      nuance: 'Monaco a parfaitement le droit de défendre la valeur de sa pépite, mais laisser traîner un dossier alors que le joueur a déjà la tête à Paris finit aussi par abîmer la fin de son mercato et sa relation avec lui.',
+      nostalgique: 'Avant, un crack de l\'ASM partait au PSG dans la discrétion d\'un communiqué commun, pas après trois offres recalées publiquement et un feuilleton qui traîne depuis des semaines.',
+      provocateur: 'Prochaine étape logique pour Monaco : vendre Akliouche aux enchères en direct sur Twitch, au moins tout le monde saura enfin où s\'arrête vraiment le curseur.',
+    },
+  },
+  {
     id: 'barcola-refus-prolongation-psg-2026-07-27',
     date: '2026-07-27',
     cat: 'Mercato',
