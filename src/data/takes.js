@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-deschamps-pas-de-contact-2026-07-29',
+    date: '2026-07-29',
+    cat: 'Équipe de France',
+    text: 'Zidane a totalement raison de snober tout échange avec Deschamps avant de prendre officiellement les Bleus le 1er août : après quatorze ans de vestiaire et un divorce jamais vraiment digéré entre les deux hommes, une passation de courtoisie devant les caméras n\'aurait été qu\'une comédie inutile.',
+    pour: 44,
+    answers: {
+      passionne: 'Zidane ne doit strictement rien à un type qui l\'a snobé pendant des années et n\'a jamais vraiment défendu sa candidature en public : zéro embrassade hypocrite devant les caméras, direct au travail avec son propre groupe.',
+      objectif: 'Conférence de presse le 28 juillet, prise de fonction actée au 1er août, contrat de quatre ans signé et aucun échange programmé entre les deux hommes selon leurs propres mots : la fédération n\'a organisé aucune cérémonie de passation, ce qui tranche avec les précédents changements de sélectionneur en France.',
+      dubitatif: 'Ça ne coûte rien d\'attendre la première liste de Zidane pour la Ligue des Nations en septembre avant de crier au clash : un silence protocolaire n\'a jamais empêché un vestiaire de tourner correctement.',
+      nuance: 'Que Zidane veuille construire son propre projet sans l\'ombre de Deschamps se comprend très bien, mais ignorer publiquement quatorze ans de service et deux finales de Coupe du monde envoie quand même un signal froid aux joueurs qui ont vécu cette histoire à ses côtés.',
+      nostalgique: 'Avant, un sélectionneur sortant recevait son successeur en personne et lui remettait symboliquement les clés du vestiaire ; aujourd\'hui, on apprend par la presse que les deux légendes ne prévoient même pas un coup de fil de politesse.',
+      provocateur: 'Prochaine étape logique : Zidane fait changer les serrures de Clairefontaine et Deschamps découvre sa mise à la porte en lisant L\'Équipe comme tout le monde.',
+    },
+  },
+  {
     id: 'akliouche-monaco-refuse-psg-2026-07-28',
     date: '2026-07-28',
     cat: 'Mercato',
