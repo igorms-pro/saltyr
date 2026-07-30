@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'ferran-torres-revirement-psg-2026-07-30',
+    date: '2026-07-30',
+    cat: 'Mercato',
+    text: 'Ferran Torres a totalement raison de foncer vers un contrat de cinq ans au PSG un mois à peine après avoir juré en conférence de presse que le club « ne l\'intéressait pas » : dans le mercato, personne n\'est tenu responsable de ce qu\'il a dit avant que l\'argent soit sur la table.',
+    pour: 46,
+    answers: {
+      passionne: 'Un joueur n\'a aucune dette de sincérité envers les journalistes pendant un mercato : si le PSG met cinq ans de contrat et une hausse de salaire de 25% sur la table, Ferran Torres aurait été fou de refuser juste pour rester cohérent avec une phrase balancée en conférence de presse.',
+      objectif: 'Un accord de principe sur cinq ans avec 25% de hausse salariale selon les informations parues fin juillet, un Barça qui réclame entre 45 et 50 millions d\'euros que Paris n\'a pas encore validés, et une clause de 7 à 8 millions dus à Manchester City qui pousse justement le Barça à vendre plutôt qu\'à prolonger : le dossier tient plus à la mécanique financière qu\'à une trahison personnelle.',
+      dubitatif: 'Rien n\'est signé, le prix n\'est toujours pas arrêté entre les deux clubs et Torres n\'a confirmé aucun accord personnellement : trop tôt pour parler de revirement quand ce n\'est encore qu\'un accord de principe qui peut capoter sur le prix.',
+      nuance: 'Torres a parfaitement le droit de changer d\'avis quand une offre concrète à cinq ans arrive sur la table, mais démentir aussi sèchement l\'intérêt du PSG en juin pour signer en juillet abîme quand même un peu la parole donnée en conférence de presse.',
+      nostalgique: 'Avant, un joueur qui niait tout intérêt pour un club le faisait vraiment, pas juste le temps de calmer les négociations avec son club actuel et de faire baisser la pression sur son transfert.',
+      provocateur: 'Prochaine étape logique pour Ferran Torres : une deuxième conférence de presse pour jurer que le maillot du PSG « ne l\'intéresse pas » non plus, juste avant de poser avec devant les caméras du Parc des Princes.',
+    },
+  },
+  {
     id: 'zidane-deschamps-pas-de-contact-2026-07-29',
     date: '2026-07-29',
     cat: 'Équipe de France',
