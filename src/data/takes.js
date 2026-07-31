@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'abline-depart-monaco-2026-07-31',
+    date: '2026-07-31',
+    cat: 'Mercato',
+    text: 'Matthis Abline a totalement raison de filer à l\'AS Monaco pour 30 millions d\'euros à peine trois mois après la relégation du FC Nantes en Ligue 2 : un joueur ne doit rien à un club qui vient de sombrer, surtout avec un contrat de cinq ans qui l\'attend jusqu\'en 2031.',
+    pour: 47,
+    answers: {
+      passionne: 'Un club relégué ne mérite aucune loyauté forcée : Abline s\'est construit une carrière, pas un pacte de sang avec la Beaujoire, il aurait été fou de refuser Monaco pour aller jouer en Ligue 2.',
+      objectif: '25 millions d\'euros plus 5 de bonus, plus gros transfert de l\'histoire du club, contrat de cinq ans jusqu\'en 2031 : les chiffres parlent tout seuls, Nantes encaisse et Abline monte en gamme.',
+      dubitatif: 'Attendons de le voir jouer une saison pleine à Monaco avant de crier au génie du mercato, un chèque record ne garantit jamais une place de titulaire.',
+      nuance: 'Il a parfaitement le droit de partir, mais il y a quand même quelque chose d\'amer à voir son buteur formé au club filer pile au moment où la Beaujoire a le plus besoin de lui.',
+      nostalgique: 'Avant, un buteur formé au club restait se battre pour la remontée, aujourd\'hui le premier gros chèque suffit à faire disparaître le maillot formateur.',
+      provocateur: 'Le seul souvenir qu\'Abline laissera à Nantes, c\'est la ligne "25M€" tout en haut du bilan comptable de la saison en Ligue 2.',
+    },
+  },
+  {
     id: 'ferran-torres-revirement-psg-2026-07-30',
     date: '2026-07-30',
     cat: 'Mercato',
