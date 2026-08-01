@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'kolo-muani-vente-juventus-perte-2026-08-01',
+    date: '2026-08-01',
+    cat: 'Mercato',
+    text: 'Le PSG a totalement raison de brader Kolo Muani à la Juventus pour 40 à 45 millions d\'euros, plus de 50 millions de moins que les 95 millions payés à Francfort en 2023 : mieux vaut couper les pertes maintenant sur un attaquant relégué au rang de doublure que s\'accrocher à un prix d\'achat qui n\'existe plus.',
+    pour: 47,
+    answers: {
+      passionne: 'Un avant-centre payé 95 millions qui termine troisième choix derrière deux prêts ratés à la Juve puis à Tottenham, le PSG n\'a strictement rien à perdre à s\'en débarrasser aujourd\'hui même à moitié prix : s\'entêter une saison de plus aurait été la vraie erreur.',
+      objectif: '95 millions d\'euros payés à l\'Eintracht Francfort en 2023, entre 40 et 45 millions récupérés à la Juventus trois ans plus tard après deux prêts consécutifs : le PSG encaisse une moins-value de plus de 50 millions d\'euros sur l\'un des plus gros transferts de son histoire.',
+      dubitatif: 'La visite médicale n\'a même pas encore eu lieu et rien n\'est signé, attendons que le dossier soit officiellement bouclé avant de parler de fiasco ou de soulagement sur ce feuilleton qui traîne depuis deux étés.',
+      nuance: 'Couper court à un feuilleton qui plombe le vestiaire depuis deux ans a du sens, mais brader pour moins de la moitié du prix d\'achat un international français encore jeune en dit long sur un recrutement raté à la base.',
+      nostalgique: 'Avant, un attaquant recruté pour 95 millions d\'euros restait au minimum titulaire une saison pleine avant qu\'on envisage de le vendre à moitié prix, aujourd\'hui deux prêts ratés suffisent à effacer le plus gros chèque du mercato.',
+      provocateur: 'Prochaine étape logique pour le PSG : refourguer Kolo Muani à la Juventus avec un ballon et deux maillots en cadeau bonus, histoire d\'écouler le stock plus vite.',
+    },
+  },
+  {
     id: 'abline-depart-monaco-2026-07-31',
     date: '2026-07-31',
     cat: 'Mercato',
