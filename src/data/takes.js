@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'akliouche-psg-monaco-accord-2026-08-02',
+    date: '2026-08-02',
+    cat: 'Mercato',
+    text: 'Le PSG a totalement raison d\'arracher Maghnes Akliouche à Monaco pour 50 millions d\'euros après deux ans de drague et quatre offres refusées : un champion de France peut se permettre de dégainer le chèque qui fait plier n\'importe quel club, même un rival direct du podium de Ligue 1.',
+    pour: 45,
+    answers: {
+      passionne: 'Akliouche a explosé aux yeux de toute l\'Europe sous le maillot de Monaco, il aurait été fou de refuser le PSG et la Ligue des champions pour continuer à jouer les seconds rôles sur le Rocher.',
+      objectif: '50 millions d\'euros, quatre offres refusées en deux ans, contrat courant jusqu\'en 2028 à Monaco : le PSG a fini par payer le prix fort pour un joueur que le club du Rocher n\'avait objectivement plus intérêt sportif à retenir.',
+      dubitatif: 'Ni la visite médicale ni la signature officielle ne sont bouclées à ce stade, attendons l\'annonce conjointe des deux clubs avant de parler de transfert acté sur ce dossier qui traîne depuis deux étés.',
+      nuance: 'Monaco encaisse un joli chèque et Akliouche monte en Ligue des champions, mais vendre son capitaine à un rival direct du podium fragilise quand même le projet sportif du Rocher pour la saison qui vient.',
+      nostalgique: 'Avant, un club qui visait le podium gardait son meilleur joueur une saison de plus pour se battre, aujourd\'hui le premier gros chèque du PSG suffit à vider le vestiaire d\'en face.',
+      provocateur: 'Prochaine étape logique pour le PSG : envoyer un chèque en blanc à chaque club de Ligue 1 chaque été, ça ira plus vite que d\'attendre la fin du mercato.',
+    },
+  },
+  {
     id: 'kolo-muani-vente-juventus-perte-2026-08-01',
     date: '2026-08-01',
     cat: 'Mercato',
