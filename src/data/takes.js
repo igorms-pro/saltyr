@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'sangare-lens-brentford-48m-2026-08-03',
+    date: '2026-08-03',
+    cat: 'Mercato',
+    text: 'Le RC Lens a totalement raison de vendre Mamadou Sangaré à Brentford pour 48 millions d\'euros, un an à peine après l\'avoir acheté 8 millions à Rapid Vienne : une plus-value de 40 millions sur un joueur d\'à peine un an de maison, ça vaut largement le sacrifice sportif pour un club de ce standing.',
+    pour: 46,
+    answers: {
+      passionne: 'Un an après son arrivée, Sangaré rapporte six fois son prix d\'achat : un club comme Lens n\'a strictement aucune raison de refuser un chèque pareil, même si ça fait mal de le voir partir aussi vite.',
+      objectif: 'Acheté 8 millions d\'euros à Rapid Vienne à l\'été 2025, revendu 48 millions hors bonus à Brentford un an plus tard avec un pourcentage à la revente : plus grosse vente de l\'histoire du RC Lens, plus gros achat de l\'histoire de Brentford.',
+      dubitatif: 'Le contrat est signé et l\'accord officialisé, mais reste à voir si Lens sait réinvestir ces 40 millions de plus-value sur le terrain avant de parler de coup de maître.',
+      nuance: 'Empocher 40 millions de plus-value en un an sur un joueur acheté 8, c\'est une gestion en or, mais priver l\'équipe de son meilleur milieu à peine intégré fragilise quand même l\'ambition européenne du club pour la saison qui vient.',
+      nostalgique: 'Avant, un joueur qui répétait aimer son club et vouloir y rester une saison de plus tenait parole au moins jusqu\'à l\'été suivant, aujourd\'hui 48 millions d\'euros suffisent à effacer un an d\'attachement affiché.',
+      provocateur: 'Prochaine étape logique pour Lens : racheter un joueur 8 millions chaque été puis le revendre 48 la saison suivante, ça ferait un meilleur bilan comptable que n\'importe quel titre européen.',
+    },
+  },
+  {
     id: 'akliouche-psg-monaco-accord-2026-08-02',
     date: '2026-08-02',
     cat: 'Mercato',
