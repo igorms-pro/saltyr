@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'om-mercato-zero-recrue-2026-08-04',
+    date: '2026-08-04',
+    cat: 'Mercato',
+    text: 'L\'Olympique de Marseille a totalement raison de n\'annoncer aucune recrue en équipe première depuis l\'ouverture du mercato, une première au XXIe siècle pour le club, plutôt que de céder à la pression des supporters en dépensant de l\'argent qu\'il n\'a pas : avec 104 millions d\'euros de déficit et 10 millions d\'amende UEFA sur le dos, mieux vaut un mercato silencieux début août qu\'un club otage du fair-play financier une saison de plus.',
+    pour: 43,
+    answers: {
+      passionne: 'Un club à 104 millions de déficit et déjà sanctionné par l\'UEFA n\'a strictement aucune excuse à claquer du cash pour calmer les ultras : mieux vaut un mercato vide en août qu\'un fair-play financier qui explose en plein vol en février.',
+      objectif: '104 millions d\'euros de déficit, 10 millions d\'amende UEFA pour non-respect du fair-play financier, zéro recrue en équipe première au 1er août : une première pour l\'OM au XXIe siècle, confirmée par plusieurs médias sportifs.',
+      dubitatif: 'Le mercato ferme fin août, pas début : attendons de voir si l\'OM sait vendre puis recruter vite avant de parler de stratégie payante ou de fiasco version 2026.',
+      nuance: 'Vendre avant d\'acheter est une gestion saine sur le papier, mais un grand club comme l\'OM qui aborde août sans le moindre renfort prend aussi le risque de rater sa préparation de saison.',
+      nostalgique: 'Avant, l\'OM annonçait ses recrues dès la fin juin à coups de conférences de presse et de fumigènes au Vélodrome, aujourd\'hui le club en est à justifier un mercato vide par un tableau Excel.',
+      provocateur: 'Prochaine étape logique pour l\'OM : vendre la billetterie de la saison comme un pack "suspense mercato inclus", vu que le seul frisson garanti cet été, c\'est d\'attendre une signature qui n\'arrive jamais.',
+    },
+  },
+  {
     id: 'sangare-lens-brentford-48m-2026-08-03',
     date: '2026-08-03',
     cat: 'Mercato',
