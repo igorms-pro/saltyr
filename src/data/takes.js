@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'barcola-veut-quitter-psg-2026-08-05',
+    date: '2026-08-05',
+    cat: 'Mercato',
+    text: 'Bradley Barcola a totalement raison de vouloir claquer la porte du PSG cet été malgré l\'opposition ferme de Luis Enrique et malgré un contrat courant jusqu\'en 2028 : un ailier de 23 ans qui a refusé la dernière offre de prolongation a parfaitement le droit de réclamer un vrai statut de titulaire ailleurs plutôt que de patienter sur le banc parisien.',
+    pour: 47,
+    answers: {
+      passionne: 'Barcola n\'a plus rien à prouver à Paris : à 23 ans, avec Liverpool et Arsenal prêts à en faire un titulaire indiscutable, rester sagement sur le banc du PSG serait le vrai gâchis de carrière.',
+      objectif: 'Sous contrat jusqu\'en juin 2028, dernière offre de prolongation refusée il y a trois mois, intérêt concret de Liverpool et d\'Arsenal confirmé par plusieurs sources : Barcola a clairement fait son choix, reste à savoir si le PSG acceptera de le laisser filer cet été.',
+      dubitatif: 'Aucune offre officielle n\'est encore arrivée sur le bureau du PSG et Luis Enrique s\'accroche publiquement à son joueur : attendons une proposition concrète avant de parler de départ acté pour Barcola.',
+      nuance: 'Barcola a parfaitement le droit de réclamer plus de temps de jeu, mais claquer la porte d\'un club qui l\'a fait exploser et où son entraîneur le juge indispensable pour filer vers l\'inconnu en Premier League reste un pari risqué à 23 ans.',
+      nostalgique: 'Avant, un jeune formé à l\'ambition parisienne se battait deux saisons de plus pour arracher sa place de titulaire plutôt que de foncer vers l\'Angleterre au premier désaccord avec son entraîneur.',
+      provocateur: 'Prochaine étape logique pour Barcola : envoyer sa demande de transfert par SMS collectif à Liverpool, Arsenal et deux autres clubs, histoire de voir lequel répond le plus vite.',
+    },
+  },
+  {
     id: 'om-mercato-zero-recrue-2026-08-04',
     date: '2026-08-04',
     cat: 'Mercato',
