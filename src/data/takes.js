@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-selectionneur-sans-experience-2026-08-06',
+    date: '2026-08-06',
+    cat: 'Équipe de France',
+    text: 'La FFF a totalement raison d\'avoir nommé Zinedine Zidane sélectionneur des Bleus alors qu\'il n\'a plus dirigé le moindre vestiaire depuis son départ du Real Madrid en 2021 : l\'aura d\'une légende triple championne d\'Europe sur le banc vaut largement plus que l\'expérience fraîche d\'un technicien qui n\'a jamais rien gagné avec une sélection.',
+    pour: 46,
+    answers: {
+      passionne: 'Zidane, c\'est trois Ligues des champions de suite sur le banc du Real et une aura que personne d\'autre sur le marché ne pouvait apporter aux Bleus : le vestiaire va se mettre au garde-à-vous rien qu\'en le voyant entrer, cinq ans sans coacher ou pas.',
+      objectif: 'Nommé le 28 juillet 2026 après la 4e place des Bleus au Mondial, Zidane n\'a plus dirigé une équipe depuis son départ du Real Madrid en mai 2021, soit cinq ans sans le moindre banc, malgré trois titres de Ligue des champions consécutifs entre 2016 et 2018.',
+      dubitatif: 'Son premier vrai test arrive fin septembre contre la Turquie en Ligue des Nations : attendons de voir Zidane sur un banc avant de crier au génie ou à l\'erreur de casting.',
+      nuance: 'Le charisme et le palmarès de joueur puis d\'entraîneur au Real sont réels, mais cinq ans sans diriger le moindre groupe est un vrai trou d\'air qu\'aucune légende ne peut totalement effacer en équipe de France.',
+      nostalgique: 'Avant, un sélectionneur gravissait les échelons pendant des années sur un banc de club avant de mériter les Bleus, aujourd\'hui une légende peut débarquer directement en équipe nationale sans avoir coaché depuis cinq ans.',
+      provocateur: 'Prochaine étape logique pour la FFF : si l\'aura suffit à faire un bon sélectionneur, autant proposer le maillot de capitaine à la statue de Zidane devant le Parc des Princes, elle aussi n\'a jamais perdu un seul match.',
+    },
+  },
+  {
     id: 'barcola-veut-quitter-psg-2026-08-05',
     date: '2026-08-05',
     cat: 'Mercato',
