@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mccourt-agence-anti-lyon-2026-08-07',
+    date: '2026-08-07',
+    cat: 'Clubs',
+    text: 'Frank McCourt a totalement raison d\'avoir fait payer une agence anglaise pour multiplier les articles assassins contre l\'Olympique Lyonnais dans la presse britannique : en 2026, la guerre de communication contre un rival direct au classement fait partie du jeu, exactement comme le mercato ou les résultats sur le terrain.',
+    pour: 45,
+    answers: {
+      passionne: 'Le foot moderne c\'est aussi une guerre de communication permanente entre clubs rivaux : McCourt a juste eu les moyens et le culot de faire ce que tout le monde fait déjà en coulisses sans jamais l\'assumer.',
+      objectif: 'Selon les révélations du journaliste Romain Molina, l\'agence Image 7 a fait appel à une société anglaise pour publier des articles négatifs sur l\'OL dans la presse britannique : une pratique de dénigrement documentée, pas une simple rumeur de vestiaire.',
+      dubitatif: 'Ce sont pour l\'instant les accusations d\'un seul journaliste dans une vidéo YouTube, ni McCourt ni Image 7 n\'ont confirmé publiquement les faits : attendons une preuve tangible avant de parler de complot avéré.',
+      nuance: 'Que les clubs se tirent la bourre en coulisses n\'a rien de nouveau dans le foot business, mais payer sciemment pour salir l\'image d\'un concurrent français à l\'étranger dépasse largement le simple jeu habituel des petites phrases.',
+      nostalgique: 'Avant, la rivalité OM-OL se réglait à coups de crampons à Gerland ou au Vélodrome, pas via une agence de communication planquée à Londres.',
+      provocateur: 'Prochaine étape logique pour McCourt : sponsoriser directement une saison catastrophique de l\'OL, ça reviendrait sûrement moins cher qu\'une agence de presse anglaise.',
+    },
+  },
+  {
     id: 'zidane-selectionneur-sans-experience-2026-08-06',
     date: '2026-08-06',
     cat: 'Équipe de France',
