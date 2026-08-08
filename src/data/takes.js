@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'benatia-blame-joueurs-om-2026-08-08',
+    date: '2026-08-08',
+    cat: 'Clubs',
+    text: 'Medhi Benatia a totalement raison de pointer du doigt les joueurs de l\'OM, filmés en train de danser et de chanter pendant le stage de préparation en Côte d\'Ivoire, plutôt que d\'endosser seul la responsabilité de l\'échec sportif du club la saison dernière.',
+    pour: 46,
+    answers: {
+      passionne: 'Un directeur sportif qui voit ses joueurs faire la fête en pleine préparation avant une saison qui vire au fiasco a parfaitement le droit de le dénoncer publiquement : Benatia n\'a fait que dire tout haut ce que tout Marseille pensait tout bas.',
+      objectif: 'Dans son entretien à France Football publié ce samedi, Benatia reconnaît avoir « échoué » à maintenir le club en Ligue des champions, tout en évoquant des images de joueurs « en train de danser, de chanter » lors du stage à Abidjan : un mea culpa partiel assorti de reproches très concrets, pas une simple sortie d\'humeur.',
+      dubitatif: 'Ni les joueurs concernés ni Pablo Longoria n\'ont encore répondu publiquement à ces accusations : attendons de voir qui confirme ou dément avant de trancher sur qui porte vraiment le chapeau de l\'échec de l\'OM.',
+      nuance: 'Benatia a raison de pointer un vrai problème de discipline et d\'implication dans le vestiaire, mais il reste avant tout le directeur sportif qui a construit cet effectif et laissé filer De Zerbi : dénoncer les joueurs n\'efface pas sa propre part de responsabilité.',
+      nostalgique: 'Avant, un directeur sportif qui avait un différend avec ses joueurs réglait ça à huis clos dans le vestiaire, pas dans une interview accordée à France Football des mois après son départ du club.',
+      provocateur: 'Prochaine étape logique pour l\'OM : imposer un couvre-feu strict et un contrôle des réseaux sociaux dès le prochain stage, ça évitera au futur directeur sportif de devoir se justifier a posteriori dans la presse.',
+    },
+  },
+  {
     id: 'mccourt-agence-anti-lyon-2026-08-07',
     date: '2026-08-07',
     cat: 'Clubs',
