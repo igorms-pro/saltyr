@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'akliouche-psg-monaco-2026-08-09',
+    date: '2026-08-09',
+    cat: 'Mercato',
+    text: 'Le PSG a totalement raison d\'avoir mis 50 millions d\'euros sur la table pour arracher Maghnes Akliouche à l\'AS Monaco, son adversaire direct en Ligue des champions et en Ligue 1 la saison dernière : quand on a les moyens financiers d\'affaiblir son meilleur concurrent tout en renforçant son propre effectif, ce serait absurde de s\'en priver.',
+    pour: 44,
+    answers: {
+      passionne: 'Akliouche a fait souffrir le PSG toute la saison dernière avec Monaco, alors autant récupérer le poison plutôt que de continuer à se le prendre en pleine figure deux fois par an : Paris a juste fait le choix du plus fort.',
+      objectif: 'Après quatre offres étalées sur deux ans, dont une de 45 M€ refusée par Monaco, le PSG a fini par boucler le transfert à 50 M€ : Akliouche, buteur et passeur décisif face au PSG lors du barrage de Ligue des champions remporté 5-4 par Paris, signe désormais cinq ans chez son ancien adversaire.',
+      dubitatif: 'Akliouche n\'a encore joué aucune minute sous le maillot parisien et devra confirmer face à une concurrence bien plus rude qu\'à Monaco : attendons de le voir sur le terrain avant de crier au coup de maître mercato.',
+      nuance: 'Payer 50 M€ pour un crack qui a fait mal au PSG en Ligue des champions est un pari cohérent sur le papier, mais affaiblir année après année ses rivaux directs en Ligue 1 finit aussi par appauvrir la compétitivité du championnat.',
+      nostalgique: 'Avant, un crack révélé à l\'AS Monaco poursuivait sa carrière deux ou trois saisons de plus dans son club formateur avant d\'espérer rejoindre un géant européen, pas dès qu\'il commence à faire mal au PSG en Ligue des champions.',
+      provocateur: 'Prochaine étape logique pour le PSG : proposer à Monaco un forfait annuel pour racheter automatiquement leur meilleur joueur de la saison, ça évitera de perdre deux ans en négociations à chaque été.',
+    },
+  },
+  {
     id: 'benatia-blame-joueurs-om-2026-08-08',
     date: '2026-08-08',
     cat: 'Clubs',
