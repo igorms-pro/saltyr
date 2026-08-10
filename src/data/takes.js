@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'om-mercato-vide-2026-08-10',
+    date: '2026-08-10',
+    cat: 'Mercato',
+    text: 'L\'OM a totalement raison de ne recruter personne à dix jours de la reprise plutôt que de céder à la panique et de payer le prix fort pour le premier profil disponible : mieux vaut un mercato silencieux qu\'un mercato de la peur qui plombe l\'effectif pour trois saisons.',
+    pour: 42,
+    answers: {
+      passionne: 'Mieux vaut zéro recrue que trois flops payés en catastrophe comme les étés précédents : Longoria a enfin compris qu\'un mercato raté coûte plus cher qu\'un mercato en retard.',
+      objectif: 'Depuis l\'ouverture du mercato estival, l\'OM a vu partir Mason Greenwood, Hamed Traoré et Pierre-Emerick Aubameyang sans recruter le moindre joueur, à dix jours de la réception de Strasbourg pour le coup d\'envoi de la Ligue 1 le 22 août.',
+      dubitatif: 'Le mercato ferme fin août, pas le 10 : attendons de voir si Longoria boucle ses dossiers dans les dix derniers jours avant de parler de plan calculé ou de fiasco pur et simple.',
+      nuance: 'Ne pas céder à la panique et refuser de payer trois fois le prix d\'un joueur a du sens sur le papier, mais laisser Bruno Genesio préparer une saison entière avec un effectif amputé de trois départs et zéro renfort est un pari terriblement risqué.',
+      nostalgique: 'Avant, l\'OM bouclait ses gros dossiers dès juillet pour donner une vraie pré-saison au groupe, aujourd\'hui le club attend la dernière semaine d\'août pour ouvrir enfin son porte-monnaie.',
+      provocateur: 'Prochaine étape logique pour Longoria : aligner directement l\'équipe réserve contre Strasbourg le jour de la reprise, au moins ça évitera de payer une prime à la signature.',
+    },
+  },
+  {
     id: 'akliouche-psg-monaco-2026-08-09',
     date: '2026-08-09',
     cat: 'Mercato',
