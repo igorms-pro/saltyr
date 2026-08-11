@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'om-vend-medina-leverkusen-2026-08-11',
+    date: '2026-08-11',
+    cat: 'Mercato',
+    text: 'L\'OM a totalement raison de céder Facundo Medina, son meilleur défenseur de la saison passée, au Bayer Leverkusen contre 25 millions d\'euros à peine un an après l\'avoir récupéré libre de Lens : dans un club obligé de vendre pour équilibrer ses comptes, empocher une grosse plus-value sur un joueur à son pic vaut toujours mieux que de le voir se déprécier ou partir libre plus tard.',
+    pour: 43,
+    answers: {
+      passionne: 'Encaisser 25 millions sur un mec récupéré gratuitement il y a un an, c\'est du génie pur : Longoria a raison de vendre au sommet plutôt que d\'attendre que la cote de Medina redescende sur terre.',
+      objectif: 'Arrivé libre de Lens l\'été dernier, Facundo Medina a été l\'un des rares cadres solides de la défense marseillaise la saison passée ; il file désormais au Bayer Leverkusen contre environ 25 M€, pour un contrat courant jusqu\'en 2031, à dix jours de la reprise de la Ligue 1.',
+      dubitatif: 'Tout dépend de qui Longoria ramène pour le remplacer dans les dix jours restants avant Strasbourg : sans renfort défensif digne de ce nom, cette plus-value sur le papier peut vite devenir un trou béant en défense.',
+      nuance: 'Vendre au sommet un joueur récupéré libre a une vraie logique comptable, mais se priver de son meilleur défenseur juste avant le coup d\'envoi de la saison est un risque sportif que peu de clubs ambitieux prendraient de gaieté de cœur.',
+      nostalgique: 'Avant, un défenseur qui s\'imposait enfin dans le vestiaire restait au moins deux ou trois saisons pour construire quelque chose, pas un an tout pile avant d\'être vendu au plus offrant.',
+      provocateur: 'Prochaine étape logique pour l\'OM : vendre aussi le maillot floqué Medina en édition limitée avant qu\'il ne quitte définitivement le Vélodrome, autant rentabiliser jusqu\'au bout.',
+    },
+  },
+  {
     id: 'om-mercato-vide-2026-08-10',
     date: '2026-08-10',
     cat: 'Mercato',
