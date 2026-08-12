@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'monaco-resilie-pogba-2026-08-12',
+    date: '2026-08-12',
+    cat: 'Mercato',
+    text: 'Monaco a totalement raison de mettre un terme au contrat de Paul Pogba un an avant son échéance plutôt que de continuer à payer un pari sportif qui a clairement échoué : après seulement six titularisations et 115 minutes jouées en Ligue 1 depuis son retour de suspension pour dopage, prolonger l\'aventure n\'aurait fait que retarder l\'inévitable.',
+    pour: 45,
+    answers: {
+      passionne: 'Un an, six titularisations, 115 minutes : Monaco n\'a pas viré un champion du monde, le club a juste arrêté de payer un rêve qui ne reviendra jamais. Fallait couper bien avant.',
+      objectif: 'Arrivé libre en mars 2025 après sa suspension pour dopage, Paul Pogba n\'a disputé que 115 minutes en Ligue 1 pour six apparitions sous le maillot monégasque ; la direction a informé ses représentants de la rupture il y a trois semaines, avant même sa nouvelle blessure à la cuisse à l\'entraînement.',
+      dubitatif: 'Attendons de voir les termes financiers de la rupture et surtout ce que Pogba fait de sa liberté retrouvée avant de juger si Monaco a vraiment fait le bon choix, sportif comme financier.',
+      nuance: 'Le bilan sportif est sans appel, mais couper les ponts avec un champion du monde revenu de si loin après une suspension pour dopage n\'est jamais une simple ligne comptable à régler froidement.',
+      nostalgique: 'Le gamin qui enflammait Old Trafford et soulevait la Coupe du monde en 2018, le voir réduit à 115 minutes en un an avant d\'être remercié, ça fait mal au cœur pour tout ce qu\'il a représenté.',
+      provocateur: 'Prochaine étape logique pour Pogba : signer un contrat dans l\'e-sport, au moins là-bas il pourra cumuler plus de 115 minutes de jeu par an.',
+    },
+  },
+  {
     id: 'om-vend-medina-leverkusen-2026-08-11',
     date: '2026-08-11',
     cat: 'Mercato',
