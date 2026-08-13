@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-torres-145m-ete-2026-08-13',
+    date: '2026-08-13',
+    cat: 'Mercato',
+    text: 'Le PSG a totalement raison d\'officialiser la signature de Ferran Torres pour environ 50 millions d\'euros ce jeudi, portant à près de 145 millions d\'euros ses dépenses de l\'été avec les arrivées de Mika Godts et Zion Suzuki, alors que le club reste champion d\'Europe en titre : quand on domine déjà le football continental, la vraie erreur serait de lever le pied plutôt que d\'enfoncer le clou pendant que la concurrence encaisse.',
+    pour: 41,
+    answers: {
+      passionne: 'Champion d\'Europe en titre qui continue de rafler les meilleurs joueurs du marché pendant que tout le monde regarde impuissant, c\'est exactement ce que doit faire un club qui veut écraser la concurrence pour dix ans, pas juste pour une saison.',
+      objectif: 'Ferran Torres arrive contre environ 50 M€, un peu plus de deux semaines après avoir démenti tout intérêt pour le PSG en conférence de presse ; combinée aux arrivées de Mika Godts (60 M€) et Zion Suzuki (35 M€), la facture de l\'été parisien avoisine les 145 millions d\'euros, à moins de trois semaines de la clôture du mercato le 1er septembre.',
+      dubitatif: 'Torres a signé un contrat, pas encore marqué un but ni délivré une passe décisive sous le maillot parisien : attendons de le voir exister face à la concurrence interne avant de parler de coup de maître à 50 millions.',
+      nuance: 'Recruter le buteur du titre mondial espagnol pour muscler un secteur offensif déjà dense a une vraie logique sportive, mais dépenser 145 millions en un été quand on est déjà champion d\'Europe en titre interroge aussi sur l\'équilibre financier du foot français dans son ensemble.',
+      nostalgique: 'Avant, un club qui venait de gagner la Ligue des champions savourait son titre une saison de plus avant de rebâtir en douceur, aujourd\'hui il faut déjà claquer 145 millions d\'euros trois semaines après la remise du trophée pour rester au sommet.',
+      provocateur: 'Prochaine étape logique pour le PSG : renommer le mercato « abonnement Netflix », vu le rythme auquel le club ajoute un nouveau blockbuster à son catalogue chaque semaine.',
+    },
+  },
+  {
     id: 'monaco-resilie-pogba-2026-08-12',
     date: '2026-08-12',
     cat: 'Mercato',
