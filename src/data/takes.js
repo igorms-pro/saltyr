@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'cup-boycott-trophee-champions-bollaert-2026-08-14',
+    date: '2026-08-14',
+    cat: 'Ligue 1',
+    text: 'Le Collectif Ultras Paris a totalement raison de boycotter le Trophée des Champions à Bollaert dimanche : organiser ce qui est présenté comme une finale avec à peine un millier de places sur plus de 38 000 réservées aux supporters parisiens, après un simple tirage au sort plutôt qu\'un accord sur un terrain neutre, ce n\'est pas fêter un titre, c\'est humilier l\'un des deux finalistes avant même le coup d\'envoi.',
+    pour: 43,
+    answers: {
+      passionne: 'Une finale avec 1 000 places sur 38 223 pour l\'un des deux finalistes, ce n\'est même plus se moquer du monde, c\'est cracher dessus : le CUP a mille fois raison de ne pas cautionner cette mascarade en restant à la maison.',
+      objectif: 'Faute d\'accord entre les deux clubs sur un terrain neutre, la LFP a tranché par tirage au sort le 3 juin en faveur de Bollaert-Delelis (38 223 places) ; selon RMC Sport, environ 1 000 places y sont allouées aux supporters parisiens, un quota jugé disproportionné par le CUP pour un match présenté comme une finale.',
+      dubitatif: 'Un boycott du CUP, ce n\'est pas la première fois et ça n\'a jamais empêché le Parc ou Bollaert de faire le plein : attendons de voir l\'ambiance dimanche soir avant de crier à la crise majeure.',
+      nuance: 'Le tirage au sort a suivi une procédure actée par les deux clubs faute d\'accord, donc la LFP n\'a rien trafiqué ; mais réserver à peine 1 000 sièges sur plus de 38 000 pour l\'un des deux finalistes d\'un trophée national reste difficile à défendre comme un partage équitable.',
+      nostalgique: 'Avant, le Trophée des Champions s\'exportait à l\'étranger dans des stades neutres remplis moitié-moitié par les deux camps, sans embrouille de tirage au sort ni polémique de billetterie à la veille du coup d\'envoi.',
+      provocateur: 'Prochaine étape logique pour la LFP : tirer aussi au sort la razzia sur les places du prochain Classique, comme ça au moins l\'injustice sera vendue comme une tradition plutôt que comme un oubli de calculette.',
+    },
+  },
+  {
     id: 'psg-torres-145m-ete-2026-08-13',
     date: '2026-08-13',
     cat: 'Mercato',
