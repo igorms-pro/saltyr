@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'barcola-psg-liverpool-170m-2026-08-15',
+    date: '2026-08-15',
+    cat: 'Mercato',
+    text: 'Le PSG a totalement raison de camper sur son exigence proche de 170 millions d\'euros pour Bradley Barcola et de ne pas se satisfaire de l\'offre orale de Liverpool remontée à 125 millions dans la nuit de jeudi à vendredi : même avec un accord de principe déjà trouvé entre le joueur et les Reds, brader un international français décisif dans le sacre européen reviendrait à céder à la pression plutôt qu\'à imposer son prix.',
+    pour: 47,
+    answers: {
+      passionne: 'Barcola a aidé Paris à soulever la Ligue des champions, il n\'est pas à brader juste parce que Liverpool aligne des millions sur la table : le PSG doit tenir sa ligne jusqu\'au dernier centime ou le garder purement et simplement.',
+      objectif: 'Liverpool a relevé son offre orale à 125 M€ dans la nuit de jeudi à vendredi, un montant pouvant grimper vers 150 M€ avec bonus, mais toujours en dessous des 170 M€ réclamés par le PSG ; un accord de principe existerait déjà entre Barcola et les Reds pour un contrat jusqu\'en 2032, sans qu\'aucun document contractuel n\'ait encore été transmis à la direction parisienne.',
+      dubitatif: 'Une offre orale à 125 millions, ce n\'est ni un chèque signé ni un transfert bouclé : attendons de voir si Liverpool aligne vraiment les 170 millions demandés avant de parler de bras de fer gagné ou perdu par le PSG.',
+      nuance: 'Réclamer le prix fort pour un titulaire décisif en Ligue des champions a une vraie logique sportive et financière, mais laisser traîner un feuilleton mercato avec un joueur qui a déjà donné son accord à un club rival finit toujours par empoisonner un vestiaire à quelques jours de la reprise.',
+      nostalgique: 'Avant, un crack formé à Lyon et éclos à Paris terminait sa carrière en légende du club, aujourd\'hui il négocie sa sortie par offres orales interposées à peine trois ans après ses débuts pros.',
+      provocateur: 'Prochaine étape logique pour Liverpool : dégainer une deuxième offre orale rien que pour le prix du maillot floqué Barcola, comme ça au moins tout le monde aura négocié à voix haute jusqu\'au bout.',
+    },
+  },
+  {
     id: 'cup-boycott-trophee-champions-bollaert-2026-08-14',
     date: '2026-08-14',
     cat: 'Ligue 1',
