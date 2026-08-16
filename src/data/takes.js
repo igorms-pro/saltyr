@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'trophee-champions-bollaert-terrain-neutre-2026-08-16',
+    date: '2026-08-16',
+    cat: 'Ligue 1',
+    text: 'La LFP a totalement raison d\'avoir tranché en faveur de Bollaert pour ce Trophée des Champions : après avoir généreusement offert le Parc des Princes au PSG en 2024 face à Toulouse, il est enfin temps que la « finale » se joue aussi dans le jardin de l\'autre finaliste, même si ça complique sérieusement la billetterie côté parisien.',
+    pour: 46,
+    answers: {
+      passionne: 'Bollaert qui vibre pour une finale nationale plutôt que le Parc qui bâille pour la millième fois, c\'est exactement ce dont le Trophée des Champions avait besoin : viva le tirage au sort qui redonne enfin le frisson à cette compétition.',
+      objectif: 'En janvier 2024, le même trophée s\'était joué au Parc des Princes face à Toulouse sans polémique majeure sur l\'avantage terrain ; cette fois le tirage au sort a désigné Bollaert-Delelis (38 223 places), un stade deux fois plus petit que le Parc, ce qui explique la faible dotation de billets réservée aux socios parisiens.',
+      dubitatif: 'Un tirage au sort qui tombe pile sur le stade le plus petit et le moins pratique pour les deux camps, ça sent surtout le hasard mal embêtant plutôt qu\'un vrai principe d\'équité : attendons de voir si la LFP répète l\'expérience l\'an prochain avant d\'y croire.',
+      nuance: 'Faire tourner l\'avantage du terrain entre les deux finalistes plutôt que de toujours favoriser le club parisien a une vraie logique sportive, mais organiser une « finale » dans une enceinte deux fois plus petite que le Parc revient forcément à sacrifier une bonne partie des supporters, quel que soit leur maillot.',
+      nostalgique: 'Avant, le Trophée des Champions s\'exportait carrément à l\'étranger, à Tanger ou à Montréal, sur un terrain neutre où aucun des deux camps ne pouvait crier à l\'avantage local : aujourd\'hui on se dispute même le choix entre deux stades français.',
+      provocateur: 'Prochaine étape logique pour la LFP : organiser le tirage au sort du terrain neutre... dans le salon d\'un supporter tiré au sort lui aussi, comme ça la moitié du pays pourra crier à l\'injustice en même temps.',
+    },
+  },
+  {
     id: 'barcola-psg-liverpool-170m-2026-08-15',
     date: '2026-08-15',
     cat: 'Mercato',
