@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'pignard-double-rouge-lens-psg-trophee-2026-08-17',
+    date: '2026-08-17',
+    cat: 'Ligue 1',
+    text: 'L\'arbitre Jérémie Pignard a totalement raison d\'avoir sorti deux cartons rouges lors de la finale du Trophée des Champions à Bollaert, un pour Kyllian Antonio dès la 39e minute pour un pied haut sur Akliouche, un autre pour Nuno Mendes à la 87e pour un geste d\'énervement : appliquer la même sévérité aux deux maillots, même dans une finale à fort enjeu, c\'est exactement ce qu\'on attend d\'un arbitre, peu importe ce qu\'en pense Daniel Riolo sur RMC.',
+    pour: 47,
+    answers: {
+      passionne: 'Un pied haut c\'est un pied haut, qu\'il soit sang et or ou rouge et bleu : Pignard n\'a fait que respecter la règle des deux côtés, et ceux qui crient au scandale seulement quand ça touche leur maillot feraient bien de se regarder dans un miroir.',
+      objectif: 'Deux cartons rouges directs en un match : Antonio exclu à la 39e pour un pied haut sur Akliouche, Nuno Mendes à la 87e pour un geste sur un adversaire ; Lens a joué plus de 50 minutes en infériorité numérique avant de l\'emporter 1-0 grâce au but de Thauvin à la 32e.',
+      dubitatif: 'Deux images litigieuses, deux lectures possibles selon le camp : attendons de voir si la commission de discipline confirme ou allège ces deux exclusions avant de trancher si Pignard a vraiment eu la main juste ce soir-là.',
+      nuance: 'Sanctionner le même geste dangereux dans les deux surfaces a une vraie logique d\'équité, mais expulser un joueur à la 87e pour un simple coup de sang dans une finale déjà pliée relève d\'un zèle qui a de quoi agacer même les plus tolérants sur l\'arbitrage.',
+      nostalgique: 'Avant, un tacle un peu limite dans une finale de Trophée des Champions se réglait avec un carton jaune et une engueulade entre les deux capitaines, pas avec deux exclusions qui plombent le spectacle pendant une heure de jeu.',
+      provocateur: 'Prochaine étape logique pour la LFP : équiper Pignard d\'un distributeur automatique de cartons rouges, comme ça au moins l\'arbitrage sera enfin parfaitement équitable entre les deux équipes.',
+    },
+  },
+  {
     id: 'trophee-champions-bollaert-terrain-neutre-2026-08-16',
     date: '2026-08-16',
     cat: 'Ligue 1',
