@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'barthez-entraineur-gardiens-sans-diplome-2026-08-18',
+    date: '2026-08-18',
+    cat: 'Équipe de France',
+    text: 'Zinédine Zidane a totalement raison d\'avoir choisi Fabien Barthez comme entraîneur des gardiens des Bleus alors que l\'ancien champion du monde 98 ne possède toujours pas le diplôme CEGB requis : l\'expérience d\'une carrière entière dans les cages vaut largement un parchemin, même si Estelle Denis et Gilbert Brisbois s\'étranglent sur RMC.',
+    pour: 51,
+    answers: {
+      passionne: 'Barthez a soulevé la Coupe du monde et l\'Euro entre les poteaux, ce n\'est pas un bout de papier qui va lui apprendre à former des gardiens : Zidane a fait confiance à la légende plutôt qu\'à la paperasse, et il a mille fois raison.',
+      objectif: 'Fabien Barthez, champion du monde 1998 et champion d\'Europe 2000, a été officialisé le 13 août dans le staff de Zinédine Zidane comme entraîneur des gardiens ; selon RMC Sport, il ne possède pas encore le certificat d\'entraîneur des gardiens de but (CEGB), mais le Code du sport autorise à exercer contre rémunération dès lors que la formation a été entamée.',
+      dubitatif: 'Une dérogation légale n\'est pas un diplôme en poche : attendons de voir si Barthez décroche vraiment son CEGB dans les temps avant de crier au génie tactique de Zidane sur ce choix.',
+      nuance: 'L\'expérience de vingt ans dans les cages du Real et des Bleus a une vraie valeur pour transmettre aux gardiens, mais confier ce poste sans le diplôme requis à un ancien coéquipier de Zidane a aussi des airs de copinage qu\'on ne pardonnerait pas à n\'importe quel inconnu.',
+      nostalgique: 'Avant, un entraîneur des gardiens de l\'équipe de France passait par les diplômes fédéraux comme tout le monde, aujourd\'hui on recrute sur CV de champion du monde et on règle la paperasse après coup.',
+      provocateur: 'Prochaine étape logique pour la FFF : recruter Zidane lui-même comme préparateur physique sans diplôme non plus, tant qu\'on y est, ses trophées de joueur suffiront bien à convaincre.',
+    },
+  },
+  {
     id: 'pignard-double-rouge-lens-psg-trophee-2026-08-17',
     date: '2026-08-17',
     cat: 'Ligue 1',
