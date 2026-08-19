@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'ballon-dor-yamal-dembele-2026-08-19',
+    date: '2026-08-19',
+    cat: 'Ballon d\'Or',
+    text: 'Lamine Yamal mérite le Ballon d\'Or 2026 bien plus qu\'Ousmane Dembélé : un seul but inscrit pendant tout le Mondial ne pèse rien face à un titre mondial décroché à dix-neuf ans, même si le tenant du titre garde la plus belle vitrine de la saison en club avec le sacre du PSG en Ligue des champions.',
+    pour: 48,
+    answers: {
+      passionne: 'Champion du monde à dix-neuf ans avec en prime le titre de MVP de Liga, Yamal a écrasé la saison de la tête aux pieds : face à ça, le doublé personnel de Dembélé en Ligue des champions fait pâle figure, désolé pour le tenant du titre.',
+      objectif: 'Dembélé a inscrit six buts au Mondial dont un triplé face à la Norvège, contre un seul but pour Yamal sur tout le tournoi ; mais l\'Espagne a soulevé le trophée quand la France de Dembélé s\'est inclinée 0-2 en demi-finale face à cette même Espagne avant de terminer quatrième.',
+      dubitatif: 'France Football n\'a même pas encore dévoilé sa liste des trente nommés, alors se déchirer sur le nom du vainqueur mi-août relève surtout du pari sur cote plutôt que du pronostic informé.',
+      nuance: 'Porter son pays au sommet du monde a un poids symbolique que les statistiques individuelles ne rattraperont jamais totalement, mais réduire la saison de Dembélé à un seul but en sélection ignore un peu vite qu\'il a soulevé la Ligue des champions avec Paris quelques semaines plus tôt.',
+      nostalgique: 'Avant, le Ballon d\'Or récompensait une saison entière en club regardée à la loupe, aujourd\'hui quatre-vingt-dix minutes de finale à Dallas pèsent plus lourd que dix mois de championnat.',
+      provocateur: 'Prochaine étape logique pour France Football : distribuer le Ballon d\'Or au pénalty le mieux tiré de la finale, comme ça au moins le classement sera aussi arbitraire que le débat.',
+    },
+  },
+  {
     id: 'barthez-entraineur-gardiens-sans-diplome-2026-08-18',
     date: '2026-08-18',
     cat: 'Équipe de France',
