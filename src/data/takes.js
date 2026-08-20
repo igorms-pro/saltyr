@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-rennes-roazhon-park-delocalisation-2026-08-20',
+    date: '2026-08-20',
+    cat: 'Ligue 1',
+    text: 'La LFP a totalement raison d\'avoir délocalisé PSG-Rennes à Roazhon Park à cause de la pelouse calcinée du Parc des Princes plutôt que de reporter la rencontre : la sécurité des joueurs passe avant le confort du calendrier, même si Rennes a dû rebâtir sa billetterie en catastrophe et réclame maintenant de garder aussi son propre match retour à domicile.',
+    pour: 47,
+    answers: {
+      passionne: 'Une pelouse à plus de cinquante degrés au ras du sol, c\'est un motif de sécurité en béton : la LFP a fait le seul choix responsable, tant pis pour le confort douillet du Parc et les états d\'âme des socios parisiens privés de billets.',
+      objectif: 'Cinq canicules consécutives ont fait grimper la température au ras du sol au-delà de 50°C au Parc des Princes cet été, forçant la LFP à délocaliser PSG-Rennes à Roazhon Park à quelques jours du coup d\'envoi ; Rennes a dû relancer sa billetterie en urgence et réclame désormais de conserver aussi son propre match retour à domicile.',
+      dubitatif: 'Entre la commission qui doit encore statuer sur la revendication rennaise du match retour et l\'état réel de la pelouse du Parc en septembre, difficile de dire aujourd\'hui si cette délocalisation restera un cas isolé ou un vrai précédent.',
+      nuance: 'Protéger les organismes des joueurs sur une pelouse cramée par la canicule est une évidence sanitaire, mais faire porter tout le poids logistique de cette décision sur Rennes, sommé de rebâtir sa billetterie en quelques jours, a quelque chose d\'assez inéquitable.',
+      nostalgique: 'Avant, une pelouse abîmée se jouait quand même, quitte à glisser un peu dans la boue en janvier ; aujourd\'hui on délocalise un match à cause de la chaleur d\'août comme si le foot français découvrait soudain l\'été.',
+      provocateur: 'Prochaine étape logique pour la LFP : faire jouer tous les matchs du PSG à l\'extérieur par précaution, comme ça le Parc des Princes pourra enfin se reposer toute la saison.',
+    },
+  },
+  {
     id: 'ballon-dor-yamal-dembele-2026-08-19',
     date: '2026-08-19',
     cat: 'Ballon d\'Or',
