@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'carton-rouge-bouche-cachee-ifab-2026-08-21',
+    date: '2026-08-21',
+    cat: 'Règlement',
+    text: 'L\'IFAB a totalement raison d\'introduire dès cette saison de Ligue 1 le carton rouge pour tout joueur qui se cache la bouche en pleine altercation avec un adversaire : dissuader les insultes invisibles aux arbitres et aux caméras vaut largement le risque de sanctionner à tort un simple geste d\'agacement, même si personne n\'explique encore comment prouver ce qui se dit derrière une main.',
+    pour: 47,
+    answers: {
+      passionne: 'Enfin une sanction qui vise directement ceux qui pensent pouvoir insulter en toute impunité derrière leur main : si ça calme ne serait-ce qu\'un seul dérapage sur un terrain, la règle est déjà gagnée, tant pis pour les grincheux qui crient à la chasse aux sorcières.',
+      objectif: 'L\'IFAB a validé cette règle fin avril 2026 après la polémique autour d\'un joueur du Benfica accusé d\'avoir insulté une star du Real Madrid en se couvrant la bouche lors d\'un match de Ligue des champions ; le texte s\'applique dès le Mondial 2026 et la Ligue 1 l\'adopte cette saison, à la discrétion de l\'arbitre central.',
+      dubitatif: 'Sans lecteur sur les lèvres à chaque coin de terrain ni ralenti systématique, comment un arbitre est censé distinguer une insulte grave d\'un simple aparté entre deux courses ? Attendons le premier vrai cas d\'application avant de crier à la révolution.',
+      nuance: 'Rendre visibles des insultes qui échappaient jusqu\'ici aux arbitres, aux diffuseurs et même aux experts en lecture labiale a une vraie utilité, mais fonder une expulsion sur l\'intuition de l\'arbitre plutôt que sur une preuve tangible ouvre la porte à autant d\'injustices que celles qu\'on cherche à corriger.',
+      nostalgique: 'Avant, un joueur qui débordait verbalement se faisait recadrer par son capitaine ou remettre à sa place au sifflet par l\'arbitre, pas expulsé parce qu\'il a mis sa main devant la bouche : le foot d\'aujourd\'hui juge des gestes, plus des actes.',
+      provocateur: 'Prochaine étape logique pour l\'IFAB : carton rouge aussi pour le protège-dents mal ajusté, on ne sait jamais ce qu\'il planque derrière.',
+    },
+  },
+  {
     id: 'psg-rennes-roazhon-park-delocalisation-2026-08-20',
     date: '2026-08-20',
     cat: 'Ligue 1',
