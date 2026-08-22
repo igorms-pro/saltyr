@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'sonorisation-arbitre-var-om-strasbourg-2026-08-22',
+    date: '2026-08-22',
+    cat: 'Arbitrage',
+    text: 'La Ligue 1 a raison de forcer les arbitres à expliquer leurs décisions VAR au micro devant tout le stade dès cette saison : le foot y gagne en transparence face au soupçon permanent, même si à OM-Strasbourg personne au Vélodrome n\'a vraiment compris l\'explication de Ruddy Buquet sur le carton rouge d\'El Mourabet et le pénalty sifflé cinq minutes plus tard.',
+    pour: 46,
+    answers: {
+      passionne: 'Enfin un arbitre qui assume sa décision à voix haute au lieu de la planquer dans un rapport écrit trois jours après : même mal expliqué, ça vaut mille fois mieux que le silence méprisant d\'avant.',
+      objectif: 'La sonorisation généralisée des décisions VAR entre en vigueur cette saison en Ligue 1, calquée sur les standards du Mondial 2026 ; à OM-Strasbourg (4-0, doublé Gouiri), Ruddy Buquet a expulsé El Mourabet à la 59e pour un coup de pied sur le mollet de Höjbjerg avant d\'accorder un pénalty à Paixao cinq minutes plus tard.',
+      dubitatif: 'Expliquer une décision au micro ne la rend pas juste pour autant : attendons de voir si ça calme vraiment les polémiques ou si ça déplace juste le débat du rapport d\'après-match au commentaire en direct.',
+      nuance: 'L\'intention est bonne, mais un micro grésillant qu\'un stade entier n\'arrive pas à suivre ne rend rien plus transparent : la sonorisation ne vaut que si l\'explication est audible et la décision réellement juste, sinon c\'est juste du bruit en plus.',
+      nostalgique: 'Avant, l\'arbitre sifflait, personne ne discutait sur le moment, et le débat se réglait au bar après le match entre potes, pas en direct au micro devant 60 000 personnes qui n\'entendent qu\'un demi-mot.',
+      provocateur: 'Prochaine étape logique : l\'arbitre qui commente son propre match comme un consultant, avec interview d\'après-carton et petit générique de retour sur image, pourquoi pas un service replay des explications ratées.',
+    },
+  },
+  {
     id: 'carton-rouge-bouche-cachee-ifab-2026-08-21',
     date: '2026-08-21',
     cat: 'Règlement',
