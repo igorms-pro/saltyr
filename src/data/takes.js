@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'penalty-main-piedfort-lens-auxerre-2026-08-23',
+    date: '2026-08-23',
+    cat: 'Arbitrage',
+    text: 'Le penalty sifflé pour la main d\'Arthur Piedfort à Bollaert était totalement justifié : dans cette Ligue 1 version 2026-2027, une main qui traîne dans la surface se paie cash, même quand le bras semble à moitié tiré par le défenseur adverse — tant pis pour Auxerre, qui a payé cette rigueur dès la 12e minute d\'un 5-2 XXL encaissé face à Lens.',
+    pour: 44,
+    answers: {
+      passionne: 'Une main dans la surface, ça se siffle, point final : Piedfort n\'a qu\'à jouer les bras collés au corps, l\'arbitre a fait son boulot et Auxerre peut aller pleurer ailleurs après un 5-2 amplement mérité par Lens.',
+      objectif: 'Penalty accordé à la 12e minute par Mathieu Vernice pour une main d\'Arthur Piedfort dans sa propre surface, transformé par Florian Thauvin ; Lens s\'impose finalement 5-2 lors de cette première journée à Bollaert.',
+      dubitatif: 'Une décision isolée sur une première journée ne prouve rien : il faudra attendre plusieurs mois de sifflets similaires — ou pas — pour savoir si cette rigueur sur la main tient vraiment toute la saison.',
+      nuance: 'Le bras était bien dans la surface, mais les ralentis montrent aussi Ismaëlo Ganiou en train de le tirer vers le ballon : entre la lettre du règlement et l\'intention réelle du geste, les deux lectures se défendent.',
+      nostalgique: 'Avant, une main non volontaire provoquée par l\'adversaire ne se sifflait jamais : aujourd\'hui on accorde des penaltys sur des bras à moitié arrachés par un défenseur, le foot d\'avant respirait mieux.',
+      provocateur: 'Prochaine étape logique : équiper les défenseurs de bras rétractables ou les faire jouer mains menottées dans le dos, ce sera plus simple pour tout le monde et ça évitera à Vernice de ressortir son ralenti.',
+    },
+  },
+  {
     id: 'sonorisation-arbitre-var-om-strasbourg-2026-08-22',
     date: '2026-08-22',
     cat: 'Arbitrage',
