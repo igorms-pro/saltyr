@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'dembele-kvaratskhelia-sortis-rennes-psg-2026-08-24',
+    date: '2026-08-24',
+    cat: 'Ligue 1',
+    text: 'Luis Enrique a totalement raison d\'avoir sorti Ousmane Dembélé et Khvicha Kvaratskhelia à la pause de Rennes-PSG (2-2) alors que Paris était mené 0-2 : même le tenant du Ballon d\'Or n\'a droit à aucun passe-droit un soir sans jus, et les entrants Ferran Torres et Mika Godts lui ont donné raison en arrachant l\'égalisation, même si humilier ses deux meilleurs joueurs devant tout Roazhon Park dès la première journée n\'est pas sans risque pour la suite de la saison.',
+    pour: 47,
+    answers: {
+      passionne: 'Le Ballon d\'Or ne vaut plus rien sur la pelouse le jour où on ne court pas : Luis Enrique a eu les tripes de sortir ses deux stars à la pause, et ce sont Torres et Godts qui lui ont donné raison en allant chercher le 2-2, chapeau bas.',
+      objectif: 'Menés 0-2 à la pause (Szymanski 9e, Lepaul 38e) à Roazhon Park, Dembélé et Kvaratskhelia ont cédé leur place à Torres et Godts ; Torres a inscrit un doublé sur passes de Fabián Ruiz (71e, 82e) pour arracher le match nul 2-2 du PSG lors de cette première journée.',
+      dubitatif: 'Une décision qui paie une fois grâce à des remplaçants inspirés ne prouve rien sur la durée : reste à voir si Dembélé et Kvaratskhelia digèrent l\'affront ou si ça plombe le vestiaire parisien sur toute la saison.',
+      nuance: 'Rappeler que personne n\'a de statut acquis a une vraie vertu de management, mais humilier publiquement son Ballon d\'Or en titre et un candidat au même trophée dès la première journée, devant les caméras, a aussi de quoi fragiliser des egos qu\'il faudra recoller toute la saison.',
+      nostalgique: 'Avant, un entraîneur laissait sa star finir son mauvais soir par respect du palmarès, aujourd\'hui on la sort à la pause du match d\'ouverture comme un remplaçant lambda, Ballon d\'Or ou pas.',
+      provocateur: 'Prochaine étape logique pour Luis Enrique : sortir aussi le kiné à la pause s\'il masse mal, tant qu\'à humilier tout le monde autant être cohérent jusqu\'au bout.',
+    },
+  },
+  {
     id: 'penalty-main-piedfort-lens-auxerre-2026-08-23',
     date: '2026-08-23',
     cat: 'Arbitrage',
