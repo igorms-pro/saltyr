@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'nico-williams-snobe-psg-2026-08-25',
+    date: '2026-08-25',
+    cat: 'Mercato',
+    text: 'Nico Williams a totalement raison d\'avoir snobé le PSG et le FC Barcelone cet été pour discuter d\'un contrat à vie avec l\'Athletic Bilbao : rester fidèle au seul club qui l\'a formé envoie un message que les millions parisiens ne peuvent pas acheter, même si ça veut peut-être dire renoncer pour de bon à disputer la Ligue des champions chaque saison.',
+    pour: 46,
+    answers: {
+      passionne: 'Refuser le pont d\'or du PSG pour rester fidèle au club qui l\'a formé, c\'est le genre de geste qui n\'existe presque plus dans le foot moderne : chapeau bas, Nico Williams a des valeurs que même les plus gros chèques n\'achètent pas.',
+      objectif: 'Selon SPORT, Nico Williams a fait savoir qu\'il ne rejoindrait ni le PSG ni le FC Barcelone cet été et discute d\'un contrat à vie avec l\'Athletic Bilbao, club à la politique de recrutement historiquement réservée aux joueurs basques ; il a déjà remporté la Copa del Rey avec l\'Athletic et l\'Euro 2024 avec l\'Espagne.',
+      dubitatif: 'Un contrat à vie, ça s\'annonce facilement en plein été mercato pendant que les courtisans font la queue : reste à voir si Nico Williams tiendra cette promesse le jour où un vrai projet européen ou un Ballon d\'Or se profilera ailleurs.',
+      nuance: 'Refuser le PSG par fidélité à un club historique a quelque chose d\'admirable dans un foot gangrené par l\'argent, mais snober aussi une chance concrète de disputer la Ligue des champions chaque saison a un coût sportif qu\'on ne peut pas balayer d\'un revers de main.',
+      nostalgique: 'Avant, un crack formé au club y finissait sa carrière par attachement et personne n\'en faisait un exploit ; aujourd\'hui ça devient un événement qu\'on doit saluer dès qu\'un joueur refuse un chèque en blanc.',
+      provocateur: 'Prochaine étape logique pour l\'Athletic : graver le nom de Nico Williams sur le fronton de San Mamés dès demain, comme ça tout le monde saura qu\'il ne partira jamais, même si le PSG revient à la charge l\'été prochain avec encore plus de zéros.',
+    },
+  },
+  {
     id: 'dembele-kvaratskhelia-sortis-rennes-psg-2026-08-24',
     date: '2026-08-24',
     cat: 'Ligue 1',
