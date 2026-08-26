@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'fernandez-pardo-refuse-jouer-losc-2026-08-26',
+    date: '2026-08-26',
+    cat: 'Mercato',
+    text: 'Matias Fernandez-Pardo a totalement raison de refuser de jouer pour forcer son départ de Lille : convoité par l\'Atlético Madrid et deux clubs de Premier League à 21 ans, il n\'a aucune raison de sacrifier une saison de sa carrière pour un LOSC qui a déjà recalé une offre de 35 millions d\'euros, même si ça revient à cracher sur un contrat signé jusqu\'en 2029 et sur le maillot qui l\'a fait exploser la saison dernière.',
+    pour: 42,
+    answers: {
+      passionne: 'On ne peut pas reprocher à un crack de 21 ans convoité par l\'Atlético et deux cadors de Premier League de refuser de perdre une saison de sa carrière pour un club qui campe sur 70 millions : Fernandez-Pardo a raison de mettre la pression, tant pis si ça froisse Létang.',
+      objectif: 'Convoité par l\'Atlético Madrid (offre de 35M€ jugée insuffisante) et deux clubs de Premier League non identifiés, Matias Fernandez-Pardo (8 buts, 7 passes la saison passée) a refusé de disputer le match amical face à Everton pour accélérer son départ ; le LOSC réclame au moins 70M€ et son président Olivier Létang assure que le Belge, sous contrat jusqu\'en 2029, n\'est pas à vendre.',
+      dubitatif: 'Un bras de fer mercato qui s\'envenime à une semaine de la clôture, ça se résout presque toujours d\'une manière ou d\'une autre avant le 1er septembre : reste à voir si c\'est Lille ou Fernandez-Pardo qui craque en premier.',
+      nuance: 'Vouloir saisir sa chance auprès d\'un cador européen à 21 ans se comprend sportivement, mais refuser de jouer pour mettre la pression sur son propre club, c\'est aussi prendre le risque de ternir durablement son image auprès des supporters qui l\'ont vu exploser sous ce maillot.',
+      nostalgique: 'Avant, un joueur sous contrat jusqu\'en 2029 l\'honorait sans discuter et réglait ses envies d\'ailleurs l\'été suivant ; aujourd\'hui un simple refus de disputer un amical suffit à mettre un club entier sous pression pour accélérer un transfert.',
+      provocateur: 'Prochaine étape logique pour Fernandez-Pardo : refuser aussi de s\'entraîner, de manger à la cantine et de répondre aux textos de Létang, histoire d\'être vraiment sûr que le message passe.',
+    },
+  },
+  {
     id: 'nico-williams-snobe-psg-2026-08-25',
     date: '2026-08-25',
     cat: 'Mercato',
