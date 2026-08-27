@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'guendouzi-provocation-lyon-fenerbahce-2026-08-27',
+    date: '2026-08-27',
+    cat: 'Ligue des Champions',
+    text: 'Mattéo Guendouzi a totalement raison d\'avoir chambré le Groupama Stadium jusqu\'au doigt d\'honneur et au chant à la gloire de l\'OM après avoir sorti Lyon de la Ligue des champions avec Fenerbahçe : après quatre-vingt-dix minutes de sifflets ininterrompus, il a bien le droit de savourer bruyamment sa revanche sur le club rival de son ancien club marseillais, même si ça s\'est terminé par un supporter venu le frapper au bord du tunnel et une bagarre générale à plus de vingt personnes.',
+    pour: 45,
+    answers: {
+      passionne: 'Un stade qui te siffle pendant 90 minutes et te traite en ennemi public numéro un, tu as parfaitement le droit de lui répondre par un doigt d\'honneur bien senti : Guendouzi a sorti l\'OL de la Ligue des champions, il a gagné le droit de savourer, tant pis pour ceux qui n\'aiment pas perdre.',
+      objectif: 'Entré sous les sifflets à Groupama Stadium, Mattéo Guendouzi a provoqué le public lyonnais d\'un doigt d\'honneur et d\'un chant à la gloire de l\'OM après la qualification de Fenerbahçe (victoire 2-1, score cumulé 3-2) qui élimine l\'OL de la Ligue des champions ; un supporter est descendu le frapper près du tunnel avant qu\'une bagarre générale de plus de vingt personnes n\'éclate, avec notamment des coups portés par le gardien Ederson.',
+      dubitatif: 'Entre les images qui tournent en boucle et les commissions de discipline de l\'UEFA et de la LFP qui doivent encore trancher, personne ne sait combien de matchs Guendouzi ou le supporter agresseur vont réellement écoper : attendons les sanctions avant de crier au scandale ou à l\'exploit.',
+      nuance: 'Se venger d\'un public hostile après avoir sorti son ancien rival de la Ligue des champions se comprend sur le plan sportif, mais provoquer délibérément une foule déjà à cran a aussi sa part de responsabilité dans la bagarre générale qui a suivi : Guendouzi n\'a frappé personne, mais il a clairement allumé la mèche.',
+      nostalgique: 'Avant, un joueur qui venait de sortir un club de la Ligue des champions filait droit au vestiaire savourer sa qualification entre coéquipiers, pas en solo au milieu de la pelouse adverse avec le doigt d\'honneur : le chambrage d\'aujourd\'hui cherche l\'esclandre plus que la fête.',
+      provocateur: 'Prochaine étape logique pour Guendouzi : un mégaphone dans le tunnel du Groupama Stadium pour chanter la gloire de l\'OM en boucle à chaque visite, ça évitera au moins à ses doigts de s\'user.',
+    },
+  },
+  {
     id: 'fernandez-pardo-refuse-jouer-losc-2026-08-26',
     date: '2026-08-26',
     cat: 'Mercato',
