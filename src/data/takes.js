@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'barcola-depart-psg-liverpool-2026-08-28',
+    date: '2026-08-28',
+    cat: 'Mercato',
+    text: 'Le PSG a totalement raison de laisser filer Bradley Barcola à Liverpool contre un chèque avoisinant les 140 millions d\'euros : un international français de 23 ans qui refuse de prolonger et qui a déjà Dembélé, Kvaratskhelia et Doué devant lui dans la hiérarchie, autant l\'échanger contre une fortune plutôt que le voir partir libre dans un an, même si ça revient à offrir un titi parisien en pleine forme à l\'un des cadors les plus riches de Premier League.',
+    pour: 48,
+    answers: {
+      passionne: 'Un joueur qui ne veut plus prolonger et qui snobe déjà la porte de sortie, tu ne le supplies pas de rester, tu le vends au prix fort avant qu\'il ne parte gratuitement dans un an : le PSG encaisse 140 millions plutôt que de se faire humilier comme avec Mbappé, c\'est juste intelligent.',
+      objectif: 'Selon Sky Sports et ESPN, Liverpool et le PSG ont trouvé un accord de principe autour de 140M€ (environ 120M£) pour Bradley Barcola, dont au moins 100M£ garantis ; l\'ailier de 23 ans, non prolongé, deviendrait la deuxième recrue la plus chère de l\'histoire de Liverpool derrière Alexander Isak.',
+      dubitatif: 'Un accord de principe entre clubs, ce n\'est pas encore une signature : entre la visite médicale à passer et le feu vert que le PSG doit encore donner pour le voyage à Liverpool, mieux vaut attendre l\'officialisation avant de juger l\'opération.',
+      nuance: 'Vendre un joueur qui ne veut plus prolonger au prix fort, c\'est une gestion saine qui évite un nouveau fiasco à la Mbappé, mais laisser filer un titi formé au club et en pleine bourre vers un concurrent direct en Ligue des champions a aussi un coût sportif que 140 millions ne couvrent pas entièrement.',
+      nostalgique: 'Avant, un crack qui explosait sous le maillot parisien y restait par attachement au club qui l\'avait révélé ; aujourd\'hui un désaccord sur la prolongation suffit à l\'expédier chez un rival européen contre un chèque, aussi gros soit-il.',
+      provocateur: 'Prochaine étape logique pour le PSG : mettre aussi Dembélé et Kvaratskhelia aux enchères dès qu\'ils regarderont leur téléphone de travers, comme ça au moins la trésorerie ne connaîtra jamais la crise.',
+    },
+  },
+  {
     id: 'guendouzi-provocation-lyon-fenerbahce-2026-08-27',
     date: '2026-08-27',
     cat: 'Ligue des Champions',
