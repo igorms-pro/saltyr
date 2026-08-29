@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'watellier-arbitrage-lille-psg-2026-08-29',
+    date: '2026-08-29',
+    cat: 'Arbitrage',
+    text: 'L\'arbitre Eric Watellier a totalement raison d\'avoir rallongé le temps additionnel de Lille-PSG jusqu\'à l\'égalisation parisienne dans les arrêts de jeu : Vitinha puis Marquinhos ont profité de ces secondes en plus pour arracher le point du nul, et un arbitre doit rendre chaque minute perdue sur les soins et les buts, même si Lille menait logiquement 2-0 depuis longtemps et que son capitaine Benjamin André dénonce une minute et quinze secondes de trop qui ont changé le résultat.',
+    pour: 46,
+    answers: {
+      passionne: 'Un arbitre qui rend chaque seconde perdue sur les soins et les buts, c\'est juste la moindre des choses : le LOSC n\'avait qu\'à fermer le jeu avant la 96e au lieu de pleurer après.',
+      objectif: 'Trois minutes annoncées, but de Vitinha à la 90+1, puis Marquinhos à la 90+6 : le chronomètre colle aux arrêts réels, pas à un caprice.',
+      dubitatif: 'Attendons le rapport de la commission d\'arbitrage avant de crier au vol, les minutes ajoutées ça se vérifie.',
+      nuance: 'Les arrêts de jeu justifient une rallonge, mais rallonger pile jusqu\'au but parisien, ça sent quand même le hasard généreux.',
+      nostalgique: 'Avant, le chrono du speaker suffisait à tout le monde, aujourd\'hui on ajoute des minutes à la carte selon le maillot.',
+      provocateur: 'Prochaine étape logique : un temps additionnel illimité tant que le PSG n\'a pas égalisé, ça évitera au moins la comédie du chrono.',
+    },
+  },
+  {
     id: 'barcola-depart-psg-liverpool-2026-08-28',
     date: '2026-08-28',
     cat: 'Mercato',
