@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'var-tolisso-refuse-lyon-havre-2026-08-30',
+    date: '2026-08-30',
+    cat: 'Arbitrage',
+    text: 'La VAR a totalement raison d\'avoir annulé le but de Corentin Tolisso contre Le Havre pour hors-jeu de Felix Bacher : gêner la sortie du gardien adverse sans même toucher le ballon reste une interférence avec le jeu selon le règlement, et l\'OL ferait mieux de revoir sa défense sur le but de Samatta plutôt que de crier au complot, même si Lyon termine une nouvelle semaine noire sur un match nul 1-1 et que Groupama Stadium a sifflé la décision comme un vol.',
+    pour: 44,
+    answers: {
+      passionne: 'Une VAR qui empêche un attaquant de gêner la sortie du gardien sans même prendre le ballon, c\'est juste l\'application stricte du règlement : l\'OL ferait mieux de regarder pourquoi sa défense encaisse à la 74e au lieu de hurler au vol à chaque décision qui ne l\'arrange pas.',
+      objectif: 'Hors-jeu confirmé pour Felix Bacher, jugé par l\'arbitre comme gênant la sortie du gardien havrais sur l\'action du but de Tolisso (autour de la 60e) : le règlement de l\'IFAB assimile toute interférence avec un adversaire, même sans contact avec le ballon, à une position de hors-jeu sanctionnable.',
+      dubitatif: 'Entre l\'angle de caméra et l\'appréciation très subjective de la gêne portée au gardien, mieux vaut attendre les explications officielles de la DTA avant de trancher si Bacher a vraiment influencé la sortie du gardien ou juste couru à côté.',
+      nuance: 'Que Bacher soit hors-jeu, personne ne le conteste, mais juger qu\'il a réellement gêné le gardien sans le toucher ni toucher le ballon relève d\'une interprétation qui laisse une bonne marge d\'erreur à l\'arbitre vidéo.',
+      nostalgique: 'Avant, un hors-jeu se jugeait au contact du ballon ou à une trajectoire bouchée, pas à la simple présence d\'un joueur dans le champ de vision du gardien : aujourd\'hui la moindre ombre suffit à annuler un but.',
+      provocateur: 'Prochaine étape logique pour la VAR : annuler aussi les buts où un attaquant hors-jeu a juste respiré fort près du gardien, comme ça au moins l\'OL ne marquera plus jamais rien de contestable.',
+    },
+  },
+  {
     id: 'watellier-arbitrage-lille-psg-2026-08-29',
     date: '2026-08-29',
     cat: 'Arbitrage',
