@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'diogo-costa-psg-gardien-2026-08-31',
+    date: '2026-08-31',
+    cat: 'Mercato',
+    text: 'Le PSG a totalement raison de foncer sur Diogo Costa dans les dernières heures du mercato pour en faire enfin son gardien numéro un incontesté : après l\'échec du dossier Zion Suzuki, claquer la clause de 60 millions d\'euros du Portugais plutôt que de prolonger le feuilleton à deux têtes entre Safonov et Chevalier, c\'est mettre fin à un an de flottement dans les buts, même si ça revient à humilier un peu plus deux gardiens déjà sous contrat et à claquer une fortune sur un poste où le club aligne déjà deux titulaires potentiels.',
+    pour: 47,
+    answers: {
+      passionne: 'Un club qui vise le trophée majeur ne bricole pas dans les buts avec un gardien qui reconquiert sa place et un autre jamais vraiment installé : Diogo Costa au prix fort, c\'est enfin arrêter de tergiverser et se donner les moyens de ses ambitions.',
+      objectif: 'Diogo Costa, 26 ans, dispose d\'une clause libératoire de 60M€ depuis sa prolongation de décembre 2025 ; le PSG relance ce dossier après l\'échec du transfert de Zion Suzuki, avec Manchester City et Liverpool également positionnés sur le gardien portugais.',
+      dubitatif: 'Entre les dossiers qui capotent comme Suzuki, les rumeurs qui s\'accélèrent puis se dégonflent depuis des semaines, et la clôture du mercato dans moins de 24h, rien ne dit que ce transfert se signe avant 19h59 demain.',
+      nuance: 'Renforcer le poste de gardien avec un international portugais confirmé a du sens sportif, mais recruter un troisième numéro un potentiel alors que Chevalier et Safonov se battent déjà pour une place, ça revient aussi à saborder la confiance de deux joueurs sous contrat.',
+      nostalgique: 'Avant, un club qui tenait son gardien numéro un le gardait une décennie et construisait son équipe autour de lui ; le PSG en est à son troisième candidat au poste en un an sans qu\'aucun n\'ait eu le temps de vraiment s\'installer.',
+      provocateur: 'Prochaine étape logique pour le PSG : recruter aussi le gardien titulaire de chaque club de Ligue 1, comme ça au moins personne d\'autre n\'aura de numéro un fiable non plus.',
+    },
+  },
+  {
     id: 'var-tolisso-refuse-lyon-havre-2026-08-30',
     date: '2026-08-30',
     cat: 'Arbitrage',
