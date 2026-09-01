@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'penalty-main-boisse-rennes-lemans-2026-09-01',
+    date: '2026-09-01',
+    cat: 'Arbitrage',
+    text: 'Le penalty accordé à Rennes contre Le Mans à la 96e minute pour la main de Noa Boissé était totalement justifié : un bras qui vient contrer une frappe à bout portant dans la surface reste une main sanctionnable selon le règlement, même après validation par la VAR et l\'arbitre Romain Lissorgue, et Estéban Lepaul a eu raison de la transformer pour arracher la victoire 3-2, même si Le Mans venait de recoller à 2-2 à dix contre onze après le rouge de Djibril Sidibé et repart de Roazhon Park la tête basse sur cette dernière action du match.',
+    pour: 43,
+    answers: {
+      passionne: 'Une main qui stoppe une frappe cadrée dans la surface, ça se siffle à la 96e comme à la 1re minute : Le Mans n\'a qu\'à jouer les bras collés au corps au lieu de pleurer après avoir tenu 96 minutes à dix contre onze.',
+      objectif: 'Penalty accordé par Romain Lissorgue après revue VAR pour une main de Noa Boissé sur un tir d\'Arnaud Nordin (90+6), transformé par Estéban Lepaul pour son doublé personnel ; Rennes s\'impose 3-2 lors de cette 2e journée après avoir laissé Le Mans, promu de Ligue 2, revenir de 2-0 à 2-2 via un penalty de Mafouta (54e) et un rouge à Djibril Sidibé.',
+      dubitatif: 'Entre l\'angle de la caméra et la position exacte du bras au moment de l\'impact, mieux vaut attendre les explications officielles de la DTA avant de crier au scandale ou à la décision parfaitement fondée.',
+      nuance: 'Que le ballon touche la main de Boissé, personne ne le conteste, mais juger une main qui contre un tir à bout portant comme une faute volontaire au même titre qu\'un bras totalement écarté relève d\'une lecture du règlement qui laisse une sacrée marge d\'erreur à l\'arbitre vidéo.',
+      nostalgique: 'Avant, une main à bout portant sur une frappe contrée ne se sifflait jamais, c\'était juste un défenseur qui faisait son métier ; aujourd\'hui la moindre main dans la surface à la 96e minute suffit à décider un match entier.',
+      provocateur: 'Prochaine étape logique pour la Ligue 1 : équiper tous les défenseurs de bras amovibles qu\'ils pourront détacher avant chaque tir, comme ça Lissorgue n\'aura plus jamais besoin de la VAR.',
+    },
+  },
+  {
     id: 'diogo-costa-psg-gardien-2026-08-31',
     date: '2026-08-31',
     cat: 'Mercato',
