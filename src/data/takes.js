@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'barcola-liverpool-vente-record-2026-09-02',
+    date: '2026-09-02',
+    cat: 'Mercato',
+    text: 'Le PSG a eu raison de vendre Bradley Barcola à Liverpool pour 125 millions d\'euros plutôt que de le garder deux ans de plus sous contrat : encaisser la plus grosse vente de l\'histoire de la Ligue 1 sur un ailier de 23 ans à la finition encore irrégulière, c\'est du pur génie financier au sommet de sa cote, même si ça revient à priver Luis Enrique d\'un titulaire international français en pleine préparation de saison sans certitude de le remplacer à l\'identique.',
+    pour: 46,
+    answers: {
+      passionne: '125 millions pour un joueur qui n\'a jamais soulevé le moindre trophée individuel à Paris, il fallait signer des deux mains et courir à la banque avant que Liverpool ne se ravise.',
+      objectif: 'Barcola quitte le PSG après trois saisons complètes, 39 buts et 37 passes décisives toutes compétitions confondues, pour un transfert acté le 31 août à 125M€ fixe plus 20M€ de bonus, la plus grosse vente de l\'histoire d\'un club de Ligue 1.',
+      dubitatif: 'Un mercato XXL, ça se juge sur le terrain en mai, pas fin août : attendons de voir qui comble le vide sur l\'aile gauche avant de crier au coup de génie ou à l\'erreur historique.',
+      nuance: 'Vendre au prix fort un joueur à deux ans de la fin de contrat est cohérent sur le plan comptable, mais ça n\'empêche pas Paris de se priver d\'un titulaire français en pleine bourre sans certitude de retrouver ce profil ailleurs.',
+      nostalgique: 'À l\'époque où le PSG cassait sa tirelire pour garder ses pépites plutôt que de les vendre au plus offrant, jamais un joueur formé à ce niveau n\'aurait filé chez un cadre de Premier League en pleine forme.',
+      provocateur: 'Prochaine étape logique : Paris met aussi le centre de formation aux enchères, comme ça le club termine la saison avec 500 millions en banque et zéro titulaire sur la feuille de match.',
+    },
+  },
+  {
     id: 'penalty-main-boisse-rennes-lemans-2026-09-01',
     date: '2026-09-01',
     cat: 'Arbitrage',
