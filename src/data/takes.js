@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'om-mercato-zero-recrue-richard-2026-09-03',
+    date: '2026-09-03',
+    cat: 'Mercato',
+    text: 'Stéphane Richard a eu raison de boucler tout le mercato estival de l\'OM sans la moindre recrue plutôt que de désobéir au frein imposé par la DNCG sur la masse salariale : mieux vaut un été blanc assumé qu\'un rafistolage financé à crédit qui expose le club à une sanction administrative, même si ça revient à envoyer un club historique affronter une saison entière sans le moindre renfort et à préférer commenter le départ de Tim Cook d\'Apple sur BFM Business plutôt que d\'expliquer ce choix à ses propres supporters le soir même de la clôture du marché.',
+    pour: 43,
+    answers: {
+      passionne: 'Un président qui trouve le temps de causer de Tim Cook et d\'Apple sur BFM Business le jour où son club boucle un mercato à zéro recrue, c\'est cracher au visage de tout un peuple qui attendait des explications, pas un cours d\'histoire de la Silicon Valley.',
+      objectif: 'L\'OM termine le mercato estival 2026 sans la moindre recrue, une première dans l\'histoire du club, après un objectif de masse salariale validé par la DNCG que Richard a qualifié de « si brutal qu\'il aurait fallu vendre quasiment toute l\'équipe avant de pouvoir recruter ».',
+      dubitatif: 'Un été blanc, ça ne se juge pas le 3 septembre sur un plateau télé mais en mai sur un classement : si l\'effectif dégraissé tient le rythme d\'une saison européenne, personne ne se souviendra de cette sortie sur Tim Cook.',
+      nuance: 'Respecter un cadre DNCG plutôt que de retomber dans les excès qui ont plombé le club par le passé est une gestion responsable, mais choisir ce moment précis pour parler d\'Apple en interview plutôt que de s\'adresser à ses supporters relève d\'une erreur de communication difficile à excuser.',
+      nostalgique: 'À l\'époque où l\'OM cassait sa tirelire l\'été pour construire une équipe capable de jouer les premiers rôles en Europe, jamais un président n\'aurait osé boucler un mercato à zéro recrue sans se justifier devant son propre public.',
+      provocateur: 'Prochaine étape logique pour Richard : renommer le Vélodrome « Apple Park Marseille », vu le temps qu\'il consacre à Cupertino plutôt qu\'au Boulevard Michelet.',
+    },
+  },
+  {
     id: 'barcola-liverpool-vente-record-2026-09-02',
     date: '2026-09-02',
     cat: 'Mercato',
