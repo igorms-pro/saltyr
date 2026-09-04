@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'deschamps-ekitike-cherki-liste-bleus-2026-09-04',
+    date: '2026-09-04',
+    cat: 'Équipe de France',
+    text: 'Didier Deschamps a eu tort de laisser Hugo Ekitike en dehors de sa liste initiale pour affronter l\'Ukraine et l\'Islande malgré son bon début de saison à Liverpool : il aura fallu la blessure de Rayan Cherki pour que l\'attaquant obtienne enfin sa toute première convocation en Bleu, une réparation qui ressemble plus à un concours de circonstances qu\'à un vrai choix assumé, même si le sélectionneur peut se targuer d\'avoir bâti un groupe stable où la forme du moment ne fait pas systématiquement sauter la hiérarchie établie.',
+    pour: 46,
+    answers: {
+      passionne: 'Ekitike cartonne à Liverpool depuis le début de saison et il a fallu que Cherki se blesse à la cuisse pour que Deschamps daigne enfin le regarder : ce n\'est pas une sélection méritée, c\'est un lot de consolation offert par la malchance d\'un autre.',
+      objectif: 'Liste des Bleus dévoilée le 27 août pour les matchs face à l\'Ukraine (5 septembre, Wroclaw) et l\'Islande (9 septembre, Parc des Princes) : Rayan Cherki forfait sur blessure à la cuisse, remplacé par Hugo Ekitike, récompensé pour son bon début de saison à Liverpool et convoqué pour la première fois avec les A.',
+      dubitatif: 'Une première convocation obtenue sur blessure d\'un autre, ça ne prouve encore rien : voyons d\'abord si Ekitike tient sa place sur le terrain avant de crier au retard historique de Deschamps.',
+      nuance: 'Construire une hiérarchie stable plutôt que de courir après chaque coup de forme est une philosophie défendable sur la durée, mais ignorer un attaquant aussi en feu avant de devoir se raviser en urgence interroge quand même sur la réactivité du staff.',
+      nostalgique: 'À l\'époque où un sélectionneur allait chercher sans attendre un buteur en forme dès ses premiers matchs de la saison, on n\'avait pas besoin de la blessure d\'un autre joueur pour ouvrir la porte à un attaquant qui cartonne en club.',
+      provocateur: 'Prochaine étape logique : Deschamps convoque officiellement les kinés de Cherki et de Saliba, vu le rôle décisif qu\'ils viennent de jouer dans la composition de la liste des Bleus.',
+    },
+  },
+  {
     id: 'om-mercato-zero-recrue-richard-2026-09-03',
     date: '2026-09-03',
     cat: 'Mercato',
