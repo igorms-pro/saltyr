@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'dembele-blessure-deschamps-psg-2026-09-05',
+    date: '2026-09-05',
+    cat: 'Équipe de France',
+    text: 'Didier Deschamps a eu tort de faire entrer Ousmane Dembélé face à l\'Ukraine alors que le PSG avait explicitement déconseillé de le faire jouer : ignorer l\'alerte médicale d\'un club dont l\'attaquant sort de trois blessures aux ischios en trois mois, c\'est prendre un risque totalement inutile sur un match de qualification déjà maîtrisé, même si le sélectionneur peut rétorquer que le risque zéro n\'existe jamais dès qu\'un joueur foule une pelouse et que la victoire 2-0, avec des buts d\'Olise et Mbappé, ne changeait de toute façon rien à la physionomie de la rencontre.',
+    pour: 47,
+    answers: {
+      passionne: 'Le PSG alerte plusieurs jours à l\'avance que Dembélé sort de trois blessures aux ischios en trois mois et Deschamps le fait quand même entrer à la mi-temps d\'un match déjà plié : le favori au Ballon d\'or se blesse à nouveau et le sélectionneur ose dire que le risque zéro n\'existe pas, comme si ignorer un dossier médical entier n\'était pas justement le seul risque qu\'on pouvait éviter.',
+      objectif: 'La France bat l\'Ukraine 2-0 à Wroclaw grâce à des buts de Michael Olise (10e) et Kylian Mbappé (82e) ; entré à la mi-temps, Ousmane Dembélé sort sur blessure à la cuisse droite dès la 81e minute et cède sa place à Hugo Ekitike, alors que le PSG affirme avoir transmis en amont un dossier médical déconseillant sa titularisation.',
+      dubitatif: 'Une gêne musculaire à la sortie du terrain, ça peut être un simple coup de chaud comme trois semaines d\'indisponibilité : attendons les examens avant de transformer ce remplacement en bras de fer définitif entre le PSG et les Bleus.',
+      nuance: 'Convoquer et faire jouer un international en pleine forme relève de la logique même d\'un sélectionneur, mais faire entrer un joueur que son club vient formellement de déconseiller d\'aligner, sur un match déjà maîtrisé au tableau d\'affichage, c\'est prendre un risque qui n\'avait clairement pas besoin d\'être pris ce soir-là.',
+      nostalgique: 'À l\'époque où sélection et clubs discutaient en amont de la gestion d\'un joueur fraîchement remis d\'une blessure, jamais un simple remplacement n\'aurait dégénéré en bras de fer public entre Paris et Clairefontaine dès le lendemain du match.',
+      provocateur: 'Prochaine étape logique : le PSG envoie son propre kiné s\'installer sur le banc des Bleus pour retirer Dembélé du terrain lui-même à la mi-temps, vu le crédit que Deschamps accorde visiblement à ses mises en garde.',
+    },
+  },
+  {
     id: 'deschamps-ekitike-cherki-liste-bleus-2026-09-04',
     date: '2026-09-04',
     cat: 'Équipe de France',
