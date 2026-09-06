@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-fff-protocole-medical-2026-09-06',
+    date: '2026-09-06',
+    cat: 'Équipe de France',
+    text: 'Le PSG a raison d\'exiger publiquement un nouveau protocole médical avec la FFF après les blessures de Dembélé et Doué contre l\'Ukraine : réclamer plus de transparence et de concertation quand deux titulaires se déchirent respectivement les ischios et le mollet le même soir n\'a rien d\'un caprice de club richissime, c\'est la moindre des exigences pour un employeur qui prête ses stars à la sélection, même si Deschamps peut légitimement rétorquer qu\'aucun sélectionneur au monde ne peut garantir un risque zéro dès qu\'un joueur foule une pelouse en équipe nationale.',
+    pour: 49,
+    answers: {
+      passionne: 'Deux titulaires du PSG rentrent de sélection avec l\'ischio et le mollet déchirés le même soir, et il faudrait en plus que Paris se taise et dise merci pour le service rendu : le protocole que réclame le club n\'est pas une lubie, c\'est la moindre des choses après un carnage pareil sur ses propres joueurs.',
+      objectif: 'Dembélé souffre d\'une déchirure aux ischio-jambiers droits (4 à 6 semaines d\'absence) et Doué d\'une déchirure au mollet droit (4 semaines), tous deux sortis lors de la victoire 2-0 face à l\'Ukraine ; le PSG réclame officiellement un « protocole de coordination médico-sportive » plus transparent avec la FFF, qui a répondu par un courrier d\'apaisement signé Philippe Diallo.',
+      dubitatif: 'Un protocole couché sur le papier, ça ne rend pas les pelouses moins glissantes ni les ischios moins fragiles : attendons de voir si cette charte change quoi que ce soit à la prochaine trêve internationale avant d\'y croire vraiment.',
+      nuance: 'Le PSG a de bonnes raisons de vouloir mieux protéger un effectif déjà décimé par les pépins physiques, mais accuser la FFF d\'avoir tout ignoré alors que le football reste un sport de contact où le risque zéro n\'existe nulle part, c\'est aussi se chercher un coupable commode.',
+      nostalgique: 'À l\'époque où sélections et clubs réglaient ce genre de différend par un coup de fil discret plutôt que par des communiqués qui se répondent en public, jamais deux blessures en un même match n\'auraient tourné en bras de fer institutionnel aussi vite.',
+      provocateur: 'Prochaine étape logique : le PSG exige que les Bleus jouent désormais en jambières rembourrées de la cuisse à la cheville, ou que Deschamps s\'engage par contrat à ne faire courir ses joueurs qu\'au pas de promenade.',
+    },
+  },
+  {
     id: 'dembele-blessure-deschamps-psg-2026-09-05',
     date: '2026-09-05',
     cat: 'Équipe de France',
