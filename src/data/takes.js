@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-crise-monaco-defaite-2026-09-07',
+    date: '2026-09-07',
+    cat: 'Ligue 1',
+    text: 'Le PSG, douzième de Ligue 1 avec seulement deux points pris en trois journées après sa défaite 2-1 à domicile face à Monaco, vit une vraie crise sportive et pas un simple accroc de rentrée : perdre pour la troisième fois de suite contre le même adversaire quand on est le champion d\'Europe en titre ne s\'explique pas seulement par la fatigue post-Mondial des clubs ou les blessures de Dembélé et Doué, même si Luis Enrique peut légitimement demander qu\'on juge son équipe sur la durée d\'une saison plutôt que sur trois journées.',
+    pour: 46,
+    answers: {
+      passionne: 'Douzième de Ligue 1, battu à domicile par Monaco pour la troisième fois d\'affilée, avec deux petits points en trois matchs : le champion d\'Europe en titre est en crise, un point c\'est tout, et ceux qui parlent encore de « petit trou d\'air » refusent juste de regarder le classement en face.',
+      objectif: 'Après trois journées de Ligue 1 2026/2027, le PSG compte 2 points (deux nuls à Rennes et à Lille puis une défaite 1-2 face à Monaco au Parc des Princes, où le but de Marquinhos a été renversé par ceux de Nazinho et Idumbo) et pointe à la 12e place, pendant que Monaco affiche un sans-faute avec 9 points sur 9 et un troisième succès de rang sur Paris.',
+      dubitatif: 'Trois journées, ce n\'est même pas dix pour cent d\'une saison de Ligue 1 : attendons de voir si le PSG relève la tête d\'ici la trêve internationale avant de sortir le mot « crise ».',
+      nuance: 'Le PSG a de vraies raisons de traverser un passage à vide, entre les absences de Dembélé et Doué et un calendrier d\'été plombé par le Mondial des clubs, mais un champion d\'Europe qui perd trois fois de suite contre le même adversaire ne peut pas tout mettre sur le dos de la fatigue non plus.',
+      nostalgique: 'À l\'époque où le PSG écrasait ses adversaires de Ligue 1 sans forcer, personne n\'aurait imaginé Paris scotché à la 12e place après trois journées, même avec la moitié de l\'effectif à l\'infirmerie.',
+      provocateur: 'À ce rythme, autant remettre tout de suite le trophée de champion à Monaco et garder le Parc des Princes pour les concerts, ça évitera à Paris de perdre une quatrième fois contre les mêmes.',
+    },
+  },
+  {
     id: 'psg-fff-protocole-medical-2026-09-06',
     date: '2026-09-06',
     cat: 'Équipe de France',
