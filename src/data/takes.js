@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'om-defaite-paris-fc-domicile-2026-09-08',
+    date: '2026-09-08',
+    cat: 'Ligue 1',
+    text: 'Perdre à domicile contre le promu Paris FC (2-3), triplé de Sinayoko à l\'appui, pour la première fois de la saison, prouve que le pari de Stéphane Richard de boucler un mercato à zéro recrue était une lourde erreur : un effectif non renforcé qui craque dès la 3e journée face à une équipe censée jouer le maintien ne peut pas se cacher derrière la rigueur budgétaire imposée par la DNCG, même si une saison entière ne se juge pas sur un seul match fou perdu à la maison.',
+    pour: 53,
+    answers: {
+      passionne: 'Perdre à la maison contre un promu après un été sans la moindre recrue, c\'est la honte absolue : Richard a plombé l\'OM par pure radinerie budgétaire, il n\'y a rien d\'autre à ajouter.',
+      objectif: 'L\'OM concède sa première défaite à domicile de la saison (2-3 contre Paris FC, triplé de Sinayoko dont un penalty à la 86e) après un mercato estival marseillais bouclé sans la moindre recrue enregistrée.',
+      dubitatif: 'Une défaite à la 3e journée contre une équipe qui carbure elle aussi bien au-dessus de son statut de promu, ça ne fait pas un bilan de mercato : on en reparle en décembre.',
+      nuance: 'Le mercato blanc pèse sans doute sur la fraîcheur et la profondeur de l\'effectif marseillais, mais réduire un match fou à trois buts chacun à un simple problème de recrutement serait aller un peu vite en besogne.',
+      nostalgique: 'À l\'époque où l\'OM cassait sa tirelire chaque été pour Payet, Thauvin ou Gustavo, jamais le Vélodrome n\'aurait vu un promu repartir avec un triplé et les trois points.',
+      provocateur: 'Autant demander à Paris FC de prêter deux ou trois joueurs à l\'OM pour la fin de saison, vu comment ça tourne au Vélodrome.',
+    },
+  },
+  {
     id: 'psg-crise-monaco-defaite-2026-09-07',
     date: '2026-09-07',
     cat: 'Ligue 1',
