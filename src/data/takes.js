@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'ballon-dor-doue-barcola-snobes-2026-09-09',
+    date: '2026-09-09',
+    cat: "Ballon d'Or",
+    text: 'Snober totalement Désiré Doué et Bradley Barcola de la liste des 30 nommés au Ballon d\'Or 2026, alors que le PSG y place déjà un record de dix joueurs et sort champion d\'Europe en titre, est une faute de jury difficile à justifier : ignorer deux titulaires indiscutables d\'une saison collective historique décrédibilise le scrutin, même si ni l\'un ni l\'autre n\'affiche les statistiques individuelles de buteur ou de passeur qui pèsent traditionnellement le plus lourd dans ce genre de vote.',
+    pour: 48,
+    answers: {
+      passionne: 'Doué et Barcola portent le PSG vers un sacre européen du début à la fin de la saison et ils ne sont même pas dans les 30 nommés : soit le jury n\'a pas regardé une seule minute de Ligue des champions, soit il a décidé de punir Paris pour avoir trop bien réussi son année.',
+      objectif: 'Le PSG place un record de dix joueurs parmi les 30 nommés au Ballon d\'Or 2026 (Hakimi, Fabian Ruiz, João Neves, Pacho, Vitinha, Dembélé, Ferran Torres, Nuno Mendes, Marquinhos, Kvaratskhelia), un record devant les neuf de 2025, mais ni Désiré Doué ni Bradley Barcola ne figurent sur la liste dévoilée ce mardi par France Football.',
+      dubitatif: 'Une liste de 30 nommés, ça ne dit encore rien du classement final : attendons la cérémonie du 26 octobre avant de crier au scandale pour deux joueurs qui n\'étaient de toute façon pas favoris pour le trophée.',
+      nuance: 'Doué et Barcola ont clairement pesé dans le sacre collectif du PSG, mais avec dix coéquipiers déjà nommés et des stats individuelles moins tranchantes que celles des autres candidats, leur absence de la liste reste défendable sur le papier.',
+      nostalgique: 'À l\'époque où le Ballon d\'Or récompensait avant tout un buteur ou un passeur clairement au-dessus du lot, ce genre de polémique sur des « oubliés » d\'une liste de 30 noms n\'aurait même pas existé.',
+      provocateur: 'Prochaine étape logique : France Football distribue direct dix Ballons d\'Or au vestiaire du PSG et invente un onzième prix spécial pour Doué et Barcola, la meilleure performance sur le banc de touche du jury.',
+    },
+  },
+  {
     id: 'om-defaite-paris-fc-domicile-2026-09-08',
     date: '2026-09-08',
     cat: 'Ligue 1',
