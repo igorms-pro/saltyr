@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'torres-titulaire-dembele-psg-2026-09-10',
+    date: '2026-09-10',
+    cat: 'Ligue des Champions',
+    text: 'Après avoir sauvé le nul à Rennes d\'un doublé entré en jeu à la pause, puis inscrit un triplé contre le Slovan Bratislava (6-1) en Ligue des champions, Ferran Torres doit désormais démarrer titulaire dans l\'attaque du PSG, quitte à faire chuter Ousmane Dembélé, Ballon d\'or en titre, sur le banc de touche : cinq buts inscrits en seulement deux apparitions décisives, ça ne se récompense pas par un strapontin, même si Dembélé a lui-même signé un doublé ce soir-là contre le Slovan et reste, sur l\'ensemble d\'une saison, l\'attaquant le plus régulier du vestiaire parisien.',
+    pour: 49,
+    answers: {
+      passionne: 'Cinq buts en deux apparitions, un nul sauvé à Rennes puis un triplé contre le Slovan Bratislava : Torres joue déjà comme un titulaire depuis le banc, et il faudrait continuer à sacrifier ça sur l\'autel du statut de Dembélé ? Les stats ne mentent pas, la hiérarchie doit changer maintenant.',
+      objectif: 'Ferran Torres compte 5 buts sur ses deux premières vraies apparitions avec le PSG (doublé à Rennes en fin de match, triplé contre le Slovan Bratislava le 9 septembre), tandis qu\'Ousmane Dembélé a lui aussi inscrit un doublé lors de cette victoire 6-1 en Ligue des champions ; Luis Enrique n\'a annoncé aucune hiérarchie officielle entre les deux joueurs.',
+      dubitatif: 'Un doublé arraché en fin de match contre Rennes et un triplé passé au dernier de la poule sur le papier, le Slovan Bratislava : attendons de voir Torres performer face à une vraie défense de Ligue des champions avant de parler de changement de hiérarchie.',
+      nuance: 'Torres mérite clairement plus de temps de jeu vu sa forme du moment, mais Dembélé a lui aussi marqué deux fois le même soir et reste, sur la durée d\'une saison entière, bien plus décisif que sur ces deux seuls matchs : les aligner tous les deux plutôt que sacrifier l\'un pour l\'autre semble la solution la plus logique pour Luis Enrique.',
+      nostalgique: 'À l\'époque de la vraie concurrence Cavani-Ibrahimović au PSG, personne n\'aurait osé remettre en question la place d\'un buteur de ce calibre après deux bons matchs d\'un remplaçant, aussi brillant soit-il.',
+      provocateur: 'Prochaine étape logique : le PSG installe un buzzer à la mi-temps pour faire entrer Torres à la place de Dembélé à chaque match, façon changement systématique programmé d\'avance.',
+    },
+  },
+  {
     id: 'ballon-dor-doue-barcola-snobes-2026-09-09',
     date: '2026-09-09',
     cat: "Ballon d'Or",
