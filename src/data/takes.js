@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'letang-mails-arbitrage-2026-09-11',
+    date: '2026-09-11',
+    cat: 'Ligue 1',
+    text: 'Envoyer quatre mails incendiaires en trois jours, dont un à 3h08 du matin, pour exiger que l\'arbitre Éric Wattellier n\'officie plus jamais avec le LOSC après les deux buts encaissés en toute fin de match contre le PSG (91e et 95e), ce n\'est que la juste colère d\'un président excédé par un arbitrage à bout de souffle : Olivier Létang a raison de hurler tout haut ce que beaucoup de clubs pensent tout bas, même si la commission de discipline de la LFP s\'apprête à le sanctionner lourdement pour le ton de ces messages.',
+    pour: 47,
+    answers: {
+      passionne: 'Quatre mails en trois jours, un envoyé à 3h08 du matin, pour dénoncer un temps additionnel complètement fou qui a plombé le LOSC : c\'est ça, un vrai président qui défend son club, pas les éternels lâches qui ravalent leur colère devant un micro en conférence de presse aseptisée.',
+      objectif: 'Lille menait 2-0 avant que le PSG n\'égalise à la 91e et à la 95e minute face à l\'arbitre Éric Wattellier le 28 août ; Olivier Létang a ensuite envoyé quatre messages à la direction nationale de l\'arbitrage entre le 28 et le 31 août, dont un à 3h08, avant d\'être renvoyé devant la commission de discipline de la LFP par le Conseil national de l\'éthique.',
+      dubitatif: 'Le dossier vient tout juste d\'être transmis à la commission de discipline et aucune sanction n\'est encore tombée : difficile de juger la légitimité de la colère de Létang tant qu\'on ne connaît pas la sévérité de la peine qui l\'attend.',
+      nuance: 'Que le temps additionnel accordé par Wattellier ait semé le doute est un fait, et la frustration de Létang se comprend sur le fond ; mais menacer par écrit, en pleine nuit qui plus est, qu\'un arbitre ne remettra plus jamais les pieds à Lille dépasse largement le simple coup de sang légitime.',
+      nostalgique: 'Avant, un président furax appelait la Ligue le lendemain matin pour gueuler au téléphone et ça restait entre eux ; aujourd\'hui le moindre mail de 3h du matin finit disséqué dans un communiqué du Conseil de l\'éthique une semaine plus tard.',
+      provocateur: 'Prochaine étape logique : Létang installe une oreillette dans le costume de Wattellier pour lui dicter le temps additionnel en direct depuis la tribune présidentielle du Pierre-Mauroy.',
+    },
+  },
+  {
     id: 'torres-titulaire-dembele-psg-2026-09-10',
     date: '2026-09-10',
     cat: 'Ligue des Champions',
