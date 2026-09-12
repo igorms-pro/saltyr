@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'stinat-rennes-om-arbitrage-2026-09-12',
+    date: '2026-09-12',
+    cat: 'Arbitrage',
+    text: 'Désigner Jérémy Stinat pour arbitrer Rennes-OM, dix-neuf mois après le chaos d\'Auxerre-OM qui avait valu une suspension de quatre mois à un arbitre amateur pour l\'avoir critiqué publiquement, est une faute de tact impardonnable de la part de la LFP : renvoyer ce nom précis sur la route d\'un club encore marqué par ce penalty refusé à Quentin Merlin et ce rouge sorti contre Derek Cornelius en 2025, c\'est allumer volontairement la mèche, même si Bruno Genesio a préféré, après cette troisième défaite de rang (1-0 à Roazhon Park), pointer du doigt le manque d\'ambition de ses propres dirigeants plutôt que l\'arbitrage du soir.',
+    pour: 44,
+    answers: {
+      passionne: 'Dix-neuf mois après avoir plombé l\'OM à Auxerre au point de faire suspendre un arbitre amateur pour l\'avoir dénoncé, Stinat revient pile sur la route de Marseille : soit la LFP se fiche complètement de l\'apparence d\'impartialité, soit elle le fait exprès, il n\'y a pas de troisième option.',
+      objectif: 'Jérémy Stinat, désigné arbitre de Rennes-OM le 11 septembre 2026, avait déjà officié lors d\'Auxerre-OM le 22 février 2025, un match marqué par un penalty refusé à Quentin Merlin et un carton rouge sorti contre Derek Cornelius ; l\'OM s\'incline 1-0 à Roazhon Park, sa troisième défaite consécutive de la saison, et Bruno Genesio a ensuite évoqué les ambitions de ses dirigeants plutôt que l\'arbitrage.',
+      dubitatif: 'Une désignation d\'arbitre suit un tournus bien plus large que la seule rancune supposée d\'un club, et aucune décision franchement litigieuse n\'est ressortie de ce Rennes-OM : avant de crier à la provocation, encore faudrait-il un vrai fait de jeu à se mettre sous la dent.',
+      nuance: 'Que Stinat réveille de mauvais souvenirs légitimes après Auxerre est indéniable, mais une désignation obéit à un tournus administratif et non à une vendetta personnelle ; l\'OM ferait peut-être mieux de regarder sa propre méforme sportive, à sa troisième défaite de suite, plutôt que de rejouer un dossier vieux de dix-neuf mois.',
+      nostalgique: 'Avant, la désignation d\'un arbitre ne faisait polémique qu\'après le coup de sifflet final, jamais 48 heures avant le match rien que sur un nom affiché au calendrier.',
+      provocateur: 'Prochaine étape logique pour la LFP : désigner Stinat sur chaque match de l\'OM jusqu\'à la fin de la saison, comme ça au moins Marseille aura une bonne excuse toute trouvée à chaque nouvelle défaite.',
+    },
+  },
+  {
     id: 'letang-mails-arbitrage-2026-09-11',
     date: '2026-09-11',
     cat: 'Ligue 1',
