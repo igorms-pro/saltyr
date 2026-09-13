@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'de-zerbi-humilite-om-2026-09-13',
+    date: '2026-09-13',
+    cat: 'Ligue 1',
+    text: 'Après une troisième défaite de suite à Rennes malgré deux poteaux touchés, dire à son vestiaire que « tout le monde n\'a pas encore compris qu\'il faut être tout le temps au même niveau d\'envie, de motivation, d\'humilité » est le seul discours de vérité qu\'un coach de l\'OM peut tenir en ce moment : De Zerbi a raison de taper sur l\'état d\'esprit de ses joueurs plutôt que sur l\'arbitre ou le mercato, même si pointer du doigt le vestiaire reste aussi la façon la plus commode d\'évacuer sa propre part de responsabilité dans cette spirale de trois revers d\'affilée.',
+    pour: 46,
+    answers: {
+      passionne: 'Enfin un coach qui arrête de materner son vestiaire : deux poteaux touchés, un but bête encaissé et une troisième défaite de suite, ce groupe avait besoin qu\'on lui parle cash plutôt que de continuer à chercher des excuses ailleurs.',
+      objectif: 'L\'OM concède sa troisième défaite consécutive en Ligue 1 après le revers 1-0 à Rennes le 11 septembre, où Marseille a touché deux montants avant d\'encaisser le seul but du match ; De Zerbi a ensuite évoqué un manque de constance dans l\'envie et l\'humilité de son groupe plutôt qu\'un problème tactique.',
+      dubitatif: 'Un coup de gueule à chaud après une défaite frustrante ne vaut rien tant qu\'on ne voit pas si De Zerbi change quoi que ce soit à sa composition ou à son discours lors des prochains matchs ; les mots sans les actes, ça n\'a jamais fait gagner une rencontre de Ligue 1.',
+      nuance: 'Que le fond du discours de De Zerbi soit juste, l\'état d\'esprit du groupe doit progresser, personne ne le conteste vraiment ; mais un entraîneur qui aligne à peu près le même onze depuis le début de saison a aussi sa part de responsabilité dans cette spirale, pas seulement le supposé manque d\'humilité de son vestiaire.',
+      nostalgique: 'Avant, un coach qui perdait trois fois de suite commençait par se remettre en question lui-même avant de pointer du doigt ses joueurs en conférence de presse ; aujourd\'hui c\'est open bar sur l\'état d\'esprit du vestiaire dès la première mauvaise série.',
+      provocateur: 'Prochaine étape logique pour De Zerbi : coller une affiche « Envie, Motivation, Humilité » dans le vestiaire du Vélodrome et espérer qu\'elle marque des buts à la place de ses attaquants.',
+    },
+  },
+  {
     id: 'stinat-rennes-om-arbitrage-2026-09-12',
     date: '2026-09-12',
     cat: 'Arbitrage',
