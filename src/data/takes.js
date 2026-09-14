@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'brunner-egorgement-strasbourg-2026-09-14',
+    date: '2026-09-14',
+    cat: 'Ligue 1',
+    text: 'Mimer un égorgement du pouce sous la gorge, en plein visage du Kop de la Meinau, juste après avoir égalisé d\'une frappe splendide en pleine lucarne à la 71e minute contre Strasbourg (1-1), c\'est une réaction totalement légitime de Paris Brunner : quand des supporters passent tout un match à insulter sa mère et son père, il n\'a pas à ravaler sa colère pour rester poli, même si l\'attaquant de Monaco a lui-même qualifié son geste de « maladroit » et présenté ses excuses sur Instagram avant que la commission de discipline de la LFP ne s\'en empare.',
+    pour: 46,
+    answers: {
+      passionne: 'Il se prend des insultes sur sa mère et son père pendant 90 minutes et il faudrait qu\'il fête son but en courant sourire aux lèvres vers la tribune qui vient de l\'humilier ? Le geste de Brunner n\'est pas beau, il est humain, et c\'est exactement pour ça qu\'il ne mérite aucune sanction.',
+      objectif: 'Paris Brunner a égalisé à la 71e minute (Strasbourg 1-1 Monaco, 4e journée), après l\'ouverture du score strasbourgeoise sur un but contre son camp à la 52e ; il a ensuite mimé un égorgement du pouce face au kop alsacien, expliqué avoir entendu des insultes visant ses parents, puis présenté ses excuses sur Instagram avant transmission possible du dossier à la commission de discipline de la LFP.',
+      dubitatif: 'Le geste est choquant sur l\'image brute, mais personne n\'a encore de preuve indépendante du contenu exact des insultes reçues par Brunner : attendons l\'enquête de la commission de discipline avant de trancher entre légitime défense verbale et simple débordement.',
+      nuance: 'Que des supporters s\'en prennent aux parents d\'un joueur de 20 ans est inacceptable et explique la colère de Brunner ; que ce même joueur réponde par un geste mimant l\'égorgement en plein stade l\'est tout autant : les deux torts existent sans s\'annuler l\'un l\'autre.',
+      nostalgique: 'Avant, un joueur insulté par la tribune adverse répondait par un doigt sur la bouche ou un doigt d\'honneur discret, pas par une mise en scène façon film d\'horreur reprise en boucle sur toutes les chaînes le lendemain.',
+      provocateur: 'Prochaine étape logique pour la LFP : ouvrir un stand de rasoirs en libre-service devant chaque tribune, comme ça les attaquants n\'auront même plus besoin de mimer le geste.',
+    },
+  },
+  {
     id: 'stinat-rennes-om-arbitrage-2026-09-12',
     date: '2026-09-12',
     cat: 'Arbitrage',
