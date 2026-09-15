@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'genesio-om-pression-2026-09-15',
+    date: '2026-09-15',
+    cat: 'Ligue 1',
+    text: 'Après une victoire initiale contre Strasbourg suivie de trois défaites de rang face à Monaco, Paris FC puis Rennes, et un mercato estival bouclé sans le moindre renfort majeur, Bruno Genesio doit être remercié sans attendre par l\'OM : un entraîneur qui perd trois matchs de suite porte la responsabilité sportive de la crise, quels que soient les manquements de la direction de Frank McCourt sur le marché des transferts, même si Genesio lui-même a préféré, après la défaite à Rennes, pointer du doigt le manque d\'ambition de ses propres dirigeants plutôt que d\'assumer ses propres choix tactiques.',
+    pour: 45,
+    answers: {
+      passionne: 'Trois défaites de suite, zéro recrue majeure amenée cet été et un coach qui balance déjà sur sa propre direction en conférence de presse : Genesio a perdu le vestiaire avant même de perdre les matchs, il faut le virer avant que ça devienne irrattrapable.',
+      objectif: 'L\'OM a remporté son premier match de la saison contre Strasbourg avant d\'enchaîner trois défaites consécutives en championnat face à Monaco, Paris FC puis Rennes (0-1, le 12 septembre) ; le mercato estival marseillais s\'est refermé sans recrue majeure, et Bruno Genesio a ensuite évoqué publiquement le manque d\'ambition de sa direction plutôt que ses propres choix tactiques.',
+      dubitatif: 'Quatre journées, une seule victoire au compteur et un effectif amputé par un mercato raté : c\'est un tout petit échantillon pour condamner un entraîneur, laissons au moins dix matchs à Genesio avant de sortir la corde.',
+      nuance: 'Genesio porte sa part de responsabilité sportive dans trois défaites de suite, c\'est indéniable ; mais lui reprocher l\'absence de recrues alors que McCourt a fermé le robinet du mercato revient à punir le pompier pour l\'incendie allumé par quelqu\'un d\'autre.',
+      nostalgique: 'Avant, un coach qui perdait trois matchs avait droit à toute une trêve internationale pour corriger le tir, pas à être jugé sur les réseaux sociaux dès le lendemain de la défaite.',
+      provocateur: 'Prochaine étape logique pour l\'OM : virer Genesio par SMS pendant la trêve internationale, comme ça la direction n\'aura même pas besoin de trouver un nouveau bouc émissaire avant le prochain match.',
+    },
+  },
+  {
     id: 'brunner-egorgement-strasbourg-2026-09-14',
     date: '2026-09-14',
     cat: 'Ligue 1',
