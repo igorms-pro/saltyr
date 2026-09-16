@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'dta-erreur-monaco-strasbourg-2026-09-16',
+    date: '2026-09-16',
+    cat: 'Arbitrage',
+    text: 'Reconnaître officiellement, comme vient de le faire la Direction de l\'Arbitrage, qu\'un penalty aurait dû être sifflé pour l\'AS Monaco dans les derniers instants du nul concédé à Strasbourg (1-1) ne sert strictement à rien si la Ligue ne répare pas sportivement son erreur : deux points arrachés au leader du championnat par une VAR défaillante doivent être restitués, sinon ces communiqués d\'auto-critique ne sont qu\'un exercice de communication sans aucune conséquence.',
+    pour: 47,
+    answers: {
+      passionne: 'Monaco se fait voler deux points par une erreur que la fédération elle-même reconnaît noir sur blanc, et la seule sanction c\'est... un communiqué ? Rendez les points, ou arrêtez de faire semblant que la VAR sert à quelque chose.',
+      objectif: 'La Direction de l\'Arbitrage a confirmé le 15 septembre qu\'un penalty aurait dû être accordé à l\'AS Monaco face à Strasbourg (1-1, 4e journée), pour une faute au sens de la Loi 12 dans les dernières minutes, sans renvoi de l\'arbitre vidéo vers l\'écran de bord de terrain.',
+      dubitatif: 'Une erreur reconnue à froid le mardi ne prouve pas qu\'un arbitre aurait sifflé la même chose en direct sous la pression du match : attendons de voir si la DTA change vraiment ses protocoles avant de réclamer une réparation.',
+      nuance: 'L\'erreur est réelle et coûte cher à Monaco, personne ne le nie ; mais rejouer une fin de match ou redistribuer des points ouvrirait une boîte de Pandore que même les supporters monégasques les plus remontés ne veulent probablement pas voir ouverte.',
+      nostalgique: 'Avant la VAR, une erreur d\'arbitrage restait une erreur d\'arbitrage qu\'on oubliait à la trêve suivante ; maintenant on a un communiqué officiel qui prouve la faute et toujours aucun moyen de la corriger, c\'est le pire des deux mondes.',
+      provocateur: 'Prochaine étape logique pour la LFP : publier un communiqué d\'excuses après chaque erreur d\'arbitrage et redistribuer les points par tirage au sort en fin de saison, ça ira plus vite.',
+    },
+  },
+  {
     id: 'genesio-om-pression-2026-09-15',
     date: '2026-09-15',
     cat: 'Ligue 1',
