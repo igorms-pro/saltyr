@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-staff-clan-real-2026-09-17',
+    date: '2026-09-17',
+    cat: 'Équipe de France',
+    text: 'Bâtir tout son premier staff de l\'équipe de France autour de fidèles ramenés du Real Madrid, comme David Bettoni et Hamidou Msaidie, est le bon calcul de Zinédine Zidane : recréer telle quelle l\'alchimie de vestiaire qui lui a offert trois Ligues des champions consécutives entre 2016 et 2018 compte plus, pour un groupe de stars qu\'on ne retrouve que quelques jours par mois, que l\'expérience du poste de sélectionneur que Zidane n\'a jamais occupé avant sa prise de fonction le 1er août 2026.',
+    pour: 46,
+    answers: {
+      passionne: 'Zidane a gagné trois Ligues des champions de rang avec un vestiaire de stars ingérables, il sait mieux que n\'importe qui comment souder un groupe : lui reprocher de s\'entourer de ses fidèles plutôt que d\'un inconnu tout juste diplômé, c\'est juste de la jalousie déguisée en analyse.',
+      objectif: 'Zinédine Zidane a officialisé son staff complet le 15 septembre 2026 avant son premier rassemblement à Clairefontaine, avec notamment David Bettoni et Hamidou Msaidie, deux hommes de confiance de ses passages au Real Madrid (2016-2018 puis 2019-2021) où il a remporté trois Ligues des champions de rang ; sa première liste de joueurs sera dévoilée le 18 septembre.',
+      dubitatif: 'Un vestiaire de club qu\'on voit tous les jours et un groupe de sélection qu\'on retrouve quelques jours toutes les six semaines n\'ont rien à voir : attendons la première trêve et les premiers résultats de Zidane avant de valider ou d\'enterrer sa méthode.',
+      nuance: 'Que Zidane veuille recréer l\'alchimie qui a fait ses preuves au Real se comprend parfaitement, mais s\'entourer uniquement de fidèles sans la moindre expérience du poste de sélectionneur reste un vrai pari : gage de continuité gagnante et zone de risque inexpérimentée sont vrais en même temps.',
+      nostalgique: 'Avant, un sélectionneur gravissait patiemment les échelons en équipes de jeunes ou en club avant d\'hériter des Bleus ; aujourd\'hui on confie le costume à une légende sur son seul palmarès de joueur et d\'entraîneur au Real, sans un seul jour d\'expérience en sélection nationale.',
+      provocateur: 'Prochaine étape logique pour Zidane : convoquer aussi Raúl et Casillas comme consultants bénévoles, comme ça Clairefontaine ressemblera enfin officiellement à une colonie de vacances du Real Madrid version 2017.',
+    },
+  },
+  {
     id: 'dta-erreur-monaco-strasbourg-2026-09-16',
     date: '2026-09-16',
     cat: 'Arbitrage',
