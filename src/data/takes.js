@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'cup-interdiction-marseille-2026-09-18',
+    date: '2026-09-18',
+    cat: 'Ligue 1',
+    text: 'Reconduire, comme vient de le faire la préfecture avec un arrêté daté du 28 août 2026, l\'interdiction totale de déplacement pour les supporters parisiens à Marseille lors du Classique de dimanche est une mesure de sécurité publique pleinement justifiée après onze ans d\'affrontements documentés entre les deux tribunes depuis 2015, peu importe que le Collectif Ultras Paris ait saisi en urgence le Conseil d\'État ce vendredi pour dénoncer une punition collective qui prive chaque année des milliers de supporters pacifiques de leur droit de soutenir leur club en déplacement.',
+    pour: 44,
+    answers: {
+      passionne: 'Onze ans que les tribunes parisiennes n\'ont plus le droit de vivre Le Classique au Vélodrome à cause d\'une minorité qui balance des fumigènes et en vient aux mains : la préfecture protège des milliers de familles marseillaises, tant pis pour ceux qui pleurent leur « liberté de circulation ».',
+      objectif: 'L\'arrêté préfectoral du 28 août 2026 interdit tout déplacement de supporters revendiqués du PSG vers Marseille le dimanche 20 septembre, jour du Classique (20h45) ; le Collectif Ultras Paris a saisi le Conseil d\'État en référé le 18 septembre pour contester cette interdiction reconduite chaque année depuis 2015, une décision étant attendue avant le coup d\'envoi.',
+      dubitatif: 'Le Conseil d\'État n\'a pas encore tranché le recours du CUP au moment où ce débat est posé : inutile de crier à l\'injustice ou à la mesure salvatrice avant de connaître l\'issue de la procédure d\'urgence.',
+      nuance: 'Que la préfecture veuille éviter un nouveau déferlement de violences entre tribunes se comprend très bien, mais punir chaque année des milliers de supporters pacifiques pour les débordements d\'une minorité pose aussi un vrai problème de proportionnalité : sécurité publique et liberté de circulation sont légitimes toutes les deux.',
+      nostalgique: 'Avant 2015, les supporters parisiens montaient encore au Vélodrome pour Le Classique ; onze ans plus tard, toute une génération de jeunes fans du PSG n\'aura jamais connu ça autrement que devant un écran de télé.',
+      provocateur: 'Prochaine étape logique pour la préfecture : interdire aussi aux Marseillais de regarder le match à la télé chez eux, comme ça plus aucun débordement n\'est possible nulle part.',
+    },
+  },
+  {
     id: 'zidane-staff-clan-real-2026-09-17',
     date: '2026-09-17',
     cat: 'Équipe de France',
