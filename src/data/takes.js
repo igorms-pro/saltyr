@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-capitaine-clash-dembele-2026-09-19',
+    date: '2026-09-19',
+    cat: 'Équipe de France',
+    text: 'Maintenir Kylian Mbappé au brassard de capitaine dans sa toute première liste des Bleus, dévoilée vendredi 18 septembre, est la seule décision possible pour Zinédine Zidane avant le rassemblement de Clairefontaine, peu importe que les propos de Mbappé sur son statut d\'« élu » du Ballon d\'Or, une pique à peine voilée pour Ousmane Dembélé qui a rétorqué n\'avoir « jamais été l\'élu » mais avoir « travaillé dur », aient déjà fracturé le vestiaire en clan Mbappé et clan Dembélé à quelques jours du coup d\'envoi.',
+    pour: 46,
+    answers: {
+      passionne: 'Mbappé est capitaine parce qu\'il est tout simplement le meilleur joueur du monde, le brassard n\'a jamais menti sur qui porte l\'équipe : à Dembélé de répondre sur le terrain plutôt que dans les colonnes de France Football.',
+      objectif: 'La liste de Zidane du 18 septembre confirme Mbappé capitaine, sans Tchouaméni ni Thuram et avec cinq nouveaux appelés ; Mbappé a évoqué son statut d\'« élu » dans France Football, Dembélé a répondu n\'avoir « jamais été l\'élu » mais avoir « travaillé dur », juste avant le rassemblement de Clairefontaine.',
+      dubitatif: 'Deux clans dans le vestiaire, ça se raconte beaucoup dans la presse mais ça se vérifie surtout sur le terrain : attendons de voir si ça se ressent vraiment en Ligue des nations avant de parler de fracture.',
+      nuance: 'Que Zidane s\'appuie sur son meilleur joueur se comprend très bien, mais laisser le brassard à celui qui vient de raviver la rivalité avec Dembélé à quelques jours du rassemblement n\'aide pas franchement à ressouder un vestiaire déjà fragile.',
+      nostalgique: 'Du temps de Zidane joueur, le brassard se gagnait par le silence et l\'exemple sur le terrain, pas par une punchline sur son propre statut d\'« élu » balancée dans un magazine avant même le premier rassemblement.',
+      provocateur: 'Prochaine étape logique : un brassard pour Mbappé et un brassard pour Dembélé, chacun le sien, comme ça tout le monde est content et plus personne n\'a besoin de se parler.',
+    },
+  },
+  {
     id: 'cup-interdiction-marseille-2026-09-18',
     date: '2026-09-18',
     cat: 'Ligue 1',
