@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'toppmoller-limogeage-lens-2026-09-20',
+    date: '2026-09-20',
+    cat: 'Ligue 1',
+    text: 'Limoger Dino Toppmöller à peine trois mois après son arrivée, le 16 septembre, avec seulement 4 points pris en 4 journées de Ligue 1 et une décevante 10e place au classement, est une décision sportive parfaitement légitime pour un RC Lens qui ne peut pas se permettre de laisser une crise de vestiaire pourrir sa saison dès septembre, peu importe que l\'Allemand ait offert au club une victoire de prestige sur le PSG en Trophée des Champions et un 5-2 infligé à Auxerre pour ses grands débuts, et que la presse allemande se dise sidérée par la brutalité de la méthode employée pour l\'évincer au profit de Yannick Cahuzac.',
+    pour: 44,
+    answers: {
+      passionne: 'Quatre points en quatre matchs et un vestiaire qui ne suit plus la tactique du coach, ça ne pardonne pas en Ligue 1 : Lens a eu raison de trancher vite plutôt que de laisser la crise pourrir jusqu\'à la trêve internationale.',
+      objectif: 'Arrivé le 16 juin en remplacement de Pierre Sage, Dino Toppmöller est limogé le 16 septembre après 4 journées de championnat (4 points, 10e place) malgré un succès sur le PSG en Trophée des Champions et un 5-2 contre Auxerre ; Yannick Cahuzac le remplace.',
+      dubitatif: 'Cahuzac vient tout juste de prendre les rênes et n\'a pas encore dirigé le moindre match officiel : impossible de dire si ce limogeage express était la bonne décision avant de voir ce que change réellement le nouveau coach sur le terrain.',
+      nuance: 'Que la direction veuille réagir vite face à des résultats décevants se comprend très bien, mais virer un entraîneur trois mois après son arrivée et juste après une victoire de prestige sur le PSG envoie aussi un signal de très grande impatience, voire de panique.',
+      nostalgique: 'Il y a encore quinze ans, un coach avait au moins une demi-saison pour installer son projet avant d\'être vraiment jugé ; à Lens en 2026, quatre matchs et un vestiaire grincheux suffisent à faire tomber un entraîneur.',
+      provocateur: 'Au rythme où va Lens, le prochain coach ferait mieux de garder ses valises faites dès sa conférence de presse de présentation.',
+    },
+  },
+  {
     id: 'mbappe-capitaine-clash-dembele-2026-09-19',
     date: '2026-09-19',
     cat: 'Équipe de France',
