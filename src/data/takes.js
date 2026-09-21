@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'letexier-carton-rouge-weah-om-psg-2026-09-21',
+    date: '2026-09-21',
+    cat: 'Arbitrage',
+    text: 'Le fait que François Letexier ait d\'abord brandi un carton rouge à Timothy Weah pour un tacle sur Nuno Mendes avant de se raviser en pleine confusion pour un simple jaune, dimanche 20 septembre en plein Classique au Vélodrome, suffit à prouver que l\'arbitrage français n\'est plus fiable dans les rendez-vous qui comptent vraiment, peu importe que ce même Weah ait fini par être expulsé sur un second jaune parfaitement mérité à la 77e minute et que le PSG ait fini par s\'imposer 2-1 sans contestation possible sur le fond du match.',
+    pour: 47,
+    answers: {
+      passionne: 'Se tromper de couleur de carton devant 60 000 personnes en plein Classique, c\'est juste indéfendable : à ce niveau-là, l\'arbitre n\'a plus le droit à l\'erreur, point final.',
+      objectif: 'À la 33e minute, François Letexier sort un rouge à Weah pour un tacle sur Nuno Mendes puis se ravise pour un jaune ; à la 77e, Weah écope d\'un second jaune et est expulsé ; le PSG s\'impose 2-1 au Vélodrome et l\'OM termine à dix, 17e au classement.',
+      dubitatif: 'Une hésitation de carton sous la pression d\'un Classique, ça arrive à n\'importe quel arbitre : attendons de voir si l\'erreur se répète chez Letexier avant de l\'enterrer sur un seul match.',
+      nuance: 'Que Letexier ait fini par prendre la bonne décision dans les deux cas ne veut pas dire que l\'image d\'un rouge brandi puis retiré en plein money-time fait gagner en crédibilité à l\'arbitrage français.',
+      nostalgique: 'À l\'époque où les arbitres officiaient sans oreillette ni VAR pour les souffler, on ne les voyait jamais se tromper de couleur de carton en direct devant tout un stade.',
+      provocateur: 'Prochaine étape logique : un stagiaire à plein temps chargé uniquement de tendre le bon carton à l\'arbitre.',
+    },
+  },
+  {
     id: 'toppmoller-limogeage-lens-2026-09-20',
     date: '2026-09-20',
     cat: 'Ligue 1',
