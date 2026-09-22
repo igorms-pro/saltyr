@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'gouiri-penalty-non-siffle-om-psg-2026-09-22',
+    date: '2026-09-22',
+    cat: 'Arbitrage',
+    text: 'Le fait que la VAR ait validé le refus de penalty de François Letexier après le contact de Désiré Doué sur Amine Gouiri, terrassé dans la surface à la 38e minute du Classique dimanche 20 septembre, prouve que l\'assistance vidéo protège structurellement le PSG dans les grands rendez-vous, peu importe que Clément Grenier lui-même juge le ballon trop excentré pour justifier un penalty et que Philippe Mexès reconnaisse que Gouiri « se laisse un peu tomber ».',
+    pour: 48,
+    answers: {
+      passionne: 'Doué traîne les deux jambes de Gouiri dans la surface et la VAR ferme les yeux sans même rappeler Letexier à la table : à ce niveau d\'aveuglement collectif, autant installer un supporter du PSG directement en cabine.',
+      objectif: 'À la 38e minute, contact entre Désiré Doué et Amine Gouiri dans la surface marseillaise ; aucun penalty sifflé, la VAR juge le ballon touché par Doué et ne rappelle pas l\'arbitre ; le PSG s\'impose 2-1 au Vélodrome, un 4e revers de suite pour l\'OM face au rival parisien.',
+      dubitatif: 'Un ralenti, deux interprétations, une polémique de plus : sans voir le protocole VAR en entier, difficile de trancher entre penalty escamoté et simulation bien vendue.',
+      nuance: 'Que Gouiri ait pu accentuer sa chute n\'efface pas le contact réel de Doué, et que le contact soit réel n\'en fait pas automatiquement un penalty évident : les deux lectures se défendent sur cette action précise.',
+      nostalgique: 'Avant la VAR, cette action restait un simple coup dur digéré le lendemain matin ; maintenant on ressort les ralentis sous tous les angles pendant une semaine entière.',
+      provocateur: 'Prochaine étape logique : la VAR devra bientôt s\'expliquer devant sa propre commission de discipline.',
+    },
+  },
+  {
     id: 'letexier-carton-rouge-weah-om-psg-2026-09-21',
     date: '2026-09-21',
     cat: 'Arbitrage',
