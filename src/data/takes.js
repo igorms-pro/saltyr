@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-fff-guerre-barcola-2026-09-23',
+    date: '2026-09-23',
+    cat: 'Équipe de France',
+    text: 'Le fait que le PSG ait publié un communiqué accusant frontalement la FFF de travestir l\'origine de la blessure de Bradley Barcola, contredisant la version d\'une lésion chronique contractée dès la victoire 4-0 contre l\'Atalanta le 17 septembre pour affirmer que le joueur s\'est en réalité blessé face à Lille, prouve que le club a totalement raison de reprendre le contrôle sur la santé de ses internationaux, peu importe que Didier Deschamps ait dû rappeler en urgence Florian Thauvin, 32 ans et sans sélection depuis juin 2019, pour compenser ce énième forfait après ceux de Dembélé, Doué et Thuram.',
+    pour: 47,
+    answers: {
+      passionne: 'Le PSG a mille fois raison : la FFF empile les forfaits de Parisiens depuis Dembélé et Doué sans jamais se remettre en question, il est temps que le club dise stop avant de ne plus récupérer un seul joueur en un seul morceau.',
+      objectif: 'Barcola dispute les 90 minutes contre l\'Atalanta le 17 septembre, puis est remplacé à la 60e contre Lille avant de déclarer forfait pour le rassemblement des Bleus ; Thauvin, 32 ans et non retenu depuis juin 2019, le remplace dans la liste de Deschamps.',
+      dubitatif: 'Sans accès aux dossiers médicaux des deux camps, impossible de trancher entre le staff du PSG et celui des Bleus sur la date exacte où l\'ischio de Barcola a lâché.',
+      nuance: 'Le PSG a raison de vouloir protéger ses joueurs après une série d\'alertes, mais régler ça par communiqué interposé plutôt qu\'en interne avec la FFF n\'aide ni le club ni Barcola ni les Bleus.',
+      nostalgique: 'Avant, un joueur blessé se soignait en silence entre son club et la sélection ; maintenant chaque ischio-jambier se négocie par communiqué de presse.',
+      provocateur: 'Prochaine étape logique : le PSG exige un droit de veto sur la liste des Bleus, ou refuse carrément de libérer ses joueurs tant que la FFF n\'aura pas changé de staff médical.',
+    },
+  },
+  {
     id: 'gouiri-penalty-non-siffle-om-psg-2026-09-22',
     date: '2026-09-22',
     cat: 'Arbitrage',
