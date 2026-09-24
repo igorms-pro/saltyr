@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'brunner-gorge-tranchee-sanction-2026-09-24',
+    date: '2026-09-24',
+    cat: 'Règlement',
+    text: 'Le fait que Paris Brunner n\'écope que de deux matchs de suspension ferme (sur quatre, dont deux avec sursis) pour avoir mimé un geste de gorge tranchée face aux supporters strasbourgeois après son but du 12 septembre, absent seulement contre Toulouse et Lorient avant de revenir face à Lille le 25 octobre, prouve que la commission de discipline de la LFP reste bien trop clémente avec les provocations envers le public, peu importe que le joueur ait expliqué avoir réagi à des insultes visant sa famille et reconnu de lui-même avoir été maladroit.',
+    pour: 49,
+    answers: {
+      passionne: 'Un geste pareil devant des supporters, ça mérite une vraie suspension et pas un rappel à l\'ordre avec sursis : la LFP protège ses stars plus que le public qui paie sa place, point final.',
+      objectif: 'Le 12 septembre à Strasbourg (1-1), Paris Brunner mime un geste de gorge tranchée après son but ; la commission de discipline lui inflige 4 matchs de suspension dont 2 avec sursis, effective à partir du 29 septembre : il manque Toulouse et Lorient avant de revenir face à Lille le 25 octobre.',
+      dubitatif: 'Sans savoir précisément ce que les supporters strasbourgeois lui ont crié avant son geste, difficile de juger si la sanction est trop clémente ou parfaitement proportionnée.',
+      nuance: 'Que Brunner ait pu être provoqué par des insultes visant sa famille n\'excuse pas un geste aussi violent symboliquement, mais ça explique pourquoi la commission a choisi la clémence plutôt que l\'exemplarité.',
+      nostalgique: 'Avant, un joueur insulté répondait par un doigt sur la bouche ou une main à l\'oreille ; maintenant on en est au mime de gorge tranchée suivi d\'un communiqué d\'excuses.',
+      provocateur: 'Prochaine étape logique : une grille tarifaire officielle de sanctions selon le type de geste macabre, pour que chaque joueur sache combien de matchs coûte son mime préféré.',
+    },
+  },
+  {
     id: 'psg-fff-guerre-barcola-2026-09-23',
     date: '2026-09-23',
     cat: 'Équipe de France',
