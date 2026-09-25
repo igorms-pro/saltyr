@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-mbappe-aile-turquie-2026-09-25',
+    date: '2026-09-25',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane décale Kylian Mbappé à l\'aile gauche et installe Ousmane Dembélé en pointe pour ses grands débuts sur le banc des Bleus face à la Turquie ce vendredi soir, un choix assumé alors que Mbappé n\'a jamais caché préférer jouer dans l\'axe depuis des années, prouve qu\'il a raison de construire son équipe autour de l\'équilibre collectif plutôt que du confort de son capitaine, peu importe les tensions déjà pointées par la presse entre les deux attaquants parisiens.',
+    pour: 47,
+    answers: {
+      passionne: 'Zidane a raison sur toute la ligne : un vrai numéro 9 en pointe et Mbappé qui déborde sur son pied fort, c\'est exactement l\'équilibre qui manquait à cette équipe depuis des années.',
+      objectif: 'Pour son premier match officiel sur le banc des Bleus, Zidane aligne un 4-3-3 avec Dembélé en pointe et Mbappé à gauche, une répartition déjà répétée à l\'entraînement selon la presse avant le coup d\'envoi à 20h45 en Turquie.',
+      dubitatif: 'Entre une idée qui sonne bien sur le papier et ce qu\'elle donnera une fois le ballon lancé face à une vraie défense turque, il y a un monde qu\'on ne mesurera qu\'après le coup de sifflet final.',
+      nuance: 'Zidane a raison de vouloir un vrai point de fixation, mais décaler son capitaine dès le tout premier match sans avoir eu le temps de vendre publiquement le projet, c\'est prendre un risque psychologique inutile pour une première.',
+      nostalgique: 'Avant, on demandait juste à Mbappé où il voulait jouer et on construisait l\'équipe autour ; avec Zidane, le débat est déjà tranché avant même le coup d\'envoi du premier match.',
+      provocateur: 'Prochaine étape logique : Zidane demande à Mbappé de jouer arrière gauche pour prouver qu\'il sait vraiment tout faire, et on appellera ça de la flexibilité tactique.',
+    },
+  },
+  {
     id: 'brunner-gorge-tranchee-sanction-2026-09-24',
     date: '2026-09-24',
     cat: 'Règlement',
