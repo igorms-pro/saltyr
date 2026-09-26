@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-blessure-genou-turquie-zidane-2026-09-26',
+    date: '2026-09-26',
+    cat: 'Équipe de France',
+    text: 'Le fait que Kylian Mbappé se blesse au genou gauche sur le but qui offre à Zinédine Zidane une victoire 1-0 dès son premier match sur le banc des Bleus vendredi soir en Turquie, alors qu\'il évoluait au poste d\'ailier gauche où le nouveau sélectionneur l\'avait replacé contre son avis exprimé depuis des années, prouve que les sélections nationales devraient cesser d\'expérimenter avec le poste de leurs plus grandes stars de club pendant les rassemblements internationaux, peu importe que la blessure soit intervenue sur une frappe anodine et que le Real Madrid n\'ait émis pour l\'instant aucune protestation officielle.',
+    pour: 46,
+    answers: {
+      passionne: 'Décaler son meilleur joueur à un poste qu\'il n\'a jamais réclamé dès le tout premier match et le voir se blesser en marquant le seul but de la victoire, c\'est la preuve que la FFF joue avec le corps de Mbappé comme si le Real Madrid n\'existait pas.',
+      objectif: 'Mbappé ouvre le score à la 54e minute en tant qu\'ailier gauche, ressent une hyperextension du genou gauche sur sa frappe et est remplacé par Désiré Doué à la 59e ; la France s\'impose 1-0 en Turquie pour le premier match de Zidane, et Mbappé quitte le rassemblement avec une lésion tendineuse.',
+      dubitatif: 'Une frappe anodine qui tourne mal, ça peut arriver à n\'importe quel poste et sur n\'importe quel terrain : avant de blâmer Zidane, autant attendre les examens complémentaires et voir combien de temps Mbappé sera vraiment absent.',
+      nuance: 'Que Zidane ait voulu innover dès son premier match se comprend, mais placer sa star sur une aile qu\'elle n\'a jamais réclamée puis la voir se blesser dessus, même sans lien de cause à effet prouvé, ne va pas calmer les nerfs à Madrid.',
+      nostalgique: 'Avant, un sélectionneur demandait d\'abord l\'avis du club avant de bricoler le poste d\'une star à plusieurs millions par mois ; maintenant on découvre le nouveau système en direct, blessure à la clé.',
+      provocateur: 'Prochaine étape logique : le Real Madrid facture désormais chaque minute de convocation en sélection, avec supplément si le joueur revient sur une civière.',
+    },
+  },
+  {
     id: 'zidane-mbappe-aile-turquie-2026-09-25',
     date: '2026-09-25',
     cat: 'Équipe de France',
