@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'real-madrid-colere-zidane-fff-blessure-mbappe-2026-09-27',
+    date: '2026-09-27',
+    cat: 'Équipe de France',
+    text: 'Le fait que le Real Madrid, après avoir lui-même diagnostiqué une hyperextension de la capsule postérieure du genou gauche de Kylian Mbappé, accuse ouvertement Zinédine Zidane et la FFF d\'avoir sacrifié son capitaine sur une frappe anodine alors que le club avait exprimé ses réserves avant le match selon la presse espagnole, prouve que les clubs ont enfin raison de réclamer un droit de veto sur l\'utilisation de leurs stars en sélection, peu importe que ce soit le calendrier surchargé imposé par les clubs eux-mêmes, Real Madrid en tête, qui explique la vague de blessures musculaires qui frappe déjà le vestiaire madrilène depuis le mois d\'août.',
+    pour: 45,
+    answers: {
+      passionne: 'Le Real Madrid a mille fois raison de fumer de rage : exprimer ses réserves avant le match puis voir son propre diagnostic confirmer une hyperextension, c\'est la preuve que la FFF joue avec le genou de sa star comme si le Clasico n\'existait pas.',
+      objectif: 'Le Real Madrid diagnostique une hyperextension de la capsule postérieure du genou gauche de Mbappé au lendemain de la victoire 1-0 contre la Turquie ; la presse espagnole évoque des réserves exprimées par le club avant la rencontre, et Zidane confirme trois absences en Ligue des nations.',
+      dubitatif: 'Entre la version du club qui parle de réserves ignorées et celle du staff des Bleus qui évoque une frappe anodine, il faudra plus qu\'une dépêche espagnole enflammée pour savoir qui a vraiment sous-évalué le risque.',
+      nuance: 'Que Madrid s\'inquiète pour son numéro 9 juste avant le Clasico se comprend, mais rappeler régulièrement ses propres joueurs blessés dès la reprise en club n\'en fait pas exactement une victime idéale du calendrier international.',
+      nostalgique: 'Avant, un club prêtait sa star à la sélection et attendait le retour sans faire de communiqué ; maintenant chaque hyperextension déclenche une guerre de com transalpine.',
+      provocateur: 'Prochaine étape logique : le Real Madrid exige un huissier dans le vestiaire des Bleus à chaque rassemblement, pour vérifier que Mbappé ne dépasse jamais les 60 minutes de jeu autorisées par contrat.',
+    },
+  },
+  {
     id: 'mbappe-blessure-genou-turquie-zidane-2026-09-26',
     date: '2026-09-26',
     cat: 'Équipe de France',
