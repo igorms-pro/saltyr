@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-pas-remplacant-mbappe-belgique-2026-09-28',
+    date: '2026-09-28',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane refuse d\'appeler le moindre renfort offensif pour compenser l\'absence de Kylian Mbappé, forfait pour les trois prochains matchs après sa blessure au genou contre la Turquie, et choisisse de faire confiance à Désiré Doué et au reste de son groupe pour affronter la Belgique ce lundi soir en pleine polémique avec le Real Madrid sur la gestion de son capitaine, prouve qu\'il a raison de vouloir démontrer dès son deuxième match que les Bleus ne dépendent pas d\'un seul joueur, peu importe qu\'une contre-performance ce soir relancerait aussitôt les accusations de légèreté dans la gestion de l\'effectif.',
+    pour: 49,
+    answers: {
+      passionne: 'Zidane a totalement raison de ne pas paniquer et d\'appeler un joker dans l\'urgence : ça enverrait le message que les Bleus s\'effondrent dès qu\'un seul joueur, même Mbappé, manque à l\'appel.',
+      objectif: 'Kylian Mbappé, absent pour une hyperextension de la capsule postérieure du genou gauche, manquera les trois prochains matchs de Ligue des nations ; la FFF confirme qu\'aucun joker ne sera appelé, et Désiré Doué est annoncé titulaire face à la Belgique ce lundi à 20h45.',
+      dubitatif: 'Ne pas convoquer de remplaçant sonne bien en conférence de presse, mais on verra si ce discours tient encore une fois que les Bleus seront menés au score en seconde période face à une Belgique portée par sa génération dorée.',
+      nuance: 'Faire confiance à son groupe plutôt que de céder à la panique se défend, mais gérer une crise médiatique avec le Real Madrid en refusant tout renfort au même moment, c\'est aussi s\'exposer à devoir se justifier deux fois plus fort en cas de défaite.',
+      nostalgique: 'Avant, un sélectionneur rappelait toujours un joker par précaution, même s\'il ne jouait pas une minute ; aujourd\'hui on préfère le pari psychologique au filet de sécurité.',
+      provocateur: 'Prochaine étape logique : si les Bleus perdent ce soir, Zidane expliquera que c\'était en fait un test grandeur nature pour préparer l\'après-Mbappé, et tout le monde applaudira.',
+    },
+  },
+  {
     id: 'real-madrid-colere-zidane-fff-blessure-mbappe-2026-09-27',
     date: '2026-09-27',
     cat: 'Équipe de France',
