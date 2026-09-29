@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-neuf-changements-belgique-victoire-olise-2026-09-29',
+    date: '2026-09-29',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane aligne un onze totalement chamboulé avec neuf changements par rapport à la victoire en Turquie pour affronter la Belgique à Bruxelles, sans que l\'absence de Kylian Mbappé n\'explique à elle seule un tel bouleversement, et que les Bleus s\'imposent quand même 1-0 grâce à un but de Michael Olise, prouve qu\'il a raison de vouloir connaître tout son groupe dès l\'entame de son mandat plutôt que de s\'accrocher à une ossature type, peu importe que cette valse permanente empêche l\'équipe de développer les automatismes qui feront la différence face à des adversaires autrement plus solides que la Belgique de ce soir.',
+    pour: 47,
+    answers: {
+      passionne: 'Neuf changements et une victoire quand même : Zidane a totalement raison de secouer le vestiaire dès son arrivée, ça prouve que le groupe est bien plus riche que ce qu\'on croyait.',
+      objectif: 'Zidane titularise un onze avec neuf changements par rapport au match contre la Turquie, seul Mike Maignan est reconduit dans le XI ; la France s\'impose 1-0 à Bruxelles grâce à un but de Michael Olise.',
+      dubitatif: 'Gagner 1-0 contre une Belgique pas franchement flamboyante avec neuf changements, ça ne prouve rien de solide : on jugera vraiment la méthode Zidane le jour où il affrontera une équipe capable de punir ce genre de valse des titulaires.',
+      nuance: 'Faire tourner tout le groupe pour installer la concurrence se justifie en Ligue des nations, mais neuf changements d\'un coup, c\'est aussi le meilleur moyen de ne jamais construire les automatismes qui compteront face à des adversaires autrement plus costauds.',
+      nostalgique: 'Avant, un sélectionneur gardait une ossature fixe et ne touchait qu\'un ou deux postes d\'un match à l\'autre ; aujourd\'hui on refait l\'équipe de France chaque semaine comme un FIFA Ultimate Team.',
+      provocateur: 'Prochaine étape logique : Zidane convoque 23 capitaines différents pour les 23 prochains matchs, histoire que tout le monde ait sa photo avec le brassard.',
+    },
+  },
+  {
     id: 'zidane-pas-remplacant-mbappe-belgique-2026-09-28',
     date: '2026-09-28',
     cat: 'Équipe de France',
