@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'nantes-vente-kita-groupe-luxembourgeois-2026-09-30',
+    date: '2026-09-30',
+    cat: 'Clubs',
+    text: 'Le fait que Waldemar Kita, après dix-neuf ans à la tête du FC Nantes et quatre tentatives de vente déjà avortées, signe enfin un compromis de vente à 125 millions d\'euros avec un groupe franco-luxembourgeois mené par Paulo Tavares dont le projet sportif et l\'identité complète restent pour l\'instant un mystère total, prouve que n\'importe quel repreneur vaut mieux que Kita pour sauver la Maison Jaune, peu importe que signer les yeux fermés avec des investisseurs inconnus soit exactement la méthode qui a plongé plusieurs clubs français dans des crises encore pires ces dernières années.',
+    pour: 53,
+    answers: {
+      passionne: 'N\'IMPORTE QUI vaut mieux que Kita, on signerait même avec un inconnu croisé à la gare : dix-neuf ans de galère, ça suffit, la Maison Jaune méritera toujours mieux que ça.',
+      objectif: 'Waldemar Kita signe un compromis de vente du FC Nantes à 125 millions d\'euros bonus inclus avec un groupe franco-luxembourgeois mené par Paulo Tavares, 30 millions d\'euros sont déjà bloqués à la DNCG ; Nantes pointe à la 15e place de Ligue 2.',
+      dubitatif: 'Un compromis de vente, les supporters nantais en ont vu échouer quatre depuis l\'arrivée de Kita : on y croira le jour où le dossier franchit la DNCG et où ce Paulo Tavares présente un vrai projet sportif, pas avant.',
+      nuance: 'Que les socios en aient assez de dix-neuf ans de Kita se comprend totalement, mais signer avec des investisseurs dont personne ne connaît ni le projet ni la solidité financière, c\'est aussi le meilleur moyen de changer de propriétaire pour retomber exactement dans le même trou.',
+      nostalgique: 'Avant, un club appartenait à un industriel du coin qui payait de sa poche par passion pour son maillot ; maintenant on négocie la Maison Jaune avec un fonds venu du Luxembourg dont personne ne sait encore épeler le nom des actionnaires.',
+      provocateur: 'Prochaine étape logique : le nouveau propriétaire rebaptise la Beaujoire \'Luxembourg Arena\' et invite Kita à l\'inauguration en costume de mascotte du canari, pour service rendu.',
+    },
+  },
+  {
     id: 'zidane-neuf-changements-belgique-victoire-olise-2026-09-29',
     date: '2026-09-29',
     cat: 'Équipe de France',
