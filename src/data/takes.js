@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'letang-coup-de-gueule-arbitre-lille-rennes-2026-10-01',
+    date: '2026-10-01',
+    cat: 'Arbitrage',
+    text: 'Le fait qu\'Olivier Létang débarque dans le couloir des vestiaires à la mi-temps de Lille-Rennes pour hurler « c\'est une honte, c\'est un scandale » à l\'arbitre Eric Wattellier après le rouge sorti à Alexsandro dès la 13e minute, un carton qui a plombé un LOSC réduit à dix et battu 2-0, prouve qu\'un président a parfaitement le droit de perdre son sang-froid pour défendre son club face à un arbitrage jugé à sens unique, peu importe que Létang, déjà épinglé par l\'UEFA pour un coup de sang similaire par le passé, risque gros devant la commission de discipline et donne le pire exemple possible à tous les dirigeants tentés d\'aller intimider un arbitre pendant la pause.',
+    pour: 47,
+    answers: {
+      passionne: 'Létang a mille fois raison de péter un câble : un président qui ne descend pas gueuler face à un arbitrage à sens unique ne mérite même pas de porter le brassard de dirigeant.',
+      objectif: 'Alexsandro est expulsé à la 13e minute pour un tacle jugé sévère, Lille termine à dix et s\'incline 0-2 face à Rennes à Pierre-Mauroy ; Olivier Létang avait déjà été sanctionné par l\'UEFA en 2024 pour des propos tenus envers un arbitre.',
+      dubitatif: 'On verra ce que décide la commission de discipline de la LFP avant de trancher : gueuler « c\'est une honte » dans un couloir, ça fait le buzz, mais ça n\'a jamais fait revenir un carton rouge déjà sorti.',
+      nuance: 'Que Létang s\'énerve sur un rouge limite se comprend, mais foncer engueuler l\'arbitre à la pause plutôt que de passer par les canaux officiels, c\'est aussi normaliser une pression que personne ne tolérerait venant d\'un simple supporter.',
+      nostalgique: 'Avant, un président réglait ses comptes avec l\'arbitre dans un communiqué poli le lendemain matin ; maintenant on fonce direct dans le couloir des vestiaires comme un samedi de coupe de quartier qui tourne mal.',
+      provocateur: 'Prochaine étape logique : Létang s\'installe à demeure dans le vestiaire arbitral avec sa propre VAR portative, histoire de rendre son verdict avant même le coup de sifflet final.',
+    },
+  },
+  {
     id: 'nantes-vente-kita-groupe-luxembourgeois-2026-09-30',
     date: '2026-09-30',
     cat: 'Clubs',
