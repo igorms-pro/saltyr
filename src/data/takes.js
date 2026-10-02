@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-elu-dembele-replique-ballon-dor-2026-10-02',
+    date: '2026-10-02',
+    cat: 'Équipe de France',
+    text: 'Le fait que Kylian Mbappé déclare dans France Football avoir \'toujours été vu comme l\'élu\' du football français quand Ousmane Dembélé, Ballon d\'Or en titre, \'a eu un parcours différent\', et que ce dernier lui réplique sèchement \'je n\'ai jamais été l\'élu\' à la veille d\'un France-Italie décisif sous Zidane, prouve que Mbappé a parfaitement le droit d\'assumer son statut de crack précoce sans se fondre dans la fausse modestie du vestiaire, peu importe que cette punchline relance une rivalité que les deux joueurs jurent publiquement avoir éteinte et vienne parasiter la préparation des Bleus à la veille d\'un match qui compte.',
+    pour: 46,
+    answers: {
+      passionne: 'Mbappé a cent fois raison : il EST l\'élu depuis ses débuts à Monaco à 18 ans, qu\'on arrête de lui demander de s\'excuser d\'avoir toujours été le meilleur.',
+      objectif: 'Dembélé est l\'actuel Ballon d\'Or ; Mbappé reste le meilleur buteur français en activité. Les deux sont titulaires ce soir pour France-Italie, premier match de Zidane face aux Italiens vingt ans après son coup de tête.',
+      dubitatif: 'Une punchline dans un magazine et une réplique sèche, ça fait des titres pendant 48 heures : on verra si ça change quoi que ce soit sur le terrain ce soir contre l\'Italie, pas avant.',
+      nuance: 'Que Mbappé revendique son parcours de prodige précoce se comprend, mais minimiser publiquement celui de Dembélé, qui a dû batailler contre les blessures avant de devenir Ballon d\'Or, c\'est aussi manquer de tact envers un coéquipier.',
+      nostalgique: 'Avant, les stars des Bleus réglaient leurs histoires d\'ego dans le vestiaire et lâchaient leurs vérités dans L\'Équipe du lendemain ; maintenant on théorise sur qui est \'l\'élu\' dans un magazine avant même le coup d\'envoi.',
+      provocateur: 'Prochaine étape logique : Mbappé et Dembélé se disputent le brassard ET le Ballon d\'Or dans un duel au sabre sur la pelouse, Zidane en arbitre impartial depuis le banc de touche.',
+    },
+  },
+  {
     id: 'letang-coup-de-gueule-arbitre-lille-rennes-2026-10-01',
     date: '2026-10-01',
     cat: 'Arbitrage',
