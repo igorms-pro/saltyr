@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-mbappe-non-lieu-harcelement-2026-10-03',
+    date: '2026-10-03',
+    cat: 'Clubs',
+    text: 'Le fait que la justice prononce un non-lieu dans l\'enquête pour harcèlement moral visant le PSG après la mise au loft de Kylian Mbappé à l\'été 2023, blanchissant totalement le club faute de preuves, prouve que l\'attaquant du Real a dramatisé son calvaire pour se victimiser aux yeux du public, peu importe que ce même PSG, dans cette même rupture, ait déjà été condamné aux prud\'hommes à lui verser 60,9 millions d\'euros de salaires et primes impayés.',
+    pour: 46,
+    answers: {
+      passionne: 'Le PSG est blanchi, point final : Mbappé a monté toute une mise en scène du \'loft\' pour sortir en martyr, alors que le club avait juste le droit de ne pas faire jouer un joueur qui voulait partir gratuitement.',
+      objectif: 'Non-lieu prononcé en mai 2026 pour insuffisance de preuves sur le volet harcèlement moral, révélé ce vendredi ; dans le même dossier, les prud\'hommes ont condamné le PSG à verser 60,9 millions d\'euros à Mbappé pour salaires et primes impayés.',
+      dubitatif: 'Un non-lieu, ça veut dire \'pas assez de preuves pour une enquête pénale\', pas \'le PSG a bien agi\' : on verra si Mbappé fait appel avant de crier victoire dans un sens ou dans l\'autre.',
+      nuance: 'Que le volet pénal tombe faute de preuves n\'efface pas que le PSG ait dû payer 60,9 millions d\'euros pour cette même rupture : on peut ne pas avoir harcelé juridiquement quelqu\'un tout en l\'ayant quand même mal traité.',
+      nostalgique: 'Avant, un crack en conflit avec son club réglait ça par un transfert discret l\'été suivant ; maintenant il faut des prud\'hommes, un juge d\'instruction et un non-lieu révélé trois ans plus tard pour clore l\'histoire.',
+      provocateur: 'Prochaine étape logique : le PSG attaque Mbappé en diffamation pour avoir évoqué le loft, et Mbappé contre-attaque pour \'préjudice moral lié aux sifflets du Parc\' — rendez-vous aux prud\'hommes en 2030.',
+    },
+  },
+  {
     id: 'mbappe-elu-dembele-replique-ballon-dor-2026-10-02',
     date: '2026-10-02',
     cat: 'Équipe de France',
