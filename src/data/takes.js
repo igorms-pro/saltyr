@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-nul-italie-discours-contenu-2026-10-04',
+    date: '2026-10-04',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane, pour ses grands débuts à domicile sur le banc des Bleus, se dise « content du contenu, pas du résultat » après un nul 1-1 arraché par l\'Italie au Stade de France malgré un bijou de coup franc de Michael Olise, et balaie toute inquiétude en jugeant qu\'il n\'y avait « pas de véritable adversité » en face, prouve qu\'un sélectionneur a raison de défendre son projet de jeu plutôt que de céder à la pression du résultat sur un seul match, peu importe que Didier Deschamps n\'aurait jamais eu droit à un tel satisfecit pour un nul à domicile et que les Bleus doivent déjà confirmer dès ce lundi face à cette même Belgique.',
+    pour: 48,
+    answers: {
+      passionne: 'Zidane a cent fois raison : avec un Olise qui sort un bijou pareil et une équipe qui déroule pendant 90 minutes, le seul truc à retenir de ce match c\'est qu\'on aurait dû en marquer trois, pas chipoter sur un nul contre une Italie qui n\'existe plus.',
+      objectif: 'Bilan Zidane sur le banc des Bleus : victoires en Turquie et en Belgique fin septembre, puis nul 1-1 pour son premier match à domicile le 2 octobre, Olise buteur sur coup franc à la 55e minute avant l\'égalisation de Bastoni ; retour face à la Belgique dès le 5 octobre.',
+      dubitatif: 'Dire qu\'on « méritait mieux » après un nul à domicile, tous les sélectionneurs le disent un jour ou l\'autre : on jugera ce fameux projet de jeu après le match retour contre la Belgique, pas sur une punchline de conférence de presse.',
+      nuance: 'Que Zidane préfère juger le contenu plutôt que le seul résultat se comprend sur la durée d\'un mandat, mais balayer l\'Italie comme une non-adversité alors qu\'elle a arraché l\'égalisation dans le money time, c\'est aussi se raconter une histoire un peu vite après son premier match à la maison.',
+      nostalgique: 'Avant, un sélectionneur qui ramenait un nul à domicile contre l\'Italie se faisait allumer en conférence de presse dès le lendemain ; maintenant on parle de « contenu » et de « projet de jeu » trois matchs seulement après la prise de fonction.',
+      provocateur: 'Prochaine étape logique : Zidane invente le « contenu xG », une statistique maison qui prouve que chaque nul des Bleus est en réalité une victoire 4-0 dans un univers parallèle où l\'Italie n\'a jamais tiré au but.',
+    },
+  },
+  {
     id: 'psg-mbappe-non-lieu-harcelement-2026-10-03',
     date: '2026-10-03',
     cat: 'Clubs',
