@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-aucun-remplacant-mbappe-2026-10-05',
+    date: '2026-10-05',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane choisisse de ne convoquer aucun joueur pour pallier le forfait sur blessure de son capitaine Kylian Mbappé, reparti au Real Madrid après le match nul 1-1 contre l\'Italie, à la veille d\'un France-Belgique ce soir au Stade de France qui vaut une place en Final Four de la Ligue des Nations, prouve qu\'un sélectionneur a raison de faire confiance à la densité de son effectif plutôt que de céder à la panique en dépannant avec un joueur hors groupe, peu importe que les Bleus abordent ce rendez-vous décisif en attaque sans la moindre option de rechange si un nouveau pépin physique survenait en cours de match.',
+    pour: 48,
+    answers: {
+      passionne: 'Zidane a totalement raison : avec Dembélé, Olise, Barcola et Lepaul sous la main, aller chercher un joueur hors groupe à la dernière minute pour un seul match aurait été un aveu de panique complètement inutile.',
+      objectif: 'Mbappé, sorti sur blessure avant le match contre l\'Italie du 2 octobre (1-1), est reparti au Real Madrid sans qu\'aucun joueur ne soit rappelé pour le remplacer ; la France affronte la Belgique ce lundi soir au Stade de France pour une place en Final Four de la Ligue des Nations.',
+      dubitatif: 'Ne rappeler personne, ça peut vouloir dire \'j\'ai une attaque assez solide pour ça\' ou \'je n\'ai pas eu le temps de trouver un profil adapté\' : on jugera après le coup de sifflet final de ce soir, pas avant.',
+      nuance: 'Faire confiance à un groupe déjà réuni a du sens pour la cohésion à l\'approche d\'un match décisif, mais partir sur un enjeu de qualification sans la moindre option offensive de rechange en cas de blessure en cours de match, c\'est aussi jouer gros sans filet.',
+      nostalgique: 'Avant, un sélectionneur rappelait illico un joueur de Ligue 1 au moindre pépin physique d\'une star ; maintenant on part à un attaquant de moins sans sourciller parce que le groupe \'se suffit à lui-même\'.',
+      provocateur: 'Prochaine étape logique : Zidane se présente à la feuille de match avec un maillot vide floqué MBAPPÉ accroché sur le banc, façon hommage, et le fait quand même rentrer en seconde période par téléportation.',
+    },
+  },
+  {
     id: 'zidane-nul-italie-discours-contenu-2026-10-04',
     date: '2026-10-04',
     cat: 'Équipe de France',
