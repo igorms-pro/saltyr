@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-coaching-remplacants-belgique-2026-10-06',
+    date: '2026-10-06',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane doive attendre la 77e minute et l\'entrée de Désiré Doué, Rayan Cherki et Michael Olise pour renverser une Belgique qui menait encore 1-0 après plus d\'une heure de jeu, les trois remplaçants inscrivant à eux seuls les quatre buts du 4-1 final, prouve que le vrai talent d\'un sélectionneur se juge sur ses choix de banc plutôt que sur sa composition de départ, peu importe que ce même onze de départ, avec les débuts de Guillaume Restes et Leny Yoro, se soit montré totalement inoffensif pendant plus de soixante minutes face aux Diables Rouges.',
+    pour: 47,
+    answers: {
+      passionne: 'Un coach qui fait rentrer trois mecs qui marquent les quatre buts en quinze minutes, c\'est pas de la chance, c\'est du génie tactique pur : Zidane a lu le match et il a eu raison sur toute la ligne.',
+      objectif: 'Menée 1-0 depuis le but de Lukébakio (35e), la France a renversé la Belgique 4-1 grâce à Doué, Cherki et Olise (double), tous entrés après la 77e minute ; Restes et Yoro honoraient leur première sélection dans le onze de départ.',
+      dubitatif: 'Avant de parler de coup de génie, on peut aussi se demander pourquoi il a fallu attendre une heure et quart et un but de retard pour faire rentrer trois joueurs capables de marquer quatre buts en un quart d\'heure.',
+      nuance: 'Le coaching gagnant de Zidane mérite d\'être salué sur le résultat final, mais ça n\'efface pas qu\'il ait fallu un faux pas d\'une heure complète pour que les bons choix s\'imposent sur le terrain.',
+      nostalgique: 'Avant, un sélectionneur qui laissait son équipe se faire malmener pendant une heure se faisait taper dessus dès le lendemain ; maintenant trois entrants de génie suffisent à transformer la soirée en masterclass.',
+      provocateur: 'Prochaine étape logique pour Zidane : commencer tous les matchs avec onze remplaçants sur le banc et aucun titulaire sur le terrain, histoire de maximiser le nombre de \'coups de génie\' par rencontre.',
+    },
+  },
+  {
     id: 'zidane-aucun-remplacant-mbappe-2026-10-05',
     date: '2026-10-05',
     cat: 'Équipe de France',
