@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'bleus-victoire-sans-mbappe-remplacants-2026-10-07',
+    date: '2026-10-07',
+    cat: 'Équipe de France',
+    text: 'Le fait que les Bleus, menés 0-1 et dominés pendant plus d\'une heure par une Belgique remaniée, renversent la rencontre 4-1 au Stade de France grâce à quatre buts inscrits dans le dernier quart d\'heure par leurs seuls remplaçants — Doué, Cherki puis un doublé d\'Olise — sans la moindre trace de Kylian Mbappé, forfait et jamais remplacé, prouve que Zidane a eu raison sur toute la ligne et que les Bleus n\'ont plus besoin de leur capitaine pour plier un match qui compte, peu importe qu\'ils aient semblé perdus pendant soixante-quinze minutes avant que le banc ne règle tout en un quart d\'heure.',
+    pour: 52,
+    answers: {
+      passionne: 'Avec un banc capable de planter quatre buts en un quart d\'heure, qui a encore besoin de Mbappé ? Doué, Cherki, Olise, c\'est plus la génération qui monte, c\'est déjà la génération qui gagne sans lui.',
+      objectif: 'Menée 0-1 jusqu\'à la 77e minute, la France a marqué quatre fois en treize minutes via Doué (77e), Cherki (81e) et un doublé d\'Olise (88e, 90+1e), tous entrés en cours de jeu ; Mbappé, forfait sur blessure avant le match aller, n\'a été remplacé par aucun joueur dans l\'effectif.',
+      dubitatif: 'Un réveil de dix minutes contre une Belgique qui avait déjà géré son effort, ça ne prouve rien sur ce que ferait cette équipe sur 90 minutes pleines face à une vraie grande nation, avec ou sans Mbappé sur le banc.',
+      nuance: 'Que les Bleus aient trouvé une solution collective aussi spectaculaire sans leur capitaine est indéniable, mais en tirer que Mbappé n\'est plus indispensable après avoir été mené une heure par une Belgique diminuée, c\'est forcer un peu le trait d\'un seul quart d\'heure flamboyant.',
+      nostalgique: 'Avant, un seul numéro 9 suffisait à porter une génération pendant quinze ans ; maintenant il faut un banc entier de titulaires en puissance pour renverser un match sans la star du moment.',
+      provocateur: 'Prochaine étape logique : Zidane laisse Mbappé à Madrid à chaque rassemblement, le convoque juste pour la photo de groupe, et les Bleus enchaînent les 4-1 jusqu\'en finale du Mondial.',
+    },
+  },
+  {
     id: 'zidane-aucun-remplacant-mbappe-2026-10-05',
     date: '2026-10-05',
     cat: 'Équipe de France',
