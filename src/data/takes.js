@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-mania-tarrago-immunite-media-2026-10-08',
+    date: '2026-10-08',
+    cat: 'Équipe de France',
+    text: 'Le fait que Sébastien Tarrago, l\'une des plumes vedettes de L\'Équipe, dénonce en direct sur RTL une « Zidane mania » qui couvre le sélectionneur d\'une immunité totale — personne n\'oserait lui reprocher le moindre choix, pas même celui d\'avoir aligné trois victoires en trois matchs sans jamais rappeler le moindre attaquant pour pallier le forfait de Mbappé — prouve que la presse sportive française a complètement perdu tout recul critique sur Zidane, peu importe qu\'il n\'ait pour l\'instant disputé que trois rencontres officielles et n\'ait rien remporté de concret à la tête des Bleus.',
+    pour: 44,
+    answers: {
+      passionne: 'Trois matchs, trois victoires, une équipe métamorphosée et un vestiaire électrique : si Tarrago appelle ça de la \'mania\', qu\'il nous explique ce qu\'il voulait, que Zidane se fasse insulter gratuitement pour prouver son impartialité ?',
+      objectif: 'Bilan Zidane après trois matchs officiels : victoires en Turquie, en Belgique à l\'aller et au retour (4-1), un nul contre l\'Italie ; Tarrago a formulé sa critique sur RTL le 5 octobre, visant le traitement médiatique plus que les résultats eux-mêmes.',
+      dubitatif: 'Dire qu\'un coach est \'intouchable\' après seulement trois matchs et zéro trophée en jeu, c\'est aller vite ; on verra si cette \'immunité\' tient encore après la première vraie contre-performance, pas avant.',
+      nuance: 'Que l\'enthousiasme autour de Zidane soit disproportionné après quatorze ans de Deschamps, c\'est compréhensible ; que personne n\'ose encore le challenger publiquement sur ses choix tactiques, c\'est aussi un vrai problème pour le débat sportif.',
+      nostalgique: 'Avant, un sélectionneur français essuyait des unes assassines dès le premier match nul, Deschamps le premier ; maintenant trois victoires de rang en Ligue des Nations suffisent à transformer un journaliste critique en vilain de service.',
+      provocateur: 'Prochaine étape logique : L\'Équipe retire sa rubrique \'critique\' du site, la remplace par un compteur de likes pour Zidane, et Tarrago est muté à la rubrique pétanque pour \'incompatibilité avec l\'ambiance\'.',
+    },
+  },
+  {
     id: 'bleus-victoire-sans-mbappe-remplacants-2026-10-07',
     date: '2026-10-07',
     cat: 'Équipe de France',
