@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'luca-zidane-convocation-algerie-forme-catastrophique-2026-10-09',
+    date: '2026-10-09',
+    cat: 'Sélections',
+    text: 'Le fait que Vladimir Petkovic convoque Luca Zidane, fraîchement naturalisé sportif algérien, pour les éliminatoires du Mondial contre la Somalie et l\'Ouganda, alors que le gardien vient d\'encaisser dix buts sur ses quatre derniers matchs avec un Grenade dernier de Liga 2 espagnole, et justifie ce choix par un sobre « s\'il est convoqué, c\'est qu\'il le mérite », prouve qu\'un sélectionneur a parfaitement le droit de miser sur un nom et un potentiel plutôt que sur une forme du moment catastrophique, peu importe que ce passe-droit n\'aurait jamais tenu une seconde pour un gardien sans un patronyme aussi célèbre.',
+    pour: 44,
+    answers: {
+      passionne: 'Petkovic a cent fois raison : un gardien formé à ce niveau-là, ça ne s\'oublie pas en quatre matchs ratés avec une équipe à la dérive, et un sélectionneur qui ose encore croire en son joueur plutôt que de céder aux stats du moment, ça devrait être la norme, pas l\'exception.',
+      objectif: 'Luca Zidane, 27 ans, a changé de nationalité sportive pour l\'Algérie en septembre ; il a concédé dix buts lors de ses quatre derniers matchs avec Grenade, dernier de Liga 2 espagnole, avant d\'être convoqué pour les matchs du 9 et du 14 octobre contre la Somalie puis l\'Ouganda.',
+      dubitatif: 'Dire qu\'il \'le mérite\' après un passif pareil en club, ça reste à prouver sur le terrain contre la Somalie et l\'Ouganda ; on jugera sur ces deux matchs officiels, pas sur une punchline de conférence de presse de Petkovic.',
+      nuance: 'Que Petkovic veuille protéger son nouveau gardien de la pression médiatique avant même son arrivée au rassemblement se comprend, mais ignorer un passif aussi lourd en club pour une première sélection, c\'est aussi envoyer un message discutable à tout le vestiaire algérien.',
+      nostalgique: 'Avant, une sélection se gagnait sur un état de forme vérifiable semaine après semaine ; maintenant un nom de famille suffit à faire sauter la file d\'attente, même dernier de deuxième division espagnole.',
+      provocateur: 'Prochaine étape logique : Petkovic convoque aussi le chien de Luca Zidane comme gardien de but remplaçant, au nom du même principe, \'s\'il est convoqué, c\'est qu\'il le mérite\'.',
+    },
+  },
+  {
     id: 'zidane-mania-tarrago-immunite-media-2026-10-08',
     date: '2026-10-08',
     cat: 'Équipe de France',
