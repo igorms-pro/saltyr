@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lens-ol-invincibilite-mirage-2026-10-10',
+    date: '2026-10-10',
+    cat: 'Ligue 1',
+    text: 'Le fait que l\'Olympique Lyonnais, seule équipe invaincue de Ligue 1 après cinq journées, s\'effondre à Bollaert (2-1) face à un RC Lens qui restait sur trois défaites et un nul lors de ses quatre matchs précédents, et que les Sang et Or finissent même la rencontre à dix contre onze après le carton rouge de Matthieu Udol pour une semelle sur la cheville de Merah, prouve que cette série d\'invincibilité lyonnaise ne reposait sur rien de solide, peu importe que Lyon ait recollé à 2-1 dans la foulée du rouge et reste installé dans le haut du tableau.',
+    pour: 47,
+    answers: {
+      passionne: 'On le disait depuis des semaines : cette invincibilité lyonnaise tenait sur un calendrier clément, pas sur un vrai niveau de jeu, et s\'écrouler à dix contre onze face à des Lensois en pleine crise, ça confirme que cette équipe craque dès qu\'elle croise un adversaire qui veut vraiment le match.',
+      objectif: 'L\'OL restait invaincu après cinq journées de Ligue 1 avant cette défaite 2-1 à Bollaert le 9 octobre ; Lens, qui sortait de trois défaites et un nul en quatre matchs sous Yannick Cahuzac, a inscrit ses deux buts par Sotoca (36e) et Udol (76e), ce dernier étant expulsé juste après pour une semelle sur Merah, buteur lensois à la 85e.',
+      dubitatif: 'Perdre une fois à dix contre onze contre une équipe portée par son public et son nouvel entraîneur, ça n\'efface pas cinq journées solides ; on jugera la \'fragilité\' lyonnaise sur les prochains matchs, pas sur un seul soir à Bollaert.',
+      nuance: 'Que Lens ait mérité sa victoire au vu de l\'engagement affiché, même à dix contre onze, personne ne le conteste ; mais réduire cinq journées d\'invincibilité lyonnaise à un simple \'mirage\' sur la base d\'un seul match comme celui-là, c\'est aller un peu vite en besogne.',
+      nostalgique: 'Avant, une série d\'invincibilité se construisait sur des vrais résultats probants contre les favoris du championnat ; maintenant cinq journées sans défaite suffisent à se faire appeler \'intouchable\' avant de s\'écrouler à dix contre onze chez un concurrent en pleine crise.',
+      provocateur: 'Prochaine étape logique : l\'OL demande un match à rejouer parce que Lens n\'avait plus que dix joueurs sur le terrain, et Cahuzac fait encadrer la semelle d\'Udol au centre d\'entraînement comme nouvelle relique sacrée du club.',
+    },
+  },
+  {
     id: 'luca-zidane-convocation-algerie-forme-catastrophique-2026-10-09',
     date: '2026-10-09',
     cat: 'Sélections',
