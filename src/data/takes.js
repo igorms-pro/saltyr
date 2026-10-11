@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'dembele-kvaratskhelia-devant-mbappe-ballon-dor-2026-10-11',
+    date: '2026-10-11',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait qu\'Ousmane Dembélé, tenant du Ballon d\'Or, place dans une interview à la BBC son coéquipier Khvicha Kvaratskhelia devant Kylian Mbappé dans son propre tiercé pour le Ballon d\'Or 2026, prouve qu\'il a eu le courage de voter avec objectivité plutôt que par solidarité tricolore, peu importe que ce choix tombe alors que le PSG digère encore mal la mise en avant de Mbappé par France Football et que la cérémonie se tient dans deux semaines à peine.',
+    pour: 44,
+    answers: {
+      passionne: 'Dembélé n\'a aucune leçon à recevoir : il a joué toute la saison aux côtés de Kvaratskhelia, il sait qui a vraiment porté le PSG, et préférer la vérité du terrain au copinage tricolore, c\'est tout à son honneur.',
+      objectif: 'Interrogé par la BBC sur ses favoris pour le Ballon d\'Or 2026, Dembélé a cité dans l\'ordre Kvaratskhelia, Harry Kane puis Mbappé ; la cérémonie est fixée au 26 octobre 2026, et le PSG avait par ailleurs mal digéré une interview croisée de France Football jugée trop centrée sur Mbappé.',
+      dubitatif: 'Un tiercé donné à chaud dans une interview, ça ne vaut pas grand-chose ; on verra si Dembélé maintient ce classement le jour de la cérémonie, face aux caméras et au vote officiel.',
+      nuance: 'Que Dembélé ait le droit de voter selon ses propres critères, personne ne le nie ; mais classer son propre partenaire d\'attaque troisième dans son salon pendant que le club panse déjà une plaie ouverte avec France Football, le timing est maladroit.',
+      nostalgique: 'Avant, les joueurs gardaient ces classements pour eux et laissaient les journalistes se déchirer sur le sujet ; maintenant chacun balance son propre top 3 en interview et transforme le vestiaire en bureau de vote public.',
+      provocateur: 'Prochaine étape logique : Mbappé répond par sa propre interview où il place Dembélé quatrième derrière son kinésithérapeute, et le vestiaire du PSG se règle désormais par classements interposés à la BBC.',
+    },
+  },
+  {
     id: 'lens-ol-invincibilite-mirage-2026-10-10',
     date: '2026-10-10',
     cat: 'Ligue 1',
