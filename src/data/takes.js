@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'paixao-snobe-genesio-troyes-2026-10-12',
+    date: '2026-10-12',
+    cat: 'Ligue 1',
+    text: 'Le fait qu\'Igor Paixão refuse ostensiblement de serrer la main de Bruno Génésio à sa sortie à la 87e minute du succès 2-0 de l\'OM à Troyes, un succès qui met fin à quatre défaites de rang et soulage provisoirement un Génésio sous ultimatum de sa propre direction depuis début octobre, prouve qu\'un joueur a parfaitement le droit de montrer sa frustration à chaud sans que ça fasse automatiquement de lui un poison de vestiaire, peu importe que l\'entraîneur ait dû minimiser l\'incident en conférence plutôt que de sanctionner son attaquant.',
+    pour: 46,
+    answers: {
+      passionne: 'Paixão a cent fois raison de montrer les dents : être sorti alors que l\'équipe tente enfin de sortir d\'une série de quatre défaites, ça énerve, et un joueur qui n\'a rien à perdre vaut mieux qu\'un vestiaire de robots dociles qui perdent en silence.',
+      objectif: 'Remplacé par Faris Moumbagna à la 87e minute du succès 2-0 à Troyes (buts d\'Amine Harit et d\'Abdelli sur penalty dans le temps additionnel), Igor Paixão a refusé de serrer la main de Bruno Génésio ; ce dernier a évoqué \'rien de grave\' et un besoin de confiance du joueur, sans annoncer de sanction.',
+      dubitatif: 'Un geste d\'humeur filmé en plein match, ça ne dit encore rien de l\'état réel du vestiaire ; on verra si Paixão retrouve le onze dès le prochain match ou si Génésio fait durer la punition en silence.',
+      nuance: 'Que Paixão soit frustré de sortir en pleine remontée, ça se comprend ; mais snober son entraîneur devant les caméras pendant que ce dernier se bat encore pour sa propre place, le timing est quand même très mal choisi.',
+      nostalgique: 'Avant, un joueur remplacé serrait la main, ravalait sa colère et réglait ça au vestiaire entre hommes ; maintenant tout se joue devant les caméras et devient une polémique nationale en vingt-quatre heures.',
+      provocateur: 'Prochaine étape logique : Paixão exige d\'être consulté avant chaque changement, et Génésio doit désormais demander l\'autorisation écrite de ses propres joueurs avant d\'oser faire une sub.',
+    },
+  },
+  {
     id: 'dembele-kvaratskhelia-devant-mbappe-ballon-dor-2026-10-11',
     date: '2026-10-11',
     cat: 'Ballon d\'Or',
