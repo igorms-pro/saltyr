@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'kondogbia-supporters-respect-om-2026-10-13',
+    date: '2026-10-13',
+    cat: 'Ligue 1',
+    text: 'Le fait que Geoffrey Kondogbia, entré à la 87e minute à Troyes pour sa première apparition depuis la défaite à Monaco le 30 août, somme publiquement un groupe de supporters marseillais de \'faire preuve de respect\' après qu\'ils l\'ont chahuté au coup de sifflet final du succès 2-0, prouve qu\'un joueur a parfaitement le droit de remettre des fans à leur place quand la critique dérape en provocation, peu importe que l\'OM sorte justement d\'une série de cinq défaites de rang qui donne aux supporters toutes les raisons de hausser le ton.',
+    pour: 45,
+    answers: {
+      passionne: 'Kondogbia a cent fois raison : on peut être supporter déçu, mais s\'en prendre à un joueur qui vient tout juste de rechausser les crampons après deux mois d\'arrêt, c\'est se tromper royalement de cible.',
+      objectif: 'Entré à la 87e minute à Troyes pour son retour après une absence depuis le 30 août, Geoffrey Kondogbia a été interpellé par un groupe de supporters au coup de sifflet final dans une vidéo devenue virale, leur répondant de \'faire preuve de respect\' ; ce succès 2-0 mettait fin à cinq défaites consécutives de l\'OM.',
+      dubitatif: 'Une altercation filmée sur un parking ne prouve ni que les supporters avaient raison ni que Kondogbia a eu le bon ton ; on verra surtout s\'il retrouve un vrai niveau sur le terrain dans les semaines qui viennent.',
+      nuance: 'Que Kondogbia ait besoin de temps après une blessure, ça se comprend ; mais que des supporters qui viennent de subir cinq défaites de rang aient aussi le droit d\'exprimer leur frustration, ça se comprend tout autant.',
+      nostalgique: 'Avant, un joueur et ses supporters réglaient ça aux abords du stade sans caméra ni polémique nationale ; maintenant le moindre échange tendu finit en extrait viral commenté par toute la France.',
+      provocateur: 'Prochaine étape logique : l\'OM installe un sas de sécurité entre le Vélodrome et le parking, et chaque supporter devra remplir une fiche d\'évaluation avant d\'avoir le droit de siffler qui que ce soit.',
+    },
+  },
+  {
     id: 'paixao-snobe-genesio-troyes-2026-10-12',
     date: '2026-10-12',
     cat: 'Ligue 1',
