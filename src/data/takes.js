@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-elu-dembele-ballon-dor-2026-10-14',
+    date: '2026-10-14',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que Kylian Mbappé affirme dans France Football avoir toujours été perçu comme « l\'élu » alors que son coéquipier Ousmane Dembélé n\'était vu, selon lui, que comme un « joueur talentueux », avant d\'assurer quelques jours plus tard qu\'il n\'y a « aucun problème » entre eux, prouve que Mbappé a parfaitement le droit de revendiquer sa place de numéro 1 du PSG et des Bleus, peu importe que Dembélé, Ballon d\'Or en titre, lui ait déjà répondu sur Ligue 1 Plus qu\'il n\'a « jamais été l\'élu » mais qu\'il a simplement travaillé pour être récompensé d\'une saison exceptionnelle avec le club parisien.',
+    pour: 47,
+    answers: {
+      passionne: 'Mbappé n\'a rien à se reprocher : il porte le PSG et les Bleus depuis ses débuts, il a tous les droits de rappeler qu\'il est l\'élu, et ceux qui s\'offusquent feraient mieux de revoir ses statistiques avant de donner des leçons d\'humilité.',
+      objectif: 'Dans une interview à France Football, Mbappé a dit avoir toujours été vu comme \'l\'élu\' contre un Dembélé jugé \'talentueux\' ; sur Ligue 1 Plus, Dembélé a répondu n\'avoir \'jamais été l\'élu\' mais avoir \'travaillé\' pour son Ballon d\'Or 2025 ; Mbappé a ensuite assuré à L\'Équipe qu\'il n\'y avait \'aucun problème\' entre les deux, douze jours avant la cérémonie du 26 octobre à Londres.',
+      dubitatif: 'Des mots lâchés en interview puis aussitôt éteints à coups de \'tout va bien\', ça ne vaut pas grand-chose ; on verra si cette histoire ressort vraiment une fois les deux hommes réunis sur la pelouse en Bleu.',
+      nuance: 'Que Mbappé revendique son statut, ça se comprend après tout ce qu\'il a gagné ; mais minimiser le travail de l\'actuel Ballon d\'Or en le réduisant à un simple \'joueur talentueux\', c\'est maladroit, même sans mauvaise intention derrière.',
+      nostalgique: 'Avant, les rivalités de vestiaire entre stars se réglaient par des regards noirs à l\'entraînement ; maintenant tout se joue par citations interposées dans la presse, à deux semaines d\'une cérémonie déjà scrutée au microscope.',
+      provocateur: 'Prochaine étape logique : Mbappé et Dembélé se partagent le Ballon d\'Or en deux mi-temps chacun, et le podium du 26 octobre se règle à la pièce dans le vestiaire des Bleus.',
+    },
+  },
+  {
     id: 'kondogbia-supporters-respect-om-2026-10-13',
     date: '2026-10-13',
     cat: 'Ligue 1',
