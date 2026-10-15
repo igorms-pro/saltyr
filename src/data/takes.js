@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'luis-enrique-trophees-city-merites-2026-10-15',
+    date: '2026-10-15',
+    cat: 'Ligue des Champions',
+    text: 'Le fait que Luis Enrique affirme, à la veille du choc de Ligue des Champions entre le PSG et Manchester City, que « tous les trophées » du club anglais sont mérités, alors que City reste visé par 115 accusations de manquements au fair-play financier qu\'il conteste devant la justice, prouve qu\'un entraîneur a parfaitement le droit de juger uniquement ce qu\'il voit sur le terrain, peu importe que Daniel Riolo et une partie de la presse sportive qualifient cette sortie de complaisance scandaleuse envers un club accusé de tricherie financière à grande échelle.',
+    pour: 43,
+    answers: {
+      passionne: 'Luis Enrique a totalement raison : il entraîne contre des joueurs et un système sur une pelouse, pas contre un bilan comptable, et ceux qui lui reprochent cette honnêteté feraient mieux de respecter l\'exploit sportif plutôt que de ressasser un dossier judiciaire qui n\'est même pas encore tranché.',
+      objectif: 'En conférence de presse avant le choc de Ligue des Champions face à Manchester City, Luis Enrique a déclaré juger \'uniquement le terrain\' et considérer que tous les trophées du club anglais sont mérités ; Manchester City reste visé par 115 chefs d\'accusation pour manquements au fair-play financier, que le club conteste devant la justice.',
+      dubitatif: 'Une déclaration en conférence de presse ne vaut ni acquittement ni condamnation ; on verra ce que tranchent vraiment les instances sur ces 115 accusations avant de célébrer ou de couler Luis Enrique pour quelques mots.',
+      nuance: 'Que Luis Enrique refuse de mélanger sport et procédure judiciaire en cours, ça se comprend, un entraîneur n\'est pas un juge ; mais balayer d\'un revers de main 115 accusations de fraude financière pour ne parler que de beau jeu, ça fait quand même l\'impasse sur une partie du problème.',
+      nostalgique: 'Avant, un entraîneur se contentait de parler tactique et composition avant un match européen ; maintenant la moindre conférence de presse se transforme en prise de position sur un dossier de fair-play financier vieux de plusieurs années.',
+      provocateur: 'Prochaine étape logique : la Ligue des Champions se joue aussi au tribunal, et le vainqueur de la compétition se décide désormais à la majorité des voix des commissions disciplinaires plutôt que sur le terrain.',
+    },
+  },
+  {
     id: 'mbappe-elu-dembele-ballon-dor-2026-10-14',
     date: '2026-10-14',
     cat: 'Ballon d\'Or',
