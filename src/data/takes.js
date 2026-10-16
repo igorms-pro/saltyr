@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-city-3-0-haaland-remonte-2026-10-16',
+    date: '2026-10-16',
+    cat: 'Ligue des Champions',
+    text: 'Le fait que le PSG, auteur d\'une première mi-temps parfaite pour mener 3-0 à l\'Etihad face à Manchester City, se soit ensuite effondré en seconde période en concédant 21 tirs contre seulement 5 et deux buts à Erling Haaland pour finalement s\'arracher à 4-2, prouve que Luis Enrique a parfaitement le droit de célébrer une victoire de prestige en Ligue des Champions, peu importe qu\'une partie de la presse pointe une gestion de fin de match catastrophique qui aurait pu coûter beaucoup plus cher face à une équipe plus réaliste que City ce soir-là.',
+    pour: 47,
+    answers: {
+      passionne: 'Qu\'on arrête de chercher la petite bête : le PSG est allé gagner 4-2 chez le champion d\'Angleterre avec trois buts d\'avance à la pause, et ceux qui ne retiennent que le money-time raté feraient mieux d\'admettre qu\'une victoire de prestige en Ligue des Champions, ça ne se négocie pas sur la gestion des dix dernières minutes.',
+      objectif: 'Mené 0-3 à la pause (Doué 13e, Dembélé 15e, Vitinha 32e), Manchester City est revenu à 4-2 grâce à deux buts d\'Erling Haaland (53e, 75e) malgré un but d\'Akliouche (62e) pour le PSG, avec 21 tirs contre 5 pour les Parisiens sur la seule seconde période et deux poteaux manqués par les Anglais.',
+      dubitatif: 'Une mi-temps exceptionnelle suivie d\'un naufrage collectif, ça ne vaut ni un sacre anticipé ni un signal d\'alarme définitif ; on verra si ce scénario se reproduit face à une équipe capable d\'exploiter un vrai money-time avant de parler de problème de mental au PSG.',
+      nuance: 'Que le PSG aille chercher une victoire de prestige 4-2 chez le champion d\'Angleterre, c\'est indéniable ; mais encaisser 21 tirs en une seule mi-temps après avoir mené 3-0, ça pose quand même une vraie question de gestion du score avant les phases à élimination directe.',
+      nostalgique: 'Avant, une équipe qui menait 3-0 à la pause tuait le match et rentrait aux vestiaires peinard ; maintenant le PSG laisse Manchester City revenir à 4-2 et tout le monde s\'étonne que Guardiola ait encore cru à la remontée jusqu\'à la 75e minute.',
+      provocateur: 'Prochaine étape logique : le PSG mène 3-0 à chaque match puis laisse l\'adversaire revenir pour le suspense, et Haaland finit meilleur buteur de la compétition sans jamais battre Paris.',
+    },
+  },
+  {
     id: 'luis-enrique-trophees-city-merites-2026-10-15',
     date: '2026-10-15',
     cat: 'Ligue des Champions',
