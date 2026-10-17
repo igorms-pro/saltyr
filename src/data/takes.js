@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'papin-mbappe-communication-ballon-dor-2026-10-17',
+    date: '2026-10-17',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que Jean-Pierre Papin, Ballon d\'Or 1991, critique ouvertement la communication de Kylian Mbappé à quelques jours de la cérémonie du 26 octobre en résumant sa campagne par un \'c\'est moi, moi, moi et moi\' et en annonçant miser plutôt sur Harry Kane, prouve qu\'un ancien lauréat du trophée a parfaitement le droit de juger le comportement d\'un candidat au sacre, peu importe que Mbappé n\'ait fait que défendre publiquement le bilan d\'une saison exceptionnelle avec le PSG et les Bleus.',
+    pour: 46,
+    answers: {
+      passionne: 'Papin peut bien avoir gagné le Ballon d\'Or en 1991, ça ne lui donne pas le droit de reprocher à Mbappé de défendre son propre bilan : quand on cumule autant de buts et de titres, on a mille fois le droit de le rappeler, et ceux qui s\'en offusquent feraient mieux de revoir ses statistiques avant de parler de nombrilisme.',
+      objectif: 'À quelques jours de la cérémonie du 26 octobre, Jean-Pierre Papin, Ballon d\'Or 1991, a résumé la communication de Kylian Mbappé par la formule \'c\'est moi, moi, moi et moi\' et a annoncé miser plutôt sur Harry Kane ; Mbappé, meilleur buteur du Mondial 2026, n\'a pas répondu publiquement à ces propos.',
+      dubitatif: 'Une punchline en interview ne décide jamais d\'un Ballon d\'Or ; on verra bien ce que donnent les votes du 26 octobre avant de couronner Harry Kane ou de canoniser Mbappé sur la seule base d\'une sortie de Papin.',
+      nuance: 'Que Papin trouve lourdingue la communication très \'premier de la classe\' de Mbappé, ça se comprend après des mois de sorties médiatiques ; mais réduire à du nombrilisme un joueur qui défend simplement une saison exceptionnelle avec le PSG et les Bleus, c\'est un peu court aussi.',
+      nostalgique: 'Avant, les anciens Ballons d\'Or donnaient leur avis une fois par an dans un coin de plateau télé sans que ça devienne un sujet national ; maintenant la moindre punchline de Papin sur Mbappé fait le tour de toutes les rédactions en vingt-quatre heures.',
+      provocateur: 'Prochaine étape logique : chaque ancien lauréat du Ballon d\'Or publie son propre classement sur Instagram avant la cérémonie, et le trophée finit décerné par sondage plutôt que par le jury de France Football.',
+    },
+  },
+  {
     id: 'psg-city-3-0-haaland-remonte-2026-10-16',
     date: '2026-10-16',
     cat: 'Ligue des Champions',
