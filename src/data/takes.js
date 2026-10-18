@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'dembele-penalty-rate-strasbourg-2026-10-18',
+    date: '2026-10-18',
+    cat: 'Ligue 1',
+    text: 'Le fait que Ousmane Dembélé, entré en jeu dans le cadre de la large rotation décidée par Luis Enrique à Strasbourg, rate un penalty à la 72e minute avant d\'inscrire neuf minutes plus tard le but qui relance le PSG vers une victoire 3-1 arrachée en fin de match, prouve qu\'un raté sur penalty à huit jours du Ballon d\'Or ne doit strictement rien retirer à son statut de favori, peu importe que ce passage à vide nourrisse les doutes sur sa gestion des grands rendez-vous avant le vote du 26 octobre.',
+    pour: 45,
+    answers: {
+      passionne: 'Un penalty raté, ça arrive même aux meilleurs ; ce qui compte c\'est que Dembélé se soit relevé neuf minutes plus tard pour offrir la victoire à Paris, et ceux qui y voient un mauvais signal avant le Ballon d\'Or feraient mieux de revoir sa saison entière avant de paniquer sur un seul raté.',
+      objectif: 'Entré en jeu dans le cadre de la rotation décidée par Luis Enrique entre Manchester City et Barcelone, Ousmane Dembélé a manqué un penalty à la 72e minute à Strasbourg avant de marquer à la 85e ; le PSG s\'est imposé 3-1 grâce aussi à des buts de Zabarnyi (77e) et Doué (90e+3), huit jours avant la cérémonie du Ballon d\'Or du 26 octobre.',
+      dubitatif: 'Un penalty manqué puis effacé par un but décisif contre Strasbourg, ça ne prouve ni une fragilité ni une force de caractère particulière ; on verra comment Dembélé répond sous pression dans un vrai rendez-vous couperet avant de trancher quoi que ce soit.',
+      nuance: 'Que Dembélé se rattrape aussitôt après avoir manqué son penalty, c\'est tout à son honneur ; mais balayer complètement ce raté à une semaine d\'un vote qui s\'annonce très serré, c\'est aussi un peu vite oublier qu\'on jugera sa gestion des moments chauds jusqu\'au bout.',
+      nostalgique: 'Avant, un numéro 10 qui ratait un penalty traînait ce doute jusqu\'à la fin de la rencontre, sinon de la saison ; maintenant Dembélé rate puis marque neuf minutes plus tard et tout le monde range déjà l\'épisode au rayon anecdote avant la fin de la soirée.',
+      provocateur: 'Prochaine étape logique : Dembélé rate un penalty à chaque match puis marque le but vainqueur juste derrière, et France Football finit par comptabiliser les ratés comme des points bonus dans la course au Ballon d\'Or.',
+    },
+  },
+  {
     id: 'papin-mbappe-communication-ballon-dor-2026-10-17',
     date: '2026-10-17',
     cat: 'Ballon d\'Or',
