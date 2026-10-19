@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lyon-nice-var-tete-ligue1-2026-10-19',
+    date: '2026-10-19',
+    cat: 'Ligue 1',
+    text: 'Le fait que Lyon, réduit à dix dès la 70e minute après l\'expulsion de Keito Nakamura, tienne bon jusqu\'au bout pour s\'imposer 2-1 face à Nice et prendre la tête de la Ligue 1, alors que les Niçois ont vu un but égalisateur de Wahi refusé pour hors-jeu par la VAR à la 94e minute après avoir déjà touché la barre et le poteau, prouve que cette première place est pleinement méritée au vu du caractère affiché par l\'OL en infériorité numérique, peu importe que Nice s\'estime clairement volé par un arbitrage vidéo qui a fait pencher toute la fin de match du bon côté pour les Lyonnais.',
+    pour: 47,
+    answers: {
+      passionne: 'Lyon a joué plus de vingt minutes à dix contre une équipe de Nice qui poussait dans tous les sens, et l\'OL a quand même fini par prendre la tête du championnat ; ceux qui ne retiennent que le hors-jeu de Wahi refusent juste de voir le caractère phénoménal affiché par les Lyonnais ce soir-là.',
+      objectif: 'Nice a ouvert le score par Wahi avant que Šulc (33e) puis Tessmann (36e) ne renversent la rencontre pour Lyon, réduit à dix après l\'expulsion de Nakamura (70e) ; Nice a ensuite touché la barre par Witsel (53e) et le poteau par Wahi (74e) avant de voir un but de ce dernier refusé pour hors-jeu à la 94e, Lyon s\'imposant 2-1 et prenant la tête à la différence de buts.',
+      dubitatif: 'Tenir à dix pendant vingt-cinq minutes contre une équipe qui domine, ça peut vouloir dire beaucoup de choses ou rien du tout selon ce que Lyon montrera dans les prochaines journées ; on verra si cette première place tient encore debout après le déplacement à Paris.',
+      nuance: 'Que Lyon ait eu le mérite de s\'accrocher à dix jusqu\'au bout, c\'est indéniable ; mais prendre la tête du championnat sur un but refusé à la 94e minute après avoir touché deux fois les montants, ça laisse quand même un goût amer à Nice qui aurait largement mérité le point du match nul.',
+      nostalgique: 'Avant, un hors-jeu se jugeait à l\'oeil du juge de ligne en une seconde, sans dix minutes de vérification au millimètre ; maintenant la VAR décide qui prend la tête de la Ligue 1 en scrutant une épaule au ralenti pendant que tout le stade attend dans le silence.',
+      provocateur: 'Prochaine étape logique : la Ligue 1 instaure directement un classement basé sur le nombre de décisions VAR favorables, et Lyon finit champion sans même avoir besoin de marquer un seul but de plus.',
+    },
+  },
+  {
     id: 'dembele-penalty-rate-strasbourg-2026-10-18',
     date: '2026-10-18',
     cat: 'Ligue 1',
