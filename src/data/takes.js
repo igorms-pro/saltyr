@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-barca-maintien-violences-2026-10-20',
+    date: '2026-10-20',
+    cat: 'Ligue des Champions',
+    text: 'Le fait que le gouvernement, par la voix du ministre de l\'Intérieur Laurent Nuñez, maintienne sans trembler le choc de Ligue des Champions PSG-Barça ce mardi soir au Parc des Princes, malgré les violences et les pillages qui ont touché plusieurs villes françaises après les manifestations du 17 octobre contre la vie chère, prouve que le football n\'a strictement aucune raison de s\'arrêter pour des troubles qui ne concernent pas le stade, peu importe que la presse espagnole s\'inquiète ouvertement de voir les supporters du Barça débarquer dans un pays qui semble s\'enflammer à quelques kilomètres de l\'enceinte parisienne.',
+    pour: 45,
+    answers: {
+      passionne: 'Jouer ce match, ce n\'est pas ignorer ce qui se passe dans la rue, c\'est justement offrir une soirée normale au milieu du chaos ; ceux qui réclament le report feraient mieux de laisser le Parc des Princes vibrer plutôt que d\'ajouter une annulation à une semaine déjà suffisamment sombre.',
+      objectif: 'Le ministre de l\'Intérieur Laurent Nuñez a exclu dès lundi tout report du match face au FC Barcelone, confirmant la tenue de la rencontre au Parc des Princes malgré les violences et les pillages constatés dans plusieurs villes après les manifestations du 17 octobre contre la vie chère ; la presse espagnole a de son côté relayé les inquiétudes de certains supporters catalans avant leur déplacement.',
+      dubitatif: 'Maintenir le match sur le papier, c\'est une chose ; voir comment se déroule réellement l\'arrivée des supporters du Barça et la soirée autour du Parc des Princes, c\'en est une autre : on jugera après le coup de sifflet final si cette décision tenait vraiment la route.',
+      nuance: 'Que la Ligue des Champions ne doive pas s\'arrêter à chaque tension dans le pays, c\'est compréhensible ; mais dire que jouer un match à plusieurs millions d\'euros à quelques kilomètres de commerces pillés ne pose aucune question d\'image, c\'est aussi un peu se voiler la face.',
+      nostalgique: 'Avant, un match de Coupe d\'Europe restait une parenthèse de football coupée du reste du monde ; maintenant chaque choc PSG-Barça se discute autant sur les plateaux politiques qu\'à la table des consultants sportifs.',
+      provocateur: 'Prochaine étape logique : la LFP et l\'UEFA programment désormais leurs chocs européens en fonction du calendrier des manifestations, et le calendrier des Bleus finit par être plus prévisible que celui des cortèges.',
+    },
+  },
+  {
     id: 'lyon-nice-var-tete-ligue1-2026-10-19',
     date: '2026-10-19',
     cat: 'Ligue 1',
