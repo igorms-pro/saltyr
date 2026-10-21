@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'dembele-blessure-sans-lui-ballon-dor-2026-10-21',
+    date: '2026-10-21',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que le PSG, privé d\'Ousmane Dembélé sorti sur blessure à la cuisse gauche dès la 18e minute face au Barça, soit quand même allé chercher une victoire 4-2 arrachée dans le money-time grâce à Vitinha (81e) puis Fabián Ruiz (86e) après deux égalisations de Lamine Yamal et compagnie, prouve que ce genre de blessure musculaire à répétition ne devrait strictement rien changer au statut de grand favori de Dembélé pour le Ballon d\'Or du 26 octobre, peu importe que cette nouvelle alerte physique, six jours avant la cérémonie de Londres, relance tous les doutes sur sa fragilité chronique.',
+    pour: 47,
+    answers: {
+      passionne: 'Une saison de Ballon d\'Or se juge sur onze mois de buts et de titres, pas sur une sortie à la 18e minute d\'un seul match d\'octobre ; Dembélé a déjà fait le plus dur, et ceux qui ressortent le mot \'fragile\' à six jours du vote n\'ont simplement pas digéré qu\'il soit favori.',
+      objectif: 'Touché à la cuisse gauche sur une accélération, Ousmane Dembélé a cédé sa place à Ferran Torres à la 18e minute ; le PSG, rejoint à deux reprises par le Barça, dont une fois par Lamine Yamal (79e), s\'est finalement imposé 4-2 grâce aux buts tardifs de Vitinha (81e) et Fabián Ruiz (86e), six jours avant la cérémonie du Ballon d\'Or à Londres le 26 octobre.',
+      dubitatif: 'Personne ne connaît encore la gravité exacte de cette blessure à la cuisse ni si Dembélé sera seulement présent à Londres lundi ; attendons les examens avant de décréter que son Ballon d\'Or est déjà compromis ou au contraire totalement acquis.',
+      nuance: 'Que onze mois de buts pèsent plus qu\'une sortie prématurée en octobre, c\'est vrai ; mais prétendre que cette énième alerte musculaire ne dit rien sur sa capacité à tenir une saison entière au sommet, c\'est aussi fermer les yeux sur un vrai motif d\'inquiétude.',
+      nostalgique: 'Avant, un favori au Ballon d\'Or jouait son match sans qu\'on scrute sa cuisse gauche à la loupe pendant une semaine entière ; maintenant chaque sortie de Dembélé se transforme en feuilleton médical qui éclipse presque le palmarès qu\'il est censé récompenser.',
+      provocateur: 'Prochaine étape logique : France Football instaure une épreuve d\'endurance avant la remise du trophée, et Dembélé se blesse en montant sur scène pour aller le chercher.',
+    },
+  },
+  {
     id: 'psg-barca-maintien-violences-2026-10-20',
     date: '2026-10-20',
     cat: 'Ligue des Champions',
