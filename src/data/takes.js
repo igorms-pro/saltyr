@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'yamal-dembele-ballon-dor-psg-barca-2026-10-22',
+    date: '2026-10-22',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que Lamine Yamal ait été l\'élément le plus décisif de tout PSG-Barça, inscrivant à lui seul les deux buts qui ont arraché deux égalisations avant la défaite finale 4-2, alors qu\'Ousmane Dembélé n\'a disputé que dix-huit minutes avant de sortir sur blessure à la cuisse, prouve que c\'est bien l\'Espagnol qui méritait le Ballon d\'Or 2026 sur la seule base de cette affiche au sommet, peu importe que Dembélé reste le favori officieux à six jours de la cérémonie de Londres.',
+    pour: 44,
+    answers: {
+      passionne: 'Un gamin de dix-huit ans qui plante deux fois contre le meilleur Paris de la décennie et qui porte presque seul une équipe diminuée, ça vaut largement un numéro neuf sorti après dix-huit minutes ; le vote du 26 est encore ouvert, et ce match le prouve.',
+      objectif: 'Lamine Yamal a inscrit les deux buts qui ont permis au Barça d\'égaliser à deux reprises avant la défaite 4-2 à Paris, tandis qu\'Ousmane Dembélé est sorti sur blessure à la cuisse gauche à la 18e minute, remplacé par Ferran Torres ; le PSG s\'est finalement imposé grâce aux buts tardifs de Vitinha (81e) et Fabián Ruiz (86e).',
+      dubitatif: 'Un bon match ne fait pas une saison entière, et Yamal comme Dembélé seront jugés sur onze mois de stats et de titres, pas sur quatre-vingt-dix minutes à Paris ; attendons le 26 octobre avant de refaire tout le classement.',
+      nuance: 'Que Yamal ait été individuellement plus percutant cette nuit-là, c\'est difficile à nier ; mais juger un Ballon d\'Or sur un seul match perdu, même brillant, c\'est aussi ignorer tout ce que Dembélé a construit sur la durée avec le PSG.',
+      nostalgique: 'Avant, le Ballon d\'Or se décidait sur une saison pleine qu\'on avait vue du premier au dernier match ; maintenant on refait le débat à chaque choc européen, comme si quatre-vingt-dix minutes suffisaient à effacer onze mois de boulot.',
+      provocateur: 'Prochaine étape logique : France Football distribue directement le trophée au vestiaire du Parc des Princes à la mi-temps, pendant que Dembélé est encore en train de se faire masser la cuisse.',
+    },
+  },
+  {
     id: 'dembele-blessure-sans-lui-ballon-dor-2026-10-21',
     date: '2026-10-21',
     cat: 'Ballon d\'Or',
