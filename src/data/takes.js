@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lille-ozer-galatasaray-losc-zero-point-2026-10-23',
+    date: '2026-10-23',
+    cat: 'Ligue des Champions',
+    text: 'Le fait que Lille se soit encore incliné 4-2 face à Galatasaray au stade Pierre-Mauroy, malgré un doublé de Soriba Diaoune, 19 ans, devenu le plus jeune buteur de l\'histoire du LOSC en Coupe d\'Europe, parce que son gardien Berke Özer a mal fermé son premier poteau sur un corner dévié à la 52e minute pour offrir le troisième but turc avant celui d\'Osimhen (61e), prouve que c\'est bien le portier qui doit être le premier sacrifié sur le banc avant la suite de la campagne européenne, peu importe que Lille reste sur trois défaites en trois journées et zéro point, un fiasco bien trop collectif pour se résumer à l\'erreur d\'un seul gardien.',
+    pour: 46,
+    answers: {
+      passionne: 'Une erreur pareille sur un corner à la 52e, qui transforme une égalisation à 2-2 en désastre, ça ne pardonne pas ; Özer doit regarder la suite de la campagne depuis le banc, point final.',
+      objectif: 'Diaoune a égalisé dès la 7e puis inscrit son doublé à la 39e sur un service de Haraldsson ; Özer a ensuite mal couvert son premier poteau sur un corner dévié à la 52e, et Lille reste sur trois défaites en trois journées, zéro point.',
+      dubitatif: 'Un seul mauvais geste sur un corner dévié par deux joueurs avant lui, ça ne fait pas un gardien fini ; attendons un match ou deux avant de le mettre sur le banc.',
+      nuance: 'L\'erreur d\'Özer est réelle et coûte cher, mais zéro point en trois matchs avec une défense qui prend quatre buts, c\'est tout un collectif à interroger, pas seulement son gardien.',
+      nostalgique: 'Avant, un gardien de Lille en Coupe d\'Europe s\'appelait Grégory Coupet et personne n\'osait toucher à sa place ; aujourd\'hui le moindre ballon dévié suffit à relancer tout un débat.',
+      provocateur: 'Prochaine étape logique : Özer s\'excuse en conférence de presse pendant que Diaoune, 19 ans, prend déjà sa place dans les buts, il a sûrement plus de réflexes que lui de toute façon.',
+    },
+  },
+  {
     id: 'yamal-dembele-ballon-dor-psg-barca-2026-10-22',
     date: '2026-10-22',
     cat: 'Ballon d\'Or',
