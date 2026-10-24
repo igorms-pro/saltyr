@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'diouf-penalty-brest-nice-2026-10-24',
+    date: '2026-10-24',
+    cat: 'Ligue 1',
+    text: 'Le fait que Yehvann Diouf ait d\'abord offert l\'ouverture du score à Ludovic Ajorque (15e) par une relance totalement ratée, avant de sauver dans les arrêts de jeu le penalty de Kenny Lala qui aurait permis à Brest d\'arracher le point du match nul, prouve que ce genre d\'arrêt décisif suffit à transformer n\'importe quel gardien fautif en héros du soir, peu importe que Nice n\'ait renversé la rencontre (2-1) que grâce aux buts d\'Elye Wahi (61e) et Sofiane Diop (83e) obtenus après cette énorme erreur initiale.',
+    pour: 43,
+    answers: {
+      passionne: 'Diouf vient de signer l\'un des plus beaux arrêts de la saison à la dernière seconde pour offrir trois points à son équipe, peu importe l\'erreur du début : un gardien qui se rachète comme ça dans le money-time, c\'est un grand moment, pas un sujet à débat.',
+      objectif: 'Diouf a totalement raté sa relance à la 15e minute, permettant à Ajorque d\'ouvrir le score pour Brest ; Nice a égalisé par Wahi (61e, sur corner d\'Amoura) puis pris l\'avantage par Diop (83e), avant que Diouf ne détourne le penalty de Kenny Lala dans les arrêts de jeu pour sceller le 2-1 et faire grimper Nice à la 8e place avec 11 points.',
+      dubitatif: 'Un arrêt décisif dans le money-time, c\'est spectaculaire, mais ça ne dit rien sur la fiabilité de Diouf sur la durée ; attendons de voir s\'il refait ce genre d\'erreur de relance avant de parler de rédemption définitive.',
+      nuance: 'Que l\'arrêt sur penalty ait sauvé les trois points, personne ne le conteste ; mais prétendre qu\'il efface totalement une relance aussi grossière qui aurait pu coûter cher si Wahi et Diop n\'avaient pas renversé le match, c\'est aussi vite oublier le début de soirée.',
+      nostalgique: 'Avant, un gardien qui offrait un but sur une relance ratée passait sa semaine à s\'entendre reprocher cette seule erreur ; maintenant un arrêt de penalty dans les arrêts de jeu suffit à transformer la une du lendemain en hommage.',
+      provocateur: 'Prochaine étape logique : Diouf facture l\'erreur de relance à son club et l\'arrêt sur penalty à part, en option premium, et termine la saison en étant payé deux fois sur la même action.',
+    },
+  },
+  {
     id: 'yamal-dembele-ballon-dor-psg-barca-2026-10-22',
     date: '2026-10-22',
     cat: 'Ballon d\'Or',
