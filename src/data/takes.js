@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-france-football-dembele-ballon-dor-2026-10-25',
+    date: '2026-10-25',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que Kylian Mbappé continue de voler la vedette sur la couverture du Ballon d\'Or alors qu\'il n\'a même pas participé à l\'interview que le PSG avait pourtant réservée à Fabián Ruiz, Khvicha Kvaratskhelia et Ousmane Dembélé pour France Football, prouve qu\'il reste la vraie star de ce club une saison après son départ, peu importe que Paris ait fait savoir au magazine son mécontentement face à ce traitement jugé déséquilibré.',
+    pour: 47,
+    answers: {
+      passionne: 'Mbappé peut partir où il veut, il reste le visage du PSG des dernières années et ça se voit encore sur une couverture de magazine : qu\'on arrête de faire comme si Dembélé ou Kvaratskhelia pouvaient rivaliser avec cette aura-là du jour au lendemain.',
+      objectif: 'Le PSG avait accordé à France Football une interview exclusive avec Fabián Ruiz, Khvicha Kvaratskhelia et Ousmane Dembélé en vue du Ballon d\'Or ; à la parution, c\'est pourtant Kylian Mbappé, absent de cet entretien, qui occupe la place la plus visible du numéro, provoquant le mécontentement du club selon plusieurs médias.',
+      dubitatif: 'Une couverture de magazine ne décide ni d\'un Ballon d\'Or ni d\'une hiérarchie de vestiaire ; attendons la remise du trophée avant de transformer un choix éditorial en verdict définitif sur qui est vraiment la star du PSG.',
+      nuance: 'Que Mbappé garde une valeur médiatique énorme même sans interview, personne ne le nie ; mais donner autant de place à un joueur qui n\'est même plus au club, au détriment de ceux qui portent vraiment la saison, c\'est aussi légitime à reprocher au magazine.',
+      nostalgique: 'Avant, les couvertures de Ballon d\'Or récompensaient ceux qui avaient porté la saison sur le terrain ; maintenant un joueur peut rafler la vedette sans même décrocher le téléphone pour l\'interview.',
+      provocateur: 'Prochaine étape logique : France Football consacre sa couverture à Mbappé même les années où il ne joue plus pour aucun des clubs concernés, juste pour être sûr de ne vexer personne d\'autre que le PSG.',
+    },
+  },
+  {
     id: 'diouf-penalty-brest-nice-2026-10-24',
     date: '2026-10-24',
     cat: 'Ligue 1',
