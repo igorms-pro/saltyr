@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-lyon-ballon-dor-conflit-calendrier-2026-10-26',
+    date: '2026-10-26',
+    cat: 'Ligue 1',
+    text: 'Le fait que le match PSG-Lyon, décalé du dimanche au lundi 20h30 par la préfecture de police après les violences du 17 octobre et désormais privé des supporters lyonnais, tombe pile le soir de la cérémonie du Ballon d\'Or au London Palladium où Dembélé, Fabián Ruiz et Kvaratskhelia sont nommés côté PSG, prouve que la sécurité publique doit toujours passer avant le calendrier sportif, peu importe que ça force plusieurs cadres parisiens à zapper leur propre sacre individuel pour disputer un simple match de championnat.',
+    pour: 45,
+    answers: {
+      passionne: 'La sécurité des gens passe avant les paillettes de Londres, un point c\'est tout : si Dembélé doit suivre la cérémonie depuis le bus qui l\'amène au Parc des Princes, c\'est qu\'il n\'a qu\'à être sur le terrain avec ses coéquipiers ce soir-là, point barre.',
+      objectif: 'La préfecture de police a fait reporter PSG-Lyon du dimanche au lundi 20h30 au Parc des Princes après les violences du 17 octobre, les supporters lyonnais étant interdits de déplacement et d\'accès au stade ; ce coup d\'envoi tombe le même soir que la cérémonie du Ballon d\'Or au London Palladium, où Dembélé, Fabián Ruiz et Kvaratskhelia figurent parmi les nommés du PSG.',
+      dubitatif: 'Rien ne dit encore si les joueurs nommés manqueront vraiment la cérémonie ou si un arrangement de dernière minute a été trouvé entre le club, la Ligue et France Football ; attendons de voir qui sera réellement sur scène à Londres avant de crier au scandale du calendrier.',
+      nuance: 'Que la sécurité publique doive primer après des violences aussi graves, personne de raisonnable ne le conteste ; mais programmer malgré tout ce match pile le soir du Ballon d\'Or, c\'est aussi mettre le PSG et ses joueurs dans une position qu\'on aurait pu éviter avec un peu plus d\'anticipation.',
+      nostalgique: 'Avant, le calendrier du foot français se construisait autour des grands rendez-vous individuels et collectifs, pas l\'inverse ; maintenant un simple match de championnat décalé peut faire sauter la soirée la plus importante de la carrière d\'un joueur sans que personne ne s\'excuse.',
+      provocateur: 'Prochaine étape logique : France Football installe une visio au bord de la pelouse du Parc des Princes, et Dembélé récupère son trophée entre deux footings de récupération, le tout sponsorisé par la préfecture de police.',
+    },
+  },
+  {
     id: 'mbappe-france-football-dembele-ballon-dor-2026-10-25',
     date: '2026-10-25',
     cat: 'Ballon d\'Or',
