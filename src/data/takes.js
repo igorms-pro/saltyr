@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'kane-ballon-dor-devant-mbappe-2026-10-27',
+    date: '2026-10-27',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que Harry Kane ait remporté le Ballon d\'Or 2026 devant Kylian Mbappé et Lamine Yamal, devenant le premier Anglais sacré depuis Michael Owen en 2001, alors que son Bayern Munich a été sorti en demi-finale de Ligue des champions par un PSG qui a ensuite remporté le trophée avec Dembélé, Fabián Ruiz et Kvaratskhelia eux aussi nommés cette année, prouve que les statistiques individuelles pèsent plus lourd que les titres collectifs dans ce vote, peu importe qu\'aucun champion d\'Europe en titre n\'ait fini sur le podium.',
+    pour: 46,
+    answers: {
+      passionne: 'Kane peut aligner tous les buts qu\'il veut, son club s\'est fait sortir par le futur vainqueur de la Ligue des champions : qu\'on arrête de récompenser le meilleur buteur d\'une saison sans trophée européen pendant que le PSG soulève la vraie coupe.',
+      objectif: 'Kane a terminé la saison avec 61 buts en 51 matchs toutes compétitions, 36 buts en Bundesliga (meilleur buteur du championnat), la Bundesliga, la DFB-Pokal et la Supercoupe d\'Allemagne remportées, plus 6 buts et le record de buteur historique de l\'Angleterre au Mondial ; le Bayern a pourtant été éliminé en demi-finale de Ligue des champions par le PSG, sacré champion d\'Europe, et Mbappé (43 buts en 47 matchs avec le Real) termine 2e sans le moindre titre cette saison-là.',
+      dubitatif: 'Un vote individuel ne dit jamais grand-chose sur la hiérarchie réelle du foot européen ; attendons de voir si ce sacre tient encore la route dans six mois avant de parler de scandale ou de consécration méritée.',
+      nuance: 'Que la saison statistique de Kane soit historique, personne ne le conteste ; mais couronner le buteur d\'une équipe sortie en demi-finale plutôt qu\'un cadre du club qui a soulevé la Ligue des champions, c\'est aussi légitime à questionner.',
+      nostalgique: 'Avant, le Ballon d\'Or couronnait avant tout les champions d\'Europe et les vainqueurs de grandes compétitions ; maintenant on peut repartir à Londres avec le trophée sous le bras sans avoir gagné la moindre coupe cette saison-là.',
+      provocateur: 'Prochaine étape logique : on remet directement le Ballon d\'Or au meilleur buteur du championnat allemand dès le mois de mai, et on annule la Ligue des champions puisque apparemment ça ne compte plus pour grand-chose.',
+    },
+  },
+  {
     id: 'psg-lyon-ballon-dor-conflit-calendrier-2026-10-26',
     date: '2026-10-26',
     cat: 'Ligue 1',
