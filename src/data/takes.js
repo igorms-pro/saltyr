@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-lyon-mayulu-godts-tete-ligue-1-2026-10-28',
+    date: '2026-10-28',
+    cat: 'Ligue 1',
+    text: 'Le fait que le PSG batte Lyon, avec qui il partageait la première place à 14 points avant la 8e journée, grâce à des buts de Senny Mayulu (72e) et Mika Godts (84e), deux joueurs jamais nommés au Ballon d\'Or, et prenne pour la première fois de la saison la tête seule de la Ligue 1, prouve que ce PSG n\'a plus besoin de ses vedettes pour écraser la concurrence en championnat, peu importe que ce succès soit arrivé sans le moindre but de Dembélé, Kvaratskhelia ou Fabián Ruiz.',
+    pour: 48,
+    answers: {
+      passionne: 'Il n\'y a plus de "si Dembélé ne marque pas, le PSG tremble" : Mayulu et Godts douchent le co-leader Lyon sans la moindre star au tableau d\'affichage, ce vestiaire fait peur à toute la Ligue 1 maintenant.',
+      objectif: 'PSG et Lyon étaient à égalité à 14 points avant la 8e journée ; Mayulu (72e) puis Godts (84e) ont marqué les deux seuls buts du match, sans Dembélé, Kvaratskhelia ni Fabián Ruiz au tableau, offrant à Paris sa première place solo de la saison.',
+      dubitatif: 'Un 2-0 contre un concurrent direct, ça ne dit pas encore si ce PSG peut tenir toute une saison sans but de ses stars ; on reposera la question dans dix journées avant de parler de nouvelle ère.',
+      nuance: 'Que Mayulu et Godts aient fait le travail, personne ne le nie ; mais conclure que "le PSG n\'a plus besoin de ses stars" après un seul match sans Dembélé au tableau, c\'est aller un peu vite en besogne.',
+      nostalgique: 'Avant, un PSG qui jouait sans ses vedettes au tableau d\'affichage, ça sentait le match nul poussif contre une petite équipe ; maintenant ça fait tomber un co-leader et ça prend la tête du championnat.',
+      provocateur: 'Prochaine étape logique : le PSG laisse Dembélé et Kvaratskhelia à Londres astiquer leur Ballon d\'Or toute la saison, et demande à Mayulu et Godts de gérer le championnat tout seuls.',
+    },
+  },
+  {
     id: 'kane-ballon-dor-devant-mbappe-2026-10-27',
     date: '2026-10-27',
     cat: 'Ballon d\'Or',
