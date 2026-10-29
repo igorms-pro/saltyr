@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-campagne-ballon-dor-rate-2026-10-29',
+    date: '2026-10-29',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que Kylian Mbappé ait martelé pendant des semaines qu\'il méritait le Ballon d\'Or, au point de se faire taper dessus par la presse espagnole, Jean-Pierre Papin, Christophe Dugarry et Mehdi Benatia pour son manque d\'humilité, avant de regarder Harry Kane soulever le trophée lundi à Londres, prouve que son autopromotion a fini par braquer les votants contre lui, peu importe qu\'un compétiteur qui ne croit pas en ses propres chances n\'ait jamais rien gagné dans ce sport.',
+    pour: 46,
+    answers: {
+      passionne: 'Un monstre comme Mbappé, ça laisse ses pieds parler et ça découvre le vainqueur avec tout le monde ; au lieu de ça il a mendié le trophée au micro pendant un mois, forcément ça a fini par se retourner contre lui.',
+      objectif: 'En un mois, Sport, Papin, Dugarry et Benatia ont tous publiquement critiqué la communication de Mbappé sur le Ballon d\'Or ; le jury a tranché le 26 octobre à Londres en faveur de Harry Kane.',
+      dubitatif: 'Chaque année plusieurs candidats réclament le trophée et le perdent quand même ; impossible de prouver qu\'un seul bulletin de vote a changé parce que Mbappé a ouvert la bouche.',
+      nuance: 'Mbappé n\'a pas tort de croire en ses chances, le problème c\'est le dosage : le dire une fois passe inaperçu, le répéter pendant un mois agace même les votants qui lui étaient neutres au départ.',
+      nostalgique: 'Avant, les plus grands laissaient leurs stats et leurs titres parler à leur place et apprenaient le nom du vainqueur en même temps que nous ; aujourd\'hui on fait campagne électorale pour un trophée individuel.',
+      provocateur: 'Prochaine étape logique pour 2027 : Mbappé engage une agence de com, distribue des tracts devant le Parc des Princes et organise un débat télévisé contre Yamal avant le vote.',
+    },
+  },
+  {
     id: 'psg-lyon-mayulu-godts-tete-ligue-1-2026-10-28',
     date: '2026-10-28',
     cat: 'Ligue 1',
