@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'dembele-mbappe-regard-video-ballon-dor-2026-10-30',
+    date: '2026-10-30',
+    cat: 'Équipe de France',
+    text: 'Le fait que la vidéo virale montrant Ousmane Dembélé fixer Kylian Mbappé dans les secondes qui ont suivi l\'annonce du sacre d\'Harry Kane, lundi soir au London Palladium, ait été décortiquée image par image par des millions d\'internautes comme la preuve d\'une joie à peine contenue, alors que Dembélé avait félicité Kane sans accroc sur Instagram et juré avant la cérémonie qu\'il n\'y avait aucun problème avec son coéquipier depuis sa punchline "je n\'ai jamais été l\'élu, j\'ai bossé", prouve que la guerre froide entre les deux Bleus est bien réelle sous le vernis des éloges publics, peu importe qu\'aucun des deux n\'ait jamais prononcé le moindre mot de travers l\'un envers l\'autre devant une caméra.',
+    pour: 47,
+    answers: {
+      passionne: 'On voit très bien sur la vidéo que Dembélé savoure la défaite de Mbappé, qui ferait mieux d\'arrêter de jouer les meilleurs amis à la télé : deux mecs qui s\'aiment vraiment ne se regardent pas comme ça pile à l\'instant où le nom d\'un troisième homme est annoncé.',
+      objectif: 'Dembélé a félicité Kane sur Instagram sans mentionner Mbappé, qui avait affirmé dans France Football avoir "toujours été vu comme l\'élu" sans le citer ; Dembélé avait répondu après la victoire à Brest qu\'il n\'avait "jamais été l\'élu" et qu\'il avait "bossé" ; au classement final, Kane finit 1er, Mbappé 2e et Dembélé 7e.',
+      dubitatif: 'Deux secondes de vidéo tremblante filmée dans une salle bondée, ça ne prouve absolument rien sur l\'état d\'esprit de qui que ce soit ; attendons de voir comment ils se comportent au prochain rassemblement avec Zidane avant de parler de guerre froide.',
+      nuance: 'Que l\'échange de piques via la presse ait laissé des traces, personne ne peut sérieusement le nier ; mais en déduire une haine profonde à partir d\'un regard flou sur une vidéo volée, c\'est aussi aller beaucoup trop vite en besogne.',
+      nostalgique: 'Avant, les Bleus fêtaient les trophées des copains sans que personne n\'aille chercher la moindre once de jalousie planquée dans un sourcil levé ; maintenant chaque regard filmé en soirée devient un épisode de téléréalité analysé par des millions de détectives amateurs.',
+      provocateur: 'Prochaine étape logique pour Zidane : installer Dembélé et Mbappé à deux tables différentes au prochain rassemblement des Bleus, avec un médiateur et une caméra de surveillance braquée sur chacun d\'eux pendant les repas.',
+    },
+  },
+  {
     id: 'mbappe-campagne-ballon-dor-rate-2026-10-29',
     date: '2026-10-29',
     cat: 'Ballon d\'Or',
