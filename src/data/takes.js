@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-reste-assis-snobe-kane-ballon-dor-2026-10-31',
+    date: '2026-10-31',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que Kylian Mbappé soit resté assis à applaudir poliment, lundi à Londres, quand Harry Kane est venu le saluer pour fêter son sacre au Ballon d\'Or, obligeant l\'Anglais à se pencher vers lui pour l\'accolade, prouve qu\'il n\'a toujours pas digéré sa deuxième place, peu importe qu\'aucune déclaration de sa part ne confirme un quelconque geste volontaire de snobe.',
+    pour: 47,
+    answers: {
+      passionne: 'Un champion, ça se lève et ça embrasse le vainqueur avec le sourire même quand ça fait mal ; Mbappé est resté vissé à son siège pendant que Kane se penchait vers lui, l\'orgueil a pris le dessus sur le fair-play.',
+      objectif: 'Lundi à Londres, les images montrent Kane s\'approcher de Mbappé pour le féliciter et le Français rester assis pendant l\'accolade, tout en applaudissant et en souriant ; aucune déclaration officielle de Mbappé n\'est venue expliquer ce geste.',
+      dubitatif: 'Rester assis deux secondes pendant une accolade ne prouve strictement rien sur l\'état d\'esprit de quelqu\'un ; sans une phrase de Mbappé lui-même, tout le monde fait de la psychologie de comptoir sur une photo.',
+      nuance: 'Qu\'il n\'ait pas sauté de joie en voyant Kane soulever le trophée qu\'il convoitait, c\'est humain et ça ne l\'empêche pas d\'avoir applaudi poliment ; en faire un "snobe" calculé, c\'est lire beaucoup dans deux secondes de vidéo.',
+      nostalgique: 'Avant, les perdants du Ballon d\'Or se levaient, serraient la main et gardaient leur déception pour le vestiaire ; aujourd\'hui on décortique chaque micro-geste filmé pour décider qui a "snobé" qui.',
+      provocateur: 'Prochaine étape logique pour 2027 : Mbappé exige une chaise plus haute que celle du vainqueur pour la cérémonie, comme ça au moins il n\'aura plus besoin de se lever pour personne.',
+    },
+  },
+  {
     id: 'mbappe-campagne-ballon-dor-rate-2026-10-29',
     date: '2026-10-29',
     cat: 'Ballon d\'Or',
