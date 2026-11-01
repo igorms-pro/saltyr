@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'rennes-haise-naufrage-nice-2026-11-01',
+    date: '2026-11-01',
+    cat: 'Ligue 1',
+    text: 'Le fait que Franck Haise, auteur d\'un retentissant 4-0 sur le terrain de Nice pour ses grands débuts sur le banc rennais en mars, revienne huit mois plus tard au même endroit pour s\'incliner 5-2 et avoue publiquement qu\'il aurait pu sortir huit joueurs à la pause, après des défaites à l\'extérieur contre le Paris FC puis l\'OL, prouve que ce vestiaire rennais n\'a plus le mental pour jouer loin de Roazhon Park, peu importe que Rennes reste malgré tout dans le haut du classement.',
+    pour: 46,
+    answers: {
+      passionne: 'Trois défaites de rang à l\'extérieur, et un 5-2 pris sur le terrain où il avait humilié Nice huit mois plus tôt : ce groupe rennais s\'écroule dès qu\'il quitte Roazhon Park, et Haise peut changer tous les systèmes qu\'il veut, si ses joueurs ne se battent pas ça ne changera rien.',
+      objectif: 'Nommé le 18 février 2026 après le limogeage d\'Habib Beye, Haise avait lancé son mandat par un 4-0 à Nice en mars ; huit mois plus tard, Rennes s\'incline 5-2 sur ce même terrain, sa troisième défaite de rang à l\'extérieur après le Paris FC et l\'OL, pendant que le coach déclare qu\'il aurait pu sortir huit joueurs à la pause.',
+      dubitatif: 'Une déroute à l\'extérieur, même répétée trois fois, ne dit pas encore si le problème vient du vestiaire ou des réglages défensifs ; Haise lui-même évoque des corrections tactiques à apporter, mieux vaut attendre les prochains déplacements avant de parler de crise de mentalité.',
+      nuance: 'Que l\'équipe manque de solidité sans ballon loin de ses bases, Haise le reconnaît lui-même sans chercher d\'excuse ; mais réduire trois défaites à l\'extérieur à un simple problème de caractère des joueurs, c\'est oublier qu\'un coach porte aussi sa part de responsabilité dans un système qui laisse filer cinq buts.',
+      nostalgique: 'Avant, un groupe qui venait d\'humilier son adversaire 4-0 sur son propre terrain y retournait la tête haute et l\'envie de confirmer ; aujourd\'hui il en repart avec cinq buts dans la musette et un entraîneur qui regrette publiquement d\'avoir aligné la moitié de son effectif.',
+      provocateur: 'Prochaine étape logique : Haise réserve les déplacements à l\'équipe réserve et garde son groupe pro uniquement pour les matchs à Roazhon Park, au moins il n\'aura plus besoin de compter les joueurs qu\'il regrette d\'avoir fait jouer.',
+    },
+  },
+  {
     id: 'mbappe-reste-assis-snobe-kane-ballon-dor-2026-10-31',
     date: '2026-10-31',
     cat: 'Ballon d\'Or',
