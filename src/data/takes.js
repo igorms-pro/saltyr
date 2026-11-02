@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lens-lille-derby-nord-chute-2026-11-02',
+    date: '2026-11-02',
+    cat: 'Ligue 1',
+    text: 'Le fait que Lens s\'incline 1-0 dans le Derby du Nord à Lille sur un but tardif d\'Olivier Giroud, et retombe à la 9e place de Ligue 1 avec seulement 13 points après 9 journées, prouve que ce groupe sang et or n\'a plus l\'armure mentale pour exister dans le haut du tableau, peu importe qu\'on ne soit qu\'au tiers de la saison.',
+    pour: 47,
+    answers: {
+      passionne: 'Perdre un derby contre son pire ennemi sur un but encaissé dans les dix dernières minutes, ça ne pardonne pas : ce Lens-là manque de hargne au moment où ça compte, et la 9e place avec 13 points n\'est que la conséquence logique.',
+      objectif: 'Battu 1-0 à Lille vendredi sur un but de Giroud inscrit en fin de match, Lens recule à la 9e place avec 13 points après 9 journées, à quatre longueurs du podium occupé par Lyon et à sept du PSG, large leader avec 20 points.',
+      dubitatif: 'Un but encaissé dans les dernières minutes d\'un derby extérieur ne dit encore rien d\'une saison qui n\'est qu\'à son neuvième match ; attendons la trêve de décembre avant de parler de crise.',
+      nuance: 'Lens a tenu Lille en échec pendant 85 minutes sans trembler, ce n\'est pas le groupe sans caractère qu\'on décrit ; mais craquer précisément dans le money-time d\'un derby, ça interroge quand même sur la capacité à conclure les grands rendez-vous.',
+      nostalgique: 'Avant, un Lens qui allait au bout de lui-même dans le Derby du Nord ressortait au minimum avec le point du match nul arraché à la dernière seconde ; maintenant c\'est lui qui encaisse le but qui fait mal dans le money-time.',
+      provocateur: 'Prochaine étape logique : Lens demande à jouer tous ses derbys contre Lille en 85 minutes chrono, comme ça au moins le money-time version Giroud n\'existe plus.',
+    },
+  },
+  {
     id: 'rennes-haise-naufrage-nice-2026-11-01',
     date: '2026-11-01',
     cat: 'Ligue 1',
