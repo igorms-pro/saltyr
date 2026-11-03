@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lorient-tosin-penalte-ratee-derby-breton-2026-11-03',
+    date: '2026-11-03',
+    cat: 'Ligue 1',
+    text: 'Le fait que Aiyegun Tosin, déjà coupable d\'un penalty manqué la saison passée, voie sa frappe heurter le poteau à la 90e minute du derby breton face à des Brestois privés de déplacement pour cause de violences avant-match, juste avant que Lorient s\'écroule 0-2 au Moustoir sur un but concédé à la 90e+2, prouve que ce club traîne une vraie fixette psychologique sur le point de penalty, peu importe qu\'un tir raté sous pression n\'ait jamais fait une maladie à lui seul.',
+    pour: 46,
+    answers: {
+      passionne: 'Rater un penalty à la 90e minute d\'un derby, ça ne pardonne pas, surtout quand c\'est le même joueur qui l\'avait déjà manqué l\'an dernier : Tosin n\'a plus les nerfs pour ce genre de moment, et tout le vestiaire lorientais semble contaminé par cette angoisse au point de penalty.',
+      objectif: 'Opposé à des Brestois privés de déplacement pour cause de violences avant-match, Lorient s\'est incliné 0-2 au Moustoir lundi soir : Ajorque a ouvert le score à la 69e minute, puis Tosin a vu sa frappe de la 90e heurter le poteau avant qu\'Edjouma ne scelle le score à la 90e+2 ; la saison passée, le club avait déjà manqué trois penalties, dont un de Tosin.',
+      dubitatif: 'Un tir qui touche le poteau à quelques centimètres près ne prouve rien d\'une fixette mentale collective ; attendons le prochain penalty lorientais avant de parler de traumatisme durable.',
+      nuance: 'Que Lorient enchaîne les penalties manqués depuis la saison dernière interroge forcément sur l\'état mental du groupe ; mais réduire un tir qui heurte le poteau à un simple problème psychologique, c\'est oublier qu\'un relâchement de dernière seconde ou un gardien bien placé suffisent aussi à l\'expliquer.',
+      nostalgique: 'Avant, un Lorient qui obtenait un penalty à la 90e minute dans un derby le transformait sans trembler et ramenait au moins le point du nul ; maintenant le ballon va taper le poteau et c\'est l\'adversaire qui enfonce le clou dans les arrêts de jeu.',
+      provocateur: 'Prochaine étape logique : Lorient embauche un préparateur mental uniquement dédié au point de penalty, histoire d\'arrêter de nourrir les statistiques de Tosin à chaque fin de match serrée.',
+    },
+  },
+  {
     id: 'lens-lille-derby-nord-chute-2026-11-02',
     date: '2026-11-02',
     cat: 'Ligue 1',
