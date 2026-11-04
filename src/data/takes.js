@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'havre-limogeage-digard-roussier-2026-11-04',
+    date: '2026-11-04',
+    cat: 'Ligue 1',
+    text: 'Le fait que les propriétaires américains du Havre limogent Didier Digard et actent la démission du président Jean-Michel Roussier dès le lendemain d\'une déroute 5-1 à domicile contre le PSG, alors que le promu ne compte que 2 points après 9 journées et reste bon dernier de Ligue 1, prouve qu\'ils ont eu raison de trancher dans le vif avant que la saison ne soit déjà perdue, peu importe qu\'aucun entraîneur n\'ait jamais transformé à lui seul l\'effectif d\'un promu en équipe de milieu de tableau.',
+    pour: 47,
+    answers: {
+      passionne: 'Deux points en neuf journées et une humiliation 5-1 à la maison contre le PSG, il fallait un responsable et ce sera Digard : quand le bateau prend l\'eau à ce point, on ne discute pas pendant des semaines, on change de capitaine tout de suite.',
+      objectif: 'Battu 5-1 au Stade Océane par le PSG vendredi, Le Havre pointe à la 18e et dernière place de Ligue 1 avec seulement 2 points après 9 journées ; le lendemain, les propriétaires américains du club ont limogé Didier Digard et acté la démission du président Jean-Michel Roussier, qui doit être officialisée lors du conseil d\'administration du 5 novembre.',
+      dubitatif: 'Changer d\'entraîneur ne change pas automatiquement le niveau d\'un effectif de promu ; attendons de voir qui arrive sur le banc et les premiers matchs sous ses ordres avant de dire si cette décision prise à chaud était la bonne.',
+      nuance: 'Que des propriétaires s\'inquiètent de 2 points en 9 journées se comprend parfaitement ; mais limoger l\'entraîneur sans toucher à un effectif visiblement sous-dimensionné pour la Ligue 1, c\'est traiter le symptôme sans jamais s\'attaquer à la cause.',
+      nostalgique: 'Avant, un promu qui souffrait en haut de tableau gardait son entraîneur jusqu\'à la trêve et se battait avec les mêmes hommes jusqu\'au bout de l\'automne ; maintenant on vire le coach et le président le samedi qui suit une seule défaite.',
+      provocateur: 'Prochaine étape logique : Le Havre change d\'entraîneur après chaque match perdu, comme ça au printemps le club aura eu plus de coachs que de points au classement.',
+    },
+  },
+  {
     id: 'lorient-tosin-penalte-ratee-derby-breton-2026-11-03',
     date: '2026-11-03',
     cat: 'Ligue 1',
