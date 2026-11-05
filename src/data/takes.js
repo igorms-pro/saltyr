@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'ballon-dor-paris-suspects-fuite-kane-2026-11-05',
+    date: '2026-11-05',
+    cat: 'Ballon d\'Or',
+    text: 'Le fait que le groupe Amaury, propriétaire de France Football, porte plainte après que douze comptes de paris créés pour l\'occasion ont misé 264 000 dollars sur le top 5 exact du Ballon d\'Or — Kane devant Mbappé, Yamal, Rodri et Messi — et empoché environ 179 000 euros quelques heures avant la cérémonie, prouve que le classement a fuité en amont et que le sacre d\'Harry Kane restera à jamais entaché de soupçons, peu importe qu\'aucune enquête n\'ait encore établi l\'origine exacte de cette fuite.',
+    pour: 45,
+    answers: {
+      passionne: 'Douze comptes anonymes qui tombent pile sur le top 5 exact à quelques heures de la cérémonie et empochent 179 000 balles, ça ne s\'appelle pas de la chance, ça s\'appelle une fuite organisée : le sacre de Kane est cramé avant même d\'avoir été soulevé.',
+      objectif: 'Le groupe Amaury a annoncé un dépôt de plainte après que douze comptes créés pour l\'occasion ont misé 264 000 dollars sur le classement exact du top 5 du Ballon d\'Or (Kane, Mbappé, Yamal, Rodri, Messi) et remporté environ 179 000 euros, peu avant la révélation officielle du lauréat.',
+      dubitatif: 'Des paris gagnants ne prouvent pas à eux seuls une fuite organisée par France Football, ça peut aussi être des pronostiqueurs qui ont bien lu la presse ; attendons les conclusions de l\'enquête avant de parler de scandale.',
+      nuance: 'Que des paris aussi précis sentent mauvais, personne ne le nie ; mais confondre une fuite de communication en amont avec une manipulation du vote lui-même, ce n\'est pas la même accusation, et ça change tout pour Kane.',
+      nostalgique: 'Avant, le Ballon d\'Or restait secret jusqu\'à l\'ouverture de l\'enveloppe sur scène et toute la salle retenait son souffle ; maintenant des comptes créés la veille connaissent le classement exact et touchent le jackpot avant même que Kane ne se lève.',
+      provocateur: 'Prochaine étape logique : France Football vend direct les résultats aux bookmakers avant la cérémonie, ça évitera à tout le monde de faire semblant d\'être surpris sur scène.',
+    },
+  },
+  {
     id: 'havre-limogeage-digard-roussier-2026-11-04',
     date: '2026-11-04',
     cat: 'Ligue 1',
