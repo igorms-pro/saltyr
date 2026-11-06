@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lens-humiliation-come-sacrifice-europe-2026-11-06',
+    date: '2026-11-06',
+    cat: 'Ligue des Champions',
+    text: 'Le fait que Lens vienne d\'encaisser la plus lourde défaite de l\'histoire d\'un club français en Ligue des Champions (1-9 contre Côme, un revers qui a mis plusieurs joueurs au bord des larmes) prouve que le club doit désormais sacrifier sciemment sa campagne européenne et aligner une équipe bis lors des prochaines journées pour se consacrer entièrement au maintien en Ligue 1, peu importe que ça revienne à abandonner sportivement une compétition continentale.',
+    pour: 48,
+    answers: {
+      passionne: 'Neuf buts pris à domicile, des joueurs en larmes au coup de sifflet, le maire qui monte au créneau : à ce niveau d\'humiliation, continuer à sacrifier des points du maintien pour une Ligue des Champions perdue d\'avance, ce serait de l\'inconscience pure.',
+      objectif: 'Battus 9-1 par Côme mercredi à Bollaert, les Lensois signent la plus lourde défaite de l\'histoire d\'un club français en Ligue des Champions ; Michaël Cuisance était au bord des larmes au coup de sifflet final, et le groupe veut réagir dès dimanche face à l\'OM.',
+      dubitatif: 'Sacrifier délibérément la Ligue des Champions pour sauver le maintien, c\'est un pari risqué : rien ne garantit qu\'une équipe bis humiliée psychologiquement rebondira mieux en Ligue 1 qu\'elle n\'a tenu le choc à l\'extérieur en coupe d\'Europe.',
+      nuance: 'Qu\'il faille prioriser le maintien après un tel séisme se comprend ; mais aligner volontairement une équipe diminuée en Ligue des Champions, c\'est aussi priver les supporters sang et or d\'un rêve européen qu\'ils attendaient depuis des années.',
+      nostalgique: 'Avant, décrocher l\'Europe à Lens, c\'était un exploit qu\'on défendait bec et ongles, quitte à jouer les stars blessées ; maintenant on parle déjà de sacrifier la compétition après une seule soirée cauchemardesque.',
+      provocateur: 'Prochaine étape logique : Lens envoie direct l\'équipe réserve à Côme au match retour, comme ça le club économise le prix du voyage en plus d\'économiser sa dignité.',
+    },
+  },
+  {
     id: 'ballon-dor-paris-suspects-fuite-kane-2026-11-05',
     date: '2026-11-05',
     cat: 'Ballon d\'Or',
