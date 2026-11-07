@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-penalty-genereux-racing-santander-2026-11-07',
+    date: '2026-11-07',
+    cat: 'Équipe de France',
+    text: 'Le fait que le Comité Technique des Arbitres espagnol ait lui-même reconnu, après la victoire 3-0 du Real Madrid face au Racing Santander, que le penalty sifflé en faveur de Kylian Mbappé n\'aurait jamais dû être accordé puisqu\'aucun contact réel n\'a provoqué sa chute, prouve que le capitaine de l\'équipe de France bénéficie d\'un traitement arbitral à part depuis des années, peu importe que José Mourinho lui-même ait reconnu la générosité du penalty tout en assurant que cela n\'a changé en rien l\'issue du match.',
+    pour: 44,
+    answers: {
+      passionne: 'Un comité d\'arbitres qui avoue lui-même s\'être trompé en faveur de Mbappé, ce n\'est pas un hasard isolé : ça fait des années que ce garçon obtient des fautes que personne d\'autre n\'obtiendrait, et tout le monde fait semblant de ne pas le voir.',
+      objectif: 'Battu 3-0 par le Real Madrid le 1er novembre, le Racing Santander a vu son capitaine Iñigo Sáinz-Maza dénoncer un penalty inexistant accordé à Mbappé ; le Comité Technique des Arbitres (CTA) a confirmé quelques jours plus tard que la sanction n\'aurait pas dû être sifflée, faute de contact réel entre les deux joueurs.',
+      dubitatif: 'Qu\'un comité d\'arbitres reconnaisse une erreur après coup ne prouve pas un favoritisme systématique envers Mbappé, ça arrive à tous les grands attaquants qui multiplient les appuis dans la surface ; il faudrait voir ce motif se répéter sur plusieurs matchs avant de parler de traitement de faveur.',
+      nuance: 'Que l\'erreur arbitrale soit réelle et documentée, personne ne le conteste ; mais en faire la preuve d\'un privilège permanent accordé à Mbappé depuis des années, c\'est transformer une faute ponctuelle d\'un arbitre espagnol en complot structurel, ce qui est une toute autre accusation.',
+      nostalgique: 'Avant, un penalty litigieux restait un sujet de débat de comptoir le lendemain du match ; maintenant il faut un communiqué officiel du comité d\'arbitrage espagnol pour acter qu\'on s\'est trompé, comme si le foot avait besoin d\'un tribunal permanent.',
+      provocateur: 'Prochaine étape logique : la CTA envoie direct un arbitre siffler le penalty dans le vestiaire du Racing avant le coup d\'envoi, ça fera gagner du temps à tout le monde et Mbappé n\'aura même plus besoin de courir.',
+    },
+  },
+  {
     id: 'lens-humiliation-come-sacrifice-europe-2026-11-06',
     date: '2026-11-06',
     cat: 'Ligue des Champions',
