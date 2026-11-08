@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-troyes-zabarnyi-attaque-en-panne-2026-11-08',
+    date: '2026-11-08',
+    cat: 'Ligue 1',
+    text: 'Le fait que le PSG, leader incontesté du championnat avec 23 points, ait eu besoin d\'une tête de son défenseur central Ilya Zabarnyi à la 39e minute pour venir à bout d\'un Troyes regroupé devant son but, malgré 73% de possession au Parc des Princes, prouve que l\'attaque parisienne tourne au ralenti depuis le début de la saison, peu importe que la première place au classement ne souffre d\'aucune contestation.',
+    pour: 44,
+    answers: {
+      passionne: 'Un leader qui plafonne à un petit but de défenseur contre un promu regroupé derrière, pendant que les attaquants multiplient les occasions ratées pendant 90 minutes, ça ne trompe personne : cette équipe gagne sur son nom et sur sa défense, plus du tout sur son attaque.',
+      objectif: 'Samedi au Parc des Princes, le PSG a dominé Troyes à 73% de possession mais n\'a inscrit qu\'un seul but, signé Ilya Zabarnyi d\'une tête à la 39e minute ; une victoire qui conserve la tête du championnat au club sans rassurer sur la finition de ses attaquants de pointe.',
+      dubitatif: 'Un but de défenseur contre un adversaire venu se regrouper devant sa surface ne prouve rien d\'une crise offensive durable ; il faudrait voir ce scénario se répéter sur plusieurs matchs avant de parler de panne sèche généralisée.',
+      nuance: 'Que l\'attaque parisienne manque de tranchant face à un bloc bas est un vrai sujet depuis plusieurs semaines ; mais réduire une victoire 1-0 qui maintient le club en tête du championnat à un simple aveu de faiblesse, c\'est oublier que l\'essentiel, les trois points, reste quand même dans la poche.',
+      nostalgique: 'Avant, le PSG recevait un promu et repartait avec trois ou quatre buts d\'avance sans effort apparent ; maintenant il faut un centre défensif sur un corner pour arracher la victoire la plus étroite possible.',
+      provocateur: 'Prochaine étape logique : Luis Enrique aligne directement ses quatre défenseurs centraux en attaque les jours de bloc bas adverse, au moins on sera sûr que le seul but du match viendra bien d\'eux.',
+    },
+  },
+  {
     id: 'mbappe-penalty-genereux-racing-santander-2026-11-07',
     date: '2026-11-07',
     cat: 'Équipe de France',
