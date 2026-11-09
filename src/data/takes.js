@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lens-om-rechute-domicile-apres-come-2026-11-09',
+    date: '2026-11-09',
+    cat: 'Ligue 1',
+    text: 'Le fait que Lens, trois jours seulement après la pire humiliation européenne de son histoire (1-9 contre Côme), se soit à nouveau incliné à domicile face à l\'OM (1-2) malgré l\'égalisation de Florian Thauvin, prouve que le groupe est en pleine crise de confiance et qu\'il faut déjà taper du poing sur la table en interne, peu importe que les Sang et Or aient longtemps tenu le score face à une équipe classée devant eux au championnat.',
+    pour: 45,
+    answers: {
+      passionne: 'Perdre deux fois en trois jours, dont une humiliation historique, on ne peut plus parler d\'accident isolé : ce groupe est cassé dans la tête, et tant qu\'on ne tape pas un grand coup en interne, Bollaert va continuer de souffrir chaque week-end.',
+      objectif: 'Battus 1-9 par Côme mercredi, les Lensois se sont ensuite inclinés 1-2 à domicile face à l\'OM dimanche : Amine Gouiri a ouvert le score à la 2e minute, Florian Thauvin a égalisé pour Lens à la 20e, avant que Keyliane Abdallah ne redonne l\'avantage à Marseille à la 82e.',
+      dubitatif: 'Un faux pas à domicile contre une équipe de haut de tableau trois jours après un traumatisme pareil, ça ne dit encore rien d\'une crise durable ; il faudrait voir Lens retomber au même niveau sur plusieurs matchs avant de parler d\'effondrement collectif.',
+      nuance: 'Que le money-time ait encore trahi Lens est indéniable, mais égaliser face à l\'OM juste après un tel séisme psychologique montre aussi un groupe qui n\'a pas sombré totalement ; orgueil blessé et fragilité réelle coexistent très bien dans ce résultat.',
+      nostalgique: 'Avant, Lens sortait d\'une déroute pareille en allant chercher au moins un point de fierté à l\'arrache contre plus fort que lui ; maintenant même ça, le club n\'arrive plus à le tenir jusqu\'au bout du match.',
+      provocateur: 'Prochaine étape logique : Côme demande à être réintégré direct en Ligue 1 pour venir terminer le travail commencé mercredi, au moins l\'addition sera réglée plus vite pour tout le monde.',
+    },
+  },
+  {
     id: 'psg-troyes-zabarnyi-attaque-en-panne-2026-11-08',
     date: '2026-11-08',
     cat: 'Ligue 1',
