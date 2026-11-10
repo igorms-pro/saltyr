@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'paris-fc-promu-rivalise-psg-sommet-2026-11-10',
+    date: '2026-11-10',
+    cat: 'Ligue 1',
+    text: 'Le fait que le Paris FC, promu cette saison et toujours hébergé au petit stade Jean Bouin, se soit hissé provisoirement à hauteur du PSG en tête de la Ligue 1 après sa victoire 1-0 à Auxerre samedi, grâce à un but dévié de Pagis à la 63e minute, prouve qu\'un promu peut désormais jouer les trouble-fête jusqu\'au sommet du championnat, peu importe que l\'expérience récente du foot français montre que ces débuts tonitruants finissent presque toujours par retomber sur une saison pleine.',
+    pour: 44,
+    answers: {
+      passionne: 'Un promu qui tutoie le PSG en tête du championnat après dix journées, ce n\'est pas de la chance : c\'est la preuve que l\'argent et l\'histoire ne suffisent plus à écraser un collectif qui joue juste et qui y croit vraiment.',
+      objectif: 'Vainqueur 1-0 à Auxerre samedi grâce à un but dévié de Pagis à la 63e minute, le Paris FC s\'est provisoirement installé à hauteur du PSG en tête du championnat, avant que le succès parisien contre Troyes dimanche ne redonne la première place aux Rouge et Bleu.',
+      dubitatif: 'Dix journées, c\'est encore trop court pour juger quoi que ce soit : il faudrait voir le Paris FC confirmer sur toute la phase aller face aux cadors avant de parler sérieusement de course au titre.',
+      nuance: 'Que le Paris FC produise un football solide et mérite sa place dans le haut du tableau est indéniable ; mais entre jouer les premiers rôles en novembre et tenir la distance jusqu\'en mai face à des effectifs bien plus riches, il y a un monde que personne n\'a encore franchi.',
+      nostalgique: 'Avant, un promu qui pointait aussi haut en novembre, on savait déjà qu\'il allait se faire rattraper dès les fêtes de fin d\'année ; maintenant on nous vend ça comme une révolution du football français alors que l\'histoire se répète presque chaque saison.',
+      provocateur: 'Prochaine étape logique : le PSG demande direct la fusion des deux clubs parisiens pour éviter l\'humiliation, au moins Jean Bouin aura enfin un peu plus de monde dans les tribunes les soirs de big match.',
+    },
+  },
+  {
     id: 'lens-om-rechute-domicile-apres-come-2026-11-09',
     date: '2026-11-09',
     cat: 'Ligue 1',
