@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'pagis-premiere-selection-bleus-zidane-2026-11-11',
+    date: '2026-11-11',
+    cat: 'Équipe de France',
+    text: 'Le fait que Pablo Pagis, recruté cet été pour 15 millions d\'euros en provenance de Lorient par le Paris FC fraîchement promu, obtienne sa toute première sélection en Bleu avant même d\'avoir disputé une campagne européenne avec son nouveau club, prouve que Zidane a raison de sélectionner avant tout sur la forme du moment, peu importe que lancer un international totalement inexpérimenté avant un match qui peut peser sur toute la phase de groupes de Ligue des nations soit un pari qu\'aucun sélectionneur n\'aurait assumé il y a encore un an.',
+    pour: 47,
+    answers: {
+      passionne: 'Zidane qui n\'a aucun totem et qui ose lancer un joueur à peine arrivé en Ligue 1 plutôt que de respecter la hiérarchie habituelle, c\'est exactement le vent de fraîcheur qu\'il fallait après des années de liste figée.',
+      objectif: 'Pagis a inscrit 10 buts et délivré 5 passes décisives en 28 matchs de Ligue 1 la saison passée avec Lorient avant de rejoindre le Paris FC pour 15 millions d\'euros cet été ; il découvre les Bleus sans la moindre minute jouée en compétition européenne.',
+      dubitatif: 'Une première convocation ne garantit rien tant que le joueur n\'a pas posé un pied sur le terrain contre l\'Italie ; attendons de voir comment Pagis gère la pression avant de parler de pari gagnant ou raté.',
+      nuance: 'Que Pagis mérite sa sélection sur sa forme actuelle est indéniable, mais l\'envoyer disputer un match qui compte dans le groupe sans la moindre expérience internationale, c\'est aussi prendre un risque que Zidane assume seul.',
+      nostalgique: 'Avant, il fallait des saisons entières à prouver sa valeur en Ligue 1 avant même de rêver d\'une sélection en Bleu ; maintenant quelques mois convaincants avec un promu suffisent pour sauter toutes les étapes.',
+      provocateur: 'Prochaine étape logique : Zidane convoque le meilleur buteur de National 3 au prochain rassemblement, comme ça au moins tout le monde sera à égalité d\'expérience internationale.',
+    },
+  },
+  {
     id: 'paris-fc-promu-rivalise-psg-sommet-2026-11-10',
     date: '2026-11-10',
     cat: 'Ligue 1',
