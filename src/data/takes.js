@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'mbappe-pointe-zidane-italie-2026-11-12',
+    date: '2026-11-12',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane, qui expliquait début octobre apprécier « beaucoup » Mbappé posté à gauche et envisager à terme Dembélé comme numéro 9 de référence, replace son capitaine en pointe pour affronter l\'Italie ce soir à Milan en Ligue des nations, prouve que même le sélectionneur sait que les Bleus ont besoin du vrai Mbappé, celui qui plante des buts dans la surface, peu importe que ce repositionnement arrive surtout parce que Dembélé est absent et non par conviction tactique affichée.',
+    pour: 54,
+    answers: {
+      passionne: 'Mbappé en pointe, c\'est sa place naturelle et celle où il a toujours fait le plus de dégâts avec les Bleus : le replacer ailleurs par principe tactique, c\'est se priver volontairement de son meilleur buteur historique juste pour prouver un système.',
+      objectif: 'Meilleur buteur de l\'histoire de l\'équipe de France, Kylian Mbappé retrouve le poste de numéro 9 contre l\'Italie jeudi à Milan puis la Turquie dimanche à Bordeaux, Ousmane Dembélé étant absent de ce rassemblement pour la Ligue des nations.',
+      dubitatif: 'Deux matchs de rassemblement ne suffisent pas à juger si Mbappé doit redevenir numéro 9 à temps plein ou si c\'est un simple dépannage lié à l\'absence de Dembélé ; attendons de voir ce que Zidane décide quand tout le monde sera disponible.',
+      nuance: 'Que Mbappé soit redoutable en pointe est indéniable, mais Zidane n\'a jamais caché préférer à terme Dembélé à ce poste avec son capitaine excentré à gauche ; ce retour en pointe est une solution de rassemblement, pas forcément un plan de jeu durable.',
+      nostalgique: 'Avant, un sélectionneur savait où jouait son meilleur joueur et s\'y tenait toute une campagne ; maintenant la position de Mbappé change de rassemblement en rassemblement selon qui est blessé ou suspendu ce mois-ci.',
+      provocateur: 'Prochaine étape logique : Zidane fait tourner Mbappé à tous les postes du terrain sur les deux matchs, gardien compris, histoire de voir lequel fait le plus de vues sur les réseaux après le coup de sifflet final.',
+    },
+  },
+  {
     id: 'pagis-premiere-selection-bleus-zidane-2026-11-11',
     date: '2026-11-11',
     cat: 'Équipe de France',
