@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-premiere-defaite-italie-mbappe-absent-2026-11-13',
+    date: '2026-11-13',
+    cat: 'Équipe de France',
+    text: 'Le fait que l\'équipe de France s\'incline 3-1 à Milan face à l\'Italie, pour la première défaite de l\'ère Zidane et la première victoire italienne sur les Bleus à San Siro depuis 62 ans, sans Kylian Mbappé laissé au repos à Clairefontaine pour une gêne aux ischio-jambiers, prouve que ce groupe reste bien trop dépendant de son capitaine pour exister au haut niveau, peu importe qu\'un seul match sans sa star ne permette jamais de juger tout un cycle qui vise encore le Mondial 2026.',
+    pour: 52,
+    answers: {
+      passionne: 'Sans Mbappé, cette équipe de France retombe immédiatement au niveau d\'une sélection moyenne qui s\'incline à Milan contre une Italie qui ne nous avait pas battus depuis 62 ans dans ce stade : ça en dit long sur la vraie profondeur de cet effectif derrière sa star.',
+      objectif: 'Battue 3-1 à San Siro jeudi, l\'équipe de France a subi la première défaite de l\'ère Zidane et la première victoire italienne sur les Bleus dans ce stade depuis 62 ans, sans son capitaine Kylian Mbappé, resté à Clairefontaine pour une gêne aux ischio-jambiers.',
+      dubitatif: 'Un revers sans son capitaine blessé et avant un match décisif contre la Turquie dimanche ne prouve strictement rien sur le fond de cette équipe ; attendons de voir ce groupe à l\'épreuve avec Mbappé sur le terrain avant de parler de dépendance totale.',
+      nuance: 'Que l\'absence de Mbappé ait pesé lourd dans cette défaite est indéniable, mais réduire toute une équipe de France à un seul joueur ignore aussi les largesses défensives et les décisions arbitrales qui ont plombé les Bleus à Milan ce soir-là.',
+      nostalgique: 'Avant, l\'équipe de France tenait debout même sans sa star du moment, parce que le collectif prenait le relais ; maintenant un simple ischio-jambier contrarié suffit à faire tomber tout l\'édifice à San Siro.',
+      provocateur: 'Prochaine étape logique : Zidane convoque Mbappé à chaque rassemblement rien que pour s\'asseoir sur le banc et motiver les autres par sa présence, au moins l\'équipe perdra avec la conscience tranquille.',
+    },
+  },
+  {
     id: 'mbappe-pointe-zidane-italie-2026-11-12',
     date: '2026-11-12',
     cat: 'Équipe de France',
