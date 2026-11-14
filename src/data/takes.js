@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'france-italie-defaite-sans-mbappe-2026-11-14',
+    date: '2026-11-14',
+    cat: 'Équipe de France',
+    text: 'Le fait que l\'équipe de France s\'effondre 3-1 à Milan face à l\'Italie, sa première défaite depuis l\'arrivée de Zidane sur le banc, dès que Mbappé et Dembélé sont simultanément blessés et absents, prouve que les Bleus n\'ont toujours aucun plan B crédible en attaque quand leurs deux stars manquent à l\'appel, peu importe que la défense française, habituellement solide, ait craqué à trois reprises et que Zidane ait lui-même reconnu des lacunes tactiques après le match.',
+    pour: 53,
+    answers: {
+      passionne: 'Sans Mbappé ET Dembélé, cette équipe de France n\'a plus rien à proposer offensivement : ça fait des années qu\'on construit tout autour de deux mecs, forcément que le jour où ils toussent, toute la maison s\'effondre.',
+      objectif: 'Olise avait pourtant ouvert le score dès la 10e minute à San Siro, mais Pio Esposito (26e, 75e sur penalty) et Frattesi (63e) ont renversé la rencontre : défaite 3-1, la première de Zidane en 5 matchs à la tête des Bleus, qui doivent désormais battre la Turquie dimanche pour valider leur qualification en quarts de finale.',
+      dubitatif: 'Une défaite avec deux attaquants majeurs out, ça ne veut encore rien dire sur le fond : voyons déjà si les Bleus savent se qualifier dimanche contre la Turquie avant de parler de crise.',
+      nuance: 'Que l\'attaque ait manqué de solutions sans ses deux cadres est vrai, mais réduire cette défaite à la seule absence de Mbappé, c\'est un peu vite oublier que la défense a aussi pris trois buts et que Zidane a lui-même pointé des lacunes collectives.',
+      nostalgique: 'Avant, même privée d\'un ou deux titulaires, l\'équipe de France avait assez de profondeur de banc pour ne pas s\'écrouler à Milan ; aujourd\'hui deux absences suffisent à transformer les Bleus en équipe quelconque.',
+      provocateur: 'Prochaine étape logique : la FFF clone Mbappé et Dembélé en prévision du prochain pépin physique, comme ça les Bleus ne tomberont plus jamais à court de plan A ni de plan B.',
+    },
+  },
+  {
     id: 'mbappe-pointe-zidane-italie-2026-11-12',
     date: '2026-11-12',
     cat: 'Équipe de France',
