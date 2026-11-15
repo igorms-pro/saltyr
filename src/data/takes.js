@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-refuse-nul-turquie-2026-11-15',
+    date: '2026-11-15',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane ait publiquement refusé de se contenter d\'un simple match nul contre la Turquie ce dimanche à Bordeaux, trois jours seulement après la déroute 3-1 face à l\'Italie, prouve qu\'un sélectionneur sous pression a raison d\'afficher de l\'ambition plutôt que de gérer prudemment la qualification, peu importe qu\'exiger la victoire à tout prix juste après une telle gifle revienne aussi à remettre encore plus de pression sur un groupe déjà fébrile avant le match le plus important de sa jeune ère.',
+    pour: 52,
+    answers: {
+      passionne: 'Zidane a raison d\'exiger la victoire : un sélectionneur qui se contenterait déjà d\'un nul avant le coup d\'envoi envoie le message qu\'il n\'y croit pas lui-même, les Bleus n\'ont pas besoin de ça après Milan.',
+      objectif: 'Battus 3-1 par l\'Italie mardi à Milan, les Bleus version Zidane reçoivent la Turquie ce dimanche à Bordeaux avec, selon ses propres mots, "l\'obligation de gagner" pour conserver de bonnes chances de filer en quarts de finale de la Ligue des nations.',
+      dubitatif: 'Une déclaration d\'intention avant le coup d\'envoi ne vaut rien tant que les Bleus n\'ont pas montré sur le terrain qu\'ils peuvent encaisser moins de trois buts ; attendons de voir le onze aligné avant de juger du courage de Zidane.',
+      nuance: 'Que Zidane veuille rassurer son groupe en affichant de l\'ambition se comprend, mais répéter qu\'un nul ne suffit pas juste après une défaite 3-1, c\'est aussi prendre le risque de braquer des joueurs déjà fragilisés mentalement.',
+      nostalgique: 'Avant, un sélectionneur laissait parler les résultats et gardait ses certitudes pour le vestiaire ; aujourd\'hui Zidane doit le crier en conférence de presse pour convaincre qu\'il contrôle encore son groupe.',
+      provocateur: 'Prochaine étape logique : Zidane annonce aussi refuser tout tir au but raté, toute passe en retrait et tout corner concédé, comme ça au moins le cahier des charges sera clair pour tout le monde dimanche soir.',
+    },
+  },
+  {
     id: 'france-italie-defaite-sans-mbappe-2026-11-14',
     date: '2026-11-14',
     cat: 'Équipe de France',
