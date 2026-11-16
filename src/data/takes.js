@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-critique-victoire-turquie-qualif-2026-11-16',
+    date: '2026-11-16',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane se dise insatisfait de la prestation de ses Bleus malgré une victoire 2-1 contre la Turquie à Bordeaux qui leur offre la première place du groupe devant la Belgique et la qualification pour les quarts de finale de la Ligue des nations, prouve qu\'un sélectionneur doit hausser le ton même après un succès pour préparer les matchs à élimination directe, peu importe que critiquer publiquement une équipe qui vient de valider l\'essentiel risque de saper sa confiance avant l\'échéance la plus importante.',
+    pour: 48,
+    answers: {
+      passionne: 'Zidane a totalement raison de taper du poing sur la table : gagner moche contre la Turquie à domicile, ça ne doit jamais suffire à une équipe qui vise le titre, qualif en poche ou pas.',
+      objectif: 'Grâce à un but contre son camp d\'Emirhan Topçu et un succès 2-1 arraché à Bordeaux, les Bleus terminent premiers du groupe devant la Belgique, qui a pourtant battu l\'Italie 4-1 le même jour, et filent directement en quarts de finale.',
+      dubitatif: 'Une pique en conférence de presse ne veut encore rien dire sur le fond : voyons si Zidane en tire de vrais ajustements tactiques avant les quarts, plutôt que d\'en rester à une posture du soir.',
+      nuance: 'Que la prestation ait manqué de fluidité est vrai, mais réduire une qualification arrachée en tête de groupe devant la Belgique à une simple déception, c\'est aussi minimiser ce que les Bleus viennent de valider.',
+      nostalgique: 'Avant, un sélectionneur qui bouclait une phase de groupes en tête félicitait son équipe sur le moment et gardait les critiques pour le vestiaire ; aujourd\'hui tout se règle devant les caméras en conférence de presse.',
+      provocateur: 'Prochaine étape logique : Zidane note chaque passe de chaque Bleu sur 20 en direct pendant le match, comme ça tout le monde saura dès la mi-temps qui va se faire allumer au coup de sifflet final.',
+    },
+  },
+  {
     id: 'france-italie-defaite-sans-mbappe-2026-11-14',
     date: '2026-11-14',
     cat: 'Équipe de France',
