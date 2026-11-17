@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'strasbourg-oliveira-sonde-successeurs-2026-11-17',
+    date: '2026-11-17',
+    cat: 'Ligue 1',
+    text: 'Le fait que la direction du Racing Club de Strasbourg sonde déjà plusieurs successeurs à Hugo Oliveira — de Wilfried Nancy à Vitor Matos en passant par Claude Puel et Igor Tudor — avant même d\'avoir tranché sur son sort, alors que le club vient d\'encaisser 22 buts en 10 journées de Ligue 1, son pire total à ce stade depuis 26 ans, prouve qu\'une direction sérieuse doit toujours avoir un plan B prêt face à l\'urgence sportive, peu importe que démarcher des remplaçants dans le dos d\'un coach encore officiellement en poste relève d\'une déloyauté qui peut saper son autorité dans le vestiaire avant même qu\'un successeur soit désigné.',
+    pour: 45,
+    answers: {
+      passionne: 'Avec 22 buts encaissés en 10 journées, le pire total du Racing depuis 26 ans, la moindre des choses pour la direction c\'est d\'avoir un plan B prêt, tant pis si Oliveira l\'apprend par la presse.',
+      objectif: 'Sondage ou pas, le bilan est sans appel : 3 victoires, 1 nul et 6 défaites en 10 journées de Ligue 1, pour 22 buts encaissés, le pire total du Racing à ce stade de la saison depuis 26 ans.',
+      dubitatif: 'Sonder Nancy, Matos, Puel ou Tudor ne veut encore rien dire sur le fond : voyons déjà si Strasbourg officialise un limogeage avant de parler de trahison ou de bonne gestion.',
+      nuance: 'Que la direction ait raison de préparer l\'avenir vu les résultats est vrai, mais démarcher des successeurs avant même d\'avoir prévenu Oliveira, c\'est aussi fragiliser un coach qui doit encore diriger le vestiaire samedi contre Brest.',
+      nostalgique: 'Avant, un club laissait un entraîneur aller au bout de la saison ou le limogeait franchement ; aujourd\'hui on le maintient en poste tout en négociant déjà avec son remplaçant dans son dos.',
+      provocateur: 'Prochaine étape logique : Strasbourg fait partager le banc à Oliveira et à son futur successeur contre Brest, comme ça tout le monde sait déjà qui donne vraiment les consignes.',
+    },
+  },
+  {
     id: 'zidane-critique-victoire-turquie-qualif-2026-11-16',
     date: '2026-11-16',
     cat: 'Équipe de France',
