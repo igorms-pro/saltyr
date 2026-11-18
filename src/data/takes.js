@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lens-digard-troisieme-coach-valse-2026-11-18',
+    date: '2026-11-18',
+    cat: 'Ligue 1',
+    text: 'Le fait que le RC Lens vienne de limoger Yannick Cahuzac après seulement deux mois pour nommer Didier Digard, débarqué du Havre dix jours plus tôt à peine, et devienne ainsi le club à son troisième entraîneur de la saison en Ligue 1, prouve qu\'un club doit savoir trancher vite et sans sentiment dès qu\'un projet ne prend pas, peu importe que recycler en urgence un coach tout juste limogé ailleurs révèle surtout l\'absence totale de vision sportive derrière chaque nomination.',
+    pour: 46,
+    answers: {
+      passionne: 'Cahuzac avait deux mois pour convaincre et zéro résultat à montrer : Lens a eu raison de couper tout de suite plutôt que de couler six journées de plus avec un projet mort-né.',
+      objectif: 'Troisième entraîneur de la saison, deux limogeages en moins de quatre mois : depuis le départ de Toppmöller, Lens n\'a gagné qu\'un seul de ses cinq derniers matchs de championnat, quel que soit le nom sur le banc.',
+      dubitatif: 'Digard n\'a pas encore dirigé un seul entraînement officiel à Lens : attendons de voir ce qu\'il produit sur le terrain avant de crier au génie ou à la panique.',
+      nuance: 'Que Cahuzac n\'ait jamais convaincu est vrai, mais engager en dix jours un coach fraîchement viré d\'ailleurs, c\'est aussi avouer qu\'aucun plan de succession sérieux n\'existait avant la crise.',
+      nostalgique: 'Avant, un entraîneur avait une saison entière pour installer son projet ; aujourd\'hui Lens en est à son troisième en quatre mois et plus personne ne s\'en étonne.',
+      provocateur: 'Prochaine étape logique : Lens ouvre un guichet permanent à Bollaert pour recruter l\'entraîneur fraîchement viré du club adverse le jour même, livraison garantie en 48h.',
+    },
+  },
+  {
     id: 'strasbourg-oliveira-sonde-successeurs-2026-11-17',
     date: '2026-11-17',
     cat: 'Ligue 1',
