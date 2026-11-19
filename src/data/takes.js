@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'coulibaly-sanction-legere-vs-brunner-2026-11-19',
+    date: '2026-11-19',
+    cat: 'Règlement',
+    text: 'Le fait que la commission de discipline de la LFP sanctionne Mamadou Coulibaly d\'un seul match de suspension ferme pour avoir mimé un geste d\'égorgement contre Le Mans, soit quatre fois moins que les quatre matchs infligés deux mois plus tôt à son coéquipier Paris Brunner pour exactement le même geste, prouve qu\'elle sait enfin distinguer une provocation lancée à l\'adversaire d\'un geste adressé à ses propres supporters, peu importe que deux peines aussi éloignées pour un geste identique donnent surtout l\'impression que la discipline en Ligue 1 se décide au doigt mouillé.',
+    pour: 47,
+    answers: {
+      passionne: 'Un geste adressé à ses propres supporters et des excuses immédiates en zone mixte ne méritent clairement pas la même sanction qu\'une provocation lancée à l\'adversaire : la commission a eu raison d\'arbitrer avec nuance, tant pis si Brunner s\'est fait allumer plus fort en septembre.',
+      objectif: 'Le 8 novembre contre Le Mans (1-1), Coulibaly mime un égorgement vers les supporters monégasques après son but ; la commission lui inflige 1 match ferme + 2 avec sursis le 18 novembre, effectif dès le 24 novembre, il ratera la 12e journée contre Lyon. Brunner, lui, avait pris 2 matchs fermes + 2 avec sursis le 12 septembre pour le même geste face à Strasbourg.',
+      dubitatif: 'Sans connaître le détail des débats internes à la commission, difficile de dire si cet écart repose sur une vraie doctrine ou sur l\'humeur du jour : attendons un troisième cas similaire avant de parler de ligne claire.',
+      nuance: 'Que le geste de Coulibaly visait ses propres supporters et non ceux du Mans change effectivement la gravité symbolique, mais infliger quatre fois moins de sanction pour un geste identique à celui de Brunner interroge quand même sur la cohérence de la grille de la commission.',
+      nostalgique: 'Avant, un but se fêtait par un sprint vers le poteau de corner ou un maillot embrassé, pas par un mime de gorge tranchée suivi d\'un barème de sanctions à calculer selon le destinataire du geste.',
+      provocateur: 'Prochaine étape logique : la LFP publie un tarif officiel selon la cible du geste d\'égorgement — plein tarif pour l\'adversaire, demi-tarif famille nombreuse pour ses propres supporters.',
+    },
+  },
+  {
     id: 'lens-digard-troisieme-coach-valse-2026-11-18',
     date: '2026-11-18',
     cat: 'Ligue 1',
