@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-dembele-vice-capitaine-mbappe-2026-11-20',
+    date: '2026-11-20',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane désigne Ousmane Dembélé vice-capitaine des Bleus, aux côtés de Rabiot et Koundé, au nom du seul critère de l\'ancienneté en sélection, alors que ce même Dembélé reste en pleine guerre des mots avec Mbappé depuis l\'épisode de « l\'élu » du Ballon d\'Or, prouve qu\'un sélectionneur a raison de trancher sur un critère objectif et incontestable plutôt que de gérer son vestiaire à l\'air du temps médiatique, peu importe que ce choix revienne à coller un adjoint à son rival le plus direct et agace en interne un Mbappé déjà réservé sur la méthode.',
+    pour: 44,
+    answers: {
+      passionne: 'Coller Dembélé en vice-capitaine de son pire rival pour le Ballon d\'Or, c\'est allumer la mèche en plein vestiaire : Zidane joue avec le feu pour un critère d\'ancienneté qui pouvait très bien attendre.',
+      objectif: 'Le critère est transparent : ancienneté en sélection. Résultat, Dembélé, Rabiot et Koundé deviennent vice-capitaines, Mbappé garde le brassard ; aucun sondage interne, aucune élection par les joueurs.',
+      dubitatif: 'Un organigramme sur le papier, ça ne dit rien du vestiaire réel : on verra si ça coince vraiment le jour où Mbappé doit céder le brassard à Dembélé en cours de match.',
+      nuance: 'Que Zidane préfère un critère clair et incontestable à un vote populaire se comprend, mais ignorer la tension Mbappé-Dembélé en pleine course au Ballon d\'Or, même avec les meilleures intentions, c\'est aussi jouer les pompiers pyromanes.',
+      nostalgique: 'Avant, le vice-capitanat se jouait à l\'ancienneté sans que personne n\'y voie une déclaration de guerre ; maintenant chaque brassard adjoint devient un épisode de téléréalité sous Zidane.',
+      provocateur: 'Prochaine étape logique : Zidane distribue un brassard à chaque titulaire, comme ça Mbappé et Dembélé peuvent chacun porter le leur sans se parler ni se regarder.',
+    },
+  },
+  {
     id: 'lens-digard-troisieme-coach-valse-2026-11-18',
     date: '2026-11-18',
     cat: 'Ligue 1',
