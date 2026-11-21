@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'strasbourg-matos-quatrieme-coach-blueco-2026-11-21',
+    date: '2026-11-21',
+    cat: 'Ligue 1',
+    text: 'Le fait que le Racing Club de Strasbourg nomme Vitor Matos, débarqué du promu anglais Swansea, comme quatrième entraîneur du club sur la seule année 2026 après le départ de Liam Rosenior pour Chelsea en plein mois de janvier, le départ surprise de Gary O\'Neil l\'été dernier puis le limogeage de Hugo Oliveira après seulement quatre mois, prouve que le modèle multi-club de BlueCo, propriétaire à la fois de Chelsea et du Racing, est le recrutement le plus efficace du marché mondial pour dénicher un coach avant tout le monde, peu importe que transformer le banc de la Meinau en salle d\'attente permanente pour Chelsea finisse par ruiner toute continuité sportive et toute identité du club alsacien.',
+    pour: 43,
+    answers: {
+      passionne: 'Quatre coachs en moins d\'un an, le dernier piqué à un promu anglais : Strasbourg n\'est plus un club de Ligue 1, c\'est le centre de formation gratuit de Chelsea, point final.',
+      objectif: 'Rosenior parti en janvier, O\'Neil out en juillet, Oliveira viré en novembre : Matos est déjà le quatrième entraîneur du Racing en 2026, un changement tous les trois mois et demi en moyenne.',
+      dubitatif: 'Matos n\'a pas encore dirigé un seul entraînement à la Meinau : attendons de voir s\'il tient plus de quatre mois avant de parler de stratégie BlueCo ou de nouveau fiasco.',
+      nuance: 'Que le réseau BlueCo permette de dégainer un coach en quelques jours se comprend, mais enchaîner les licenciements tous les quatre mois, c\'est aussi priver le vestiaire de toute colonne vertébrale tactique.',
+      nostalgique: 'Avant, un entraîneur de Ligue 1 avait au moins une saison entière pour poser son empreinte ; à Strasbourg sous BlueCo, Matos est déjà le quatrième en un an.',
+      provocateur: 'Prochaine étape logique : Chelsea et Strasbourg fusionnent carrément leur banc de touche, comme ça le coach change juste de maillot à la pause sans même changer de bus.',
+    },
+  },
+  {
     id: 'zidane-dembele-vice-capitaine-mbappe-2026-11-20',
     date: '2026-11-20',
     cat: 'Équipe de France',
