@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'doue-blessure-genou-victoire-psg-nice-2026-11-22',
+    date: '2026-11-22',
+    cat: 'Ligue 1',
+    text: 'Le fait que Désiré Doué quitte la pelouse de l\'Allianz Riviera en larmes, sur civière et le genou tordu, quelques minutes seulement après avoir inscrit le but qui relance la remontée du PSG face à Nice (victoire 3-2, 8e succès de rang en Ligue 1), prouve que le calendrier infernal imposé aux Parisiens entre Ligue 1, Ligue des champions et sélections est le vrai responsable de cette blessure, peu importe que Luis Enrique ait lui-même choisi de faire tourner son crack à ce rythme et qu\'aucun examen médical n\'ait encore confirmé la gravité exacte du genou.',
+    pour: 46,
+    answers: {
+      passionne: 'Encore un crack cassé net par ce calendrier de dingue : Doué en larmes sur civière à 21 ans, et le foot business continue comme si de rien n\'était, c\'est juste criminel.',
+      objectif: 'Doué ouvre la marque du 1-2 à la 32e, sort sur blessure dès la 44e, et le PSG empile sa 8e victoire de rang en L1 (3-2) : bilan comptable parfait, genou du joueur à surveiller dans les prochains jours.',
+      dubitatif: 'Aucune IRM annoncée pour l\'instant : avant de hurler au calendrier assassin, autant attendre le diagnostic des médecins du PSG sur la gravité réelle du genou de Doué.',
+      nuance: 'Que le calendrier du PSG soit indigeste, personne ne le nie ; mais réduire chaque blessure articulaire au seul rythme des matchs, c\'est aussi oublier qu\'un appui malheureux peut briser un genou un jour de repos.',
+      nostalgique: 'Avant, la trêve de novembre servait vraiment à souffler ; aujourd\'hui le crack de 21 ans qui vient de marquer quitte le terrain sur civière, et plus personne ne s\'étonne de rien.',
+      provocateur: 'Prochaine étape logique pour le PSG : faire jouer Doué directement allongé sur un brancard, au moins il sera déjà en position quand le genou lâchera pour de bon.',
+    },
+  },
+  {
     id: 'strasbourg-matos-quatrieme-coach-blueco-2026-11-21',
     date: '2026-11-21',
     cat: 'Ligue 1',
