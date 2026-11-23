@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'nice-psg-penalty-var-mandza-controverse-2026-11-23',
+    date: '2026-11-23',
+    cat: 'Ligue 1',
+    text: 'Le fait que l\'arbitre Jérôme Brisard accorde un penalty au PSG contre Nice après un simple visionnage VAR, pour une main de Mandza que la quasi-totalité des observateurs juge totalement involontaire et presque invisible à vitesse réelle, permettant à Mayulu de relancer les Parisiens qui filent ensuite vers une victoire 3-2 et un 8e succès de rang en Ligue 1, prouve que la VAR est devenue l\'arme favorite du PSG pour forcer la décision dans les matchs serrés, peu importe que la Direction Technique de l\'Arbitrage ait validé la sanction au nom de la lettre stricte du règlement sur la main dans la surface.',
+    pour: 53,
+    answers: {
+      passionne: 'Encore un penalty de pacotille sifflé pour le PSG sur une main presque invisible : la VAR est devenue le 12e homme de Luis Enrique et plus personne n\'ose le dire assez fort.',
+      objectif: 'Sur l\'action, le bras de Mandza est légèrement décollé du corps au moment où le ballon dévié par Zabarnyi le touche ; l\'arbitre Jérôme Brisard siffle penalty après consultation VAR, Mayulu transforme, et le PSG finit par s\'imposer 3-2 pour son 8e succès de rang en L1.',
+      dubitatif: 'À vitesse réelle, personne ne voit cette main ; même au ralenti, le geste du bras reste minime et discutable, donc avant de crier au complot, attendons l\'avis officiel de la Direction Technique de l\'Arbitrage sur ce cas précis.',
+      nuance: 'Que le contact soit minuscule et quasi involontaire se comprend, mais la loi ne demande pas l\'intention dans la surface ; l\'arbitre applique le règlement à la lettre, même si cette rigueur-là finit par donner le sentiment d\'un jeu biaisé.',
+      nostalgique: 'Avant la VAR, cette main minuscule passait inaperçue et Nice perdait ou gagnait sur le terrain, pas sur un pixel de bras ; maintenant chaque centimètre décide d\'un résultat de Ligue 1.',
+      provocateur: 'Prochaine étape logique : équiper tous les défenseurs qui affrontent le PSG de bras amovibles, comme ça plus aucune main ne pourra jamais toucher ce ballon maudit.',
+    },
+  },
+  {
     id: 'doue-blessure-genou-victoire-psg-nice-2026-11-22',
     date: '2026-11-22',
     cat: 'Ligue 1',
