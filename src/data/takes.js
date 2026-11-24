@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'de-zerbi-longoria-benatia-guerre-interne-om-2026-11-24',
+    date: '2026-11-24',
+    cat: 'Clubs',
+    text: 'Le fait que Roberto De Zerbi, viré de l\'OM en février après la claque 5-0 reçue à domicile contre le PSG et aujourd\'hui sur le banc de Tottenham, balance sur Canal+ que son président Pablo Longoria et son directeur sportif Medhi Benatia ne se sont pas adressé la parole pendant trois mois en pleine saison, et qu\'il a servi de bouc émissaire au milieu de leur guerre interne, prouve que la direction marseillaise est le vrai problème derrière chaque entraîneur sacrifié depuis des années, peu importe que De Zerbi n\'ait jamais dit un mot de tout ça quand il était encore en poste et attende d\'être bien installé ailleurs pour régler ses comptes.',
+    pour: 47,
+    answers: {
+      passionne: 'Un président et un directeur sportif qui ne se parlent plus pendant trois mois en pleine saison, c\'est la direction de l\'OM qui plombe le club depuis des années, pas les coachs qu\'ils grillent un par un.',
+      objectif: 'De Zerbi est resté dix-neuf mois à l\'OM (juillet 2024-février 2026), viré après un 5-0 encaissé contre le PSG ; Longoria dirige le club depuis 2021, Benatia occupe la direction sportive depuis 2023.',
+      dubitatif: 'Ni Longoria ni Benatia n\'ont répondu pour l\'instant : avant de trancher qui raconte la vérité sur ces trois mois de silence, autant attendre leur version des faits.',
+      nuance: 'Que la gouvernance de l\'OM enchaîne les crises internes depuis des années, les coachs limogés en série le confirment ; mais balancer ses anciens patrons sur Canal+ une fois posé sur le banc de Tottenham, c\'est aussi un bon moyen de se dédouaner de ses propres résultats.',
+      nostalgique: 'Avant, un coach viré encaissait en silence et laissait les résultats parler pour lui ; aujourd\'hui chaque ex-entraîneur de l\'OM sort son livre de comptes en direct sur Canal+ dès qu\'il change de banc.',
+      provocateur: 'Prochaine étape logique : Longoria et Benatia se donnent rendez-vous en duplex sur Canal+ pour désigner en direct lequel des deux fait vraiment le sale boulot à l\'OM.',
+    },
+  },
+  {
     id: 'doue-blessure-genou-victoire-psg-nice-2026-11-22',
     date: '2026-11-22',
     cat: 'Ligue 1',
