@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'om-dncg-plan-mercato-hiver-2026-11-25',
+    date: '2026-11-25',
+    cat: 'Mercato',
+    text: 'Le fait que l\'OM, qui n\'a évité en juin une sanction de la DNCG que grâce à un sursis à statuer après une audition de Stéphane Richard jugée catastrophique, bâtisse déjà via Grégory Lorenzi un plan précis de trois recrues pour le mercato d\'hiver (un défenseur central, un milieu box-to-box et un avant-centre pour doubler Gouiri) alors que le verdict décisif du gendarme financier ne tombera qu\'au début de décembre, prouve que le club a enfin construit un vrai projet sportif grâce aux cent millions d\'euros de ventes de l\'été, peu importe qu\'annoncer trois dossiers de transfert en pleine attente du couperet financier ressemble surtout à prendre ses désirs pour des réalités.',
+    pour: 45,
+    answers: {
+      passionne: 'Enfin un vrai plan sportif à l\'OM après des mercatos entiers passés à subir le marché sans bouger : tant pis si ça chiffonne la DNCG, il était temps que Lorenzi ose recruter pour de vrai.',
+      objectif: 'Audition DNCG en juin : sursis à statuer, pas de sanction immédiate. Verdict décisif attendu début décembre. Trois postes ciblés par Lorenzi (défenseur central, milieu box-to-box, avant-centre pour doubler Gouiri), financés par environ 100 M€ de ventes estivales.',
+      dubitatif: 'Le verdict de la DNCG n\'est même pas encore tombé : avant de parler de plan sportif solide ou de nouveau fiasco financier, autant attendre début décembre pour savoir si l\'OM a seulement le droit de recruter.',
+      nuance: 'Que l\'OM ait enfin structuré un plan de recrutement grâce aux ventes de l\'été se comprend, mais annoncer trois cibles précises alors que le club redoute lui-même une sanction, c\'est aussi prendre le risque de s\'exciter pour rien si la DNCG tranche contre lui.',
+      nostalgique: 'Avant, un club qui voulait recruter allait sur le marché, point ; à l\'OM désormais chaque mercato se négocie d\'abord devant un tribunal financier avant même de négocier avec un joueur.',
+      provocateur: 'Prochaine étape logique pour l\'OM : convoquer directement le futur défenseur central dans la salle d\'audience de la DNCG, comme ça le gendarme financier valide le transfert en même temps que le bilan comptable.',
+    },
+  },
+  {
     id: 'de-zerbi-longoria-benatia-guerre-interne-om-2026-11-24',
     date: '2026-11-24',
     cat: 'Clubs',
