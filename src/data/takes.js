@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'psg-rome-fin-serie-parfaite-ligue-des-champions-2026-11-26',
+    date: '2026-11-26',
+    cat: 'Ligue des Champions',
+    text: 'Le fait que le PSG, invaincu et leader de cette phase de Ligue des champions après quatre victoires sur quatre, mène pourtant 2-1 face à l\'AS Rome au Parc des Princes grâce à un penalty de Dembélé avant de se laisser rejoindre à la 78e minute (2-2) et de dégringoler à la deuxième place derrière le Real Madrid, prouve que cette équipe garde exactement les mêmes failles défensives que les saisons précédentes dès qu\'elle croit le match plié, peu importe que Luis Enrique qualifie lui-même cette rencontre de \'match le plus dur de la saison\' et se dise satisfait du point pris face à des Romains solides.',
+    pour: 47,
+    answers: {
+      passionne: 'Mener 2-1 à domicile et se faire rejoindre à la 78e, c\'est la preuve que ce PSG soi-disant intouchable s\'endort toujours dès qu\'il croit avoir fait le plus dur, exactement comme avant.',
+      objectif: 'Hermoso ouvre le score à la 5e, Zabarnyi égalise à la 32e sur corner de Mayulu, Dembélé donne l\'avantage sur penalty à la 62e, Malen égalise à la 78e : Paris reste invaincu (4V 1N) mais perd la tête au profit du Real.',
+      dubitatif: 'Luis Enrique parle du match le plus dur de sa saison et dit être satisfait du point pris : avant de crier à la crise, autant voir comment Paris répond à Aston Villa le 8 décembre.',
+      nuance: 'Que l\'AS Rome ait livré une vraie prestation solide, personne ne le nie ; mais lâcher une égalisation à dix minutes de la fin après avoir mené, c\'est aussi le genre de relâchement que ce PSG traîne depuis plusieurs saisons.',
+      nostalgique: 'Avant, un Paris qui menait 2-1 à dix minutes du terme au Parc ne laissait plus rien filer ; maintenant même une Rome quatrième de Serie A vient y prendre un point.',
+      provocateur: 'Prochaine étape logique : le PSG demande à l\'UEFA de jouer les vingt dernières minutes de chaque match sans défenseurs sur le terrain, ça changerait à peine le résultat final.',
+    },
+  },
+  {
     id: 'de-zerbi-longoria-benatia-guerre-interne-om-2026-11-24',
     date: '2026-11-24',
     cat: 'Clubs',
