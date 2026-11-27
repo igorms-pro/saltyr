@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'lyon-penalty-var-annule-lillestrom-2026-11-27',
+    date: '2026-11-27',
+    cat: 'Arbitrage',
+    text: 'Le fait que l\'arbitre accorde un penalty à l\'OL pour une faute sur Openda face à Lillestrøm, avant de l\'annuler sur intervention de la VAR et de laisser Lyon planté à 0-0 à domicile en Ligue Europa, prouve que la VAR fait plus de mal que de bien au foot français, peu importe qu\'aucune image n\'ait jamais permis de dire avec certitude si le contact méritait vraiment le point de penalty.',
+    pour: 54,
+    answers: {
+      passionne: 'Lyon se fait voler un penalty en plein match par un écran planqué dans un bureau à Paris, et l\'OL reste collé à 0-0 contre Lillestrøm à domicile : la VAR est en train de tuer le plaisir du foot, point final.',
+      objectif: 'OL-Lillestrøm se termine 0-0 (5e journée de phase de ligue), le penalty sifflé pour une faute sur Openda est annulé après revue vidéo : Lyon reste bloqué à 8 points et à la 14e place du classement européen.',
+      dubitatif: 'Sans revoir les images au ralenti sous plusieurs angles, difficile de trancher si le contact sur Openda méritait vraiment le point de penalty ou pas : attendons l\'analyse d\'un consultant arbitrage avant de crier au scandale.',
+      nuance: 'Que la VAR corrige parfois une erreur évidente, personne ne le nie ; mais annuler en direct un penalty sifflé sur un contact discutable, c\'est aussi rappeler que la technologie n\'élimine pas l\'interprétation, elle la déplace juste dans un bureau à Paris.',
+      nostalgique: 'Avant, l\'arbitre sifflait le penalty sur le terrain et tout le monde vivait avec, bon ou mauvais ; aujourd\'hui on attend trois minutes devant un écran pour recommencer à débattre exactement pareil.',
+      provocateur: 'Prochaine étape logique : un algorithme siffle directement à la place de l\'arbitre, au moins il ne se dédira pas après coup devant une caméra planquée à Paris.',
+    },
+  },
+  {
     id: 'de-zerbi-longoria-benatia-guerre-interne-om-2026-11-24',
     date: '2026-11-24',
     cat: 'Clubs',
