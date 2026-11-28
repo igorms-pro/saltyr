@@ -39,6 +39,21 @@ export const TAKES = [
   // ==== TAKES D'ACTU (ajoutés chaque matin depuis les news de la veille) ====
   // <NEWS_TAKES> — l'agent quotidien insère ici, ne pas supprimer cette ancre
   {
+    id: 'zidane-qualification-quarts-ligue-nations-defaite-italie-2026-11-28',
+    date: '2026-11-28',
+    cat: 'Équipe de France',
+    text: 'Le fait que Zinédine Zidane valide la première place de groupe et la qualification des Bleus pour les quarts de finale de la Ligue des Nations lors de son tout premier rassemblement à la tête de l\'équipe de France, trois jours seulement après une correction 3-1 encaissée à Milan contre l\'Italie, prouve qu\'un sélectionneur ne doit être jugé que sur les résultats bruts et jamais sur la qualité du jeu produit un soir de défaite, peu importe qu\'une seule victoire arrachée en fin de match contre la Turquie sur deux rencontres disputées ne dise strictement rien de bon sur le niveau réel de ces Bleus version 2026.',
+    pour: 45,
+    answers: {
+      passionne: 'Qualifié pour les quarts dès son premier rassemblement, après avoir recadré le vestiaire en trois jours seulement : peu importe le naufrage à Milan, Zidane a déjà le seul bilan qui compte en sélection, la qualification.',
+      objectif: '3-1 à Milan le 12 novembre, 1-0 arraché à Bordeaux le 15 grâce à Eli Junior Kroupi : deux matchs, une seule victoire, mais une première place de groupe qui envoie directement les Bleus en quarts de la Ligue des Nations.',
+      dubitatif: 'Le tirage au sort et plusieurs mois nous séparent encore des quarts, prévus en mars 2027 : avant de juger le bilan de Zidane, autant attendre de voir qui les Bleus affrontent et dans quel état ils arrivent.',
+      nuance: 'Que la qualification compte plus que le spectacle en sélection, personne ne le conteste vraiment ; mais encaisser trois buts à Milan puis s\'arracher en fin de match contre la Turquie, c\'est aussi le signe que ce groupe reste encore très loin d\'être rassurant.',
+      nostalgique: 'Avant, les Bleus écrasaient l\'Italie et la Turquie sans trembler sur un rassemblement de novembre ; aujourd\'hui on se réjouit d\'une qualification obtenue avec une seule victoire sur deux matchs.',
+      provocateur: 'Prochaine étape logique pour Zidane : réclamer direct le trophée de la Ligue des Nations sans jouer les quarts, vu que le seul résultat qui compte officiellement c\'est d\'avoir fini premier du groupe.',
+    },
+  },
+  {
     id: 'de-zerbi-longoria-benatia-guerre-interne-om-2026-11-24',
     date: '2026-11-24',
     cat: 'Clubs',
